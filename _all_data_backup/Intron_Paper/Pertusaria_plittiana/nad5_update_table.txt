@@ -1,0 +1,11 @@
+48356	53697	gene
+			gene	nad5
+48356	48958	CDS
+50240	50416
+51427	51642
+52774	53694
+			product	NADH dehydrogenase subunit 5
+			transl_except	(pos:53692..53694,aa:TERM)
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_22
+			note	May share stop codon with following ORF11, there is no stop at bp 35695

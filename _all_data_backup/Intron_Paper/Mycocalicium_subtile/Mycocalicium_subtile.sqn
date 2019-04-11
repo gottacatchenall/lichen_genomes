@@ -1,0 +1,2157 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "DeHoff" ,
+            first "Allen" ,
+            initials "A.W." } ,
+        affil
+          std {
+            affil "University of Colorado, Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            country "United States of America" ,
+            street "Ramaley N122" ,
+            email "allen.dehoff@colorado.edu" ,
+            postal-code "80309-0334" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "DeHoff" ,
+                  first "Allen" ,
+                  initials "A.W." } } ,
+            {
+              name
+                name {
+                  last "Kane" ,
+                  first "Nolan" ,
+                  initials "N.C." } } ,
+            {
+              name
+                name {
+                  last "Keepers" ,
+                  first "Kyle" ,
+                  initials "K.G." } } ,
+            {
+              name
+                name {
+                  last "Pogoda" ,
+                  first "Cloe" ,
+                  initials "C.S." } } ,
+            {
+              name
+                name {
+                  last "Tripp" ,
+                  first "Erin" ,
+                  initials "E.A." } } ,
+            {
+              name
+                name {
+                  last "Lendemer" ,
+                  first "James" ,
+                  initials "J.C." } } } ,
+        affil
+          std {
+            affil "University of Colorado, Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            country "United States of America" ,
+            street "Ramaley N122" ,
+            postal-code "80309-0334" } } ,
+      date
+        std {
+          year 2016 ,
+          month 12 ,
+          day 6 } } ,
+    hup TRUE ,
+    reldate
+      std {
+        year 2017 ,
+        month 8 ,
+        day 31 } ,
+    subtype new ,
+    tool "Sequin 15.10 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            genome mitochondrion ,
+            org {
+              taxname "Mycocalicium subtile" ,
+              orgname {
+                mod {
+                  {
+                    subtype culture-collection ,
+                    subname "New York Botanical Gardens:Lendemer:46974" } } ,
+                mgcode 4 } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "DeHoff" ,
+                            first "Allen" ,
+                            initials "A.W." } } ,
+                      {
+                        name
+                          name {
+                            last "Kane" ,
+                            first "Nolan" ,
+                            initials "N.C." } } ,
+                      {
+                        name
+                          name {
+                            last "Keepers" ,
+                            first "Kyle" ,
+                            initials "K.G." } } ,
+                      {
+                        name
+                          name {
+                            last "Pogoda" ,
+                            first "Cloe" ,
+                            initials "C.S." } } ,
+                      {
+                        name
+                          name {
+                            last "Tripp" ,
+                            first "Erin" ,
+                            initials "E.A." } } ,
+                      {
+                        name
+                          name {
+                            last "Lendemer" ,
+                            first "James" ,
+                            initials "J.C." } } } ,
+                  affil
+                    std {
+                      affil "University of Colorado, Boulder" ,
+                      div "Ecology and Evolutionary Biology" ,
+                      city "Boulder" ,
+                      sub "CO" ,
+                      country "United States of America" ,
+                      street "Ramaley N122" ,
+                      postal-code "80309-0334" } } ,
+                title "The complete mitochondrial genome of the lichenized
+ fungus Mycocalicium subtile" } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 24 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2018 } } } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957" } ,
+            descr {
+              title "Mycocalicium subtile mitochondiron, complete genome." ,
+              molinfo {
+                biomol genomic ,
+                completeness complete } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Assembly-Data-END##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "SPAdes v. 3.9" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 12 ,
+                  day 6 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 32816 ,
+              topology circular ,
+              seq-data
+                ncbi2na 'BC4CE39708F233FFCC40CC0033CFC01CCFCB3CAE3722ACFF3FCF7
+0331CEF1FF1FF3CF0C53CDEB3FD3CCDC52CED3305C12370830040C08F1E7F0713433C0DCFFCDFC
+3ECFCCFFF87F2C3210FD0FED420ED300C2F3CE3FF3F28B23ACCD0CCFFB3EF041CC30C5CFD3C737
+0F813730B001308DF334C30CF3CF2013CF1FFACFFEBBC8CFF3CF733FFFE02CC7D45FCFCCF0CA3E
+FEBD0B048B0890BFF3FFDFB313C72BD3CFFCF1CDCF3C63B6DCC3AB2C487D8E47B3005073033F07
+43CFFEFF3ACCFCC9FF92F0845C43FFF03DF8F3C0274EF83457EDEB2CC33C92B32CF00F0B333ACC
+7C8F0CF16F3C5C09F4F03CCFCCDB3370CAEC34734CCE72FC2C4F0A1CC8EF0207CF971D37BF74E4
+96CC5FF2BB3F2C110C428320AEB307F2BF244EBFECDF7A3CFCFEE4AEBBFCCE1237DC421C3C7CF3
+22B32540F394F3F9CCF3FF4C7F4F280E7A075FC1DF0FF32B83F38B7F3AC7FE023C5FCF289BF9CB
+DF736CFF7924CC73333BF0C8324FE4A34FF703FFCDFC331787C0406E0FFE7DFF34F2F73F1EF31F
+ACCCD49143FC8EBF13CF4BF79FC3FDC475E3D3CF40C3736FBB037F37CCC8CEAECCC4D0C0000C4F
+C739443CB17FF3FCC050B04FC7FCCF1F7FC30CCCFFF403333C5C8FCF6FCF7C31BF3F38303CC33F
+3AEC3030F3FCC300B00100B92C737C0000340720102B9CD77FFCF3FF3533FB3003000400302000
+00E1C0F230337B24003CC30B503FF3FDC00BE0033801FFFF8C033D0F38E9378C0000E534100BE2
+FE38E9DE3E06735C39F844E70DB1BC04C33EFC0BAEC4AE2CCEB3FE9C5FF242A02357CC0000807F
+C10C08BFE7F88EF0C0C5DAB0B2C802B0EDF0727C055B2DB8788AD8D8513EADE000550C6CCB124B
+8A0CFAD0C97069E05243FAA83B32DC370FB4FC3F3C0E43361C6D8302F72320C38CB843FDCDCCED
+F850346E524B66B0C6E821CBBCF4DFCF2BF02AC5C86B33F254002A86ECC722FF338A2A881FFA2C
+88C03DEE3042287ACCA60A417FCEC00786F8A860A7EAC18F28F2315CB2D4A4803CE0ED321FA40B
+51F730380BB093D45D08B0EE9064A0780D3C85BF78052CB82CEF3F0F638D660017C510FE0C6410
+99E469EDF4BC3B6E23CEBCBD4F0F06C057F7F3F3CC302DB7D732CEA00383A870842D34E97C33EE
+A7321B944C25FC40A8E433EE03A270D540028CC03A3ECB7B0761C4E00283C72C36E0D146D1AE8F
+C374BEAC7051DB4A6780AACEE430BFAF333313B0CCE43CA4CCEEFCECC37DB39B8670FAEF0B6033
+AF6ECBA03E46A3F3C03C10C0C00C3FFFCC33FFFF304008FBDB17F2CCFF3FFFF70033EA8231000C
+0ACE9FFCCB36EE31CCAA9282B56FEFACE1ABE27B01D0CBFFC7B40AF63D7FDF5C30B70D53D1F0EB
+02FF1DD702C0F330BD837CCEA3CFEFF9FC30737AC3FB33BC93C4073BFFFFC34C3311433B331107
+2CF3EF3BCC74FFFF300003030040018DE302373330CCCD1CC1D0030F003000880CBF3B8C104338
+42C37E80C03C3F1348F0379CC14EE8C81BE3FF34D039C084FAECF31F0EFE6F3FD2BF0CAC49FDDE
+CF0C23C83CDE85E8B52CCCDE30D0F330C930C1254E732C38CFFF3AC3949FC3EBAFFAC3F5CF1433
+CB28AD48CE93F5C8F030CC2FFE3CF145CBF0CF3FF3FDCBACC801A24A07AF81DFCD753CD2BF102D
+12E85CBB23F2733FAFC47CDEBB0B2FCF2B9CE0FF3C41CCF013882D7ACC21F440F27F3FDF89EFB0
+C127B3EF3C7F7F14BBC96B90C1CEB1C1E3203FC3137FFF8249EAAEB8D733CC504DFF78FFFA115E
+0BF133C3CC52BFEB30C2C71CCD272F704092EFEBCDCACEBB39CE3B53EBB1CAFFB2CE0B4513B3DE
+FA3E86E8C4227CFF127904F0C3E4BD71E83C033D2F8FA71FBCEBAF4F11F045F73BEFE432BFEF30
+EFC73E8A3C2EB3EFFA70E4D1F8CF93D4E31F1C6CBE747D4F3B3C2CEAE7BFF93CFCBA38CF1E045C
+03B4ABC3F30CFF14900913F7833FFCCA2F0CF1FFF54491F7EAFC4283976C830B8F15E39FF92BE0
+3CEC2CBCEBDCC30BB2E9C73FCFFC80CFB3110FACC6B020124203538F27510F73AE3F1F407F0B0C
+890B1F4720E2BF04D975C051193FB34F173102C8FCB8CFC3CDC8B1CD2F337B4FBEFF14F3F0B3FE
+44E0FCF1373F3FE8EA18CCAEA04C3FFAEFBE49ACDC3CEEDC73C4762E3CF28D2F0DE8CF1FCA233F
+0FE4000DCE4C42C330B2D32E68C34BFAF7CC1DE38C97D49C15E052F4228C3AF380781AAF4B61A2
+08F18D3FD206089C4A2AEC5E30267EB80CCE7CDC000803E01C3803002DC39E0C4F2E33FC4D888C
+9200B7B2B11281040382F9ECFA0602B501438E00DE0CFCFB8088E56F10276FC8A13028CD022888
+9C78377C08A09070029C08A0D072338EF2300C0C88F0F117C05CFF37F03FEFFF3F330080C0A001
+11CCE0AFF088CCCBF9330C0C3F3F0422EFF70CC0000C0FCD930000F248FFCC73C000E3C1BFC0C0
+0FCF20CC78C45C85F8AC4CFF4232EA11440E8AB7C489C46304C3BFCFCBCC31CF4BB04E0C3C0DCC
+3080737032C0D023344C0CFC0D3AC470C83C33810CD1491C35C33D327F55D3D03CF33F0E8E0B07
+8D4DCE90CF248A84D0E33E0BCD0CD58FFF01D238E0FCC83F8F4C4CB148348FE823AE4F083BC82C
+84322F32C5207C44CF23F3DF1EB921BCF4F7CE7ED7DFCACF03B8E4C54AC8F03424DEFCFC048828
+1FFCEB43BD203FBA0FF112F4394327320DAC2CC800FFCFB8F1B890C8CFCC3FC9FCC20000C30DC3
+FCF07C3FC002700317308FCC430CEC3BCCC4DCF1FFFFF23C30CCCC004CC03FB0F0F2BFC227332F
+DC0007E001FFD0F3203C0606C1C023831C41FFFFFF7F31537C9FC3DCF27BC370F7E65130D7C508
+028CB97F8BBAFF4F7F7CAD00C81D2F4B3F7FFF3FF93C7FF7FCFE3F2033CF2FCD7CCCB0B9331C3A
+ECC6BF0F30E7CCFFF7EFF057EBFE7FE0FAB00397C00C8CB2103BF2EC9CA001E021CF2C0303C072
+088FBC311C8F0AFF0C8CCCB790C70FCFF33000210477EF03031FCC7FA48FFC04000000E381BF48
+00FCC3000C0333DC424401D30C5C3CC3FC7FCBEF40B327F2FBC4010C0C3F3530043D0452F56FC0
+CE803D63D2184B0CB1EC195800CE73920E2BC403C83708C400F20DE331082C82380CEE08033839
+228F38F33BC0203C025F82302FAC05F40F782288020FD23B00020FF3020FE00C08E0023A780043
+C708FB202E2BE20C4D00B0C84BF208C073799C02307C831F340211E38C40031C38E40032E18C42
+402C08348018F7863D110F4861F4E8F3FEBAEA8F00FCB19FF327F03872ECB0BC4F07F3CAF03B21
+F3709EFFCFC7CF3FF3300C0F3CE6CC0ECFFFFC2C83FCCFF0C30B043000000E9CCAF0EB216F6DF5
+018EEED8F60F61C94CD300CC08BCF07C3EB0295D7ED8A0B23B6BD83585C1D929FCFFF30B0CCF03
+31C3FCA00B6732B024233F9C0CFBB3F045E8EF60D377FD60FFFCFFDE7FFF3F3FBCC0303000D0BC
+299C02E0C1C5F0FBF01FFF301F05DC2C80F008B32FC3EB00CA09F407F03DD2F62DE2E77E193040
+FFCFC30CCF3670FFDFDFFFFD0000031008008003C3000C40C38080F20EF0F337B22BDFC1F05AC0
+B9BFF8C28EF3D0BD8B7E8A0D0FCF0C3FFC1CCFFFCB9F3FFFC2C7000C0883E1E22BF0AEB09F807C
+FEB70E85135BD0368CF77810C3C07C0CCC2DC33814310C4BB0BB3ECB131ABC894AFAF29974FEAF
+8A2FBCEF40D30C15803CEE003F10CC32CB33FF59F08E71000303333F93EC30C2CCCFFDFF233A0E
+C73F7E300342B0B310203CF7830F27333C088333DE3200C37CAFFFB3CCC41EE167FF2C02BC008F
+00301DC220372C30102E0F80CDF3C1FCA00C0D0188F738F2EE0700C8B25EC0C2C8780CC0FE7E0C
+CAA05F5DC29C0CC333090C9B32C5B8A803FE022C3FCC249D8BC0FC0C0C308BB17FE4C3AB490BC3
+3C8E624FFC0F370E4F3C3F24C8C00C0F95230143CF030E2C2CDC03C8560272E37C538D2AF30095
+81ABCDBECC8CD6383EEB0B0B808421E1CB327AFF59805CCC2CA43D0304DF24AC481EC374041FCF
+0C030C3FEC34DAA8FBE0AF716B8B344D682A438E0CF830D2132C630AFB3B702A012570108BC30A
+F500F3CF0B8030A0BCF3404634A0329F209A53FFE08DDB04891E3FEC07702FC44AC1A47C03F068
+DC0C3316017ED4CCCD08C80F79904332433342EC33CCCCEAB26811E8C0DF21FFDFFC21CCCD230D
+4AE30E784E2C1800ABA4C26E5765F09F3A0FF3F02D1A5DC2F000170283C18E203F113E48CC17F8
+33B842AF7A00C03BBAF32BF1FFE4F0032000B0EEBB1CFCCB55CCC5485B17001C114B090B228C60
+A6FE2F0434F0A076903E1F5B07DA8C28894F5D78F0CD2B020CA09320CBBEC61EFC3C0102477902
+33C2D02CF8BB8FDE543B69EBC1A3F9F0F870CCAF29FE0A0156343A697C18C2AD70AC9A0C57A5BC
+0E6B7E4E0E3F0631049EDD0E3E9D2E03E8307B92312FC5DCBC86208573927F1EF1CBC2ACC3B2F3
+2FB2ECC280FBC8C03E0117F1F074F334FCD8FF3CFF38CCE3D3CCCD100C32C3CACCC1F3FF37FFD3
+FFFF70CBE420080023230A08E1CA29AFCE6A912354C00B07ABB3502F00FB01F903E43C06CC00AC
+3CCC5DF4C4FFF23F2FFF3F3EFCF230C33D0FCF4BCCFDCF03C8FCF3CFFC2C23FC1CCEB832FB07C0
+4F0F3F3CB0EF3F3CCD3CBB3FCFFFFCF3051CECCC17C0FF10802FC3A7C37E7F1EFE1F11B734B66C
+26A9338D108E4C0A02B7E8FFE002F19CA8C129C3E65222C40F8B992FE91763B69F274D44E064A0
+D382AE61EF6D8F02271189EAF031B6E212CEBF737DC8A03C8B00C28C957DB180A2FAB33C1732FC
+5EFBF3BD5C33C07230C7FFFFF8220081C83EEFF0FCFBC0C8B1307F33F043030F40A3BC5BD102B0
+33304CA4E92829C6F2F0230B9E0E4CCA4401F1FC231FF0321B2FCD1C600CBE1F3FCF3FF0C0B12C
+307CCA7F2781ABFC337F29332C70FFF031C2CC11F36FFFFFBCFF3F800002003077010C3B33F8FD
+00F43978F24C02C3905BFEC36B20B0B90C7E4FA9C3FCC40CE3CFFFFF800002004854B6D03EBC23
+704FF47BCCEEEAF43D517ABC3F033CFC4FFFCEEC04442F1300801FFCCFC400039A3EBB0CBC130F
+A74ED43EFE2B90B5F2D640CFF33C7CC7000028F0ECC41F3CF03C708EECEFB013FFFFF3FBCC40C0
+8000A7327C3EB024279D38C9D238BBD034F7A5F13CCF00030CF0CE32BC010CF3F3FDF23DEFCC4D
+FACF0457BF305FFC2B733CEC26B0731D00CF2CFB0333332B2F3BC0FFE2C7041FF3FF17C7CF11BC
+CBCC443F3C7C0383FFFE0C000C0753C1F300000D62E7A0FAC84A301F09FCF8F0CDB01BD0B6FFDA
+3000CF02A8CCBF06B00798FF9336F3F4A360578CDD4F30FCFBFFCFCFF10333000C00C4C0337090
+C00CCFFFBF11100030CFCC73C32BFCB4F23F8DC31073CAFCEC3B0730F37E3127E209D0FAC89A04
+7823BF29CC2F60DF37E24CCC0C1CCCEFCF33FFFBCC40CC00000C00108C0030503ABB9E03FAC94A
+F51F28E83A3C16E42F62DFB45CC0C0EE003370B3FF4FE4CC04F0AF300C0F04EBB30B230EBFFCFB
+F112FC444400BBC0F3F3372FCF2FCCEFBE1C12B0B4C0FFEB3F1338BBD8367504C3CC0B109FE47C
+3E7C0000C3E7243C0C00CFFECCCFEECCD32BA3B2F432B2041ECEE832CEF57BD034AB35D7DCFC3C
+40CC43033FC0DB7FDCBBFFF7FCFFEFFCFFFFCFEC000CC8206528CBD0FAF204F0FD393C30E20F42
+FDDD5A7FFF0CCFFC1FFCBCF91CC31F0C07F1C3040CC4C8C0AEF0154F33C3BC3C4D0FFFCF3CF370
+E5F0131B6E37F533CFF720CA7C3CC97ECFBDFFFC5FC9D1CCCC033F2302B32BF3CAEB73F4471141
+0740FFD173F3FFF0FDE73CC310707D3FCD7200BBC13788BD233C08CE303B1432400C70100EA204
+3F00C120CC470DF3EFCC304A28BFFF3CD442E1F2FDCCF7CD0C83C48BCEBF3371FEC4FB3203DE0F
+271F4DE87C7CFFF1CAE9F34DFBFCF73CA472FC733901DAB1C42DF8A7F333CC1CBF348C7DC30C7B
+3544F303E33054833703CF7F3C30EDECAFDF3F02CDE7916FD3FF8D158ECCE3ACC5C73EC107FEF1
+0C32501C2CFFCCFFFF2272C4F31290F1F7CDD083F0F8337AFCF3C2F773ED1C32CA07B9EAFC110F
+C830021FFE4CCB1CFD13F2BFCCF9C9FC24C04B3E0D0C425FCFF73F0E4331CFD83F039FF3CFF0C2
+CCAF3DFCC77CCC0C30404338C0F148C00C3D173107DF2D0300AF3FF13015EEFA7F0BFE53053FFD
+FFB2B3D45FCB2BF7F94048EB3CD279FC8CBA3333F3B7F2F9CC3C72EF30B92FCF37293CC008BBFF
+E381F83302C0572FC0A1F0F3C05E00CFBBCDCBDFC1CF10FDC3F07F8C33E7FD3FD197820E3E0CE9
+0131CD1C33CFC31F0333FFCCF34C3300A327B21AF313FE3E48DF03382BD0F5F5CD7CBB333C323F
+7CF1820033010B2FCD30FFF2F0FFC0CF03F0020C0C00F30300E430700000103DF3C9F0EB224A31
+F70CDCAF42F42DF832837FF1B3FD3033C02F5FF3FDC475E3D3CF40C3736FBB0302F02CCF6F08D8
+F31CF4B030EC40C0010C1F30FFCC2FC072C02BF5FCC830CFCCCC330E31092400F32B12BF24104A
+FC32B92BB2B3EBB2FF689FC33CAEC908057D3C22B43CFF4CE73FCAFF9FF9209C7A3CFE77CE3A7F
+7C73CC6F930FC3BC4C10020E3392F39BB4F858E00B70C1AC9FA33B1D0BDBC02B67C02EC0C5CC00
+20E3088E0C806BBA2161000800C023A3201000820C22383201AEC8858C00208FCB0E0CA06BB221
+63000823F2C3832010EC8858C00E08308CF0C8073302BFFFFFCFFFCC000CC333040FF11F022C3F
+F9DFC257CC9D0EB226031EF0CFFCC4EF43D3BEAA7B1CEC004CB003CCC44F2FC3E9004FB9C68440
+8F10BD035ECEECC3FC76F300000C05F0CA3D2FDCCB98C003C07500C017CFF0F3832F01CE3FFEBC
+3F005C3F3F83423007300003C8C00F3CB73CB800C4740088F2743AC8905BFC466B2BCAEF42D173
+F7CD2FF00B88DB0DCA18C8F303F0CD1FF1FEBFC7FAFF1FEBFF3C000C2CA323CDB03F310004DCCF
+34C18B3300C3C800000E20FF002535FCF003AC077CEC3E3DD6416D0130BCFFE01FEBD7CF26739F
+2B31030C12BBC4F2B393CC35C3B3C824F61D2E89330E223B030EBE3C31BCFC4740C49F493FF7F3
+2FCFC4CCAC8A3CC73A34CC0914204F2FE0432B1EC37F31C38E9C49FD7ABCEFF15CEB40EDFCE299
+04BCF1C37CE2E4317E2FA128CCBE2FCDE2BA7FDEF043904F0323FF77F13FECF17F4CF2493C9FC3
+93F0F93C4E3D27A34AC35FCAEFD2B0F38C8F17FE75F3C4CF408FC3C73FF3FF30CBCFDEFFEFF7F3
+970EFF288CB803CEE3A70D73901179E432C520E337FC53DCE733C2373150C073EAEF3E73BF9A73
+FCEFCF87F17FC78FCDC0F08AC443F214CCB08C93FFCCFED9C3FFC3FC390FA89C04EC83757F3E2F
+EB41CDC799CC7FDF1F6C30CB14B8F2DF7200F7F0E8FEDCC30300B0C0C0384A333E007C3900E33C
+FD04BE311C16844FD77D4C1EB0F3F20B024BFF8D8D30DF4C03B70D083C1B37EF0E813B314D2BF0
+1FF3F039C0FE9CECCD28267F30D303FF973A24FC7340033CC87C00715FF101035CF28344E023CC
+C4C34037485344AB7F8123CD30FF0AF3FB107EC80E33F72A403C31D86702780CBCE7EC40BBD48F
+3F03F07F0387E30300E0D0F174D49F78807209FF003E209036BCD2F003814A733C000B0FC8C33A
+007C7CC0C72B3F22F6CE3F828FEBF230D5820B0284FFC00B35FF0C2023CFF03F237AA012E404D0
+73CF0C30C0CC2FCE9A7FE4FCF00BCB2FECFCFF30003000000887F0FC3E300CEE1DF0D3CD38ABD8
+357421F3C2EF33FF3C0F30F3F487DFFCC30CCF01C3C2FC333F00BFEF07C0082C2302CCCCFCC0CB
+903026D4F45C0CC84730C2EFCFC17CCF003307CCF24030310D030FC0DF2330030C3BC3FB4FA02D
+401D3040CEFC0F7FCF5F91C271D03CE0E0C020FC040AC005FA0FC1200C02F1002310CCF3F336F0
+CC1CE0440170762CFF3C8F4CE4304C07A7CFCCDC2C03C2BDF3C2C4304CDCFFC031BC7FC34D37E2
+AF40D5D0B74F2B10C13B73FF00C0000CC0D1C4CC10FB7307C0BCA137FDC27C34EEFEBC05F90777
+0FC8C400300FC4000385803D3775FF0B31ED93C4D0C57E2569E6FDC1FA8DD03F4960124B4CDE0C
+60D3F1CB47C537BCF1C80C3320B0003FFAD8F301F4D10B78A083C823F0F7EB901604FB42FC0FDC
+FC80503341C3EC8D099BCC2831CE143C8D3FFCF03220F9BF225C402240C80FF03091BD06C336BF
+FC9A1848D3802B5F8323FC20D72AF9B30CCEC88A33C0DE400CD1C8337D08047C804F8343C02F3F
+03F07FE38BEB0383E0C0F170949CB8C3F192DF383D104200BDD4E3C74248F13002B30FC9F73203
+BE7CA88023FD61F1CC7FDC1FCF0224979E09039CFF482335CF885BE3FFF2B10BC8144F750B3EF2
+214F39E2FC80E7FF700B2300345CEB8F02F84000F183F0420F0FF4274D6FD372FD17D15E14F3F2
+FB37473C1FCBC3FFFFF3F30CA41F73C40FF3FFFFF0C00221FC3F0CAC033B87FC34F34E2AF40D5D
+0B7CF0B10C13373FF00CEF1FF0D34DF8ABD035742DD3CAC4304EDCFFC030000330347133043EDC
+C1F02F284DFF709F0D3BBFAF017E41DDC0F231000000F10000E1C1F0420B0FF4274D6FD372FD17
+D15E14F3F2FBB7473C1FC10412ABFC1CE4EBF4B0E44FFFFCFFC91F337F0CCF73B4FB8FC88EF3F5
+82B1F3F2805319C92C488AFC0CEAEF9FEFCCBB7827F3DF7C9CDFF89FFF532E7F375C4B22F2A912
+E145C4ACC8E7B015FF8BC53CF831CE33C7F4D2BB07BC7CE54D3DDC310A8320BAC4FB3AFCB3F12C
+31C91F33F1E7F10AAC833D2FDF7FC73F48EB13FAF7EFFCFFA07AFF4E8F13B0F32B1E7FCC92CA1C
+E1B3FC9F14F71E20D347CAFF8342CFF33E13FEF8ECBF87FDFB3376B31C78AF7C1C31C3C3C323F0
+F0F074716AC00C3C7F83E00003E040BCF40510F754FFC3CBCCFFBCFB3C12FC51CC43304F0088C0
+F03CC7B0EDC3BFFB330E2CF31C3AFF337AFD72F3CFDFC9F73FFFEA33FBCF3CB0015CCB34B3CCFC
+32BF3FFDC337EF3F0FFBCACC0FF3EBF35CFCF2CCEEA24BF431CFFEFCFF0EF0C0EF22CDE0F3C2E2
+1CB0C9314FA73CC3EB377F330C437F56CF97CC33F123FFF13C5C4303881DCFFBF7DC00788E89FC
+D220F444C1CB32B04F3B31CBCF7B387CF827D0C33CF3E9CEBE890FBCC1CF010802C2007F39D33C
+00E3090903E073C330BC418C8C33BFAF017F42CDC3F3134330C2410032F38072400001C2F3C30F
+0B0CF0F3F5FF3014CEC3238342CB1C240B0CCC388953C852FE03088FCB0B3237D3BFC8C3111337
+7C404CACECDC3CC2EF30FF3CD3C0CCF442010C374C3D50E9E353CB420D1FCF710C4C932EB0340C
+066003A90233FD7FCFCE47FD33F33CBC10FC32B38C5F32FF9F41F64FF3DF13FDCF2FF1EFB1CAE4
+10FF28F52211ADE83FFF4F3FB54929ED7F2BF3C5FCF2FF0F83F3F7CFC9C804FD3CADC23E92504C
+7F7A9339C7033FC9EBFC4CC330E1F4AFF3F7F7F3E8F0C5FCBFF3CF9FDD27F22F2B309FCF42742E
+F6CBFC1E7DF13008F77E37D1C08C8F01030B3CC0333CF30C7CFEEE4BFFFC33C242BC2423431B80
+B00028F4100AF7000F033FF1B30C3C3BC29F1F04F2E032DD0C3CF89F0841FFF3CFFFFCFFFFF400
+00C080021002303CF0F0F10FC37C1CFC4B000F033030158E4247003DC0003320031CC000480E8C
+3813FDCFD33C04139B3DF7020EB10C93339F30C2047F03F3C52C96300C30C0FC3C02F1FC3F332C
+03FC0F320C233209F9B1403C8200DF74C8331B0B02783F2D33CF0C0F0C3C53F13F30C8400CC1FF
+F0403C000030C2002333E9B1F0000CFFC020030AF0C00802B7003FC200BF40E00103BC3E01CE13
+C5C73640E1B01806400F203271E007180F731C400FF3C003BF002203BECCFCF301031FCFF0C2DC
+0FE3045CFC8C0F0B0FC3C800CC41002320FC132F2FC033FF1F032E333FD22D1F9CF0BE20C2000C
+8FBC0ECF002B4F0802C00C902FCB033A22AC3F11F1400F30393D203F010E35FC0DB73ECC0F33FE
+40C388ABFFF0121480247C800CEEF03DFF0D10A43C4A2F23E82792B23EDC86CF1E7D08DEFFC0BC
+2C40ACBF000CC877DF30287151143FC22B05F00707C4312EC393DC01DB3E89FFAFC02BE2F2CB0F
+00C31333EF00F330CCBCFBFCF3CF03F3CFFF3CD0E4247F00138CDF280CB7CC0F2DC773CF080DFF
+C3FCCCFFCEFF1FEE470005F3F927335FFCFC3FCFCFECC10CCFC33DECE403F8CCC4CC7DAB43CBC5
+F3CFEF36CCF3B30C000C0FCBCCCFC570008843C38000000C3383F3470C7FFF0CA0D728F6FF0320
+00CC3FC39F3F732030E7FC9CF13FF0C7AC2F47C9FE38CCF29404CE7333BCC90C9E8920D2432B72
+B3DCB27FF323C2282CD90C833030ECFC90C32FF14F3CA34B2FD6BFFFAC802FA2F268D10F0C13B2
+F7B0CF0412FF243FF9FF3E0B2BF030CCDECD0C83CF48E0F8778B47C3BCDE28FC1FE3D3C12ED0E7
+8C52CF8CBF7DFCB13731DCCAF33890E15130D023FFCBCDC2FCF45FCE38F3DFBC79C30FDF3C3BFB
+2BE20AEEA2FEF4C5FF2C2FFE3F1C832790340BD0EDA7FFE1C322CAE3E7FF0432B3BF9CCF38DFFA
+C3323CF71ECFF472453F3CB8033EF10F3E83FBF3C32B9CE9C22F742CABC4EEE3C54E90E82B5C45
+EFDE4F0C4E49C43AF126AECCFCF0E604D97F0C8332F41ECF0C7FBF3832B9CF145B3F2F77CCAFEF
+D04A33C002F3E5CF41CE2D0FAB38EB0F94CAFCD37CC3327F3D4FEBC34E7FF30287FCFFCA24AE7B
+CC4E4B24843423FC8033A2BF0C97FF17F04CF4BCEF0C9F77CBF2F9CC5FD387AFFCF7021FCF7E0D
+E7CE843FC7CDCB3CFBF3FCC9C73689CEF4717CCF4BC0BFCCFC1FFFC70570E85CF1C3CC04244E0A
+E333F38B3D7F0D3FC9FCFF733FFEBCCD1C08CFFCFAFC9F7AFFF608432CCC4C4D7DD380F39E8C78
+BF9EC5071FF0BCF15FCCFC73F7F0BF3CDCDBBEDE0FC85E4F1F300FC0CF71FFAF30CFFCBFFF0D06
+FDF0F83CF730C2CCC12B36FFC0F2AAD010402F32302BDEF89CF285B1A1C80091FF03F0B0C83F72
+FC9F7AAF344D3393CFCCF2FAFE335CCCF3CF34FC18440FCF3CF37FBF9FC7C7F0B0238CD1FC5C89
+FF1C73C2DD78BCFCBAAFDDBBE033F313F3CBCF3CCCCF133CFFCE39B73115CEC7BD23ACB8335D02
+FC3C44923D7207AEEE9727B5E88120EBB136F8B2FB208E7EE00FB5C307F3C09EF0E7EFB23B8FFA
+C2EBB8D7EEF8C83E68EFBE020F20305423273C33FFFF80003030008000303000AE4A331004043C
+E4F03330ECCCECFF44CB0CB303C2BBCB33F7CC7000C0C003F003007C00C9B330CF3C03C8C332FB
+DCEFF33F0D32FC30F3FFF3C081FF300C8CCEB333941CFBE733F8AC30FBC531797C704BA4FEF12F
+9E22021CE9C9390208FAB5C33ECA31CE873C4A7FE48E7F0070CF008B3B3754443705C33CFFF76B
+52FB07F0FFF4F3CAF1AEC314CEB52BF273288CC83CACC733F3C92FDF47B71F1A0FF3C9A8E37903
+D42CE7FFCA34F082C49D070F2F181C3DC27490C70CB0FF3C2E82FC0FC12C0CD8254009CFE3330C
+5FCF57BFF3CFF7F3EBDCF9201C32275FF8FC9209E0D22F2E2E8F4E1A24659EF33FBBFFFDF248B3
+94B3EFF8FECC7072CCF3D3EBAF3F0D0CC8CCFFC83C304BFCFC07CC8733BCF23D3F403FE3FC10C3
+B032CF1C34CF00BFE89E3102420820CF10CB103333F3FF490EFF2383C71F2ECD1CAFC007ECF38F
+FCFFCCEA7227DFE5C831BFE343C3B4FFBE0731CF1732F324FCC33C317EC33B3A7F8CC3072C32F3
+33DC9D2CF127FCCFBFCF00CCC7FCF31FFC2BCCC330FFFCC8CCC2B'H } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        gene {
+                          locus "nad4" } ,
+                      location
+                        int {
+                          from 1 ,
+                          to 1596 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_1" ,
+                      location
+                        int {
+                          from 115 ,
+                          to 1596 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp8" } ,
+                      location
+                        int {
+                          from 1670 ,
+                          to 1816 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_2" ,
+                      location
+                        int {
+                          from 1670 ,
+                          to 1816 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrns" } ,
+                      location
+                        int {
+                          from 2129 ,
+                          to 3612 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "small ribosomal RNA subunit" } ,
+                      location
+                        int {
+                          from 2129 ,
+                          to 3612 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnY-gua" } ,
+                      location
+                        int {
+                          from 3736 ,
+                          to 3821 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 89 } } ,
+                      comment "anticodon:gua" ,
+                      location
+                        int {
+                          from 3736 ,
+                          to 3821 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-ccu" } ,
+                      location
+                        int {
+                          from 3831 ,
+                          to 3902 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:ccu" ,
+                      location
+                        int {
+                          from 3831 ,
+                          to 3902 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox1" } ,
+                      location
+                        int {
+                          from 4215 ,
+                          to 5816 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_3" ,
+                      location
+                        int {
+                          from 4215 ,
+                          to 5816 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox2" } ,
+                      location
+                        int {
+                          from 6793 ,
+                          to 7548 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_4" ,
+                      location
+                        int {
+                          from 6793 ,
+                          to 7548 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad3" } ,
+                      location
+                        int {
+                          from 7808 ,
+                          to 8212 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_5" ,
+                      location
+                        int {
+                          from 7808 ,
+                          to 8212 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnG-ucc" } ,
+                      location
+                        int {
+                          from 9275 ,
+                          to 9345 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 71 } } ,
+                      comment "anticodon:ucc" ,
+                      location
+                        int {
+                          from 9275 ,
+                          to 9345 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnD-guc" } ,
+                      location
+                        int {
+                          from 9360 ,
+                          to 9432 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 68 } } ,
+                      comment "anticodon:guc" ,
+                      location
+                        int {
+                          from 9360 ,
+                          to 9432 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnW-uca" } ,
+                      location
+                        int {
+                          from 9694 ,
+                          to 9765 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 87 } } ,
+                      comment "anticodon:uca" ,
+                      location
+                        int {
+                          from 9694 ,
+                          to 9765 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnI-gau" } ,
+                      location
+                        int {
+                          from 9911 ,
+                          to 9982 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 73 } } ,
+                      comment "anticodon:gau" ,
+                      location
+                        int {
+                          from 9911 ,
+                          to 9982 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnS-uga" } ,
+                      location
+                        int {
+                          from 10047 ,
+                          to 10132 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 83 } } ,
+                      comment "anticodon:uga" ,
+                      location
+                        int {
+                          from 10047 ,
+                          to 10132 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnP-ugg" } ,
+                      location
+                        int {
+                          from 10207 ,
+                          to 10279 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 80 } } ,
+                      comment "anticodon:ugg" ,
+                      location
+                        int {
+                          from 10207 ,
+                          to 10279 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrnL" } ,
+                      location
+                        int {
+                          from 10562 ,
+                          to 13673 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "large ribosomal RNA subunit" } ,
+                      location
+                        mix {
+                          int {
+                            from 10562 ,
+                            to 12476 ,
+                            strand plus ,
+                            id
+                              local
+                                str "NODE_111_length_27263_cov_29.9957" } ,
+                          int {
+                            from 12638 ,
+                            to 13378 ,
+                            strand plus ,
+                            id
+                              local
+                                str "NODE_111_length_27263_cov_29.9957" } ,
+                          int {
+                            from 13530 ,
+                            to 13673 ,
+                            strand plus ,
+                            id
+                              local
+                                str "NODE_111_length_27263_cov_29.9957" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnT-ugu" } ,
+                      location
+                        int {
+                          from 13844 ,
+                          to 13914 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 84 } } ,
+                      comment "anticodon:ugu" ,
+                      location
+                        int {
+                          from 13844 ,
+                          to 13914 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnE-uuc" } ,
+                      location
+                        int {
+                          from 13964 ,
+                          to 14037 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 69 } } ,
+                      comment "anticodon:uuc" ,
+                      location
+                        int {
+                          from 13964 ,
+                          to 14037 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-cau" } ,
+                      location
+                        int {
+                          from 14117 ,
+                          to 14188 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      comment "anticodon:cau; tRNA-Met2" ,
+                      location
+                        int {
+                          from 14117 ,
+                          to 14188 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-cau" } ,
+                      location
+                        int {
+                          from 14308 ,
+                          to 14380 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      comment "anticodon:cau; tRNA-Met2" ,
+                      location
+                        int {
+                          from 14308 ,
+                          to 14380 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnL-uaa" } ,
+                      location
+                        int {
+                          from 14691 ,
+                          to 14772 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 } } ,
+                      comment "anticodon:uaa" ,
+                      location
+                        int {
+                          from 14691 ,
+                          to 14772 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnA-ugc" } ,
+                      location
+                        int {
+                          from 14785 ,
+                          to 14855 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 65 } } ,
+                      comment "anticodon:ugc" ,
+                      location
+                        int {
+                          from 14785 ,
+                          to 14855 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnF-gaa" } ,
+                      location
+                        int {
+                          from 15051 ,
+                          to 15123 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 70 } } ,
+                      comment "anticodon:gaa" ,
+                      location
+                        int {
+                          from 15051 ,
+                          to 15123 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnQ-uug" } ,
+                      location
+                        int {
+                          from 15452 ,
+                          to 15524 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 81 } } ,
+                      comment "anticodon:uug" ,
+                      location
+                        int {
+                          from 15452 ,
+                          to 15524 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnH-gug" } ,
+                      location
+                        int {
+                          from 15620 ,
+                          to 15692 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 72 } } ,
+                      comment "anticodon:gug" ,
+                      location
+                        int {
+                          from 15620 ,
+                          to 15692 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad2" } ,
+                      location
+                        int {
+                          from 15980 ,
+                          to 17611 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_6" ,
+                      location
+                        int {
+                          from 15980 ,
+                          to 17611 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-ucu" } ,
+                      location
+                        int {
+                          from 17859 ,
+                          to 17929 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:ucu" ,
+                      location
+                        int {
+                          from 17859 ,
+                          to 17929 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp9" } ,
+                      location
+                        int {
+                          from 18155 ,
+                          to 18379 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_7" ,
+                      location
+                        int {
+                          from 18155 ,
+                          to 18379 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnN-guu" } ,
+                      location
+                        int {
+                          from 18837 ,
+                          to 18907 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 78 } } ,
+                      comment "anticodon:guu" ,
+                      location
+                        int {
+                          from 18837 ,
+                          to 18907 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-acg" } ,
+                      location
+                        int {
+                          from 18938 ,
+                          to 19010 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:acg" ,
+                      location
+                        int {
+                          from 18938 ,
+                          to 19010 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnV-uac" } ,
+                      location
+                        int {
+                          from 19228 ,
+                          to 19299 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 86 } } ,
+                      comment "anticodon:uac" ,
+                      location
+                        int {
+                          from 19228 ,
+                          to 19299 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cob" } ,
+                      location
+                        int {
+                          from 19487 ,
+                          to 20656 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_8" ,
+                      location
+                        int {
+                          from 19487 ,
+                          to 20656 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnK-cuu" } ,
+                      location
+                        int {
+                          from 21576 ,
+                          to 21648 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 75 } } ,
+                      comment "anticodon:cuu" ,
+                      location
+                        int {
+                          from 21576 ,
+                          to 21648 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnK-uuu" } ,
+                      location
+                        int {
+                          from 23597 ,
+                          to 23669 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 75 } } ,
+                      comment "anticodon:uuu" ,
+                      location
+                        int {
+                          from 23597 ,
+                          to 23669 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox3" } ,
+                      location
+                        int {
+                          from 23917 ,
+                          to 24726 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_9" ,
+                      location
+                        int {
+                          from 23917 ,
+                          to 24726 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad6" } ,
+                      location
+                        int {
+                          from 24910 ,
+                          to 25512 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_10" ,
+                      location
+                        int {
+                          from 24910 ,
+                          to 25512 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp6" } ,
+                      location
+                        int {
+                          from 25732 ,
+                          to 26520 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_11" ,
+                      location
+                        int {
+                          from 25732 ,
+                          to 26520 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_12" ,
+                      location
+                        mix {
+                          int {
+                            from 31531 ,
+                            to 31986 ,
+                            strand plus ,
+                            id
+                              local
+                                str "NODE_111_length_27263_cov_29.9957" } ,
+                          int {
+                            from 32158 ,
+                            to 32718 ,
+                            strand plus ,
+                            id
+                              local
+                                str "NODE_111_length_27263_cov_29.9957" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad1" } ,
+                      location
+                        int {
+                          from 31531 ,
+                          to 32718 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_13" ,
+                      location
+                        int {
+                          from 28596 ,
+                          to 28865 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4L" } ,
+                      location
+                        int {
+                          from 28596 ,
+                          to 28865 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_14" ,
+                      location
+                        mix {
+                          int {
+                            from 28865 ,
+                            to 29233 ,
+                            strand plus ,
+                            id
+                              local
+                                str "NODE_111_length_27263_cov_29.9957" } ,
+                          int {
+                            from 29609 ,
+                            to 31219 ,
+                            strand plus ,
+                            id
+                              local
+                                str "NODE_111_length_27263_cov_29.9957" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad5" } ,
+                      location
+                        int {
+                          from 28865 ,
+                          to 31219 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "NODE_111_length_27263_cov_29.9957_15" ,
+                      location
+                        mix {
+                          int {
+                            from 23405 ,
+                            to 23489 ,
+                            strand plus ,
+                            id
+                              local
+                                str "NODE_111_length_27263_cov_29.9957" } ,
+                          int {
+                            from 26863 ,
+                            to 27279 ,
+                            strand plus ,
+                            id
+                              local
+                                str "NODE_111_length_27263_cov_29.9957" } ,
+                          int {
+                            from 27475 ,
+                            to 28187 ,
+                            strand plus ,
+                            id
+                              local
+                                str "NODE_111_length_27263_cov_29.9957" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "rps3" } ,
+                      location
+                        int {
+                          from 23405 ,
+                          to 28187 ,
+                          strand plus ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_1" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 493 ,
+              seq-data
+                ncbieaa "MLLLLLLLIPLSGIFIISTSMSYNLTDLRIKQIKITALTTSILNLFLSLIVFI
+FFDFSNRQFQFVQECHKISYYDFYLGVDGISIYFVLLTTIIIPISLLSNWTSISKNIRSYIIIILLLETLLLLVFLVL
+DILLFYIFFESILPPLFILIGLFGSSNRVRASFYFFLYTLLGSLFLLLSIITMSSIMGSTDFDALYKTNYKYLTQLFL
+FYGIFIAFAVKTPTIFLNSWLLKAHVESPLSGSIILAGIVLKLSIYGILRLILPLLPKASLNYIYIVYLIGVITIIYA
+SLSTLRTIDVKELIAYSSVSHAAVYLLGVFSNTIQGIEGGITLGLAHGFVSSGLFICAGGVLYDRSSTRLITYYRGIA
+QIMPLFAILFFILSLGNAGTPLTLNFIGEFMSLYGTFERLPLLGAFASSSIVFSAAYTIYMFNRIAFAGSFSKFFIFN
+IPDLNKREFLLLLSLVLFTVILGIYPAPILDGLHYSVSALIFYTPDSLFK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 492 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_2" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 48 ,
+              seq-data
+                ncbieaa "MPQLVPFYFINQVTFTFILLLLIIYIFSKYILPRFIRLFLIRLFMNKL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase subunit 8" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 47 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_3" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 533 ,
+              seq-data
+                ncbieaa "MWIERWFLSSNAKDIGVLYLMFALFSGLIGTAFSVLIRLELSGPGVQYISDNQ
+LYNSIITAHAIVMIFFMVMPALIGGFGNFLLPILVGGPDMAFPRLNNISFWLLPPSLILFLFSSGIENGAGTGWTLYP
+PLSGLQSHSGPSVDLAIFGLHLSGVSSLLGAMNFITTILNMRSPGIRLHKLALFSWAVVITAVLLLLSLPVLAGAITM
+VLTDRNFNTSFFEAAGGGDPILYQHLFWFFGHPEVYILIIPGFGIISTTISASSNKAVFGYLGMVYAMMSIGVLGFVV
+WSHHMYSVGLDVDTRAYFTAATLIIAVPTGIKIFSWLATCYGGSLHLTPSMLFAIGFVIMFTIGGLSGIVLANASLDI
+AFHDTYYVVAHFHYVLSMGAVFALFSGWYYWTPKMSGLIYNILPAKAHFWIFFIGVNITFFPQHFLGLQGMPRRISDY
+PDAFAGWNYVSSYGSIISVVATILFLEILYTQLVYGKETARNPWLAPQFYGDLLQTLSNRASTSLEWGLTSPPKPHAF
+VSLPIQSRFSDI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit I" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 532 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_4" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 251 ,
+              seq-data
+                ncbieaa "MINVLNKNLLEYTDTPRPWGTYFQDSGTPQMEGLTELHDNIMFYLVIILFSVT
+WIIKSIIRNYLNSKSKISHKYLNHGTLIELIWTISPALILIFIAFPSFKLLYLMDEVTDPSMAILAEGHQWYWSYQYP
+DFLNSDDEFIEFDSYIVPESDLEDGALRMLEVDNRVIVPELTHIRFILTGADVIHSYACPSLGIKCDAYPGRLNQASV
+YLNREGTFYGQCSEICGILHSSMPIAIESVSIEKFLLWLREQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit II" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 250 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_5" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 134 ,
+              seq-data
+                ncbieaa "MNTTTFFFFFIPILALILLAVNLILAPHNPYQEKDSAFECGFHSFLGQNRTQF
+SISFFIFALLFLLFDLEILLVYPYIVSAYTNGVYGLIIMLIFFLVLTLGFAFELGKNALKIDSRQMFSVARKNWKTIS
+KIN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 133 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_6" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 543 ,
+              seq-data
+                ncbieaa "MLITSIFLLLLSNALNIRRDLSILFSRIGLIIALYCSFFTFSSLYIKYLDKGI
+GLLGGLFHTTPTTQIFHLFIFLISAIIIQLTSFYPRKVLTSESSDIKDMINVPIAKILNKMGEQFKITEYTLILLFII
+TGGVFLLSTSDLVSIFLSIELQSYGLYLLCTLYRNSELATSSGLTYFLLGGLSSCFILLGTSLLYANSGTTSLEALYI
+ITSLSDTSNNTVSHIINWYNPEYLNYSLLIMSVGFLFKVSAAPFHFWSPDVYDGIPTIVTTFVTIIAKLSIFIFFLEL
+VHYTGNYFLSQEFNWISGLLLSSLLSLIVGTVLGLTQFRIKRLFAYSTISHLGFILLALSINSIESIQAFIFYLMQYT
+ISNLNAFIILISIGYSLYSYINNNKQYDKLPDKNNSPIQLLSQIKGYFYINPVLALSFAITIFSFVGIPPLVGFFAKQ
+MVLSAALDSGYIFMSLVAIITSVISAVYYLGIIKRVFFDELEYKVNPSLKDLIIKPENIVLSSSLTITISNLTLIILL
+FIFTPEEWLNMANILSLILFNT" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 2" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 542 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_7" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 74 ,
+              seq-data
+                ncbieaa "MIQAAKIIGTGLATTGLIGAGVGIGVVFGALILGVARNPSLRGQLFSYAILGF
+AFAEATGLFALMMAFLLLYVA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase subunit 9" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 73 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_8" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 389 ,
+              seq-data
+                ncbieaa "MRILKSHPLLKMVNSYVIDSPQPSNISYFWNFGSLLALCLGIQIITGVTLGMH
+YNPNVLEAFDSVEHIMRDVNNGWLIRYLHSNTASAFFFIVYLHIGRGLYYGSYKAPRTLVWTIGTVIFILMMATAFLG
+YVLPYGQMSLWGATVITNLMSAIPWVGQDIVEFIWGGFSVNNATLNRFFSLHFVLPFILAALALMHLIALHDSAGSGN
+PLGVSGNYDRLPFAPYYIFKDLITIFIFIIVISVFVFFMPNVLGDSENYVMANPMQTPAAIVPEWYLLPFYAILRSIP
+NKLLGVIAMFAAILCLLTLPFTDLSKLRGTQFRPYSKIAFFIFVANFLILMQLGAKHVESPFIEFGQLSTALYFSYFV
+IIVPVISLLENSLMDLSIINKSNK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome b" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 388 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_9" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 269 ,
+              seq-data
+                ncbieaa "MTNLTRSNFQAHPFHLVSPSPWPLFSCVSLLTLTTTGVLTMHGFSNAHFFLFL
+ALISLIYSMSLWFRDVISEGTYLGNHTLAVQRGLNMGVALFIVSEALFFLAIFWAFFHSALSPTVELGAQWPPTGIDA
+VNPFELPLLNTMILLSSGVTVTYAHHSLIQGNRSGTLYGLVFTVILALIFTALQGVEYSVSSFTISDGTFGSCFYFGT
+GFHGLHVIIGTAFIAVGLWRILAYHSTENHHLGFESSILYWHFVDVVWLFLYISVYYWGS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit III" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 268 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_10" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 200 ,
+              seq-data
+                ncbieaa "MNYTVMSNVFVYNEYYTNGFISGFLVIISLASIFFGIFVIISKNPIVSVLYLI
+GLFFLISCYLILLGINFIGLSYLLVYVGAVSILFLFILMLINVRVSELLSETSNSIPLAIIIGISLYNTIFPVLPYNI
+YRFFYITYNKWELYFVSSKNWDGALSENSHITSIGNIMYTSYSVWLIEASIILLLAMVGAIVITIKQEK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 199 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_11" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 262 ,
+              seq-data
+                ncbieaa "MNQVVLSKVIYNESPLDQFEIRDLVSIDLHVLDNTHISLTNIGMYLIISVIIL
+LSLNIFTRNNNLIIPNGWSISQESLYSTIHSIVVNQINAKNGQRYFPFIYALFIFILVNNLIGMIPYSFASTSHFILT
+FSISFTVVLGATILGFQRHGLEFFSLFVPAGCPLGLLPLLVLIEFISYLARNISLGLRLAANILSGHMLLNILAGFTY
+NIMTSGFISFFIGLIPLVFIIAFSALELGISFIQAQVFVVLTASYIKDSLDLH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 261 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_12" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 338 ,
+              seq-data
+                ncbieaa "MVYMPTIVAIFEVIIVTIPALLTVAFVTVAERKTMASMQRRLGPNIVGYYGLL
+QAFADALKLILKEYVSPTQSNLILFFLGPVVTLIFSLLGYGVIPYGPGLAIGDIELGILYLLAVSSLSTYGILLAGWS
+ANSKYAFLGSLRSTAQLISYEAEAESELVSGFMTEHAAVIFVFFFLAEYASIVLICILTSILFIGGYLINIDIFLELI
+TVLFKLIDYMLLDSFQNFDFNNNVNSITNHIKSFGADTKQEEEYYNSTNIYLFFSNVLDELLLSVSLGLKTCIMIFIF
+IWARASLPRIRFDQLMSFCWTILLPIVIAFIILIPCNMYGFDIITSNSYIF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 1" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 337 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_13" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 89 ,
+              seq-data
+                ncbieaa "MNLSLILFLIGILGFVLNRKNIILMLISIEIMLLAITFLILVSSLSFDDILGQ
+TYAIYVIAIAGAESAIGLGILVAFYRLRGSIAIEYK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4L" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 88 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_14" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 659 ,
+              seq-data
+                ncbieaa "MYLAIIVLPLLGSVVSGFFGRKVGVSGSQLITCSSVILTTVLAIFAFIEVGLN
+NISVSIELFRWIDSESLNVIWGFNFDSLTVSMLIPVLIVSSLVHLYSIGYMSNDPHNQRFFSYLSLFTFMAATMVTAG
+VYLLMRTSPLIEYSSTVLILCLWIGAITTVFSSLIGLFQQDIKKVIAYSTMSQLGMMVIAIGLSSYNIALFHLVNHAF
+YKGLLFLGAGAVIHAVADNQDFRKYGGLIAFLPLTYSVMLIASLSLVAIPFMTGFYSKDFILESAYGQFYLSSIIVYF
+IATIGAMFTTLYSVKVLYLTFFTNPNGPITNYKQAHEGDIFMSIPLIILALFSIFFGYITKDIFIGLASGFFEDNSIY
+IHPSHEIMLDTEFAVPTTFKLLPFIFTISLSLLSIVLSEFRPALLIKFKYSTFGYNIFSFFNQRFLIELFYNKYITGI
+VFKLGGQTTKVIDKGSVELLGPYGLEKALLNLSNRISSLASGVITSYALFILVGLISYILLLSFNDTNLLLLSLFALL
+TLSKDDITLPRAFTTIKSPELFSGVSRVEIFIHLLVIIIYITYYFYDASIHPMYCSDGSEYPQSLITQQIPRTGVWPS
+CPGEQNGVHRWVVVEDACENCPNNFIKAVNACCRCDFGKWCDPCVDRIADVVERIRNNPR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 5" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 658 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_14" } } } } } } ,
+          seq {
+            id {
+              local
+                str "NODE_111_length_27263_cov_29.9957_15" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 404 ,
+              seq-data
+                ncbieaa "MVIKVDKKITNLTRINFQAHPFHLVSPSLNKPDASTKNSKKNIEKYYKKTEMD
+NEHFLFHIKQHAYSSKEWYNSIYAYNKNTLNLLPVADKIIINLIKSYFNLYSKILNYRIRYRSLRTKIRRKSSHRIYV
+SKAEFSHIINKLIITIYIYNRQKYNFFNKIKKKIIRIYYKNFIKKCLKREMLYIYYKQILYFNKSKFDNTYLDKLSNL
+IRKIYNKKIEFNIVSLKYFYLNSDIFSESLAIKLRIRKNRLLNVLKRSLRKVKIAKFSKYGEGNLHLPKIINAFRNLN
+NDPLNRLLYKLYFANNERVFLNRPEKHLEKYVLNSFNHKAITGVRLEAAGRLSRRITASRSVFKVKYKGSLKNIDSSY
+KGLPTPILRGNLKTNLQYSVMHSKTRIGAFGLKGWVSSN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ribosomal protein subunit 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 403 ,
+                          id
+                            local
+                              str "NODE_111_length_27263_cov_29.9957_15" } } } } } } } } } }

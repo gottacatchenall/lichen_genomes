@@ -1,0 +1,1983 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Oliverio" ,
+            first "Angela" ,
+            initials "A.M." } ,
+        affil
+          std {
+            affil "University of Colorado Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            country "USA" ,
+            street "Ramaley N122" ,
+            email "angela.oliverio@colorado.edu" ,
+            postal-code "80309-0334" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Oliverio" ,
+                  first "Angela" ,
+                  initials "A.M." } } ,
+            {
+              name
+                name {
+                  last "Keepers" ,
+                  first "Kyle" ,
+                  initials "K.G." } } ,
+            {
+              name
+                name {
+                  last "Cloe" ,
+                  first "Pogoda" ,
+                  initials "P.S." } } ,
+            {
+              name
+                name {
+                  last "Tripp" ,
+                  first "Erin" ,
+                  initials "E.A." } } ,
+            {
+              name
+                name {
+                  last "James" ,
+                  first "Lendemer" ,
+                  initials "L.C." } } ,
+            {
+              name
+                name {
+                  last "Kane" ,
+                  first "Nolan" ,
+                  initials "N.C." } } } ,
+        affil
+          std {
+            affil "University of Colorado Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            country "USA" ,
+            street "Ramaley N122" ,
+            postal-code "80309-0334" } } ,
+      date
+        std {
+          year 2016 ,
+          month 12 ,
+          day 7 } } ,
+    hup TRUE ,
+    reldate
+      std {
+        year 2017 ,
+        month 8 ,
+        day 31 } ,
+    subtype new ,
+    tool "Sequin 15.10 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            genome mitochondrion ,
+            org {
+              taxname "Graphis lineola" ,
+              orgname {
+                mod {
+                  {
+                    subtype specimen-voucher ,
+                    subname "46096" } } ,
+                mgcode 4 } } ,
+            subtype {
+              {
+                subtype collection-date ,
+                name "17-Jan-2016" } ,
+              {
+                subtype collected-by ,
+                name "James Lendemer" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Oliverio" ,
+                            first "Angela" ,
+                            initials "A.M." } } ,
+                      {
+                        name
+                          name {
+                            last "Keepers" ,
+                            first "Kyle" ,
+                            initials "K.G." } } ,
+                      {
+                        name
+                          name {
+                            last "Cloe" ,
+                            first "Pogoda" ,
+                            initials "P.S." } } ,
+                      {
+                        name
+                          name {
+                            last "Tripp" ,
+                            first "Erin" ,
+                            initials "E.A." } } ,
+                      {
+                        name
+                          name {
+                            last "James" ,
+                            first "Lendemer" ,
+                            initials "L.C." } } ,
+                      {
+                        name
+                          name {
+                            last "Kane" ,
+                            first "Nolan" ,
+                            initials "N.C." } } } ,
+                  affil
+                    std {
+                      affil "University of Colorado Boulder" ,
+                      div "Ecology and Evolutionary Biology" ,
+                      city "Boulder" ,
+                      sub "CO" ,
+                      country "USA" ,
+                      street "Ramaley N122" ,
+                      postal-code "80309-0334" } } ,
+                title "The complete annotated mitochondrial genome of the
+ lichenized fungus Graphis lineola" } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 19 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2018 } } } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "graphisMT" } ,
+            descr {
+              title "Graphis lineola complete mitochondrial genome." ,
+              molinfo {
+                biomol genomic ,
+                completeness complete } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Assembly-Data-END##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "SPAdes v. 3.9" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 12 ,
+                  day 7 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 24945 ,
+              topology circular ,
+              seq-data
+                ncbi2na '2CEE2C81BE1CEF4D439808CCA077F37CCFE773FDE870CAC693FD2
+FF0F21C81CDE45EBBD0FCC9230D07B10C932C1E44E732F38CFFD3AF3979CE32AA3FAC3FFCF16F3
+CB6BA578CE9335C87C304C2FFE1EF145CBF0C73FF3F9CBACC883AE6AC4AF811FC5755CDE83102D
+32EB5CBB23F273FF95C4FCDAB30B2FCF2894C07F30414CF013882D4ACF23C440F27F3FA389ECBE
+F127B3C7FCF37F17BFC9CB9CF18EBFC1E3201F43134F7F82C9E8AEB85731ECD245FF78F7FAD152
+2B3133C30C52BFEB3CF2C41CDD272F60C012CFEACFCA0EB3390E3B73EBB9CAFFB2FE094D13B112
+CAFC8EE8C7226CFD1649C7F0C327B1716B30033F278F271FBC68AF4F1CF04DF739CFE4F28FECFC
+EF4632AA3C2E8B6FF240E5D1F84CD3D4631F3C6FBE74FD4F3B3C2CEAE7B3F93ECCB93ACFFEAC50
+23FCABC071052F7C2C0BD3FF837CFCCA2F0FC1FFF57413F5FA9C42B39720830B8F35E397F9EBE0
+3F0F2C9F2BD0C30BB0C9C4B3CFFC42CBB3D107EE82BBC71F72335F8DCC5EAFC112327C21C73738
+89F3D347E0E27F032575009D39FFB09F15F102F0BF0D9C772F0C0D873F04DC8A9C03A0BF3CD3F0
+3D03CC7C137758C030CCC404F33BCC4B00FF3112ECACCDF700310C0CCBFCEB1092400C3EB12BF2
+7107AFC32A9E8B2A32BB2FFE89FC30CA2FD080D7DFC22841CFE4CE73FCAFF93F9E09C4ADCFE77C
+E3A4F7CF3CC6C9F00CCCFFE70C33FCCFC0C70C9F224A5D7B4C733FC4C37F3FEFBF129FFDFB077C
+3C4CECC8B0F0C8D7B33C7329C4905C078FCF177DEFC0C30F3C03008E40004F3C33FB257F2343F8
+0F203F0F2FC8655CFF0B731B373C704CA3CCFCDFCAAEFEF3FE15C0FCBE51C30C100C7370C0E37F
+2E42010CCE51CC4CB32C30340C0F70C0A103B3F57FCCCCBF3FF3F37C3C107C32B38C5332FF9F41
+7747FB3C93FD0C2FF12EB3EAE41BFFAAFCB013A3C03FF757FFB1492BED4729F3C5DFF2F70C83F3
+35C7C9C806C2DCA9C6DC2E70CCF0BAD139CF0333C9E8FFBCC330E174A3F33FF3FB2B7CC5FC9FF3
+CC93FD29F20F2B325FCC4A742FFEFB3C1CB2F3300867F23F13C0C33224CFCFCF7FBDCF0433370F
+32300313008FB3C3F0C0BF0C0E510F2C5BFF7F30382FF3F17FBDC7CFF0C3333BF1C2CCFF1403D3
+DBF3F1046AF7BC080FB0F2C4CBCFFEFFCFF04B00CF3FFF1FC21770038EBB28FCF0D3CE48CA697B
+3F02CB3330303CC3C30317FCAFC06CC7FB3CFB1321E773CDFC433C030B0FFC2EC8B2A7F3FB12E7
+CDB1372E7FCF34D039479370188CFD0FC7F25B1DC7FF32FFC39FCFBC2FCDC9F8333C9FC0C0AFCA
+CCC43AFCFC32C45CF2C31FD4CCFCCFFF30BFCF33C70F149F715C802CE3716207C255007FFE7C31
+3333F04703CF0100E9A34C308F7E0C547CC79EFEC304AE71FE7EC2CBAE330CDCFFFCD4C83C409C
+EBFB3F2C9CBB312A32E073513592B7C5C7FF1CAEBF37DFBFCC71CAC4ADC7F3903D2BB070FC86BF
+F3F0C1CBB3488E02002C7C3F0CDECCE3AC4C4D071D7CF0F3B7128FFCFC0B0B9E55FF4FFE895E1B
+31867B1714FB071FFB240CC5C233733FB3FF3C80CB11C47241CFDD1FFC3FC1E043477BC30BD3EF
+37F0D3EB16E7A8F8343420F008F3E9312C73344FCAFF31EF277373032CC8B73109FF33FCCE390C
+F433706C0ECFEE30C30B32ACC9F333F31C32C3020CC0D1C5200130745DF43C30343C028CFFFCC0
+D714C90D2DC30CB0CCF4FECA0C5D5F04A3FFEB0103AFF35DE7F2302AC44FFC9FCBA431C10BB0C2
+E4B31C5C0CCB8083CEFFC40A23CC2F810217200402FC0CBFCC30000B100100317CE9E0004FDDCD
+640FC2FC24CD0FF07F0C37CF3F3BC255060E1C22C9C333E94CF0EFC3C3872CE13DCCFB7F316B3C
+9FFB3C7243C1FFCFE75D3257CD0800ACB17F83BAFF474FDFAD20C8110FCB3F7FFF3FF9FCFBFF3C
+FE37203FCF2CC57CEFB05933B01A4CF6BF8FB0E80FF7FF2EF04F28FE7FE0F2B00191C0CF8CB210
+B37B03904DF00C06F30E134EBFBCF2C7FF4CC3A3143C3FCC5CFCCF0982B8330DFCC40030CCC17C
+B281033F130FC0CCCFFCC51038BC03C04C3C008000030E0FCD9F31FFDC32A1FCA3FBBC0C80013C
+CF0E7CFD0F80C39CFA4304FFC33EB0BD3C2738E333CAD0BF394CCCF307324A248349CCAFCA0CF2
+C93FCC8F08A0B366322CC0C3B372730C3FC57CF28D0C3F7AFDFEB200B28135A3440C306EC7F2F3
+CF184F3E90C327FE782CA3C0C3337B937C3F3F038323D20DFC0CCF38A7F0FF84BF07BF43BCF14B
+3E32CDB5F2C4CFC7732BCCE2538574C3408FFD2F3F0BF3F1FF38E30CF2C1270C3CFEF0EFEDA788
+28BE83FBD33F1CBCBFF8FC720F9E40D02F433790EF040C8BAB8FBF1C10CACEFC731CE37FEB0CC8
+F32C7B3F27C916FCF0E00CF30730CACCE5EF0CAE43A7009D50F2B7D1BF8F173A63A2A57157BF79
+3C3139E71CEBC79ABB73F3C39BDB45FC320CCBD05B3E3FCEFCE3CAE6BC71ACFCBD7C3E8F3D4108
+CF000BCC9B1DC738B41CADC3AF327B2BF36D730CC93CF53F2F0D39FDCC093CF3FF2892B92C3D39
+6CFE10D08FF208CEAADC010FFC5FC131D2F3BC327DDF2FCBE4FD7CCE12AFF12C087F35E8B7D33A
+D2F3C7F4ACC9ACCFF324B0CAE73BF146733DCC02EF33F04FCC9C15C3A97F9F0F30379D382B0CCF
+CED7C5FC32F7A7BBFDEFFFFAF330502133F32872BDCBF7FD610CBF3F3D15CE0E030E7C1120FE6B
+043F3C40FBC5FCF3C1CFFDF2C4734F2C30B8333170C47CF2FF0BF240FEBCC3B3F2FFFC141BFFCF
+227CDCC30B13070FCF9F04CAA84071C0F3C8C0AF732070CA94C6BF20027F351FC2EF27C240F231
+2A72F1C4CE7F3331CF2B30DFC1F277D7CFCD7F0610FCF3E5FCF3C30FBFF3C33030A7003300030F
+F3CFFCF8CF27FCCDF3008BF02300CF0CF33F1C3F3DECDEFC0F733BFC77730A332ACCCCCF1C4319
+12C12DDDEA95A1292B2BCB02B47FACC1720C042C3F3C3BC02CBCBA30040CF302BEC7302593FCC7
+2303050C00C10279370F08F0B330170CE2F030000384CCC404F0C58CB20BFCB3E32C50CF3C32C9
+BF3043248080043A42CE41B23CA15064B28C73AFCF1093F9219FC03C73C022C6CD551D0DC130CF
+3FFFCA973FC11CBBFD3C72BCE5BCC5FFA17ACE90CDC33A3F2831CCCEF24B37DFC944C6B33CF24A
+F8DE707703397FF28D5E20B1244BE309CE07CFF05DE731EF2FB1EF04ACBF81304B033E0D10227B
+FAFCCB97F3C5CCFCDBBFFCCAF73248070489D5FE3F248A783481FBC9ABF384813DE6BCCFECFFDF
+FC920CE72CFBFC33B33C14BBBCFFCAE8C7E5EE8C71CFF360CFA21CF44249F17C33153218F1F3CB
+C36CC0559EC1602F35C7F23AB7DF30FC2FCAFC007EFF38FFCFFCCE27225DFD5C8308CE343C3B7C
+FBE0731C71432F327CCFB3F317EEFF332FF8CF335B033377301303C40C0AFF1FF0298E7333C827
+1FC173FB1F33125C3003CCC0474F370F3210E7C4FC02C0C03C3CB030384F3C73CF3C317F05AECF
+FCBF71CF137CE08F77CC00C01B30038CAFCB04DCC301FCCF37F3F33F34CF63FCB10343F43FB128
+134E0303B3F8FCCFCACC869F36331FEEF3C1C430C3973F673CDC3E04DCC122CCC031FEC30C31CF
+1C82473CF24BFFF2CF23FFFF3FCECFFF80B33E5947FF33C3287F1A7424300C2A42FFCFCFDCCC4F
+9CA34F3FF1EF353DE2CCEB730EAC7121FE19FCCC01C3FC3C43112F3F33FC6833F327FE7B801141
+8CFFE0C6EBCF009D1BA0DD4736A0B30CF24ACCB9F03C2FECEB33C23C33C5CE31702724F0711333
+2CFEF328B2F10F33390BF0B13C20732330281C327CF7DECD93924B3173CAEEFCB0C3B10ACC82BA
+CCB3CA3C951ABFBF5D2BF3F339928AECF338C8EF7D0AF8F1FFC48A0C9D0BCE5CCFF43CCFFF31EE
+FCAC3EEBB15F057C1FCCAE2FCEDDEC6BBB380A7D47BCA2CFE72F4DCC33CDE49711CFCCEFC320C9
+7FAABD33FC060332526CDE1F0121883CCCEF0F11FB4EFC7BECFEB3335CB5CFF21AFC4730EF9FBF
+2CC432CBFFDC8003F0B7C47C312A3F0E00C48C40CC33EC0A02D40973C0F0CE0F00C02F007F2FC3
+1202C4F23C00E030F37F0FE93FBF27C3012100169F0FB3733C15EFF3F02C2CC0CCCCC3030C2BCF
+3CFEC30C308EC0000F10CFCCDF3FC2C0333CFF330F8BF8E3A7783819CD40E7E1139C3606D0D0EF
+015E3E0BAEC4AE2CE33E1405F02CAA0CC00D5F3030C08000E2FF67F082FCCDD8B2CFE7C2FC01F8
+BC9F0C76C94A1E02BF3EB44BAB78302546723524B8A0CFAD0C9705A7814907E8A0E8CA8096B00A
+43B172CB3C80E0CE2BC102F0F00F60B2B0B8F3843379E337E142D1B9492D9A431BA08C2EF3D37F
+0CAFC0AB17212F8F09080FB1C3F09C8BF0CCA0AB4B18E4BB22300F7F8C7CEA87AC0A60A417FCEC
+00786F8A860A7428800228F2315FB32EA4843AE2ED33B08CFFFFBB30380BB091D45D08B06E904E
+A0780D3CA5BF78056CB82CEFBF0FECAC640C17C510FECC9FB0FF13FAFFCECC007ECE73BF331CCC
+B207C427109BE469EFFCB43BEE01FEBCAD4F03E3B095F9FCFCF0024BD9E513AB26330A870842D3
+4E17813EEA7321B964F15C04008E403E603F270DFC00A0300E0FB2DE83D8713800A0F18B0DBB34
+F1A46BA3BF7D272B1F1C76D099E028AAA430BFA71CC73F0FC0C0C3FC0FFCB392B7DB3B7B778FAE
+F0B6031AF6ECBA01E46A3C38F0C1CC073007FF2703DEFC28CE71C238C02501C3FAECCD714805C3
+3FE33EFDE95AF302CB200C270C96A219A023F0CA7276B300B2C00070CCDA809B0232ECC737F3E4
+C90A62CCD77B78A0AF5BFBEB386AF89EC07432E007B60AF43D7FDF5C195732741AC8980C7BC33F
+F30BBD0F47F2A9C23B2CBF0E9004BB9C6844CCEE2F62DF9F13F01BC8E7F0401FDFCCFCBC52CC3B
+DFF3F0F3C14D33CFB873F3303CCE0033CF20B0FF4A44D7FD3F2EDD7D17E163011CBAF7F1CDFC14
+69BCB3CDCC4EBFCCCE7333FFC33F93E1CBF0CB373B47F8FC88EF37782B131F2B0D313C9EC408AF
+C0CEAEEAFCFCCBB6827F3DFFCACCFF89F3FD326A7375C7B203A89D3E155CEACC4273C15FF83C53
+CF0310C33CF37DAABFDB04CE5453DAC310AC3227A27F3FAC77331EC3DC9CF33F12CF90AEC8B116
+FD37FC73C986813FA37EFDCFDA84A7F468F13BCE36B127FCFE6CAFCE1B33C97144B1210534FCAB
+C837D0CF33E13FEF8EEB3A7BF7F1334B33C78AB7C31C5CCFC9F3333C3C1174A4C03CE0B2C57C30
+CFB11C3BFCF3333005EF3CCCE43FF31FCCB9CC33F3ACF232E37F44CCC4B0CB5EBBEC4D43E00CC3
+0330B0F27FAEF3E33B02F343F009005C48E3C9FF3D23089D887F0FC32B00CEE1FF0D3CC38ABD8B
+57CADF011A532BC3AC85BDB7D4063BBB63D87DA7A5B330ABCB3BC1EB010FD3ED3E02B396BD035A
+5C15B30A00BE732B0A4233F9C0CFBB0FC45E8EF40D377FD672E7BC2CC008C30C08B32FC3AC03A0
+27D01FC2F7EBD837AB1DFA47C23DFC1F07AC0B9BFF8C28EF350BD0B7E820D3BC0430883E162E9F
+0AEB09F807C7EB0F0FCD135BD0368CF7783E43330FDCF27C3AC0B88C7DC337A3C2BD835F8CA0F0
+F4FEEFF030330A9FB3C0733F0041ABC894AFAF29974FEAF8A04BC2F60DF0E1589C0C1CC8EF0D7F
+32A84CBF0FAC01C63FE4CDBEF52B5835EBF750BC09D882743EB22681DE08EFCAFB0BD037CDF890
+3002B2E3A0FAC84E0C9F2873F8FFCDFB5BD0B68FC5F3CF339EC8704AC2D303FFAEFC0BCAEF60D1
+749302BA3B2F432B2261ECEE912C2F77BD034AB3515D77C958B2F432BC813C3F4E4F033883D07F
+75DE9C0E33FFCCF3FCDDE4FCE0C400FFDBCFA237F3CDF1B0C31F25CE301CB080CCCC0C1753BF0F
+37471C436F10CAB3247707F33FFCDBCF2432FD64B3FBCCBCB00152CB37BFCFFC3EA73FFFF325F7
+FF0CF0C8EF8FF32B335CCCFAECECAA7BF633CFFCFCFF8EF0C0CC22FDE0F3E2C32E00CB31CF3CDD
+CB28F3FFCCAC4BCB5CC317062FF50BD7E033F2C31CCCF3BCB043DF88070EFDE730B0CCD09F2804
+C3B31CBCC93FCF3C3E7DDD31C7FC90EB2B90FB8F10F016003F33AA0BC12671FFF1B2633F8DEF30
+CF8F215C893F730CE5F10CC5E3347302B324CFC03330C633FCF718C3C3021FF3CC2630CCD815CB
+8FCB3C0CF2188F02043C68CBFDFB3C109031C88E9496C08AC047CC5FC0A8F07DFB3028EC3E0C2A
+6ECA44378301C30F0731D3C32CC7C08F3813803303E94C9F22D07CCC3313324301F1F333FB1CC0
+03CCC00FC080C0E20CFC02D357CF00FAC0F4CFC323D144142C37CBCDCE01FE8DDCFA7FFBF2A3D0
+3CC12BB04F24393CC15C9BFC827FC3D2C8933CE623BC30EAE3C31BCDC4770C79F793DF7DF2DC7C
+4CDA08ABCC71A35CC2914207F2FE043E81EC33F33C38E9C493FF2BCECF97C6B40E2FCE2B904BCF
+1C1F0E2E7314E2CA9084FB22FCCE28AFFDEC0C3904F0323FFE4F13FECF14FEC72793C9CC393F0F
+93C4E3264A34AC35ECAEFD2B0F38C8F17FE75F3FCFFC08FC30733D73F33EF3CDCCFECF7F3970CC
+F2B8CB883C6C3A70D43901165E732F522E33F3C5FDCE433C2343170C0F3CAEF3263BFD273FC33E
+F24394FC48FCD48D08A0C43F217F0B00C93FC6CFCC9C3FFC31C390F2B9C04EC836533322F6B40C
+DC6BBCC7F9D3FFC30FB14FCC2FCF200CBF0C83E520BA0423804B3FDC3F030F4CCC1C948C0CC314
+F07F0EF34CFCF3FA330502C00F1EE3117217E2BF33FD08CB9445D03A0ACCB20F118C33FCFF1FAC
+30C73F92CAF833CFF432F207CC70C47F45CCDD3033F0146813C320F0CE043C4564F0CF0CF0C93F
+537FC073ECFC3A380C2E35273B4B3C920AD143ACF82F34335A3FFC04B8E087F320F61DF172F5E2
+DE1F208281FC20E722B230C8BCC71483E1D1BC8FCCB049278EF313D7F97B534F283C0EE19F152B
+21C0D2B37B3CB43222AC4FF1AD0E7480FEEB33C4CBDCE5CCB0C834BF73E003FF27E3C8204B0C0F
+FF33F1000300C87894B72A332121E9CEC3E3E48D02C38AF60D7C3357CCC3F173FD8FCA41DCEBC2
+7101C3340031AEBFCFC3107323CC3E70F03F47CC33B70C33CE83B3C0FEEFC3304400B3302A3CF3
+CB37C9CCCF02823CFFC3FB80BB3F07C913835F2203C0C30182E0F80CDC2C1FCA0080D0088F738F
+2EE0E02C8E25CCD2CCE33CF02F0301C0C8E3A7FF0EF33F3323330C2C01A2CCCDEFC000AA05F5DC
+29C0CC3B3098C8832C5B8A802180CB0F73092760CF0B0C033089B17FECC3AB490BC33C8E627230
+0982301C1CE171E3CB370CF21580DCB8DF14F34A0C0B581ABCDBEC08CD6083EEB0B0B808401E1C
+84327AFF71805CCF2CA6BCC30CD0A4AC498EC37C3318FC303FCCF3E6AA5E20D710F0B3F91D80A9
+FE303BC87B484CB18C2BECEDC0A8049520422F0C2BD703CFB42E0302B2EFCDF35A5282EA7CA269
+4DFF02176C32247A7CCCF0A99700FC1A37010CC5805FB53330CCCEAB2C8132AC2CF21FFDFF0207
+20F218552230E784E2C18C0A8C335765F09F3AFFFC3B069470BBC1DC0ABCC638C334C3CC230C1F
+CFCB8302E4A001F38FC1316C5C0F71752C272C8B31829BF8B810F30281DA40FA75B07CA8C28914
+7F1F8F0C90B028AC9300DBBEC61EFC3C011247D9C02807E3B3E2EE3B7958E730B3013F07C1CC32
+BC2630F05ECB43A697C1CE2AD70AC9A0C57A5BC0E6B7E4E0E3F0631049EDDCC3E9D2E03E8307B8
+2312FC5DC8C86208573927F1E61CBCCAB30EC3ABCF22CC2B0FCFC4BE0117F114FFCC7FF17732B1
+0F9CAA92FCE6A912354C00B07A83350EF2DCB03C0030C8F3CFFF33F07EF3CBCCF0CFDC1D073CD7
+3D3F2AF30FFCFC2C23FC9CD00EC98C03013C9FCB0EFFFBEF0F7CF063FF3C3348409F0EBF0DF9CC
+7BF07C46F3D2D9B026A9338D108E480A02B7E8F3E002719CA8F0B7CB5D7CB0C43C4AC301E840FD
+000C7302C8FE09804D7C28E06F41870EFF13527FEC3F3EFD4CFE7343FCC27CF309C38FCE70EF33
+2733034BC4042303BC04CF00F020000C4317337003037AE3CCBAC0B008C7B94903020EBF8CB373
+BFF0400C3F0273C5ED4070CF3C9DC7BC02F1FF33BFFC383C800300D000020133CC5C83C0D2F6C0
+3FAB0B01488C0131C30C27073C7F33B310C843304FFFF000F3500C40040CFD73F8000203334DEC
+1FE00733432C047F0B2CFF1C00FF800C00C3B017A33DC0B3000BC10430FFFCC8B930002EF03020
+3B4CFC13C092F0EFBF0C0FC2FC30F3B0C6FC02333C00033300006C87F0DCB37F0307F45D04B24C
+F3540FF041003002C2003227300B0C025DFC2003C019737C0D0207BC06208C0F3C42E401F0CB8B
+0FFF20023001CFC03CAEC2C022F0377C004C8FC82392CF090C703301CBC3ACC13C025D2B20C1C8
+28C32480890AFCB3C8DCCAC4F020EC047D330ABF34D2F3AC229CE00370CC8CB13C7F8DC01D3B28
+9FFADC02BE2FD0BC70FFA30C00430301008080CB78944FC002E80C883037F38C103F8129F3E642
+22F40F8B992FE91763B69F27CD44E0E4A2D380ADA1EF6D6F00271189EAF031B6E212CEBF737DCA
+A03C8B00F23C967CF180A2F294EDAC779AACED8EB3BC177ACC5EFBF39CF33C39CD9FE32C0B4F0C
+383005C3CC44308FBEC03093A4A0271BC9400C2C7809332B180C4DDC8C77CCC02C93047130F30C
+A7F2DBCA4C0B1C3FFCFF1EFC314CC3F3C397AF24C02C3905BFECB6B20B0B98C7E47A9DAA543AD0
+1AF084D17FD06E0CC2AF63D5FFA9C33BA3E3B0CB04C3E9D3B50CCC02E40DFFB5113C29CC9F0FAC
+0931E74E32F70CAEF42D17C97CD70B58B9E83EB212CC07C0FF3E38036E0AF42D7FF68CCF7F9234
+0C9C488A0F2743EB22736FF1118EAF0BBD0B47CF5F333BB383CC8C60030072570CBE001241C1DC
+C0FC7E837C3CC10C2CE0E34B6B2300221B2C732B1FC07310A8FCF93502F0BCE0D124933251E0F4
+B2948AC02C03C4CBF80'H } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        gene {
+                          locus "cox1" } ,
+                      location
+                        int {
+                          from 3 ,
+                          to 1589 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_1" ,
+                      location
+                        int {
+                          from 3 ,
+                          to 1589 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp6" } ,
+                      location
+                        int {
+                          from 2153 ,
+                          to 3025 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_2" ,
+                      location
+                        int {
+                          from 2243 ,
+                          to 3016 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad2" } ,
+                      location
+                        int {
+                          from 3524 ,
+                          to 5212 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_3" ,
+                      location
+                        int {
+                          from 3524 ,
+                          to 5212 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4L" } ,
+                      location
+                        int {
+                          from 5790 ,
+                          to 6080 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_4" ,
+                      location
+                        int {
+                          from 5808 ,
+                          to 6080 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad5" } ,
+                      location
+                        int {
+                          from 6080 ,
+                          to 8059 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_5" ,
+                      location
+                        int {
+                          from 6080 ,
+                          to 8059 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad1" } ,
+                      location
+                        int {
+                          from 8456 ,
+                          to 9565 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_6" ,
+                      location
+                        int {
+                          from 8456 ,
+                          to 9565 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4" } ,
+                      location
+                        int {
+                          from 9734 ,
+                          to 11206 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_7" ,
+                      location
+                        int {
+                          from 9734 ,
+                          to 11206 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrnS" } ,
+                      location
+                        int {
+                          from 11578 ,
+                          to 13088 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "small ribosomal RNA subunit RNA" } ,
+                      location
+                        int {
+                          from 11578 ,
+                          to 13088 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnY-gua" } ,
+                      location
+                        int {
+                          from 13393 ,
+                          to 13477 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 89 } } ,
+                      comment "anticodon:gua" ,
+                      location
+                        int {
+                          from 13393 ,
+                          to 13477 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnN-guu" } ,
+                      location
+                        int {
+                          from 13480 ,
+                          to 13550 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 78 } } ,
+                      comment "anticodon:guu" ,
+                      location
+                        int {
+                          from 13480 ,
+                          to 13550 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox3" } ,
+                      location
+                        int {
+                          from 13743 ,
+                          to 14543 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_8" ,
+                      location
+                        int {
+                          from 13743 ,
+                          to 14540 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnK-uuu" } ,
+                      location
+                        int {
+                          from 14866 ,
+                          to 14938 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 75 } } ,
+                      comment "anticodon:uuu" ,
+                      location
+                        int {
+                          from 14866 ,
+                          to 14938 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnG-ucc" } ,
+                      location
+                        int {
+                          from 14942 ,
+                          to 15012 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 71 } } ,
+                      comment "anticodon:ucc" ,
+                      location
+                        int {
+                          from 14942 ,
+                          to 15012 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnD-guc" } ,
+                      location
+                        int {
+                          from 15018 ,
+                          to 15090 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 68 } } ,
+                      comment "anticodon:guc" ,
+                      location
+                        int {
+                          from 15018 ,
+                          to 15090 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnW-uca" } ,
+                      location
+                        int {
+                          from 15210 ,
+                          to 15280 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 87 } } ,
+                      comment "anticodon:uca" ,
+                      location
+                        int {
+                          from 15210 ,
+                          to 15280 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnI-gau" } ,
+                      location
+                        int {
+                          from 15289 ,
+                          to 15360 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 73 } } ,
+                      comment "anticodon:gau" ,
+                      location
+                        int {
+                          from 15289 ,
+                          to 15360 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnS-uga" } ,
+                      location
+                        int {
+                          from 15373 ,
+                          to 15460 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 83 } } ,
+                      comment "anticodon:uga" ,
+                      location
+                        int {
+                          from 15373 ,
+                          to 15460 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-ucu" } ,
+                      location
+                        int {
+                          from 15476 ,
+                          to 15546 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:ucu" ,
+                      location
+                        int {
+                          from 15476 ,
+                          to 15546 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnA-ugc" } ,
+                      location
+                        int {
+                          from 15709 ,
+                          to 15780 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 65 } } ,
+                      comment "anticodon:ugc" ,
+                      location
+                        int {
+                          from 15709 ,
+                          to 15780 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnF-gaa" } ,
+                      location
+                        int {
+                          from 15788 ,
+                          to 15860 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 70 } } ,
+                      comment "anticodon:gaa" ,
+                      location
+                        int {
+                          from 15788 ,
+                          to 15860 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnQ-uug" } ,
+                      location
+                        int {
+                          from 15955 ,
+                          to 16027 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 81 } } ,
+                      comment "anticodon:uug" ,
+                      location
+                        int {
+                          from 15955 ,
+                          to 16027 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnH-gug" } ,
+                      location
+                        int {
+                          from 16030 ,
+                          to 16102 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 72 } } ,
+                      comment "anticodon:gug" ,
+                      location
+                        int {
+                          from 16030 ,
+                          to 16102 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-cau" } ,
+                      location
+                        int {
+                          from 16112 ,
+                          to 16184 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      comment "anticodon:cau; tRNA-Met2" ,
+                      location
+                        int {
+                          from 16112 ,
+                          to 16184 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad6" } ,
+                      location
+                        int {
+                          from 16311 ,
+                          to 16970 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_9" ,
+                      location
+                        int {
+                          from 16311 ,
+                          to 16970 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cob" } ,
+                      location
+                        int {
+                          from 17449 ,
+                          to 18658 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 18628 ,
+                                  to 18630 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "graphisMT" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      except TRUE ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_10" ,
+                      location
+                        int {
+                          from 17449 ,
+                          to 18630 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } ,
+                      except-text "stop codon not determined" } ,
+                    {
+                      data
+                        gene {
+                          locus "cox2" } ,
+                      location
+                        int {
+                          from 18694 ,
+                          to 19443 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_11" ,
+                      location
+                        int {
+                          from 18694 ,
+                          to 19443 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnC-gca" } ,
+                      location
+                        int {
+                          from 19491 ,
+                          to 19561 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 67 } } ,
+                      comment "anticodon:gca" ,
+                      location
+                        int {
+                          from 19491 ,
+                          to 19561 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrnl" } ,
+                      location
+                        int {
+                          from 19855 ,
+                          to 23926 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "large ribosomal RNA subunit RNA" } ,
+                      location
+                        mix {
+                          int {
+                            from 19855 ,
+                            to 20934 ,
+                            strand plus ,
+                            id
+                              local
+                                str "graphisMT" } ,
+                          int {
+                            from 21028 ,
+                            to 21686 ,
+                            strand plus ,
+                            id
+                              local
+                                str "graphisMT" } ,
+                          int {
+                            from 23643 ,
+                            to 23926 ,
+                            strand plus ,
+                            id
+                              local
+                                str "graphisMT" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "rps3" } ,
+                      location
+                        int {
+                          from 22288 ,
+                          to 23541 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_12" ,
+                      location
+                        int {
+                          from 22288 ,
+                          to 23541 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnT-ugu" } ,
+                      location
+                        int {
+                          from 24198 ,
+                          to 24268 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 84 } } ,
+                      comment "anticodon:ugu" ,
+                      location
+                        int {
+                          from 24198 ,
+                          to 24268 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnE-uuc" } ,
+                      location
+                        int {
+                          from 24272 ,
+                          to 24343 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 69 } } ,
+                      comment "anticodon:uuc" ,
+                      location
+                        int {
+                          from 24272 ,
+                          to 24343 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnL-uua" } ,
+                      location
+                        int {
+                          from 24500 ,
+                          to 24581 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 } } ,
+                      comment "anticodon:uua" ,
+                      location
+                        int {
+                          from 24500 ,
+                          to 24581 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnV-uac" } ,
+                      location
+                        int {
+                          from 24610 ,
+                          to 24682 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 86 } } ,
+                      comment "anticodon:uac" ,
+                      location
+                        int {
+                          from 24610 ,
+                          to 24682 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_13" ,
+                      location
+                        int {
+                          from 3119 ,
+                          to 3265 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp8" } ,
+                      location
+                        int {
+                          from 3119 ,
+                          to 3265 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_14" ,
+                      location
+                        int {
+                          from 1785 ,
+                          to 2009 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp9" } ,
+                      location
+                        int {
+                          from 1785 ,
+                          to 2009 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "graphisMT_15" ,
+                      location
+                        int {
+                          from 5212 ,
+                          to 5589 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad3" } ,
+                      location
+                        int {
+                          from 5212 ,
+                          to 5589 ,
+                          strand plus ,
+                          id
+                            local
+                              str "graphisMT" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_1" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 528 ,
+              seq-data
+                ncbieaa "MWVERWLCSSNAKDIGTLYLIFALFSGLIGTAFSVLIRLELSAPGVQFIADNQ
+LYNSIVTAHAIVMIFFMVMPAMIGGFGNFLLPLLVGGPDMAYPRLNNISFWLLPPSLILFLFASGIENGAGTGWTLYP
+PLSGIQSHSGPSVDLAIFALHLSGISSLLGAINFITTILNMRSPGIRLHKLALFGWAVVVTAVLLLLSLPVLASAITM
+VLTDRNFNTSFFEVAGGGDPILYQHLFWFFGHPEVYILIIPGFGIISTTISASSNKTVFGYLGMVYAMMSIGVLGFVV
+WSHHMYTVGLDVDTRAYFTAATLIIAVPTGIKIFSWLATCYGGSLLLTSSMLFALGFVFMFTIGGLSGVVLANASLDI
+SFHDTYYVVAHFHYVLSMGAVFALYSAWYFWVPKILGLNYNQFLSKVHFWILFIGVNLTFFPQHFLGLQGMPRRISDY
+PDAFAGWNLISSLGSIISVIATVLFLQVVYSQLVEGVTTSRYPWSIPGFNTDSLRLLSMRAYSSLEWALNSPPKAHAF
+VSLPLQS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit I" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 527 ,
+                          id
+                            local
+                              str "graphisMT_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_2" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 257 ,
+              seq-data
+                ncbieaa "MQKNIINICSPLDQFEIRNLISLDAPILSLYVSITNIGLYLSLGVFVILTLNL
+VATNNNKILSNKWSLVQETIYATIHSIVINQINSNKGQMYFPFIYSLFLFILINNLIGMIPYSFASTSHFVLAFSISF
+TVVLGATFLGFSKHGLKFFSLFVPAGCPLGLLPLLVLIEFISYLARNVSLGLRLSANILSGHMLLNILAGFCYNIMTS
+GFIFLFVGLIPLAFIIAFSGLELGIAFIQAQVFVVLTSSYIKDALDLH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 256 ,
+                          id
+                            local
+                              str "graphisMT_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_3" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 562 ,
+              seq-data
+                ncbieaa "MCTVLIVHLVLLLSSNATASKRDISIYFSRTLLFIVFNALLLSLSSLNILALN
+KGLGIYNGLFNSTPISNTFHIFIFFISFIILLITSFYPRKVWSTENLSPKTFLLNTYIFNTKLLNKMADHNKILEYPL
+ILLFVITGATLLVSSGDIISIFLSIELQSYGLYLVASVYRDSELSTSAGLTYFLLGGLSSCFILLGTGLLYANSGVTN
+LDGFYLITSVSEMKEKVLNLISVYDGTYINYSLLIMSTGFLFKVSAAPFHFWSPDVYDAVPTIVTTFVANIPKISIFV
+FLLEIVHYTSNYFSLFNFNWTITLLISSLLSLIIGTVLGLNQSRIKRLLAYSTISHLGFILLALSINSIESIQAFIFY
+MMQYSISNVNVFVIIISIGYSLYIYTNSNKEYKSLPEKHNSPLQLINQLKGYFFINPTIAISLIIVIYSFVGIPPLTG
+FFGKQMVLSSALDKGYTFLALVAILTSVISAVYYLNIVKELCFYKGDYKLNKDLENKSLNSFIIKKSTKTKIPYGWKN
+ISLSANLSLSISILTLIILLFMLSPNEWLRVANILAILMFN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 2" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 561 ,
+                          id
+                            local
+                              str "graphisMT_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_4" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 90 ,
+              seq-data
+                ncbieaa "MMNLSLILFLIGTLGFVLNRKNIILMLISIEIMLLAITFLILVSSLSYDDILG
+QVYAIYIITIAGAESAIGLGILVAFYRLRGSIAIEYK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4L" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 89 ,
+                          id
+                            local
+                              str "graphisMT_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_5" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 659 ,
+              seq-data
+                ncbieaa "MYLAIIILPLLGSIISGFFGRKVGTSGSQIITCTLVIITTLLAIIAFAEVGLN
+NISVHLNLFKWIDSESLNILWGFNFDSLTVSMLLPVLIVSSLVHIYSIGYMSHDPHNQRFFSYLSLFTFMMIILVTAN
+NYLLMFVGWEGVGICSYLLVSFWFTRIAANQSSISAMLTNRVGDCLLTIGMFTILWSFGNIDYSTVFSLAPFINENII
+TIIGICLLIGAMAKSSQLGLHVWLPMAMEGPTPVSALIHAATMVTAGVYLLMRSSPLIEYSSTVLILCLWLGAVTTVF
+SSLIGLFQQDIKKVIAYSTMSQLGLMVIAVGLSSYNIALFHLVNHAFYKALLFLGAGAVIHAVFDNQDFRRYGGLKQF
+LPLTYSVMLIASLSLVAFPYMTGFYSKDFILESSYGQLLLSGIAVYFIAVIGAMFTTLYSIKVLYLTFIANPNGPLLN
+YKSAHEGNIFMSLPLIVLAVFSVFFGYITKDIFIGLGSSFFSDNSLFIHPMNEIMLNTEFAVTIYYKLLPLLLTIFLS
+TLSLVISEYIPNTLISFKFSKFGYNVFSFFNQRFLLELIYNKYITNLLLNIGGQTTKLLDKGSIELIGPYGLEKALST
+LSVSLSKLDTGLVTTYALYILLGIIFNLALPYLSFNDNLLLPLLLIIVFININKAKNIKK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 5" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 658 ,
+                          id
+                            local
+                              str "graphisMT_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_6" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 369 ,
+              seq-data
+                ncbieaa "MTYIQTLIPIVEVLVLIVPILLIVAFITIAERKTMASMQRRLGPNAVGYYGLL
+QAFADALKLLLKEYVSPTQSNIILFFLGPILTLVFSLLGYAVIPFGPGMAISNMDLGILYMLAVSSLATYGILLAGWS
+ANSKYAFLGSLRSTAQLISYELILTSAILLVVLLTGSLNITVNIESQRAVWFIVPLLPIFIVFFIGSIAETNRAPFDL
+AEAESELVSGFMTEHSAVIFVFFFLAEYASIVLICILTSVLFLGGYLPVDTTILSNIGDYSQAAYLNIPIDDYLLVNR
+INPAVTESYPTLDGSSYNLSLGLKTCFMIFIFIWARASFPRIRYDQLMSYCWTILLPIVIAYIVFIPCVLYSFDIISV
+NISL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 1" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 368 ,
+                          id
+                            local
+                              str "graphisMT_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_7" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 490 ,
+              seq-data
+                ncbieaa "MTLLLLLLIPLTGVFLVSTITSYEDSLIKIKRIKMIGLVTSIINFILSLFIFI
+IFDFSTNQFQFVQEHHEINVFDLYLGIDGLSIYFVLLTTIIMPISLLSNWTSITEYIKYFVIIILLLEALLLAVFLVL
+DFFLFYVFFESILPPLFILIGLYGSSNKIRASFYLFLYTLLGSLFLLLSILSIWSIMGTTDFDALYKTNFNYNTQLFI
+FYGIFIAFAVKTPTIFLNTWLLKAHVESPLSGSIILAGIVLKLSLYGILRLILPMIPKASINYTYIVFVIGVVTIIYA
+SLSTLRTIDIKELIAYSSVSHAAVYLLGVFSNNVQGIEGGIVLGLAHGFVSSGLFICAGGVLYDRCSSRLITFYRGIA
+QVMPIFSIIFFILCLGNCGVPLTLNFIGEFMSLYGVYERLPLLGVFASSSIILSAAYTIYMFNRIAFGGSYFKRNIAS
+VSDLNRRELYMLITLVMFTVVFGIYPSPILDGLHYNVACLVYNSSFF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 489 ,
+                          id
+                            local
+                              str "graphisMT_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_8" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 265 ,
+              seq-data
+                ncbieaa "MRSNFQAHPFHLVSPSPWPINTSGSLLSLTTALVLSIHGFIYAIYFLIFALTS
+LIVSMSLWFRDVISEGTYLGNHTLAVQRGLNMGVGLFIVSEALFFLGIFWAYFHSGLSPTVEMGAHWPPMGIQAINPF
+ELPLLNTIILLSSGVFVTYAHHSVIQGNRAGALFGTLYTVILAIIFTVLQGVEYTVSSFTISDGTFGSCFYFGTGFHG
+LHVMIGTAFICVGLWRILAYHSTDNHHLGLESSILYWHFVDVVWLFLYISVYYWGS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit III" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 264 ,
+                          id
+                            local
+                              str "graphisMT_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_9" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 219 ,
+              seq-data
+                ncbieaa "MTSMFNYLTTTIVTIGYSTLTLYFLSLLAIVSAVFVIVSKNPVVSVLFLIGLF
+FFIAFFLILIDVDFIGISYILVYVGAVSILFLFILMLINIRVSELLSNSENSILLLSLVGLFFIGTVSPIIPNEFSKF
+LEIFSNTIYYVSNNSWETNVSAISNISSLGNIMYTSYSILLLIASLILLLAMVGAIVITIKPKNLYGEVNSATFLRSD
+IWSVIILIRP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 218 ,
+                          id
+                            local
+                              str "graphisMT_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_10" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 393 ,
+              seq-data
+                ncbieaa "MRIFKSHPLLKLVNSYLIDSPQPSNLSYLWNFGSLLAFCLGIQIITGVTLAMH
+YNPSVLEAFNSVEHIMRDVNNGWLIRYLHSNTASAFFFLVYLHIGRGLYYGSYKAPRTLVWTIGTVIFILMMATAFLG
+YVLPYGQMSLWGATVITNLMSAIPWVGQDIVEFIWGGFSVNNATLNRFFALHFVLPFVLAALAIMHLIALHDSAGSGN
+PVGVSGNYDRLPFAPYFIFKDLITIFLFILLLSIFVFFMPNILGDSENYVMANPMQTPPAIVPEWYLLPFYAILRSIP
+NKLLGVIAMFSAILILLAMPFTDLSRSRGIQFRPLSKIAFYVFIANFLILMQLGAKHVESPYIEFGQISTVLYFAHFL
+IIVPFISLLENSLIELPEVEQDETVFSN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome b" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 392 ,
+                          id
+                            local
+                              str "graphisMT_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_11" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 249 ,
+              seq-data
+                ncbieaa "MFGYNQSKNYCDTPRPWGLYFQDSATPQMEGIVELHDNILFYLVIILFAVGWI
+LFSIVRTYTNTLSPISHKYLNHGTLIELIWTITPALILILIAFPSFKLLYLMDEISDPAMSVLAEGHQWYWSYQYPDF
+LNSDEDFIEFDSYLVPESDLEEGTLRMLEVDNRVILPELTHVRFIVTAADVIHSFACPSLGIKCDAYPGRLNQVSVLV
+NREGTFYGQCSEICGILHSSMPIVIESVSIEKFLAWLEEQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit II" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 248 ,
+                          id
+                            local
+                              str "graphisMT_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_12" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 417 ,
+              seq-data
+                ncbieaa "MLNILKLKKKNTIPISKNKSGDYSGKVKDTVPANKEWFDSIYVFNKNNLKLLP
+VQTNIISSTVKSYFYMFFNELEKIKSKKKKHIIPRIKSVRKIWVSKPEIKHTNNKLTITLYVYNRQYNIFFKKLSKIQ
+KQIFPIWKKRNISSVTLKTISIVNTLSSILLKILKNKNNVNLDILKYKKVNNNNFFIECIKKVLNKEMSYLTLKQLML
+FNKFKFNNYVIRLKDILKKIYKKNVDFNLVSLNNFHLNSSILSQILTTKIKSKKNRAIKVIKASLRKIKTPILNQRTV
+KREDKLLQVQNLIVSNFLEKDKNYLKLGVSKRVKSLKNIDLEDAVLSNTKYKLVNGITLKASGRITRRIIAERARFSI
+RSIGTLKNVNTSYKGLSSVMVRGYEKSNIDSTLLWSKTHVGAFGLKGWVSSY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ribosomal protein subunit 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 416 ,
+                          id
+                            local
+                              str "graphisMT_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_13" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 48 ,
+              seq-data
+                ncbieaa "MPQLVPFFFINEVLFTFVLLILIIYMFTKYILPKFIRLFTTRVLLKKL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATPase subunit 8" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 47 ,
+                          id
+                            local
+                              str "graphisMT_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_14" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 74 ,
+              seq-data
+                ncbieaa "MVQAAKIIGTGLATTGLIGAGVGIGVVFGALIIGVSRNPSLRGQLFAYAILGF
+AFAEATGLFALMMAFLLLYVA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATPase subunit 9" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 73 ,
+                          id
+                            local
+                              str "graphisMT_14" } } } } } } ,
+          seq {
+            id {
+              local
+                str "graphisMT_15" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 125 ,
+              seq-data
+                ncbieaa "MTSMTFYIVFIPVLAFVLLAINFLFAPHSPYQEKGSTFECGFHSFLGQNRTQF
+SISFFIFALLFLLFDLEILLVYPYVVTAYVNGIFGLIVMEIFFLVLTLGFAFELGKNALNIDSRQVSVNATS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 124 ,
+                          id
+                            local
+                              str "graphisMT_15" } } } } } } } } } }

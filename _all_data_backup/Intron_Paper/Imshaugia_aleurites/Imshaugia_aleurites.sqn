@@ -1,0 +1,1978 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Nair" ,
+            first "Surabhi" ,
+            initials "S." } ,
+        affil
+          std {
+            affil "University of Colorado, Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            country "USA" ,
+            street "Ramaely N122" ,
+            email "subirnair@gmail.com" ,
+            postal-code "80309-0334" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Nair" ,
+                  first "Surabhi" ,
+                  initials "S." } } ,
+            {
+              name
+                name {
+                  last "Kane" ,
+                  first "Nolan" ,
+                  initials "N.C." } } ,
+            {
+              name
+                name {
+                  last "Keepers" ,
+                  first "Kyle" ,
+                  initials "K.G." } } ,
+            {
+              name
+                name {
+                  last "Pogoda" ,
+                  first "Cloe" ,
+                  initials "C.S." } } ,
+            {
+              name
+                name {
+                  last "Lendemer" ,
+                  first "James" ,
+                  initials "J.C." } } ,
+            {
+              name
+                name {
+                  last "Tripp" ,
+                  first "Erin" ,
+                  initials "E.A." } } } ,
+        affil
+          std {
+            affil "University of Colorado, Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            country "USA" ,
+            street "Ramaely N122" ,
+            postal-code "80309-0334" } } ,
+      date
+        std {
+          year 2016 ,
+          month 12 ,
+          day 6 } } ,
+    hup TRUE ,
+    reldate
+      std {
+        year 2017 ,
+        month 8 ,
+        day 31 } ,
+    subtype new ,
+    tool "Sequin 15.10 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            genome mitochondrion ,
+            org {
+              taxname "Imshaugia aleurites" ,
+              orgname {
+                mod {
+                  {
+                    subtype specimen-voucher ,
+                    subname "New York Botanical Gardens:Lendemer:46246" } } ,
+                mgcode 4 } } ,
+            subtype {
+              {
+                subtype collection-date ,
+                name "17-Jan-2016" } ,
+              {
+                subtype collected-by ,
+                name "James Lendemer" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Nair" ,
+                            first "Surabhi" ,
+                            initials "S." } } ,
+                      {
+                        name
+                          name {
+                            last "Kane" ,
+                            first "Nolan" ,
+                            initials "N.C." } } ,
+                      {
+                        name
+                          name {
+                            last "Keepers" ,
+                            first "Kyle" ,
+                            initials "K.G." } } ,
+                      {
+                        name
+                          name {
+                            last "Pogoda" ,
+                            first "Cloe" ,
+                            initials "C.S." } } ,
+                      {
+                        name
+                          name {
+                            last "Lendemer" ,
+                            first "James" ,
+                            initials "J.C." } } ,
+                      {
+                        name
+                          name {
+                            last "Tripp" ,
+                            first "Erin" ,
+                            initials "E.A." } } } ,
+                  affil
+                    std {
+                      affil "University of Colorado, Boulder" ,
+                      div "Ecology and Evolutionary Biology" ,
+                      city "Boulder" ,
+                      sub "CO" ,
+                      country "USA" ,
+                      street "Ramaely N122" ,
+                      postal-code "80309-0334" } } ,
+                title "Annotated complete mitochondrial genome of the
+ lichenized fungus Imshaugia aleurites" } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 23 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2018 } } } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "I_aleurites_mt" } ,
+            descr {
+              title "Imshaugia aleurites mitochondrial genome, complete" ,
+              molinfo {
+                biomol genomic ,
+                completeness complete } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Assembly-Data-END##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "SPAdes v. 3.9" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 12 ,
+                  day 6 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 32029 ,
+              topology circular ,
+              seq-data
+                ncbi2na 'F000C7CE0BF790F0CE00303C44C0400C0337F387222B8FFFD340E
+4023328BFEC5F3FF9FCF34AFC36B125FF7B3C348FA2734A14AEF4BF3248434BCC432CC3049D39C
+CBCE33FFCEB4E52438CA29FEB0FFF3C53CF2CAAB5233A4FD721F0C33CBFFAF1C3142CCB1CFFCFE
+72EB3E00EA9EB1EBE077715D77F7A0C40B4CBA172EC85C94FF67F137F4ACC2CBFBCA27381FCC10
+437C0CE20B5EB3C871303E93CFEBE25BEF3C696F71FF3CDDC5EFF27AEB3C438CF078C807D044DF
+FFE0924AEBAE35CCF3341377DE3FFEB4578AFCCCF0C314AFDAEC3CB1073779C9D03089BFFAF3F2
+A3ACCE538ED4FAECF2BFEEBF82D34CECCBBEBF23B631D99F3F4496513C3CC9EF5C7ACF00CF4BEB
+C9C4EF3AE8D3F41C117FCE7FF9BCABFBBD3BF1ECA2AF0BA2FBFC9C1974723326FD1845CF3BEE9D
+1F53C6FF0B3A89EEFE4F312E6E33F7831700CF2BB21C412B4E2B0264FDE0CF3F32AB83BC4FFD5D
+24FFF2B710A0E51B60C2E3CD48E5FE7AF80FCB8B2FFAF434C2EC3E71F8FBFF3133CC6F43CB22AC
+09C4D08CD4E3C1174BDCF38CCF10111F0D22CF41D3C838AFC04B5170174E7FEE27C5FC40BAFCFC
+2FF53C803F0DF0F8F44FD5FFF3F732F3EBBEBFB3CA9C4AFDF399F4E4F3F0DFB8F13CECBB043CC9
+43700A4043E3FBEBCC3CC882C83B0CCEBAD1512AC59B1373F1FF3FC3F8C3CCB33FF3C7CD430330
+B8CB3D28AA6B75CF072EFCEC36CC4FCD535F8CFF22F5C03BCAAE808CA25F3CFCF8000F3038CA8D
+27882AD73084CE930F05C001131FCCA930255C07055324DFC705FE7F339F25F30D380C320BA5CF
+E4BE3CF2338B03F3FFBFD0C0C394298C33B4075FE131336C9F7CC00CCAEFFCDC80C00EFDDC30C3
+03370C0EDFBFE3FF0DC0310CB7C3C5F10BCFCE50131BB3FFFF5FBBBCE94F0CFF0FF6CBCEFD3133
+B24301CCC09C464333856FF3CCC000A8FB7AC0FCFDFFF7FFC38C30FF3CF3E317F0CAEEFDF33B12
+03B16C30073071C64EF0E4BF68F80432107C2DCF9FC404DCCEC7F3FBF7F0F33DABECE3FCB0C343
+F4BFB9083146030BCFF0FFC7CA2E8E9737333FEFF1F12430C397374F3ED03E04D4CD130DC004CD
+C3053FEF3C88479CF34BBFF2E7233FCF3DCCCFFF80B31C557F3D33E3E8D3FA772C10AC2A42FFCF
+CFFCCC47FCAF5F3F73CF353EF10EDF4304A071E3FE39FCCC0103FC3CF31D277FF3F3AB3FF327FE
+6BC01171CDFFC047E3C7009D1BE0D17F0BACB3CCFA5A0CBBC01C2FCCEB31F67C33E5DC794027CD
+C0FB1FFF0FCFC3EBBCD14FB739493091BC2073E33C081F3E7CF4DEFD139E4BB17CEAEFF490C431
+0ACC82BA0C93CA3C9D3A3FBF7DE873F3FB9EAAECF33848DF71C8F0C173CC8ACC9D03CE5CCFF5BC
+FF3F37EEFCAC3EEBB177C7F01FECAE0F7CD1CCE893F808F1733EAE7F242F5DCF3FFDA79F31CCCC
+EF4120C9FF9E9D33DC0FFF36C04CDE37C301B83FCCFF3C17EBFEFC4B2FF2B3735E55CCF21AFC47
+1D2E107F0FCF5977E63EE21349357F01B32CF3F1FBFBD311C90C03CC07F27097DCF0F3CCCC4BEE
+7F908247408DC0270B27FF3EF17B30FB3C9F3BF7FF77C54B3E7F1F6C2643240382084270CD0C01
+43FCF78FFFF34DFF0E7F5C90B002282C87007001ECC089C01124F2EC3B4E44217EC02BB33F28F0
+EF2D750E7C3334FAC007A903F42021F3C01CC2ECFE09827C7C24F330FCCC08B281BD061C80B893
+E724307FC0D39D24FFC0EFF733C8E39F64294CDF0EC2E7FF35333230013EC423393B30C3CBFCCC
+0403C380085C33FCECFCFFCF3CB0CE8E7FFE7BFDFF93E43E6FC60B000934A00800D048030703BC
+2F0810C40AF3305102F5370DD210F0E000FDC3C4CC104CC40FC7CCC04311F0E430104C5405C3F5
+FBF17E6F002E0D34ADC2C33F3AC9DC784EF0133F0E42B400084311002C0BC8030730F332A21721
+1CD45E40C28BAFC32CCCEECC30C110F0BC7151EC840BC47C072C00BCFF0FFCC9680722000100DD
+86FE6EC22B20AF341C320C70F248922F804C40610AE3EF1CCCEFCC3210000CF3FC100C3CA32590
+C80375F5C360F00C0043C000027C08F03532F00240000CBF80867EBF3FCF40C30A48430C2FC01F
+38841F3F808F3BC52B771B0A039CCCFCDFE12F2CDFF0E0DC0FE0008CDFF17F07AFCB080ADCC300
+0B20FC37EC0FC0337317C12F33FFD231FCBC403C2012000CAF3C22EF8A1F7F3C3BF23E57FBE323
+49FCC6080FCC32002027D00FC02F8C31069C3FCC2FE0310CF0344FF2E373E818DBEF033A35C08F
+733701C223F00DD8FBFDE39E3BF44264202000091D02FC373EC3CD4F3F31C0453FC0353C80C0DE
+C2EB30AF22B26AC8F0721B0C0967235B3F01F2B302B0CC0013A3DF7CC0AFCDC4BDFF08AF3900DC
+3F10CC703C03720C6CFA37FEB700AFAB0B2CBC0C7EBCF33333F0330AFB93C4CC0D04BC1F3FBBE4
+3E6FC60B000C34934C31039364DC3FFF10D364AE1575740320240400E380CB7814DFB80AE8442A
+303054EE304C2F80401F8F384000824D25EF1CF077FC97F3CC9C153FFC3B0C730B7CF3C302C27F
+1C22CCF70FC0FB1DF8FC5CF200000D4C73FB4709C713EB327C039C4CCBF2B2615FF7DCE3C4ECCD
+FFC5C4183B332042250B473D2D0000CFF35BB36C30A3010CFCFCCCCCAF30D30FC7103F3C013F30
+FF10300ECF8C129F341F17F3C7FC0CCC1CC3113700F00E20CFC02D35FCF02FAF074C6D321DD441
+4D0330BFFCE03FEBD1CF25FFBF2C31030F12AB07F24393CC39C3BFC824FC3DAE8933CE223B010E
+AEBC358CFC4F40C493797DF7F32FCDC44CAC8A9CC73A36CC09D7204F2FE0432B12F37F33C38E9C
+493FFA8CED7D5C6940ED3CE2B9C4BCC1C97CE2E5314E2FA108CCB22F4DEABAFD26C043944F0323
+FFE7F13FEFF17FECFA79FC97C393F0F91C463264AF4AC35FEAECD2B0F38C8F14FE55F1FCCFC08F
+C3C73FF3FD3FCB9CD0EFEEF7F39705FF2884B883CEC3A70D43901D55E532C5E2E337FC53FCE731
+F2373D7040F3CAEF3E73BFDE737C3FCF2F397F478DFDC8D48ACC43F017F0902497FFCCFECAC3FF
+C33C3A0F2B9C04EE83753F322FE840CDC4BCDCFD913FFC34CBD7F0C2FCFE00CBF0C8BC9EBCC00C
+0A0C0C18CECC112318D30E834BDF214DDC4FECDD803041EE0DC3001407008BCF30BDB1D7F33797
+4B0CFEB3AF38C1229FF33727CC502FF3E33E5EFC2EF0EFB7902BFC3360CE80F4F3C43B8E75C85F
+8ACCCFD4232E411740E82B32E8BC4E304CFBDCFCBCC33CFEABA8E3C72CD0CBC00731C3122D143F
+44C0CFC2D3AC6F8C89C3781CF11797C33C3FC367FD4DFF0BEF33F0E8E0B898D69CE96EF248AB45
+0EB1E09C50CD78FFF032E38E2FCF83F8F5CDCB9483787C821AE7F083BC82E8C121F3CC5207074E
+F23F36F12B9E1BCD4F7724ED497CACF03B8E7CD7A0AF0142FDEC3AD05B828BBFC6B43BD203FBAC
+FF1324B39732F322DACD4C800FEFDB8F10812C380F0B3BF0CFEFBF3FCFDE3BFC70BCF3750E5F9F
+643343000041CA8EBBC30BCF1C0C202797AFC9CD03B857DD7AC8F0342FFDF30F0CA02C3F3CE742
+7D223FB8CCF1B2F03B7327320C26FCCC00FEFF7F3F1C1E42040030FC47CF300133339FFBDCAEFB
+F3FF3134B5CF7CF2743AC8920C7DC33F2370BD0B7C8CA0FC1FCFCC3312B07C31CF190BF4CC8DC0
+77F22D40E9C09033CF2EFC6C0EF637EFC29C33120E7C093133F479B417CCFF310A133C7C0C00C6
+EF33C0A3EF0C81CA85F2FC1EB30CEE1DF2D35F23ABD0254CADD23FB7233B7E49C7272710CB000C
+00CC302A3BCECC2BEC4BF8F9234CF4E2BD075D8CD5F53E0C1C02A90372FCCCCC3F0C382CC4F37D
+F3C9D0EB224833D70CFC8DC2F42DF23083D2FF9FF2F4CECF3C37F3CC0C322F3FFFF9FB83C00D13
+A4F1B2EFCFB474F35DF9D1FFF103331C30C0CBFF7CFDEF4413CC3EF3EC5E31F64315003C300F72
+FC7DEFFC3F33CF76000BFF0BEBC7FFF7AE033CCE7F34334EF33F1731F337BCC82F30CB07B9433C
+F05BA4CEF1AF92220010E90B390288F2B5C132CA33CEB7BC4A4FE48E5F027DFF00833BF5544425
+0FCBFCFFF7E85CD307F0CFF5FBCA3FDEF314CEB5EB7273348FD8DCA0C7F33BC92FDF7F351F3ACC
+F1C92BE379C3DC0CE4FFCA34F082C795070F2F383E3FC2749CF79FBCCF3CD2B27C27C12F0C480E
+40290DE333EC51CF9533D30FF7F328D4C9201032275FF8FC9629E0D227AF2EBFCE12046492F33F
+BFFF7FF258339CB3EF7CFECFF0424C77FF2BAF3F3C0FF1377DEC7E3C088D8FDCFCCDF0CF3212C0
+CE01FCF77857F0C82838CCEB707FA87C29793CE33FBBD3FA9C89F7FD720C6F38D0F8ED3FEF81CC
+7FC53CB0C9FF30CF1F57B3FCC4BFE014FDC70EFF5DF320CE39E39FFF1F6C064164010021F7C0D3
+33370ED9F03B3040C02D30D20D35C75C4D2F0EF3CB0F94C4C71CC7C0300BC2FFCFCC38301F17F8
+03940100FC17FE23FDCC5F331F00270B30FE4EF1207C4101334FE0CEA7CF02C8CCC139E0C2C7E7
+CF48C42C72CF28920B0BCEC2400642CB8C201C3F3747DC33F91F0BC8B6CEF4C1F30F832C9413CF
+F3F77329FF7CF30FC7DFCCCF0F2EF3C30FDF370CE000FDF107117CFF2CB8C247711713E9380CF3
+1C92C72A9271FF337333333D4D3903CB077A49DBC2CF5FFA54BC02D7F2343F88C20377C2FC8E75
+CDF2705F4CFDFC1C33E87F3F0434793F327F0FF017FC9C40F30C0B0C9C1278D0C2D08B73F39C43
+1124CB0C05030190902840ECFF5FF3739FCFCCFCD70C0C3F8CACEB16C4BFE5D44D13FCFF04FFF3
+CBF47B2CF2890737CAFF4004EB708FFDDFCFEE5E6AFB5DCA9EF1771EB3C320FCFD33F24203BF7F
+2B7C8F249033FC2EB4CEF1F04DF89AFF9F30CF384D28F4FCFFF4CAFC316F25FCF324FF4AFC81CA
+0C9FF3D0910BBFB2CF07DF4CCF02395C8FC4F0000801FFFFD39E39FFF1F6C0E4364129EBE9FF60
+CC9CECB2852322260F333E771F4073C0142ACD495D4ECF1CC3E84D0B2E7CBC027301B3C1394CCF
+B07802E412873C257F6AF630F67EF303D0C4B7F063DE5FF99CF0010C2181A54CA6EC34EFFE1FC3
+E8C2B7E385E8DC1214F2E7D90F5402FCD8C52DD2C7EFEB12F2D75F7DCC3C0ECFFC4C073CF0C013
+041CEFF0C2007F25FD109F08F0C9FE7F3000097CF2B7C4C6C4CC9D7F3B3477317E15FF37F0F23C
+639B33CC3E3245043C32CF70F339441CB17FF3FFC0D0307FE5FCDF1F32C38CCCCFF40313FC50AF
+EC6FCFC3119BFF30703CCB079C112F15FFEFF3F0F3BFFD19F441C3FCF7041FFF43FBBE63E6FC60
+B0009349344BCCC333FFC3F2C78E44CF44AF9B3330FFFD167300F2130418F2C7B8CC4FBF0E71FF
+030324CA82D409F3CAFCE4CEDCF8C2FE4CF3903D392B300B3EB5F2480308ACCFF333B84307003F
+3FED4B72CCBCF03B435C05C97D3F21D1210C128169F3FB352F0321FB2FCF8C010B2F73FF3FEDFF
+FF7F3F34F20C0000C01C72CFD2F60DE010B40E24E6FCCFDCC0037047F0E51FCC330318027FD7F3
+F835790C01C9CC03314793C33315C2CE4A7F3FCF83374FCFAC31FFC034722FD3FD21F80CC00EFE
+248C0F0006DF170C223705C4F3000B007CFFCF8EB0C304080F362F42FECFDCFFF4BE6BE6FC60B0
+00934934C38E01CE1A2ABC72404CCDF13FB71FBC011C4F2CB334C71C432C2331C5F332F8BF8E3A
+7783819ED40E7E1139C36061F675FE898ECBAEC4AE2CC230EC145FA2C28808D5F30C30202F07F6
+77C82FECDDB93ACB2F28F009707273391B2DB8780AF8D8512EA5E0C0953863ED124B8A0CFAD0C9
+7069E05241FA283B3243271F934D3ECF8E3908D873B60C03DCAC83CE30E13EDE5CEEDF8503C6E5
+24B66B0C6C821CBBCF4EFC36BF02AC5C86B03425C408020382A1C3F1C8BC7CE2AACF02C79EBB22
+380F7B4C5DFF4320030E912B329809355F3B8C1E1BE2A1829FEEC98128F23154B2D0248038E0ED
+323C8C0C2FCF730380BB093D45D08B0FE904FA0780D3C85BF78052CB82CEFBF0FE38D640017C51
+0FE0CFCCFFF3EFF7DF20C0CAC300CCFC426F91A7B7D2F0ED9887FAF2F53C0F06C057C7F3FF3322
+CBD56733E8CE304A870842D34E97033EEA7321B944C25F100ABB80F980F89C355401E8CC47043A
+3ECB7B0761E6E03283C72C36ECC2CE91AE0DC3748CAC7051DB4A658082CEE430BDA72EFCFFC3F2
+98FEB72C1F2938EDF6CE6E1FE3EBBC2D80CEBDBB2E80F91A8F0E04F003154BC40A0F0430B0F3EF
+0F5FEC11D43C401231B1FF7CBF7BF0F208CB38FD9485C047C3C3317BF132A0FF3C0CE39FEC1143
+10A0A75BFBEB386AF89EC0743273A7B60AF62D7FDF5C0440B3CC00F1E8EF372F6BCE308A12FCF2
+B3000C0E08005834ACB33838B380CFF191022CC3F06B00CA09F407D03DD2F42D62C77E333BDCFC
+02CC1CF3FBD325FEC9D06B226231EF0CFF8C2EF43D1FC2A7BF1B067CFFFB90F20304E21FFCCF02
+6EF27C3EBC26BBBF694428F30BD8B7CC6671F3100C944EFDD3020030CA271B00300BCECBC0D388
+CC0577107C338F0C9F3E7CC0E01FF1C3AF32A6825F217CCD7E9F533CDAB3FFBCC30B0015CCBB4B
+BEFDC32873DF09324EF3F1CBFCACF07F32B7B4C7CFAFC6FA25BF737CFFCFCCF8EF0C06E20CDE27
+FE1E11CB0CB314F2473C32FBB7FCBCFFB1342C715743F3427F0DE0E0134833FC47E304AFCF0F33
+03A37F770CB2E0F0EFEC1F702DE23ACB7A48041133042CCAC13CECC42F3DCFE9D30C13730C73CF
+273AFAE536F304B004028F21C9F33F3B01CF9BC09F34FC030104B8B9B9CFBC3037221FC3F07AC0
+33B87FC34D3C46AF6055B2B7C04053BC30311F3B330E78E7D3FF3E3FDEF98F93F182C0024D3017
+80B4BEFFE75FFDFDCF9F98EFD109224D002416430C290080CC2A0F2743AC8905BFC446B2BCAEF4
+0D173D7CFBF1C90979EACF6C03D06C01F338407CB0A2C3FD09535FD4DFBF75745FA5CFFC4ECCDD
+FF277C5136AEFF0439327FD7C9128FF7B13A7F1F72C37CDCED3FE3F221BCF2E2904C5CAC34C7F2
+7B1022B7033A8BE5FBF3EF2E093CFFF7A73FFE04FFF4CB93CD159EC80EA274B851702B323DEF0D
+6F60715F1C0C4BCCF3CD34A7F12F1F19514F7F0C4A80C82E897ECEB32C7C7B3CF27F0CFC6AFC42
+BF20CC4BF7D3D13CD612C4CEBDFBF71FE812BF53ADD4EC38CA8797F32BB2BF3822CF27C51FC780
+14537AB722DF731FCF84FFBE3BEFE3C3DFF4FDCFCF3E28DF2F09BBCB33F3DFFF1CC0CCCCC1A532
+BC3AC85BDB7D4063BB963D0BDA7A5B030C23F22F2C1F0CA40A9FDFB620228E5A36C96B7076FCC3
+FF75FC5FE7530C4C800A000288018A003E53EB0A4A33F9C0CFBB0C045E8EF60D37FFD6C2CF003D
+0FF3C000C301DCB2FBA4FBF33FCE8AFFFCECFC0302BD7C1F07AC0B31FF8C22CAF69BD01678A0D3
+71CBB3F3FC220F858BAFC2B8C27E01F3FAF00E344D6F60DA33DDE0B093013344FCF0C33CCFC4C6
+AF2252BEBCA6DD3FABE282EF3BD836C3856333FCF3030C3083CCC3200C8D70330DC4F2CBB038CE
+80B3CFFED3F0FF03840C2CC4088FBCE834C9CCCD0222725E7EBE29C12BE9E01BB0CCC631393E2E
+4EF41DC3080F33B7C00C060B83E0337C707D28020340A23DFC2C3B8380C200B7C042C03A2E4CDE
+FE0402A817D770870338CCCEE32600B16E2A038F80C92DF309274000BF03038C226C5FF930EAD2
+42F0EFE39892CC82FC83C22F9FCC4CF9B230043CE3F0E322CD0A3C85601F2E37C510D283300B58
+1ABCDBEC08CD6083EEB0BCB808431E1C2327AFF79805CCC2CAC3F0320CD20AC483EE374E41CB1D
+1FF5CF0FCA0070C0B9FFE684FAAADB821DCD2E2CFEF768287233833E0C3684CB18C2BECEDC0A80
+49520422F0C2BD403CFBC2E03C2A2CFCD501A52A0CA7C82694FF782176C12247AFFBFC3CFF230C
+28C0245803F068DC043316217ED40CCF0CCFC03F13ECCFEAB26813EA82C2F383FE5FCC293F42A3
+13300A0C0700038BE730ACFFDC30542E30E784E2C18C0AA0C5765C09F3A0FC3C0BC69770BF3CCC
+FC3230343CFCF0C35402AB018E240DC80BF120041BFF932E101BDE802EC07E930A889FECDC5208
+2430B0102C314ED2F416C5C0C71442C242C8B31829BD8B810D3C281DA40F8746C1F6A20AEA5B57
+FE3C3348C2A328A4483AEFB187BF0F0040919E4080C0F60B3EAEE377958E9A7AF368FE7CBE1C33
+09CA7F828155BD0E9A5F1238AB5C2B268315E96F039ADF93838EC18C4127B7438FA76B80FA8C1E
+E48C4BF1772F2188215CE49FC7BE72F160CE330E2FF2ECC2B2FA62300F8045FC7D3F34CF33017C
+D2A0EADCB0E94FDF023F4EF044E247AF90C3F32810F9CAE92FCE6A912354C00B17A8B3503D3F7B
+00F90CE43C0CECCA7FFDCF9AFBFFD39E39FFF1F6C0E43641020004D24042003A5C4EFFF3FF2DE0
+BEBBCFF0CFF3E70F4BCCCD4FC2FA07FFFFF2C23FD1CDF004C8EC3C0FBCD22F13C0C38FFEFBF343
+454037BE7EE01364241000013A40820F3F33FCC8CDEBC0E30F1FC7DD0BF069F0DF9FC7BF87C46D
+FD2D9B09AA4CE34423920280ADFA3CF8009C672A304A70F99488BD03E2E68BFA45D8EDA7C9D351
+383928B4E0ABD87BDB63C289C4627ABC0C6DB884B3AFDCDF72280F20C030A3255FB180A2FAB33C
+173AFC7EFBF37F733C312FF0E78E7FFC7DB0390D90028530EDFF307B8DEC2FC89C2EC41D9C2C73
+87C47A0FF3FF4700C32AC20C0700C8E1B378C028CA4692829C6F2F0E30B9E0E4CCA4601317CA33
+DF0333B2FC31C63FC2D7FF3FF4FF0339CF0FD8BF3773500445B0FC300333878A300128DF0F0CAD
+C2FC083EE3BFF29BCAC70FF307C7030C67CDCCCF9CDCCDFE8FC3330CF05CDDC1C0F22CC397AF24
+C02C3905BFEC36B20B0B98C7E47A9F1FCCFDFFDFFBE7EE3FF8E779FB804D9090400004E9024D08
+300D302C5F1C54C3F2952DB40EBC2130EFF453CC11ABD8F56DEA733AFBFCD0E0C8B34CE710C4EE
+8F8ECB2C1307A74E14B730AB9835FCD64C5A7FF8ECEF13F3C332FFF3FC84C407CCF35013232F00
+440424D40CD33AB3F3FB9FF2FCFCD03314F3C7EEFB9F643013F37FBE63E4FC60B00093097C03EF
+EFCF9024433C223ECCCCCCC0A7326C36B024279D3849D238BBD834F7A5F04F90133FB3AF33CF09
+1440CC2D62E7A0CAC84B981F08F678FC336C06F42DBF7E8C72F2BCA40CC00242641DFFDF9FB8CE
+7F90820013A4EFFFF3CC3F303000E0EFF50FED7CF8F76FB81BD0B6FFC3CC00463B3EC030C3BBC9
+C32CFBCBE7BCD29F3FC7ED2C023408D280AA332FC3EB006DCFF9136F0FEAF61551EDD433C0F0BB
+3FFF30CCCBDC3CC5F0E4CF73CEC0CC2CC41325C209D07AC89A077823BF29EC2F60DF37EA4D4C9C
+C7A333252CC61C3E7CD70CCC184730F313C000AB2E3A0FACC4E0C9F287BF8FD80DF35BD0B68DC5
+F338D0CCF09FC0B8E7F939FE4364000043C8031C7CCF3E793C333BEC870DA42D303FFACFCF3E2E
+F6051D4130AF03CFEFF3DFF38384CFC103030CCAEBCCBD0FAC8907B3BA04B8BD5EF6152ACD457F
+FDF4FF74DFF78F7E8BE4090100348080A000010A008D10C8E24A208F00E0333094A32F41EBC81B
+C3F4E4F083A83D8BF775E9C930F3FFDF370E5F9F64DD7F210800FCC737C3FD301CC8C3F11FB8E7
+F90400044E5D137F011C443CC381F35F0C7FFF0FA0DF28FEFF0328004C33C39F3F432030E7FC94
+D13FF0CFAE2F47C9FE38CCF28407CE5333B0C90C9EB920D673E9F2B3FCB27FF323C22A24C90C83
+3030ECDC94C3EFF1533CAF432FDEBFFFAC802FA2F268912F0D13B337B0C30413F3A410FAFF3E2B
+ABF030CC5ECD2FF3CFCAE9C8F48B47C3B3EE28FC3FE3D7C12FDCEF0C5EC70CBF7DFCB93333D0CA
+F138B4E35D305023FFCBC7C2DCF47FCE38FB1FBC49010FFF3C3BFB2BE20AEFAACEF5CDCF2C2FFE
+3F1C83249C340BD4ED65F7C1C322EAE3E7FF04FAB3BF9CE33A1BFAC3F23CF71ACFF4F255F1303A
+0332F1CD3EB37BF3C3E89CE9C02F740FADF4EFE3C5DF9CE8295C452CDE470F4E49C73AE1E7AEEC
+FCF0E607D55F0C8332F412FF0D7F9F383282CF1C7B3F2F7F0FAFCF524233400AF327C751CE2D0F
+2838EBCF92CADFDF4CC33E5F3F4FCBC34E7F7302A7FCFFCAA4AE7B0C4E7B248C34A1FCA031A2BF
+0C93FF17F0BCF4BCE7CC9F774972C9FD5FF387AFFCF7021F4C7E0DE7CE843F4FFDC9BE7B31DCC9
+0732B9CEFC513CCF4BC2BFCCDC13FF870E50685FC301CCC2244E0AA3B3F3B9F1770C37C92DFF53
+3DFEBCCC1408CEFCCACE9F72FFFF78C32FCF444D7F1380F39C80783F9EF5C773F0BCF17FFDF07B
+C4F0BBEFDDC33CDE2FFC540D1F331FC2F072AEAF10CCFC9FFF0D06FF70F83CFF3042CCF1DBFCF7
+40F28A101C70AFF2302BD0C83CF28533A7C800A7C7C0F0B00170B27C847AEF344D7393ECCFF0FA
+FC37CCCC70C5F3377F008CC2CCFBCECC33DAFCF07B047C211FDDF0EFDC7F27030EFCFF02DCC303
+011FFCE4CF310032B29F825D00004E1DFCF53FCFFCF3CDC396D17F218800DCC733DC880733C3FE
+73BD7BB8F93C009F21337FFC8C0ACCAFCCEAA5FF519C44CF1101FD4CFFCDFFFBCB9CD35C43C2E7
+FF35C801FE2F001CE72FCC4177FFC00FC3338C406F3C308EA1043120C3E0C57F0F33CFCC30CAAB
+1FFF2CD672E332FDCDF7CDCC8BC40BCEBF33F1DD44773201DE07371F792B7C7CFFF3EAABF37DFB
+FCC71CAC42DCF33943DEB10407C8EBCF3B8C16BFB70CCA7383310104CFA3EB3017F33F013377FC
+3CED2CABDF3F08CD65916FD3FF82578EECE39CC5C432C107FEF90C32700CDCC7CDFFCF20F2F4F3
+1CB0FFCFDABF2FF2F81B7A3C77F275FFCDFC30CAC7BBCAFCD12FC830029CFE4CCB10CD1172BFCC
+7FC97C2CF04BF20DCF4A7FFEFF1F0E431D0CD03F039FF3FCF0F24DA3DDFCC57FEC0C0AD77C00D0
+C410FCF232030F55CC41F3EB43C02BCFF0DF0D7B3C9FC2FC94F1FEFF7FEFACC5D77CCABFF64010
+3AC7B79A5F232EBCEFF7C1FC32433C1CBBCC2E7BF3C7CAEC3C040CF7F8E04E0CC0F014217D08C4
+03F02B2CFB3CDCC0634AB0ECA44F49F413C304FB3CD35D7C1CF147DCCF05F04F1CFBF33F1D44A2
+D5C2CE9C33FC91F33EFC35F03B72C433FFFDF3F315FFC9FF33CF253C3F0CFE75D10D4CCE8000C9
+97F8BBA7F2F4F7EAD2048112FCB3F7FFF33F9FCFBF79EFE3F2237CF2FCD7CDFB0B9F31C3AECCEB
+F2F3CEF0DF5FF24F0472BFE7F60F2B00091CFCF8CB2103B70E39F7DFF972CF97CBDB0990C900E0
+02109070C30300F37C90242E708C2F4FDE084AC0013CF42C30EF33F813AC87112CC0960410C2FC
+3CFB3E78CFC3253CC35D19FDFF2FC3C4F9014D24D1333A01DF3033C0713CB0ACEDBBF7EE7E7F7F
+FD3FDD3C39FB3FF4FF9CF99F97FDFD2080803300124D24F00D0C24454CC0CCC3CF29CEC0B3FF07
+FCC74C8DDDFF73E5CF5C70CD5FD41443A485FB381F137FC08C0'H } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        gene {
+                          locus "cox1" } ,
+                      location
+                        int {
+                          from 33 ,
+                          to 1748 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_1" ,
+                      location
+                        int {
+                          from 33 ,
+                          to 1748 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4" } ,
+                      location
+                        int {
+                          from 2679 ,
+                          to 4223 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_2" ,
+                      location
+                        int {
+                          from 2700 ,
+                          to 4223 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cob" } ,
+                      location
+                        int {
+                          from 7527 ,
+                          to 8702 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 8700 ,
+                                  to 8702 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "I_aleurites_mt" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_3" ,
+                      location
+                        int {
+                          from 7527 ,
+                          to 8702 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox2" } ,
+                      location
+                        int {
+                          from 8973 ,
+                          to 9698 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_4" ,
+                      location
+                        int {
+                          from 8973 ,
+                          to 9698 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-ucu" } ,
+                      location
+                        int {
+                          from 10112 ,
+                          to 10182 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:ucu" ,
+                      location
+                        int {
+                          from 10112 ,
+                          to 10182 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnC-gca" } ,
+                      location
+                        int {
+                          from 10571 ,
+                          to 10642 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 67 } } ,
+                      comment "anticodon:gca" ,
+                      location
+                        int {
+                          from 10571 ,
+                          to 10642 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-ccu" } ,
+                      location
+                        int {
+                          from 10711 ,
+                          to 10781 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:ccu" ,
+                      location
+                        int {
+                          from 10711 ,
+                          to 10781 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad1" } ,
+                      location
+                        int {
+                          from 11101 ,
+                          to 12207 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_6" ,
+                      location
+                        int {
+                          from 11119 ,
+                          to 12207 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp6" } ,
+                      location
+                        int {
+                          from 12977 ,
+                          to 13753 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_7" ,
+                      location
+                        int {
+                          from 12977 ,
+                          to 13753 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnW-uca" } ,
+                      location
+                        int {
+                          from 17803 ,
+                          to 17873 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 87 } } ,
+                      comment "anticodon:uca" ,
+                      location
+                        int {
+                          from 17803 ,
+                          to 17873 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnN-guu" } ,
+                      location
+                        int {
+                          from 17915 ,
+                          to 17985 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 78 } } ,
+                      comment "anticodon:guu" ,
+                      location
+                        int {
+                          from 17915 ,
+                          to 17985 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-ucg" } ,
+                      location
+                        int {
+                          from 18044 ,
+                          to 18116 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:ucg" ,
+                      location
+                        int {
+                          from 18044 ,
+                          to 18116 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnK-uuu" } ,
+                      location
+                        int {
+                          from 18959 ,
+                          to 19031 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 75 } } ,
+                      comment "anticodon:uuu" ,
+                      location
+                        int {
+                          from 18959 ,
+                          to 19031 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnV-uac" } ,
+                      location
+                        int {
+                          from 19238 ,
+                          to 19309 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 86 } } ,
+                      comment "anticodon:uac" ,
+                      location
+                        int {
+                          from 19238 ,
+                          to 19309 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox3" } ,
+                      location
+                        int {
+                          from 19371 ,
+                          to 20172 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_8" ,
+                      location
+                        int {
+                          from 19371 ,
+                          to 20171 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnG-ucc" } ,
+                      location
+                        int {
+                          from 20220 ,
+                          to 20290 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 71 } } ,
+                      comment "anticodon:ucc" ,
+                      location
+                        int {
+                          from 20220 ,
+                          to 20290 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnD-guc" } ,
+                      location
+                        int {
+                          from 20305 ,
+                          to 20377 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 68 } } ,
+                      comment "anticodon:guc" ,
+                      location
+                        int {
+                          from 20305 ,
+                          to 20377 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnI-gau" } ,
+                      location
+                        int {
+                          from 20625 ,
+                          to 20696 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 73 } } ,
+                      comment "anticodon:gau" ,
+                      location
+                        int {
+                          from 20625 ,
+                          to 20696 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrnL" } ,
+                      location
+                        int {
+                          from 21049 ,
+                          to 24473 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "large ribosomal RNA subunit RNA" } ,
+                      location
+                        mix {
+                          int {
+                            from 21049 ,
+                            to 23391 ,
+                            strand plus ,
+                            id
+                              local
+                                str "I_aleurites_mt" } ,
+                          int {
+                            from 23749 ,
+                            to 24172 ,
+                            strand plus ,
+                            id
+                              local
+                                str "I_aleurites_mt" } ,
+                          int {
+                            from 24365 ,
+                            to 24473 ,
+                            strand plus ,
+                            id
+                              local
+                                str "I_aleurites_mt" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnT-ugu" } ,
+                      location
+                        int {
+                          from 24742 ,
+                          to 24812 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 84 } } ,
+                      comment "anticodon:ugu" ,
+                      location
+                        int {
+                          from 24742 ,
+                          to 24812 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnE-uuc" } ,
+                      location
+                        int {
+                          from 24945 ,
+                          to 25016 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 69 } } ,
+                      comment "anticodon:uuc" ,
+                      location
+                        int {
+                          from 24945 ,
+                          to 25016 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-cau" } ,
+                      location
+                        int {
+                          from 25424 ,
+                          to 25496 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      comment "anticodon:cau; tRNA-Met2" ,
+                      location
+                        int {
+                          from 25424 ,
+                          to 25496 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnA-ugc" } ,
+                      location
+                        int {
+                          from 25914 ,
+                          to 25985 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 65 } } ,
+                      comment "anticodon:ugc" ,
+                      location
+                        int {
+                          from 25914 ,
+                          to 25985 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnF-gaa" } ,
+                      location
+                        int {
+                          from 26075 ,
+                          to 26147 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 70 } } ,
+                      comment "anticodon:gaa" ,
+                      location
+                        int {
+                          from 26075 ,
+                          to 26147 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnQ-uug" } ,
+                      location
+                        int {
+                          from 26417 ,
+                          to 26489 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 81 } } ,
+                      comment "anticodon:uug" ,
+                      location
+                        int {
+                          from 26417 ,
+                          to 26489 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-cau" } ,
+                      location
+                        int {
+                          from 26754 ,
+                          to 26826 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      comment "anticodon:cau; tRNA-Met2" ,
+                      location
+                        int {
+                          from 26754 ,
+                          to 26826 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4L" } ,
+                      location
+                        int {
+                          from 26964 ,
+                          to 27257 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_9" ,
+                      location
+                        int {
+                          from 26988 ,
+                          to 27257 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad5" } ,
+                      location
+                        int {
+                          from 27257 ,
+                          to 29251 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_10" ,
+                      location
+                        int {
+                          from 27257 ,
+                          to 29251 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad3" } ,
+                      location
+                        int {
+                          from 31042 ,
+                          to 31487 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_11" ,
+                      location
+                        mix {
+                          int {
+                            from 31042 ,
+                            to 31413 ,
+                            strand plus ,
+                            id
+                              local
+                                str "I_aleurites_mt" } ,
+                          int {
+                            from 31467 ,
+                            to 31487 ,
+                            strand plus ,
+                            id
+                              local
+                                str "I_aleurites_mt" } } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_5" ,
+                      location
+                        int {
+                          from 5394 ,
+                          to 6734 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "ORF 18" } ,
+                      location
+                        int {
+                          from 8675 ,
+                          to 9064 ,
+                          strand minus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_12" ,
+                      location
+                        int {
+                          from 8675 ,
+                          to 9064 ,
+                          strand minus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_13" ,
+                      location
+                        int {
+                          from 14510 ,
+                          to 14656 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp8" } ,
+                      location
+                        int {
+                          from 14510 ,
+                          to 14656 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_14" ,
+                      location
+                        int {
+                          from 29335 ,
+                          to 31041 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad2" } ,
+                      location
+                        int {
+                          from 29335 ,
+                          to 31041 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "I_aleurites_mt_15" ,
+                      location
+                        int {
+                          from 18224 ,
+                          to 18871 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad6" } ,
+                      location
+                        int {
+                          from 18224 ,
+                          to 18871 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rps3" } ,
+                      location
+                        int {
+                          from 5394 ,
+                          to 6734 ,
+                          strand plus ,
+                          id
+                            local
+                              str "I_aleurites_mt" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_1" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 571 ,
+              seq-data
+                ncbieaa "MKNKLHINKNKISLWLERWFFSSNAKDIGVLYLIFALLSGLIGTAFSVLIRLE
+LSGPGVQFIADNQLYNSIITAHAIVMIFFMVMPAMIGGFGNFLLPLLVGGPDMAFPRLNNISFWLLIPSIVLFLFASG
+IENGAGTGWTLYPPLSGIQSHSGPSVDLAIFALHLSGISSLLGAMNFITTILNMRSPGIRLHKLALFGWAVVITAVLL
+LLSLPVLAGGITMILTDRNFNTSFFEAAGGGDPILYQHLFWFFGHPEVYILIIPGFGVISTTISASSNKSVFGYLGMV
+YAMMSIGVLGFVVWSHHMYSVGLDVDTRAYFTAATLIIAVPTGIKIFSWLATCYGGSFQLTPFMLFALGFVFMFTVGG
+LSGVVLANASLDIAFHDTYYVVAHFHYVLSMGAVFALYSAWYFWIPKILGVDYNRSWGKAHFWILFIGVNVTFFPQHF
+LGLQGMPRRISDYPDAFAGWNLVSSFGSIISVIATWLFLYILYVQLVEGKATSRYPWLTPQFYYDILQTHLIRVFNSL
+EWGLNSPPKPHAFVSLPLQSGLFKFSIRKFNLNWFTFPFFISIVIGVGLY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit I" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 570 ,
+                          id
+                            local
+                              str "I_aleurites_mt_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_2" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 507 ,
+              seq-data
+                ncbieaa "MIIILLLLIPLIGVFLICTEMYRNKTITTTHVNAVSDWNNRQLKSIALQTSIC
+TLFVSLIIFGLYDFSNNQFQFVQEYHEISYFNFYLGVDGLSIYFVLLTAIIMPISLLSNWTSISHNLKTYLITILLLE
+TLLLSVFLVLDILLFYIFFESILPPLFILIGSFGSSNKVRASFYLFLYTLLGSLFLLLSIVTMSSITGTTDFDALYKT
+NFNYYTQLFLFMGIFIAFAVKTPTIFLNTWLLKAHVESPLSGSIILAGIVLKLSLYGILRLILPLLPKAYLNCTFLIY
+LIGVITIVYASISTLRTIDIKELIAYSSVSHAAVYLMGVFSNTIQGIEGGIALGLAHGFVSSGLFICAGGVLYDRSST
+RLITYYRGIAQIMPIFSVILFILCLGNCGVPLTLNFVGEFLSLYGAFERLPILGALASSSIIFSAAYTIYMFNRIAFA
+GSYSKFFIVNISDLNKREFYILLTLVLFTVVLGIYPAPILDGLHYSVTTLIYSASCDCETSASL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 506 ,
+                          id
+                            local
+                              str "I_aleurites_mt_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_3" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 391 ,
+              seq-data
+                ncbieaa "MRIFKSHPLLKLVNSYVIDSPQPSNISFLWNFGSLLAFCLVIQIITGVTLAMH
+YNANVLEAFNSVEHIMRDVNNGWLIRYLHSNTASAFFFIVYLHIGRGLYYGSYKAPRTLVWTIGTVIFILMMATAFLG
+YVLPYGQMSLWGATVITSLMSAIPWVGQDIVEFIWGGFSVNNATLNRFFALHFVLPFVLAALALMHLIALHDSAGSGN
+PLGVSGNYDRLPFAPYFIFKDLITIFIFILVLSMFVFFMPNLLGDSENYVMANPMQTPPAIVPEWYLLPFYAILRSIP
+NKLLGVIAMFSAILILLVMPFTDLSRSRGIQFKPLSKAAFFIFVGNFLILMELGAKHVESPFIEFGQISTVIYFAHFL
+IIVPLISLFENSLIELAGYKNKGINN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome b" } ,
+                          desc "stop codon not determined" } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 390 ,
+                          id
+                            local
+                              str "I_aleurites_mt_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_4" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 241 ,
+              seq-data
+                ncbieaa "MQCDAPRPWGIYFQDSATPQMEGIVELHDNILFYLVIILFGVGWLLVSIVKNY
+TNTESPISHKYLSHGTLIELIWTITPALILILIAFPSFKLLYLMDEVSDPAMAVLAEGHQWYWSYQYPDFLNSDDEFI
+EFDSYLVPESDLEDGALRMLEVDNRLIIPELTHVRFIVTGADVIHSLACPALGIKCDAYPGRLNQVSVMVNREGVFYG
+QCSEICGILHSSMPIVIESVSIEKFVSWLQEQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit II" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 240 ,
+                          id
+                            local
+                              str "I_aleurites_mt_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_6" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 362 ,
+              seq-data
+                ncbieaa "MLYLPILISVIEVIIVTVPILLTVAYVTVAERKTMASMQRRLGPNIVGYYGLL
+QAFADALKLLLKEYVSPTQANLVLFFLGPIITLIFSLLGFSVIPYGPGLAISDFDLGILYMLAVSSLSTYGILLAGWS
+ANSKYAFLGSLRSTAQLISYELILSSAILLVILLSGSLSLTVNTEMQKAIWYIVPLLPIFIIFFIGSIAETNRAPFDL
+AEAESELVSGFMTEHAAVIFVFFFLAEYASIVLICILTSILFLGGYLLNFTSLLYLIKEIDFYLYLNIIDSKYETLFS
+DPLIEGMIYGLTLGLKACIMIFVFIWARASFPRIRYDQLMSFCWTILLPLVIAFIILLPCILYSFETISTNVFLL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 1" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 361 ,
+                          id
+                            local
+                              str "I_aleurites_mt_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_7" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 258 ,
+              seq-data
+                ncbieaa "MSIPFGPVKSPLDQFEIRNLLSLDAPILANLHISLTNIGLYLTITAFIALILN
+LLATNYNKVIANSWSISQESIYATIHSIVINQINASKGQMYFPFIYALFIFILINNLIGMVPYSFASTSHFILTFFIS
+FTVVLGATILGFQKHGLRFFSLFVPAGCPLGLLPLLVLIEFISYLARNVSLGLRLAANILSGHMLLNILSGFAYNIMT
+SGFIYFFIGLIPLAFIIAFSGLELGIAFIQAQVFVVLTSSYIKDALDLH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 257 ,
+                          id
+                            local
+                              str "I_aleurites_mt_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_8" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 266 ,
+              seq-data
+                ncbieaa "MVRSNFQAHPFHLVSPSPWPIFTCISLLALTTSGVLTMHSFSLAQDFLYMALL
+LVILSMSFWFRDVISEATYLGNHTLAVQRGLNMGVALFIVSEALFFLAIFWTFFHSALSPAVEMGAQWPPKGIDSVNP
+FELPLLNTVILLSSGFTVTYAHHSLIQGNRSGALYGIVLTVLLALIFTGLQGLEYTVSSFTLSDSTYGSCFYFGTGFH
+GLHVMIGTAFIGVGLWRVLAYHFTENHHLGLESSILYWHFVDVVWLILFISIYYWGS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit III" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 265 ,
+                          id
+                            local
+                              str "I_aleurites_mt_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_9" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 89 ,
+              seq-data
+                ncbieaa "MNLSLILFLIGILGFVLNRKNIILMLISIEIMLLAITFLILVSSLSFDDILGQ
+TYAIYVIAIAGAESAIGLGILVAFYRLRGSIAIEYK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4L" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 88 ,
+                          id
+                            local
+                              str "I_aleurites_mt_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_10" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 664 ,
+              seq-data
+                ncbieaa "MYLAIIVLPILGSIVSGFFGRKVGVSGAQLITCISVIITTFMATIGFIEVGLN
+NIPVSVLLFRWLDSESLNVLWGFNFDSLTVSMLIPVLIVSSLVHIYSIGYMSHDPHNQRFFSYLSLFTFMMIVLVTAN
+NFLLMFVGWEGVGVCSYLLVSFWFTRIAANQSSMSAFLTNRVGDCFLTLGMFAMIWTFGNLDYSTVFSLAPYINGNIV
+TIIGICLLIGAMAKSSQIGLHVWLPLAMEGPTPVSALIHAATMVTAGVYLLMRTSPLIEYSSTVLILCLWIGSITTVF
+SSLIGLFQQDIKKVIAYSTMSQLGMMVIAVGLSSYNIALFHLVNHAFYKGLLFLGAGAVIHAVADNQDFRKYGGLIAF
+LPLSYSVMLIASLSLVAFPFMTGFYSKDFILESAYGQFHFSSVAVYSIATIGAMFTTLYSVKVLYLTFLTNANGPLIN
+YIRAHEGDVFMCLPLIILAVFSIFFGYITKDMFIGMASSFFSDNSLFTHPLHEIMLETEFAVPTLFKLLPFFLTVTLS
+VVSLILSEFLPKSLIYFKLTRVGYNIFSFFNQRFLIELFYNKYITRFILKLGGQTTKVLDKGSIELLGPYGLEKGLLK
+LSKNLSSLDTGVITSYALYILIGLILYILIPYISLKDISILLCIIFGLLTVTLKTLSLNVSTLAK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 5" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 663 ,
+                          id
+                            local
+                              str "I_aleurites_mt_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_11" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 130 ,
+              seq-data
+                ncbieaa "MSSTIFFFLFIPFLAFILLAINLIFAPHNPYMEKNSAFECGFSSFLGQNRTQF
+SISFFIFALLFLLFDLEILLVYPYLVSAYTNGVYGLVIMLIFLLALTLGFAFELGKKALFIDSRQMSNDASQATNNK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 129 ,
+                          id
+                            local
+                              str "I_aleurites_mt_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_5" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 446 ,
+              seq-data
+                ncbieaa "MGRPRHYPPANKEWFNSIYVYNNNTIKLLPTVDKVTLKLVKSYFNFYSRKLEK
+KTKSRRLRVRGRRLSTNRILISRAELKHTNDKVIVTIYVYNRQKKYYFNKIIRIAAIENLLPNRIKIKTIKKKSLKIK
+SIVKKQKKIVWKTLGLFYSNNKADNNKFKTYETTYLKDYVTRSLRKEMLYIYLWQLVSFNESKFEKRYLLPLTGLVRK
+VYNKKVEFNLVNLKYLYLNSYIFSDTLVTKLRNRKNRLLRVLRTSLLMFRLPFVDRSALYEEIYNRKRKLQNLKVDNT
+TANFISLKYNIKSHFSDLLERSLLNMDPKDSISKLRDLKSRLFSDADVSQAQERKKSTQSLIYCNYPLFILNTILKSI
+RNKSVSGIRLEVAGRLTRRNKAARSVFKLRYKGNIKNMDSSYKGLSTVLLRGYAKSNLQYTKLKSRIRIGSFGLKGWV
+SSS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Ribosomal protein S3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 445 ,
+                          id
+                            local
+                              str "I_aleurites_mt_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_12" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 129 ,
+              seq-data
+                ncbieaa "MLSCNSTIPSIWGVALSWKYIPQGLGASHCNNEFPYSILKPLQTTLTLKQAIS
+IKLWYKLDIKASVIITIPNITEADIKEYELIITLLVWFLLDSQLLFSRYKCRDGLRTDSIMIVSVLYISLFIPLFL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Hypothetical Protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 128 ,
+                          id
+                            local
+                              str "I_aleurites_mt_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_13" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 48 ,
+              seq-data
+                ncbieaa "MPQLVPFYFLNQITFAFILLIVMIYIFSKYILPRFVRLFNTRVFITKL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 8" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 47 ,
+                          id
+                            local
+                              str "I_aleurites_mt_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_14" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 568 ,
+              seq-data
+                ncbieaa "MTLYSILFLLLSNAVTFRREKSILYSRETILILLCSCVIALKSLDISFLDKGI
+GLYGGLFHATHITQTFHIFIFFVSAIILQLSAFYPRKLWVKNYASLYNLFFKNLIYDTNVINKMGQQYRIIEYPLIIL
+FIIIGGTFLVSASDIVSIFLSIELQSYGLYLLSTLYRNSELSTSAGLTYFLLGGLSSCFILLGTSLLYANSGTTNLDG
+YYVITGLSNIGYEYTNNILDWYKPLYLNISLLIMSVGFLFKISAAPFHFWSPDVYDAIPTIVTTFVAIIAKISILIFL
+LELVHYTSNFYFGFSFSWTSGLLFSSFLSLIIGTVLGLSQFRIKRLFAYSTISHLGFILLALSINSLESIQAFLFYLM
+QYSISNLNAFILLISIGFSLYPFVNKGPLKNQYNNLLDRNNSPIQLIGQLKGYFNLNPVLALSLAITLFSFVGIPPLI
+GFFAKQMVLSAALDSGYVFLTLIAILTSVISAVYYLGVIKQIFFDEHEYKLNQDLQDTKFKGSIVLSINDQGNVGTFS
+FNINNIVLSSSLTITTSILTLTLLLFIFTPQESLSMANILALILFNP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 2" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 567 ,
+                          id
+                            local
+                              str "I_aleurites_mt_14" } } } } } } ,
+          seq {
+            id {
+              local
+                str "I_aleurites_mt_15" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 215 ,
+              seq-data
+                ncbieaa "MINSLLLINETFTNGYRAEALDLISLASILSGIFVIISKNPIVSVLFLIGLFL
+SIACYLLVLGINFIGLSYLLVYVGAVSILFLFILMLINVRISELLTDTSNSIPLALLIVVSFSYFVHQVLPLNLSSFN
+LNETSEYFTLDNRFINYINGSFSNSSELMFVTSKVWDGSLAETTHITSIGNIMYTSYSIWLIITSIILLLAMVGAIVI
+TVKQKD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 214 ,
+                          id
+                            local
+                              str "I_aleurites_mt_15" } } } } } } } } } }

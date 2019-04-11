@@ -1,0 +1,438 @@
+>Feature lcl|Pertusaria_plittiana_mt93709
+6	9488	gene
+			gene	cox1
+6	396	CDS
+1794	2116
+4534	4794
+5876	6010
+9012	9488
+			product	cytochrome c oxidase subunit I
+			transl_except	(pos:9486..9488,aa:TERM)
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_1
+			note	This gene may share a stop codon with nad6
+405	1121	gene
+			gene	LAGLIDADG1
+405	1121	CDS
+			product	probable LAGLIDADG homing endonuclease in cox1 intron
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_2
+			transl_table	4
+1131	1712	gene
+			gene	LAGLIDADG2
+1131	1712	CDS
+			product	probable LAGLIDADG homing endonuclease in cox1 intron
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_3
+			transl_table	4
+3225	3476	gene
+			gene	LAGLIDADG3
+3225	3476	CDS
+			product	probable LAGLIDADG homing endonuclease in cox1 intron
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_4
+			transl_table	4
+5195	5539	gene
+			gene	LAGLIDADG4
+5195	5539	CDS
+			product	probable LAGLIDADG homing endonuclease in cox1 intron
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_5
+			transl_table	4
+6017	6853	gene
+			gene	ORF1
+6017	6853	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_6
+			transl_table	4
+8174	8965	gene
+			gene	LAGLIDADG5
+8174	8965	CDS
+			product	probable LAGLIDADG homing endonuclease in cox1 intron
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_7
+			transl_table	4
+9570	10256	gene
+			gene	nad6
+9570	10256	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_8
+			note	May share stop codon with cox1
+12119	13658	gene
+			gene	rrns
+12119	13658	rRNA
+			product	rrns
+13756	13841	gene
+			gene	trnY-GUA
+13756	13841	tRNA
+			product	tRNA-Tyr
+13777	16131	gene
+			gene	ORF2
+13777	16131	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_9
+			transl_table	4
+17642	17713	gene
+			gene	trnY-UUU
+17642	17713	tRNA
+			product	tRNA-Lys
+18097	18167	gene
+			gene	trnG-UCC
+18097	18167	tRNA
+			product	tRNA-Gly
+18218	18290	gene
+			gene	trnD-GUC
+18218	18290	tRNA
+			product	tRNA-Asp
+18327	18408	gene
+			gene	trnS-GCU
+18327	18408	tRNA
+			product	tRNA-Ser
+18468	18520	gene
+			gene	trnW-UCA
+18468	18520	tRNA
+			product	tRNA-Trp
+24089	24156	gene
+			gene	trnI-GAU
+24089	24156	tRNA
+			product	tRNA-Ile
+24226	24312	gene
+			gene	trnS-UGA
+24226	24312	tRNA
+			product	tRNA-Ser
+24374	24446	gene
+			gene	trnP-UGG
+24374	24446	tRNA
+			product	tRNA-Pro
+24552	34425	gene
+			gene	rrnl
+24552	25201	rRNA
+26623	26693
+28530	30136
+30642	30753
+33923	34425
+			product	rrnl
+25812	26495	gene
+			gene	GIY-YIG1
+25812	26495	CDS
+			product	probable GIY-YIG homing endonuclease in rrnl intron
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_10
+			transl_table	4
+27110	27961	gene
+			gene	GIY-YIG2
+27110	27961	CDS
+			product	probable GIY-YIG homing endonuclease in rrnl intron
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_11
+			transl_table	4
+32311	33726	gene
+			gene	rps3
+32311	33726	CDS
+			product	ribosomal protein subunit 3
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_45
+32419	33726	gene
+			gene	rps3
+32419	33347	CDS
+33450	33726
+			product	ribosomal protein subunit 3
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_12
+			note	Resides within rrnl intron
+			transl_table	4
+34765	34835	gene
+			gene	trnT-UGU
+34765	34835	tRNA
+			product	tRNA-Thr
+34888	34959	gene
+			gene	trnE-UUC
+34888	34959	tRNA
+			product	tRNA-Glu
+35095	35167	gene
+			gene	trnM-CAU
+35095	35167	tRNA
+			product	tRNA-Met
+35571	35642	gene
+			gene	trnA-UGC
+35571	35642	tRNA
+			product	tRNA-Ala
+35704	35777	gene
+			gene	trnF-GAA
+35704	35777	tRNA
+			product	tRNA-Phe
+35964	36047	gene
+			gene	trnL-UAG
+35964	36047	tRNA
+			product	tRNA-Leu
+36157	36228	gene
+			gene	trnQ-UUG
+36157	36228	tRNA
+			product	tRNA-Gln
+36296	36368	gene
+			gene	trnH-GUG
+36296	36368	tRNA
+			product	tRNA-His
+36692	36763	gene
+			gene	trnV-UAC
+36692	36763	tRNA
+			product	tRNA-Val
+36868	36938	gene
+			gene	trnN-GUU
+36868	36938	tRNA
+			product	tRNA-Asn
+37112	38386	gene
+			gene	ORF3
+37112	38386	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_13
+			transl_table	4
+38838	40346	gene
+			gene	nad4
+38838	40346	CDS
+			product	NADH dehydrogenase subunit 4
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_14
+40955	41203	gene
+			gene	ORF4
+40955	41203	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_15
+			transl_table	4
+43282	43497	gene
+			gene	ORF5
+43282	43497	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_16
+			transl_table	4
+43704	44207	gene
+			gene	ORF6
+43704	44207	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_17
+			transl_table	4
+44811	45620	gene
+			gene	cox3
+44811	45620	CDS
+			product	cyrochrome c oxidase subunit III
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_18
+45734	47662	gene
+			gene	ORF7
+45734	47662	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_19
+			note	First 40 aa may contain a partial copy of the start of the cox3 gene
+			transl_table	4
+47761	48021	gene
+			gene	ORF8
+47761	48021	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_20
+			transl_table	4
+48057	48356	gene
+			gene	nad4L
+48087	48356	CDS
+			product	NADH dehydrogenase subunit 4L
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_21
+48356	53697	gene
+			gene	nad5
+48356	48958	CDS
+50240	50416
+51427	51642
+52774	53694
+			product	NADH dehydrogenase subunit 5
+			transl_except	(pos:53692..53694,aa:TERM)
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_22
+			note	May share stop codon with following ORF11, there is no stop at bp 35695
+49221	49541	gene
+			gene	ORF9
+49221	49541	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_23
+			note	Resides in nad5 intron
+			transl_table	4
+49737	49937	gene
+			gene	ORF10
+49737	49937	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_24
+			note	Resides in nad5 intron
+			transl_table	4
+51637	52737	gene
+			gene	LAGLIDADG6
+51637	52737	CDS
+			product	probable LAGLIDADG homing endonuclease in nad5 intron
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_25
+			transl_table	4
+53701	54882	gene
+			gene	ORF11
+53701	54882	CDS
+			product	hypothetical protien
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_26
+			note	May share stop codon with nad5
+			transl_table	4
+56414	56698	gene
+			gene	ORF12
+56414	56698	CDS
+			product	hypothetical protien
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_27
+			note	Likely contains a non-functional partial copy of nad1
+			transl_table	4
+57642	57866	gene
+			gene	atp9
+57642	57866	CDS
+			product	ATP synthase F0 subunit 9
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_28
+			transl_table	4
+59725	59797	gene
+			gene	trnR-ACG
+59725	59797	tRNA
+			product	tRNA-Arg
+59937	59997	gene
+			gene	trnR-UCU
+59937	59997	tRNA
+			product	tRNA-Arg
+60491	60562	gene
+			gene	trnW-UCA
+60491	60562	tRNA
+			product	tRNA-Trp
+68652	68721	gene
+			gene	trnC-GCA
+68652	68721	tRNA
+			product	tRNA-Cys
+69006	70667	gene
+			gene	nad2
+69006	70667	CDS
+			product	NADH dehydrogenase subunit 2
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_29
+70668	71060	gene
+			gene	nad3
+70668	71060	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_except	(pos:71058..71060,aa:TERM)
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_30
+			note	May share stop codon with following ORF13 there is not stop at bp 71058
+71073	72011	gene
+			gene	ORF13
+71073	72011	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_31
+			note	May share stop codon with nad3
+			transl_table	4
+72532	74681	gene
+			gene	nad1
+72532	72912	CDS
+74010	74681
+			product	NADH dehydrogenase subunit 1
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_32
+72931	73905	gene
+			gene	ORF14
+72931	73905	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_33
+			note	Resides within nad1 intron
+			transl_table	4
+75623	75955	gene
+			gene	ORF15
+75623	75955	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_34
+			transl_table	4
+77456	80526	gene
+			gene	cob
+77456	77848	CDS
+79265	79693
+80203	80526
+			product	cytochrome b
+			transl_except	(pos:80524..80526,aa:TERM)
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_35
+			note	May share stop codon with cox2 there is no stop codon at bp 80526
+78064	78612	gene
+			gene	GIY-YIG3
+78064	78612	CDS
+			product	probable GIY-YIG homing endonuclease in cob intron
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_36
+			transl_table	4
+80641	84923	gene
+			gene	cox2
+80641	81006	CDS
+84543	84923
+			product	cytoshrome c oxidase subunit II
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_37
+			note	May share stop codon with cob
+82125	84428	gene
+			gene	ORF16
+82125	84428	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_38
+			note	Likely endonuclease within cob intron
+			transl_table	4
+85837	86748	gene
+			gene	ORF17
+85837	86748	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_39
+			transl_table	4
+87123	87905	gene
+			gene	atp6
+87123	87905	CDS
+			product	ATP synthase F0 subunit 6
+			transl_table	4
+			protein_id	lcl|Pertusaria_plittiana_mt93709_40
+87940	88506	gene
+			gene	ORF18
+87940	88506	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_41
+			transl_table	4
+88755	89318	gene
+			gene	ORF19
+88755	89318	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_42
+			transl_table	4
+89492	89638	gene
+			gene	atp8
+89492	89638	CDS
+			product	ATP synthase F0 subunit 8
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_43
+			transl_table	4
+92203	92790	gene
+			gene	ORF20
+92203	92790	CDS
+			product	hypothetical protein
+			transl_table	1
+			protein_id	lcl|Pertusaria_plittiana_mt93709_44
+			transl_table	4

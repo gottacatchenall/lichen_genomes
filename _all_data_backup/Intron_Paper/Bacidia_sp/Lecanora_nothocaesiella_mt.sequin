@@ -1,0 +1,2186 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Moyer" ,
+            first "Ashley" ,
+            initials "A.N." } ,
+        affil
+          std {
+            affil "University of Colorado, Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "Colorado" ,
+            country "USA" ,
+            street "Ramaley N122" ,
+            postal-code "80309-0334" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Moyer" ,
+                  first "Ashley" ,
+                  initials "A.N." } } ,
+            {
+              name
+                name {
+                  last "Keepers" ,
+                  first "Kyle" ,
+                  initials "K.G." } } ,
+            {
+              name
+                name {
+                  last "Pogoda" ,
+                  first "Cloe" ,
+                  initials "C.S." } } ,
+            {
+              name
+                name {
+                  last "Lendemer" ,
+                  first "James" ,
+                  initials "J.C." } } ,
+            {
+              name
+                name {
+                  last "Tripp" ,
+                  first "Erin" ,
+                  initials "E.A." } } ,
+            {
+              name
+                name {
+                  last "DeHoff" ,
+                  first "Allen" ,
+                  initials "A." } } ,
+            {
+              name
+                name {
+                  last "Kane" ,
+                  first "Nolan" ,
+                  initials "N.C." } } } ,
+        affil
+          std {
+            affil "University of Colorado, Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "Colorado" ,
+            country "USA" ,
+            street "Ramaley N122" ,
+            postal-code "80309-0334" } } ,
+      date
+        std {
+          year 2017 ,
+          month 12 ,
+          day 4 } } ,
+    subtype new ,
+    tool "Sequin 15.10 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            genome mitochondrion ,
+            org {
+              taxname "Lecanora nothocaesiella" ,
+              orgname {
+                mgcode 4 } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Moyer" ,
+                            first "Ashley" ,
+                            initials "A.N." } } ,
+                      {
+                        name
+                          name {
+                            last "Keepers" ,
+                            first "Kyle" ,
+                            initials "K.G." } } ,
+                      {
+                        name
+                          name {
+                            last "Pogoda" ,
+                            first "Cloe" ,
+                            initials "C.S." } } ,
+                      {
+                        name
+                          name {
+                            last "Lendemer" ,
+                            first "James" ,
+                            initials "J.C." } } ,
+                      {
+                        name
+                          name {
+                            last "Tripp" ,
+                            first "Erin" ,
+                            initials "E.A." } } ,
+                      {
+                        name
+                          name {
+                            last "DeHoff" ,
+                            first "Allen" ,
+                            initials "A." } } ,
+                      {
+                        name
+                          name {
+                            last "Kane" ,
+                            first "Nolan" ,
+                            initials "N.C." } } } ,
+                  affil
+                    std {
+                      affil "University of Colorado, Boulder" ,
+                      div "Ecology and Evolutionary Biology" ,
+                      city "Boulder" ,
+                      sub "Colorado" ,
+                      country "USA" ,
+                      street "Ramaley N122" ,
+                      postal-code "80309-0334" } } ,
+                title "The complete annotated mitochondrial genome of the
+ lichenized fungus Lecanora nothocaesiella." } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 29 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2018 } } } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt" } ,
+            descr {
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Assembly-Data-END##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "SPAdes v. 3.9" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } } } ,
+              create-date
+                std {
+                  year 2017 ,
+                  month 12 ,
+                  day 4 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 38546 ,
+              topology circular ,
+              seq-data
+                ncbi2na '2D429CFC3A042074B32C01039C3087823123290A454C01334D0A4
+5402B332901038E01903EC0347AC30E2D0CF48EA5430E09FC1CDF000000F4F3AFA0238FF8DF60E
+40213EB1FCCDF33D97C737A1C328124FF7BDC3C87A0FB6215A2F4BF3378C343CCC32CC3049D39C
+CB8E33FFCEBCE5E638CAEBFE80FFF1E5FCF2CA2A5A33A7FD521C0413CBF7871FB172FC73EFFCFE
+40F93600E892B128E077715D7F34AC440B44BAD426F87C10CFF7F13F36ACF24BF1CA26381F4C10
+733C0CE20B52B3087130BE9BCF64E27B2C3049ECFBEF3CDFC5EC7E4AE830438C7C48480FF047D3
+FF60BF4D2BAE35CC7314137FDEBFF6B404E9590332033338E03A1ECE7A05D0B3304EC7F2C0C7F0
+F30B8CCF37010FB354302C00FF3C8362C3492B040ECFC0F1CB2817488731B53CD7701FD100411F
+80D0E3C9EBBEF8E88E8DDFF0C240D29CC92FB80F10E27C4238139FCD043C0400FABA37300F08DA
+B90091D2B32BC443002ACE723F1C0C8303A43B08444DC8F0043C8BC3BBF114E331733ECD40037E
+3F010E7E3FDAAFFF8E68EB1CF133D4C0ABAF35D0F873C9B8404079C3213CF8BF00333F0EB06CC7
+F8C0DC00EBCF3038ECC43781384C2FCF402F37E103151F0372C001000FFDFB01431CC7F080FC0A
+44E19747DF277F2B024E0F0BF0C30BA0C3228C08C0B53C331F3023EFDFC191330F17F010F007BC
+00D3009D10FFFF30EF3F009FF3C34EC3C30AFC26F3C8FF04DCF32BCF3E4D482FCCC70F317AFFAE
+E3CB104F68989D0B02BBFFA33C6B38CCE738ED0CAEC768F6EBF82514CEC4BBAB7A3BE310A931F4
+49271FC3CC92F585ACC08CFCBE3C9C4AFFAEBA3F39C425FCE7BF9FCAFFBFD3BF1ECAEBF0BAECBF
+C9C19F67E312CF538C5CF1BEE9D1F51C6FF0B3A89EFF67F332E4E33F78BD700FF2ABA0CC02B8F2
+70CC4FDE0CFBF928BC3747FFD5D04FFF2BF10A0E50820C2E3CD78E6FE7AB805CB0B2CCA3630C26
+F3E41F877FF1333CCFC43E150A80BE4108C57E0C025A7FC468CCF10090737204FF7D7C838A7C8C
+9517017464FEF2FC5EF409637FCB81BE0BD3F0BC0FC00B02FFF840803CFC7BCFE41F07127F1F30
+0FFF7F54F1CEB3E3B2F120F1B0DF02FFC08CCFC70ECDECEB1DFFFCED4C4E7FFD30B80C900B3FF6
+B80739532BAC0A7C8E3A7303CAE090080BF81D9C54D4CB80E9695F70953CB49F8375209E0DD48A
+78355229E0DD4827833D209E0DF484BB09401AD08234271D78C35348A2053393AD4D033D00018F
+F320433040DAA8F344C0150E3E0C8B80F35F4A988D38A26A04107128DCAFC24C720D080AE41186
+2E27680BA079A8E482C26389031280C7034A06678118580B86E00928108077C14A00D05E38280D
+05E3830CD05E32303F05C1B033B2C0C6FCF37300D30B3EE55C9F0CFC2703332FBB17FC7F03F32B
+C1F33473BC347F2213B0CDEB13C9CBDFC30FFDD2497300FCC5FC27D44AF133F0F40CD7C13F0AC0
+CFFFFCCC1011C1CFCC1E33C73C3F9FF10423B4CA040D37C1CEFFD8FFF3F3FF2500137FEBFFFF42
+4FF03CBFEF06FCF318FF3D24F30C04D5346BA0010048F30013ADE300A70C3013CF40BD334EFFF0
+FC3F7CCF3EC09FF9233333336CCE7C030102D3C1EC090F3E439CDC3304E0E4900C0132700C08AC
+18349038F4701331922AF0C01900EC0B4F3C30C2D0CCC0ED5C0D1313FBCB317BD22FFFCD29FCD9
+C040000BF2FFC80EF11F3FFFFF4BF37F2DFCB38C7E00446FBC3F0E4FC87C0F3FF0EEF4E324FFFF
+E70F33C4E1F3E3FF04F3BE315E3703B3B3EC00FFC2FE003FFC260C22333AFC34073EF389A40453
+0ED01D433BFBBC0CFFFCCAFC8FCBF1BF32402530EEBAC083116F0C7FBCF0C3040301030C600C03
+3BAF7C7028F3F002EC3772B0BFACFCCCF039F30CF3EF0F354F0CA3CBDCBF7DCC39042202B32FD9
+F1C34C9C44DE080004823370276C97C107D4CB0570FBC7F0D33F3FCFE3FC72430FD43F3102532E
+33CC3312CE0FFAEF8EBD343F3F4E73C13730D397334FBEDC3E04DCCD121D07005BF70F30FF3EFA
+013C79CDAEFFCB2C8EBFFCFF333FF602CCF1757EFDC70CA0EF6BD0C0C2308909FF3FBFF3111F72
+BDFCFCEF3C94CF023B4D4C929FC4F338673B303C0FD73FCCE43EFFFFF7ACDF4C93F9EC0045C733
+FF831F8F9F0A74EF8B45FC2EB24F31C92B32CF807C9F33A2FF48F0CF14F3C9409F130FAC416CBF
+FDCDA7F30733FCEB2FC2C73081EF8EE0207CC9F3DF4BFB46592ECDF3ABBFF241B2F1EB320A2B33
+CFA8F2746BFEED77AFCFCFEECA2BBFCC63644DC423C30B37322B38441C395F3DDEFBBFFCCF3B76
+B07BAEC5DF1FF0FD32B83F3B4733A0CFE2213B0CFE9BBC9C91F432CFF49A5CC43F33BF0CA3E7FE
+BAB8CF703FFE07C33158DF0426E077139EF04F0C3FF12C7FCACDC559FCBFC8EB3C1CF3BF71FC3F
+3DC3D27C2FFCFCF4B9DC34CC3FF0C0901B0FF1C3FCB003C10C64808834F403C0842B3CDE3D1130
+3CFC2F500903FC4FC14CC9384EF30D013BFF08FF0C3C3C480C0F0E03C9F0BF0F4F0330EF0C1F3F
+0500B8C094639309D05040101053850FC04072300301004F3430E300DF2F1C10BC9C330040043C
+03CAF7004F278052F391300F093CD4B24242838D032ECC46CE0001253004144F1084017CBC0F8C
+027CFF0F7CCB6C0F20003F0020C03460E7CAD00008004D5F06837EDCB02780C0132C384090C3C5
+3F3BF30CB400033CFF0C0F02000801F4C01363CAFC0885011381E0040B2643F7C15C23C121B301
+2CCF01001F090F30F310BF279C1FEF0CBF3FD0C8000023D80EC1C84FFCC23BF040A08CFE722F57
+002FC890C04003F03404000F0340000013C0FC090F2C23E0D000DFF008FFF00DC0D000013C0DC0
+8FAFCF91450ECC0CDF98C11C0D32B82BFF102480D040803FC406D53800043030AFFCEF00402301
+29030311FFF3F08E505C2F0C0045277830940008F383FFC0402A3C007F37F310C00402C3093CC8
+FE2F01F47F2003F3001FCCFDCC0022A03FC03F300F09F300DE24C0040002000A7C2334C05C97C4
+E9F017494AE400033500083FF44F3C2BCF02803C4C000FC96C2BFC60888FB3F3737C043E7C8FC3
+39F03F8800F3BFFB3C9E342E2007F100006C8BF0FDBCBF02CD7C5C8CBDCFFF404F19F000300201
+0003B350233C8C2FFFD0EFCB31BAFCD10DE32A29CECC380ECC8020E0C1100FCAFF0433FFDEBF00
+1030001C3804ACBBF3CE00D0FFC8C030F0FFDC80001E3BFC8CAD1CDD2F840C38840237833C1023
+FEFFF7DE7DC98240280CC24102C0C73C327303E380BCF0373C0440D1F06BB043107F4AC8F0B033
+0479B42B73B52FC03102B0EC203723DF4840AFCDC7BF4F8AAF18C0DC17104CB03F0F502F6C4AF4
+FEB780A383C9240C3CFC0F3948F8CEFF3F133C4C912E304B8C3C0303F3FFC99CF27C1507F32FF3
+CB002C30FF007C0DCFEB3302BB003EE339F33CC437FDE3F0F0C0C33327F3FDFFF9824CA03233B0
+1CDCC43F12C30EF0E39CC2C04974BF03F3D0FF3273CF3F3B03CC30BFC88C00CC0EF0110C09C13F
+0C84F13F1B1330F10C7FCE500A0F2741AC8927BFC44482BCA6F40D973D7C03E4F13FFEF3110B02
+C392373C13FCEEFC0EFCFF32EF32C3A39DE4004043F3CC0CC347BF0FF3B527803F3C0C2038C498
+E20CF402D157EF80F2F0F7CEFB23DD7417D0330BCFCE03FEBDFCFA4FFBF2C31032F128B07FA439
+3CC35CBB3C827FC1D2E81130E6E3B01068E3C308CFC4F40C493793FF7F32ECFC44CAC8ADDCF3A3
+4CC09D72047EFE043EB1EF33F3FC38E9C497D7ABCEF794CEA40ED3CE2B904BCD1C37CE2E7314E0
+FAD08CCBE2F4FE2BAFFDEF0C39C4F0123FFE5F13FEFF17FECF249DC9FC393F0C93C4E32E4AF4AC
+35FEAEFDEB0F78C8F17FE75F3FECFC08FC3073FF3FF3FCA3CD3CF6CFFF3970EC7A88CB801CEC3A
+70D43901D75E532C5E2E337FC5BFCE433C2373170C2F3CA6E3263BFD2733C33CF2C396FE78FCDC
+8CC8ACC4BF217F0B00C93FFEFFCCAC3FDC3FC392F289C046F8375FF320FEB40FDC49FCCFFD53FF
+CFCCB14B0F1FC7E004BF0C8BC9070008C91E68908038FF007FF74D53F3003D1301F0C0D3CB6726
+4104B00D3C3FFF143CC0C00CCF1781F9E9F33F330017043CFF372FF37BFF91E4CCD3FF8EEAEEF3
+40FC43E7E39D7217E2B3F3FD284B9C45103A09FCBA0F138C333EFF3F2F30FFBF9EFAF831C3B9B0
+C423CC30E48A452CD310317CB4EB11FBE2F0CE073C75E4F0CF0C7CF9FF5F7FC2F1CCFC3A382C2E
+15273A7BFE920A53438CF82F1433563FFC04B8E383D3E0FE3DF1F2F520DE37208EA93C20EF20BA
+30C87CF31781C1D3B48FECBC4AE58EF313DFF9FB5E77EB300EE397352863C0D2BF7BCE3C16D0A8
+4FF1A10EF480FE6B33C4CB2CE5CCB0D8353F5BE80BFBB7E3CF204B0F030CCC0B4FFFCC004C3B5B
+85385785F852C03FF4CF80B3B067C320E83FFFFF0C3F31BFC8C133033B30F0DF08F0E1003CC20B
+07F0247CC43370C00130F13FB0F3FE9DCB8CFFC8FF3FD8DCA5FF899E0F919E7D178F45E38203AF
+8107C0077F0027F9E0DD00802CF8038DC82303D8523518CFFD0403AA0B2BCC00014600BF703022
+FF102FB0240F0C2754DE000C8E280038190F4E020C000E800CC849440FA06D04E332B6F3FCAFE8
+00003030F9FFFFFC2F6FBF3305C33307BBF301F000FFF337C8ED7CFEFFF78FDFF2FFC2FBFA30D7
+FA727B08ACC32C3FE0FFC1CB06FCDDDC33F3EC62DCE31092720D3E812B3A6107A5C36892BBAB32
+8B2FFEB9DF3FCAEC9880D7DFC22843EFF7CE433CABF9FD9229C4A3CF657CE3A7F7CF1CCEF9B239
+3C7C3CCEFFF44002CFC07F90C02EF98BF07FC0E3FF0C5CF1FBF03C7B72B30000F7CF2743A48920
+C7DC33D23F0BD837C8C20F2F267000800FFC0C3F0F0630C0E6F0CFCFCE000EAAB02CC2B310FE3E
+48DE3C382BD0F5F7CD5CC3330110C2EEFE06C47BC10333C33C8C3033F3C8C0CECF3CE370240CCC
+D33FFF3CD73FC6CDECEF0E89720FF25FEF31138FBF013F3F33FCEF330D730C337B9C82FF0CBC73
+17BFEF07BA4FEF1EC9E020210E9C9390208F2B50130FAF1C6BF1E4A4FE48E7F02F9FF80833B345
+C64B707FBFCFFFF2B54D304F0FFF4F3CA3FDEF314C6B5AB7F431C8FF8DCA0C7F33BC9EFDF7F341
+73A0CF1C92BE34903DC0CE7FDCA77F082C49D2F0F2F38BC3DC2F69CCF3EB2CF3CD282DF07C3CF1
+C78B740290FE333CC5DF717B3F30FFFF328DCC9201012275BF8FC9209E0D20F2F2EBFCE1204E49
+2F3FFBFFF7FFA78339CB3EE7CFEEFF042CCFBFF28A73F3D0CCBC33BC32F338CCFCC4CCC8CCECF8
+EBB0F3ECE4189F3C44E94CCCECD2BFE09FFCE83CB4CFF2240341CFECBC80E4424CCC8E3BCF2CFC
+62AFF33B0D7F1F82BFBFCEBFC3F2A300D393CE3FFBFF3389C89F7FD420C6318D2F0ED7FEF810CF
+3E5FEBCCA3F32CFB357BBFC06CFF530EBF01F3700FF4013F6FE133C3330F33FB333FB3FB03026F
+0F1F0E9F1701F4CDF3005FFFEC10008FC91EC0ED4FBFCFE2CF94FC4BBCFCFFCC0A57033B9F00C2
+013F3C0F08F0304FB0C3EFF3030F0FCBF9F33F3710FDFBFEF3FFBCFCFDFCFCFBF0BB66FDCC404C
+B980927090C090304DC4BFEF3F0F93BFFF4F009824C6E40A400011C02FBC078C5FEF7CFC12ECE1
+C339CCFF033AB01033311331FF32BB0F3F1CFCC103FC4C3F31CC0AEE10FCF1D7003FF97BFF3009
+2BE730CF3C033B0FCCC2C30FCFFC333ECB390DFDFB33B03FCE413F30D0F3C0FFC1388D3D03C0F7
+F7CFFD7CFD3F3C43FFB0FD5CCFFD0451F3BB8147C5841FBDCC0B20D24AD0ACEE00B5CFC006C0EE
+4B382F0F31E8423A6019004B07F6FF220F03DC3BD40F58D9B234C72374490EEB209A42A04FF0E1
+3106EB07F4D70FC543DCF06705747B0281235A7A240F122B31125772343FDCC282FCC43D17F0CC
+BC304403D14F103328BF132C3F59F1B0BD27E033CCDC307E00012FD43FBADF62D08373F19C7313
+ACCBBC0D03039AF02B40EFFF5FF3F1BCCFCDFCFF2E2C3F0CACE3D7CC3FF7DC4D13FCFF87FDD3CB
+FC7BAFB28D047FCAFC704CD8F8FFFFDAFFEC5CBAFB5EFAFCF16F3EBBE3207CCD317262013F7F2B
+7C8F249C3BFC2EB4CE71F04DF0B8FF97300F328D28FC00E7FEFA34B14B4BFCF326FF793E80E90C
+E7F310910BBFDEFF0BDF7CCF021A8DBF44F097F331DFCF5392C0CCD3FBFC430CCC1BCCDFEF397F
+7CFFF3FFC7CC20CC0224C137CEFC15F032E357EEE3CCEBFCD010001BB0FC2CE510F2C5FCCFF103
+88B0F5EFFBDC7CCF0E173BFFD004ECF16FF304BFBDD046337FEEF4FED030C1C0CCC3C707F04327
+7302F0FF4C0FFCC304C0230D1E0EFC1CB01CDDF1CCC41304410FF33CD031AFC8280318AD4E13FF
+4300DA7A17F9080C515F0CCC8CC0FFCAB3C34233F0DC308C00BB804300302405370320300004B6
+BCC2F802F3FE89E3FFCFC2F800003F9FFDCD0CCC3700CC1EEFCC01FF3BBC8E7FCBEF9F34DCFF2E
+FE0FBF97E49824D27D99F667D9118C4FC2F30FFAB3038F4B2EFFF0F8443200B53270C3F733BF37
+2CBBF3CFCC0FC8C13B330130A3F01720FC0202CCC3B34C0BCB24C4F0EE32CB7C8FC97F3F2C3873
+24A03A7E7CCD40E001C01033FF3FBF7E5D919FA490F211C8FFCF308CF3BCCFCDFC303F425389C3
+FF13FF100000300F0C3CF1FD4F3CC5134300B59C2C00BFF3B3F20C9F100340800300300F3C333B
+C4F0E3C3F19C30E33B8CFCF023C0CCCF0CCEF13C3CF0FC470CB8CEE33F3C08F03333C3CF0EC3B1
+30F3C3F11C32E33B30F3C7233E2FEB8E9DE0E067B50B9F844E70DB18CF9DFF2EC332EBB12B8B03
+8CC81C5F02F28300F5E30BFB000FFC4AC0807C2FF9FC2380CCDDB3CFB2CBC2B009F0727C331B2D
+B0788AF8D8510EADE0009538C08F124B8A0CFAD0C97069E05241FA083B3260270FB3800E433418
+2F8300F7AB33FE30E1030CDCC2DF850C01B9492D9AC11BE0872EF3D34D0CAFC0AB1F21ACAC097F
+3A070FC722F1FB8AA9700B1CFAFC88C03DC62167EF0123200E912B029809B7573B8C1E1BE0A182
+9FECC98328F2315CB2D0248438E2ED303C8C2FFCBF303803B091D45F38B02E9065A0F80D1C85BF
+78052CB82CEFBF0FE385440817C5107E0CFCEFFCF4FF3E51118C0CE03300BB3F109BE469EDF4BC
+3B6E23FAF23D3C0F06C057ECF0FF330E49D351441A308C32A1C210B4D3A560EFBA9CC86E5130D7
+F102A3B80FB80F81C35B007A3338E8DB2DEC1D871B80CA0F1CB0DBB30B3A46B83DCDD23EB1C147
+6D2996820B3990C2FE9C33F3FC1FA105EB7801F03372FF64E6E3FC1EBBC2D80C6BDBB2C80F91A8
+F4E00F3B3329CF25FBFFFDE8FFFF800DDA7642024EC0A720472010FE7FFE49D7CEFCECDF031233
+2E629090B05339F33CC21FC3CFF73F3BC11D2FFAE377FF30FFFBC310C5E3C303C87CD3F377CC09
+3FF3C0C0B3EFC33F0D3AC02FF3F3C53FD9FE0CBCC044EFEEFF1FF46CF333CBCC0C7B0CFB07FDC4
+1F4EEE79F3BF3FD8FBFFFF531F6C260C420020F04263003F03FF338C3F013C4CFCCCC27FCC9D0E
+B226031EF0CFF8E2EF63D15C0A7F7EE7E9FECC0C313030CCC0C333030CCC04CF3F30F40A64D27C
+3EBC24FBBF694428FB0BD8B7C4E67C3C00E0333330E4C06F4C8E0F3F032571CCECC3344430B0CC
+00A01FD30FAC338BE27B01D0C916E7ECE2F60DDFBF5CB0863F31EFC04FCCC3CBEC30EC14CCF3F4
+B8FEFF0ED1313B90F0DCFBC74C20CC3F02900C209F407DDFDD2F60D62CF7E4E903F1CFFF3E00FC
+D33D21502AB3FA80F47C2FFF8E733BBFF1F73FBB8F30B00354CBB4B9FCDC3E9FBFF0B336ED1F1F
+334ADF0FF369F37CFC72FC6FA27BF433EFFCFCFF8EF0C04C20CD22FBC0432C704C317F2AF0F3E7
+FFCFC1CD73F380CF97FC10E333C241907F37FC35C10DFF240FFCCBCC1FF1F81123014F33B0BDC0
+F3A8E82FE11010644C10B3EB8CF3B11CBCF7378F0C3C7DCC3FCFBC9CEBE99CCBCC1CC012590043
+7020038EFFC1033043FF70D746FDC7BF7DCCCC7AC27CB32F32CE0FFFFF3B7879A2CE6C900FFCEA
+1FFC4C48FBD3C4177FFBC3D23F638FEDF1A738F6FEBEFCBE733EAE8EEBD2F3CC51FF1C32F9F79F
+71E0DD009285F03EB5081010E9900960830C301303C8FEB79820FEFCD7DE803182B8071CE6DFCE
+323F8FFDE5D907E802CF005C5CF889BBBCB1B0347C49DF8098DFC67CE2F400E330FEC08F43252A
+87D310C010A108E809BC6684F1E734B9C889FDEF0C37908103C32E4AC45CF81BB9B5D40340C89F
+D110388BC24C83E34FC06951F50BC04C0CEFC3C0294C7FF2FFFFFF93002C0E3C3C0214C7FF2FFF
+F4C00B038CC0CE000221FCBF07AC033B87FC34F3CEEAF40D592B7C73EFC4C0BC3C0FCCFC024C03
+2C7C41117CFB30C38F33FF003330E4049AD42A303390C1FFFBCCC6CC30FE4CCCCCCDB936E40900
+3F31BFC8C133033B30F0DF08F0E1013CC28B0FF4244D7FD37EFD57D15E173DC139BF7F8CBDD10B
+2EBBF41CE4EBFF3F35CC3BFF3EC9FC344BCFC763A47B8F488EF3CB824133F2B0D31FC9EC408A0C
+04EA0CA7CFCDB09824FBFFDFE4FFF81FFFD32F4F375D43A03E8910E94540ACC8373C35FD83C5DC
+7C12CCF3C725D2BFC7B07CE7451D2D310AC3609A27F33A473EC12C33C9DC9FD137FD0AAE8B312F
+DF7FC73F48CB1FFAC9EFDCFFAC4AFF46BF13B0F3EB164FCD92CA3CE0833CDF34FF1E30534CCA1C
+837D8FF33E11FEC8CDB38FACFB3337BB1C7AAB7C3CC030FBDC0C89FCF7E40003FFFF373F3CCCFE
+F377F3FFCD312F331444BFC33333F3008E0FCD1F31CFFCBEA31CAFFBFC0C800330FF8EF0CD0C80
+C39FF253C4FFC33EB8BD1F3BF8E333EA1013194CCEC335327AE48B59CFAFCACCF2C93FCC8F08A0
+9B24323CC0C3B37F730FB7C57CF2BD0CBF5AFFFEB200BE8BCBAE443CB84EFCEEC3CC106FCC90C3
+27FEF8AC9FC0C3F3FBB53443BF2B83E31E0D1F04C3BAAFF07F8F7F04BC43BC317BDF30FDC772F4
+4CCF4BABCCE2D38D44C340AFFF2F3F0BF3F1FF38E3CC7EF1270C1FFCF0EFEEAF88A9B28BFBDF37
+FCB03FF8C4728C9240D02773B793FF07048B2B8FBFFC10CACEFC73CFE04FEB0FC873D04BBFD1F9
+D7FCF0E00E5B47786ACCEFC72FA673A700BDD0BEB7D3BFAF147E43A0AD7117B3493E3119A710EB
+049EBB3373E39BD345FC320CCBD07B1C33CEDCE0CACB3051BEFC9DDD3EBF3D4908CF000BCD973D
+C738B43CACE3AE327BEBF37DF305F93CF53F2C05197FCC0A1FF3FF2A9EB9EF3139ECDE30508FD2
+00CEAA3E3C8FFC5FC2F312F39C327DDF27CBE4F54F4E1EBFF3DC08FF3FC8379FFAD2FCBCF12CC1
+ECC7F327BCFA273BF1C73B3D4F02FF33F05FCFDC0941A77F2F27300091380B8CCFCE2FC5FC30FF
+A733DDEFF7FAD33390233FF32BF2B1EBFBF1E30CBF3F3135EC4E0367F03120FEBBF400EFC07BC5
+FDFFF18FFFF1FC3F53F7FFC8BF3D702CFF4CFF0341CA7A9CC3F3F07FFCBF1AFFC320CEFC412333
+C467F39C00DA28407100BFC8C0AF7BE0F3CA144E97A031C7EF07E2C00FC2C0F231EBBEF1B5CE4F
+333FC32B7CF1F33BC317C6EFF30E33C311FBED30FFCCFA72FCFF47006FC2CCD031CCACC1CBFEBD
+C0BEF387DC001708D008010FEBDEB20004C3E3067363F0FAC3A2F815A118FE2F7BABFE6FA8F2CB
+3EA7C1FF9B1F31912AC6BC351254311092D0523030FC3574D08ACFD395F0DBDCC4EC910050BC3A
+E6F2BDA73AE7FCDE32E3BA664D0D7813B0F6A0123A533AF64C51482730F48FDC80EE45F1178DE4
+A591B3AC6EB3908FC60132C0C69DF52CF058C172FA7F64493D88116C1E36CE0547C43CFA940EB3
+38FE8DA70678E33C8D7F36321FBE34134B130C0C49CC2FC1A220F890F771D7043A742F7850FCA8
+CD343F3769B7DFDFCFABEE04223CCB1839F80F110104817FD37C31E41B7522304ACEFE8D2B1233
+C6ACC7D78FE89771343F3FFF49FCCC3AA8003001A532BC3AC853DB7D4060FBB6BD0358725B002B
+0FBB67FCCCCB98342C28C01FC0DD22FAC1F0FAC0A3F5FB6280C8E5A36C5697076336DAFB983F9C
+271834193E0ECC3B32C0BFF3FB0C07CFC3C2832F9CFECA908CFE7833EECFC011A3BC030DCFF993
+CDF71E13FFBFF3FFFFDB0F4F445ECBBF313293FFF3534931C3F33F0C70FCCFC31C3F33F0C70FCD
+33A77FCC4AF5F07C3EB02CE7FE30AB3BD26F63D9E2834E28344BFFF3C01F7C30F0AB43BC8615F0
+F030C3093003033CFEF3037DBC00AB8B3763316CF2130FF24050AC3CCEDC2B0FCD74FB1D373BB3
+24F3CEFC100F3F2F8A00BE73E92A4233F9C0CDBB3F044E8EF40D377FD6C73B0CB2FFCFFFC21FC6
+FFCF373230CFECEFCD33203733333E2CCC0C033E3B96C837B3008C003EC339B8133F32FC63B73C
+FB3CBAC03C2CC0F1F0E670220FA789AFC09AC27E01F3F8D88AD135BD8368CF77BF1F3F1EF3F3CF
+003000AF8013C0CAB868C4C6AF2252BEBCA6DD3FABE283EF3BD834C38563001C08EFF2FFFFFCCD
+F3F37FFFEE63EE6090800301004C250EC04C1CC103370CC00387080CF030FCC70C333B8C0CCBBC
+3C3446FFEEE23C0B320221FF3A0C32733BC08892CE783DFC0773C303C33FB8142E0F80CDF2C1F4
+A0000D0088FFC0B2EE0E00000FB720B00E803C37BF803CAA05F5DC21C0CC133098C88CB16E2A83
+CF80C82FF3092760BFCC4226C5FF930EAD242F0CFE39893009B2B0343C23F2C332FD033C856027
+2E37C538528FB00B581ABCFBE440CD628BEEB0BCB808431E1C9327AFF79805CFC2CAC3F0FB0CFA
+0AC483EE374C43BFF3EF0C30C300FFBF33EAAB6C887F34B8BFFBDDA08940CCEEF030DA132E650A
+FB3B402A012548108BC30AF500F3FF0B80F080B3F3FC863480329F209A51FFE081DB04891EBF04
+F3084F0CFC3C3BC030CAC093F08FCBA37030CC5805FB7133B23F3333B03E244ECAB2481FE2CEFE
+5C0FB0FCECE9B1B3FFCF0C00C60B8CDD0B8C39E138B0630220FBF0C1C33CF10377D97027CEB3F3
+C0B469770BCCF3BC2730CFC4FD0EEC9FFB133ECF31B7B3CCCDB34C4CFB0EC0CF33C340203018E2
+C01CCBB120241B343800723FC30BECDCC49B700FC8B3CEE3BACEF7A007BC1FA78C090C0EEFCFF4
+BC30ECCCC0EECBBC30000F33BF01C00C5B17231E3402C242C8031829BD8B8F0D3C281DA40F875B
+07CA8C2BB94F9DFCF0CC0B4B0CA193A00BBEC61EFC3C010247F9020B03D02CF8BB8CDE563A646B
+CDA3FDF2FFC1CAFF82815DBD0E9A5F3738AB5C2B268317E96F039ADFE4E0E3F0631049EDDCE3C9
+DAE03CC307B92312FC5DCBC86208573927F14C1CBCF8B30CC00BECBB30AC3E13380F8045FC7F5F
+BCC433F3ECB03DF3C4305E0010FC0EC0FC0F80A043E72BAEBF39AA448D53002CDEA0CD40F0F280
+7B2FC4BCC467FDFCF0F3C133030F2FCE23BAEFFFCF20BEBFCC04C04E22DCBFFC6D221B0B8A6011
+CECCEC73C78FFBDCDCF0BE83CFC3F0B08FF1CCC0332FB030FEF0C00F3BCF3F0EF3FF13CC38E034
+B3230C2233B88CC8CFFFFF3FD0C3EF0C8C0CD83E301043C00FBF03C103F2F3F93FF3339ECC0734
+C3302EC838E3CFF1F1C2FC1A7C37E7F1EFE1E10B7F4B66C26A9338D10864F0A0AB7ECF0E002F19
+CA8C129C3E64222C40F8B992FE91763B69F274D44E02C82F382AFA1EF6D4F02271189EAF031B6E
+212CEBF737DC8A03C8300C20C957EC6028BEACE705CE9F17BEFC1E7CCF0401FF0F3CFF0F0FBEE3
+7307C30F0D99017FC3FFC2FB1E2BF1FC4D22FF16EEFB0C07002383E44F5C6F293A4A0671BCBC08
+C267809330B9804CDF08CF4C0CCECB33C7107F00FFCFFC3FFBF023BCE43FB3C4BF018210FF3F0F
+F0F0CA7C2F90C1333BFF293C2C70FF30FC70F0CFFCDFCCC09FAF24C02C3B05BFEC36B20B0B90C7
+E4789FC2CC22FFC3FCF077FF1F30C0A5432D09AF084C3BFD14F1342AF6255FFA9CD33323CC3DFC
+01C9ABE3B02C138F874E1433302B90B5FE564FCCFB2FCC4FAF73B014B7234BC443EF0F3C70FC38
+DC384F3B3FB247B072230090F33FFF344C00933734232333B19FC7FFCFB90B9BEFB92CFD0E4B8E
+CFB08F203CAFDC0A7326C3EB024079D384BD23BBBD83477A5F2FC3CF913012C6C31CC0D044CCCC
+44CCCCCCCCFF7CFC2CCF372FBBF3C0C2D62E7A0FAC84A989F0BF67AFF094C06F42DBF7E8C36FC0
+3F0D1C0E40077FF6F3CCC00FFE4B7C414F0FC3004CCCCDDFCF24B3C4FC3FF8AFCEFCCC12C07033
+08AEEFCE47F3BF0B300CF3CF3CC10B0B901FF10E30CCEDF3B33FF3300080100300CCC7C0DB01F7
+8FCC0FE0F800EA8CEBF0FAC01BE3FE4CDFEFD2BD035E3375030DFF7BFF3344E7FCFE7EF93CC0AF
+32C43CB1EF39F4C863C5C7FE7FDE5E93230ECCCC3C03BB036404B3C63D125C309D0FAC89A07782
+3BF2BCC2F42DF33CA4FDFD110F33333F7D39FCC8C08FB01FFCF7C3FF346334CF3BFCC3EC0ACB8E
+83EB2138327CA1CFE3F40DFB5BD0B68FC5F30393110C03310C5FBC09C874BCD3FFCD3C2EF0ECCB
+FCFCC013CEFBA1C3290B4C0FFEB3F30F8BBD8367504C3F0C7BBF80410D07FFFFE4BE48939034C0
+0C20E733F0273CCB8EFCFF13045CFC300373C0338BCCAEBCCBD05A48907B3BA04B0BD5EF40D2AC
+D4573C02300FFBF9CA32F43EBC813C3F4E4F083883D0BF775C9EFF30C003819F8D63568C080020
+0CFA0EB19C3FBFDFFFC300003C0E9852CAF63D713203139C3F3ECFFFFF3CF370E5B45F0A621037
+35CCF42009CC10E38FCFBF0D30C70133F0CFF3FF202CBF28F33AEBF3FC6F0F730643FF533BF3FF
+7CCEE4B0CF90707A3FCD72003FA4FC071DC2F3380FFF4CC07CCCC10C40CF3C300EA1043100F320
+CD47CCFBCFCC304A2B3FFF0FD3B2E132FDCCFFCDCC81E48BC6BF3371FDC43F3203DA0F351B792B
+7C7C7F7FCA2AFB4DFBFCC7FCAC42FCF339C1CEB1C407C864CF135C0C1B370C107B8F3800CCC8DC
+D4053DCDF0C4DDFB0C3BCBEBFFCFC23779245FF47FE095A3B738E731712FB041FFBE732C9C0335
+3FC37F7FCA7F133CCC0C9101833CC3E02CE7F3EBCBE7FF347CC3E81ECFABF0743720C0087FF9F3
+2C73344DFA7F3FCF2478B3EB1FE8B43E2D3F3FFCDF310CC73370DF0E7FCFF3C3C732BCF4FB3333
+B038E08F402303B00373C8C88F3D17310F0C2D0F34AF1FD33C35CDFA7F09F273C7F3FDFFBAB316
+53C3EAFFF90043EB3CDE593E8C0AF337FF2731C94CF042EF3CB9EFCF3FA5B2C01033FFE3803431
+02C0E004F803F10F4B9F3F3753C3FDDFFFFF0010004C0F070401CF03D06B4C3BC033427FFCB1C5
+3F7B1C13C90C3BCFCFCE05EC0CCF031E870C7C947C38C8C7C0ED0B907FFFFCFFCC5CCF25FCFFBC
+9CC05F33F9174435314200032E6FE2EEBFC7DFD72840120443F24FDBFF4FFE7F3CFDF7BF87C80C
+7FCBF35337EC265CCB0E01B3ADC9CCF1F3BF7FC97E1DCABF9FF83CAC00A4F373632CA49F800DC4
+9CF0343332F65C065C0D7287CB3C00027C4C7200001004393884DCB023884FCB023884DCB0DC00
+0CA43F0C0B090FC302C243F0C0B090FC0C27CC0034C501E190CFC01E00710C009FFE7FF3C9E9F3
+182A86B4CEF3FCC10C7000033330D723FF0D22CA89D9106FC0E3003B311CF0AC385BCE3358CCF0
+D1F247C483F3CC015F3148F300FCC1732788F6D1041C400001080001080000108000040D383DC0
+40303C3C3004BCB50A73F0E81081D2CCB0040E70C21E08C48CA429153004CD34291500ACCCA404
+0E380640FB00D1EB0C38B433D23A950C0'H } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        gene {
+                          locus "cox1" } ,
+                      location
+                        int {
+                          from 165 ,
+                          to 2957 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 2955 ,
+                                  to 2957 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "Lecanora_nothocaesiella_mt" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_1" ,
+                      location
+                        mix {
+                          int {
+                            from 165 ,
+                            to 950 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_nothocaesiella_mt" } ,
+                          int {
+                            from 2094 ,
+                            to 2957 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_nothocaesiella_mt" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4" } ,
+                      location
+                        int {
+                          from 5334 ,
+                          to 6830 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_2" ,
+                      location
+                        int {
+                          from 5334 ,
+                          to 6830 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cob" } ,
+                      location
+                        int {
+                          from 10245 ,
+                          to 11402 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 11400 ,
+                                  to 11402 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "Lecanora_nothocaesiella_mt" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_3" ,
+                      location
+                        int {
+                          from 10245 ,
+                          to 11402 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox2" } ,
+                      location
+                        int {
+                          from 11625 ,
+                          to 12383 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_4" ,
+                      location
+                        int {
+                          from 11625 ,
+                          to 12383 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad1" } ,
+                      location
+                        int {
+                          from 14090 ,
+                          to 15307 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_5" ,
+                      location
+                        mix {
+                          int {
+                            from 14093 ,
+                            to 14869 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_nothocaesiella_mt" } ,
+                          int {
+                            from 14978 ,
+                            to 15307 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_nothocaesiella_mt" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp6" } ,
+                      location
+                        int {
+                          from 16525 ,
+                          to 17337 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_6" ,
+                      location
+                        int {
+                          from 16525 ,
+                          to 17337 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad6" } ,
+                      location
+                        int {
+                          from 21766 ,
+                          to 22554 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_7" ,
+                      location
+                        int {
+                          from 21766 ,
+                          to 22554 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox3" } ,
+                      location
+                        int {
+                          from 23713 ,
+                          to 24522 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_8" ,
+                      location
+                        int {
+                          from 23713 ,
+                          to 24522 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4L" } ,
+                      location
+                        int {
+                          from 24648 ,
+                          to 24932 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_9" ,
+                      location
+                        int {
+                          from 24663 ,
+                          to 24932 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad5" } ,
+                      location
+                        int {
+                          from 24932 ,
+                          to 26944 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 26942 ,
+                                  to 26944 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "Lecanora_nothocaesiella_mt" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_10" ,
+                      location
+                        int {
+                          from 24932 ,
+                          to 26944 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                           } ,
+                      location
+                        int {
+                          from 30048 ,
+                          to 30187 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "large ribosomal RNA subunit RNA" } ,
+                      location
+                        int {
+                          from 30048 ,
+                          to 30187 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad2" } ,
+                      location
+                        int {
+                          from 35614 ,
+                          to 37332 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_11" ,
+                      location
+                        int {
+                          from 35614 ,
+                          to 37332 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad3" } ,
+                      location
+                        int {
+                          from 37333 ,
+                          to 37458 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_12" ,
+                      location
+                        int {
+                          from 37357 ,
+                          to 37752 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 86 } } ,
+                      location
+                        int {
+                          from 9982 ,
+                          to 10053 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnV-UAC" } ,
+                      location
+                        int {
+                          from 9982 ,
+                          to 10053 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      location
+                        int {
+                          from 13649 ,
+                          to 13721 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-UCU" } ,
+                      location
+                        int {
+                          from 13649 ,
+                          to 13721 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 67 } } ,
+                      location
+                        int {
+                          from 13802 ,
+                          to 13873 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnC-GCA" } ,
+                      location
+                        int {
+                          from 13802 ,
+                          to 13873 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 78 } } ,
+                      location
+                        int {
+                          from 21148 ,
+                          to 21220 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnN-GUU" } ,
+                      location
+                        int {
+                          from 21148 ,
+                          to 21220 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      location
+                        int {
+                          from 21307 ,
+                          to 21381 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-UCG" } ,
+                      location
+                        int {
+                          from 21307 ,
+                          to 21381 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 89 } } ,
+                      location
+                        int {
+                          from 21481 ,
+                          to 21565 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnY-GUA" } ,
+                      location
+                        int {
+                          from 21481 ,
+                          to 21565 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 87 } } ,
+                      location
+                        int {
+                          from 21685 ,
+                          to 21756 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnW-UCA" } ,
+                      location
+                        int {
+                          from 21685 ,
+                          to 21756 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 75 } } ,
+                      location
+                        int {
+                          from 23385 ,
+                          to 23458 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnK-UUU" } ,
+                      location
+                        int {
+                          from 23385 ,
+                          to 23458 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 71 } } ,
+                      location
+                        int {
+                          from 27952 ,
+                          to 28022 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnG-UCC" } ,
+                      location
+                        int {
+                          from 27952 ,
+                          to 28022 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 68 } } ,
+                      location
+                        int {
+                          from 28087 ,
+                          to 28159 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnD-GUC" } ,
+                      location
+                        int {
+                          from 28087 ,
+                          to 28159 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 73 } } ,
+                      location
+                        int {
+                          from 28516 ,
+                          to 28587 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnI-GAU" } ,
+                      location
+                        int {
+                          from 28516 ,
+                          to 28587 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 83 } } ,
+                      location
+                        int {
+                          from 28844 ,
+                          to 28925 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnS-GCU" } ,
+                      location
+                        int {
+                          from 28844 ,
+                          to 28925 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 83 } } ,
+                      location
+                        int {
+                          from 29166 ,
+                          to 29250 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnS-UGA" } ,
+                      location
+                        int {
+                          from 29166 ,
+                          to 29250 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 80 } } ,
+                      location
+                        int {
+                          from 29324 ,
+                          to 29396 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnP-UGG" } ,
+                      location
+                        int {
+                          from 29324 ,
+                          to 29396 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 69 } } ,
+                      location
+                        int {
+                          from 33394 ,
+                          to 33465 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnE-UUC" } ,
+                      location
+                        int {
+                          from 33394 ,
+                          to 33465 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      location
+                        int {
+                          from 33830 ,
+                          to 33902 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-CAU" } ,
+                      location
+                        int {
+                          from 33830 ,
+                          to 33902 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 } } ,
+                      location
+                        int {
+                          from 34021 ,
+                          to 34103 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnL-UAA" } ,
+                      location
+                        int {
+                          from 34021 ,
+                          to 34103 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 65 } } ,
+                      location
+                        int {
+                          from 34450 ,
+                          to 34523 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnA-UGC" } ,
+                      location
+                        int {
+                          from 34450 ,
+                          to 34523 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 70 } } ,
+                      location
+                        int {
+                          from 34701 ,
+                          to 34773 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnF-GAA" } ,
+                      location
+                        int {
+                          from 34701 ,
+                          to 34773 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 } } ,
+                      location
+                        int {
+                          from 34882 ,
+                          to 34964 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnL-UAG" } ,
+                      location
+                        int {
+                          from 34882 ,
+                          to 34964 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 81 } } ,
+                      location
+                        int {
+                          from 35065 ,
+                          to 35139 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnQ-UUG" } ,
+                      location
+                        int {
+                          from 35065 ,
+                          to 35139 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 72 } } ,
+                      location
+                        int {
+                          from 35295 ,
+                          to 35368 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnH-GUG" } ,
+                      location
+                        int {
+                          from 35295 ,
+                          to 35368 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      location
+                        int {
+                          from 35392 ,
+                          to 35464 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-CAU" } ,
+                      location
+                        int {
+                          from 35392 ,
+                          to 35464 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "large ribosomal RNA subunit" } ,
+                      location
+                        mix {
+                          int {
+                            from 29686 ,
+                            to 31919 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_nothocaesiella_mt" } ,
+                          int {
+                            from 32413 ,
+                            to 33237 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_nothocaesiella_mt" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "LSU" } ,
+                      location
+                        int {
+                          from 29686 ,
+                          to 33237 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "small ribosomal RNA subunit" } ,
+                      location
+                        int {
+                          from 19031 ,
+                          to 20554 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "SSU" } ,
+                      location
+                        int {
+                          from 19031 ,
+                          to 20554 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        imp {
+                          key "misc_feature" } ,
+                      comment "ORF containing LAGLIDADG endonuclease" ,
+                      location
+                        int {
+                          from 978 ,
+                          to 1898 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } ,
+                      qual {
+                        {
+                          qual "product" ,
+                          val "LAGLIDADG" } } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_13" ,
+                      location
+                        int {
+                          from 17545 ,
+                          to 17697 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp8" } ,
+                      location
+                        int {
+                          from 17545 ,
+                          to 17697 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_nothocaesiella_mt_14" ,
+                      location
+                        mix {
+                          int {
+                            from 7180 ,
+                            to 8064 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_nothocaesiella_mt" } ,
+                          int {
+                            from 9088 ,
+                            to 9498 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_nothocaesiella_mt" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "rps3" } ,
+                      location
+                        int {
+                          from 7180 ,
+                          to 9498 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_1" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 549 ,
+              seq-data
+                ncbieaa "MSQYSDGPNNEALTILKKKNSLWLERWFWSSNAKDIGTLYLIFALLSGLIGTA
+FSVLIRLELSRPGVQFISDNQLYNSIITAHAIVMIFFMVMPAMIGGFGNFLLPLLVGGPDMAFPRLNNISFWLLVPSL
+LLFLFANCIENGAGTGWTLYPPLSGTQSHSGPSVDLTIFSLHLSGISSLLGAMNFITTILNMRSPGIRLHKLALFAWA
+VVITAVLLLLSLPVLAGGITMILTDRNFNTSFFEVSSGGDPILYQHLFWFFGQHPEVYILIIPGFGVISTTFGASSSK
+GVFGYYGMIYAMMSIGVLGFVVWSHHMYSVGLDVDTRAYFTAATLIIAVPTGIKIFSWLATGFGGGFMLQAFMLFALG
+FVFMFTVGGLSGVVLANASLDTVFHDTYYVVAHFHYVLSMGAVFALYSAWYFWVPKILGVEYKRWLANIHFWILFAGV
+NLTFFPQHFLGLQGMPRRISDYPDAFAGWNLVSSIGSIISVIATWLFLHILYLQLTQGKVATRYPWIKAGFYTDILQK
+QLSRTFSSLEWGLDSPPKPHAFVSLPVQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit I" } ,
+                          desc "This feature shares a stop codon with a 3'
+ ORF." } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 548 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_2" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 498 ,
+              seq-data
+                ncbieaa "MLLIIPLIGLVLVSSIMQQEKGIVSLTNHSYTSEEKNRRYLKLVALTTSIVTL
+IVTLIIFILFDFTSNNFQFIQSHSDIIIYSMNFGVDGSSIYFMLLTSIIMPISLLSNWTSISQTQLKPFLIIILLLET
+LLLSVFLVVDGFLFYIFFESILPPLFLLIGMFGSINKIRASFYLFLYTLLGSLFMLLAILKMSSIAGFTLYDAMYKLN
+FLFYMQLFFFSGIFIAFAVKTPTIFLNTWLLKAHVESPLSGSIILAGIVLKLSLYGVFRLILPLLAKAYIIGTTVVFS
+IGFITIFYGSLSTIRTVDVKELIAYSSVCHAAVYLMGVFSNVVTGIEGGILLGLAHGFVSSGLFICVGGVLYDRTSTR
+LISIYRGMTQLMPLFSVVFFILCLGNCGVPLTFNFIGEFMSLYGIFERHVIFGVLASTSIVFSAAYTIYMFNRIAFGG
+WYSKFFELNIPDLNKRELYMLLTLIIFTVLLGIYPALVLDGINYYVSTLIYSNSA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 497 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_3" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 385 ,
+              seq-data
+                ncbieaa "MRIFKSHPLLKLVNSYVVDSPQPSNISYLWNFGSLLAFCLVIQIVTGVTLAMH
+YNPSVLEAFNSVEHIMRDVNNGWLIRYLHSNTASAFFFIVYLHIGRGLYYGSYKAPRTLVWTIGTVIFILMMATAFLG
+YVLPYGQMSLWGATVITNLMSAIPWIGQDIVEFIWGGFSVNNATLNRFFALHFVLPFVLAALALMHLIALHDSAGSGN
+PLGVSGNSDRLPFAPYFVFKDLITIFIFILGLSLFVFFMPNVLGDSENYVMANPMQTPPAIVPEWYLLPFYAILRSIP
+NKLLGVIAMFSAILILLVMPFADLSRYRGIQFRPLSKIAFFVFIGNFLILMQLGAKHVESPFIEFGQISTALYFSHFL
+FIVPVITLLENSLIELATKK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome b" } ,
+                          desc "This product is cotranscribed with cox2 and
+ shares its stop codon." } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 384 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_4" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 252 ,
+              seq-data
+                ncbieaa "MIFDVGVLSNLQLLDAPRPWGIYFQDSATPQMEALVELHDNILFYLVIILFAV
+GWILMCVIQDYNNAEAPVSYKYLSHGTLVELIWTITPALILILIAFPSFKLLYLMDEVSDPAMAVLAEGHQWYWSYQY
+PDFLNSDDEFIEFDSYLVPESDLEDGALRMLEVDNRLIIPELTHVRFVVTGADVIHSFACPALGIKCDAYPGRLNQVS
+VMINRQGTFYGQCSEICGILHSSMPIVIESISVGKFVSWLLEQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit II" } ,
+                          desc "This feature is cotranscribed with cob and
+ shares its stop codon." } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 251 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_5" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 368 ,
+              seq-data
+                ncbieaa "MLYNPIIISVLEVLIVTIPVLLTVAFVTVAERKTMASMQRRLGPNIIGYYGLL
+QAFADALKLLLKEYVSPTQSNFVLFFLGPIITLIFSLLGFSVIPYGPGLSILDFDLGILYMLAVSSLSTYGILLAGWS
+ANSKYAFLGSLRSTAQLISYELILSSAILLVVLLSGSLNLIITTESQKAIWYIIPLLPVFIIFFIGSIAETNRAPFDL
+AEAESELVSGFMTEHAAVIFVFFFLAEYASIVLICVLTSILFLGGYLFNISGFEAFYGISHILEQNQLFVVRNAQAYI
+DDVISIYEGFICNPLLEGLFYGFNLGIKSCIMIFVFIWARASFPRIRYDQLMSFCWTILLPLVIGFIVLYPCVLNVFS
+IMV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 1" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 367 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_6" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 270 ,
+              seq-data
+                ncbieaa "MNANPHCKGTDPAGANYRGIHSPLDQFSIRKFIQFTFNIVNNTKFTITNIGVY
+IVISAYVSSAWNIISNNLKKTVSNLWSSSQESIYATIHGIVLNQINAVKGQMFFPFIYVIFIFILVSNLIGMIPYNFS
+STSHFILTFLISFTVVVGSTLLGLLTYRLIFFSVFVPSGCPVGLLPLLVLIELISYLARNISLGLRLAANVLSGHMLL
+NILSDFAYKIIGSGFKNAFVGSVPVSFIIAFSALEMAICFIQAQVFSVLSSSYIKDGIVSH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 269 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_7" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 262 ,
+              seq-data
+                ncbieaa "MLFFIENLSYSDPKGYLGNSLKFFDAICVFTSICVIISKNPIVSVLYLIGLFL
+SISCHLLISGLNFIGLSYLLVYVGAVSILFLFILMLINIRISELLNNSTNIIPLGLIIAFLFNYPIYEILPFNNDILS
+NATLSFNPNNLLANFYSYNFYLNTDKPLYVSSKLWDGSLTQTTHITSIGDIMYTSYSIWLIITSIILLLAMVGAIVIT
+IKQPQNNLKKNDVFNKYNNFSNPHVSTVSSIYTGKLSIVIVWIFFLCLTAEYA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 261 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_8" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 269 ,
+              seq-data
+                ncbieaa "MTNIIRSNFQAHPFHLVSPSPWPILTCVSLIVLTSSGVSTMHGFYLSYNVFIV
+ALITVIYSMALWFRDVISEATYLGNHTLAVQRGINMGIGLFIVSEALFFLCIFWTFFHSSLSPPMEIGAQWPPKGIES
+INPFELPLLNSILLLASGFTVTYAHHSVIQGNRSGALYGTIVTVILALAFTSFQGVEYTVSSFTISDSTFGSCFYFGT
+GFHGLHVIIGTAFIAVGLWRILSYHFTDNHHIGLESSILYWHFVDIVWLVLYISVYYWGS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit III" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 268 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_9" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 89 ,
+              seq-data
+                ncbieaa "MNLSLILFLVGILGFVLNRKNIILMLISIEIMLLAITFLILVSSLMFDDILGQ
+TYAIYVISIAGAESAIGLGILVAFYRLRGSVAIDYK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4L" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 88 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_10" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 670 ,
+              seq-data
+                ncbieaa "MYLSIIVLPLLGSIVSGFFGRKVGVSGAQLVTCLCVIITTFIAIIAFVEVALN
+NLFVSITMFRWIDTESLNIMWGFNFDSLTVTMLIPVLIISTLVHIYSVGYMSHDPHNQRFFSYLSLFTFMMIILVTAN
+NFLLMFVGWEGVGVCSYLLVNFWYTRIAANQSSMSAFLTNRVGDCFLTIGMFTIIWTFGNLDYSTVFSLAPFINENAV
+TLTGICLLVGAMAKSSQVGLHVWLPLAMEGPTPVSALIHAATMVTAGVYLLMRSSPLIEYSSTVLILCLWIGSITTLF
+SSLIGLFQQDIKKVIAYSTMSQLGMMVIAVGLSSYNLALFHLVNHAFYKGLLFLGAGAVIHAVSDNQDFRKYGGLIRF
+LPLSYTVMLIASLSLVAFPFMTGFYSKDFILESAFGQFSYYSITVYFIAVIGAMFTTMYSIKVLYLTFISKANGSLVS
+YKKAHESDIFMSLPLIILAIFSVFFGHICKDIFIGLGTGLFTDNSLFIHPVHEIALNTEFGVSKMFKLLPFFFTIFFT
+LISISFLEFIPKVFSYFKSTRLGYNLFNFFSLRFLIEYVYNRYITRFMLKIGGQTTKVLDKGSVELLGPHGLEILLVN
+LSKNLSKLDTGVVTSYALYILIGLITYMLIPYVFYNDINTLVVIIFILASLFSLKRLSISNTIGITSFGSK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 5" } ,
+                          desc "This product shares a stop codon with a 3'
+ ORF." } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 669 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_11" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 572 ,
+              seq-data
+                ncbieaa "MYCIFFLLLSNAVTLRRDKSILYSRKAITMMIYCLIIILNIFNILFLESSLGL
+YGGLFYVNSITQFFHMFIFLICAVILQLTGFYPRKIWHLNYSKLYEIFSYKLIYNNTNIINKMGQQYKIIEYPLILLF
+IITGGIFLISCSDIVSIFLSIELQSYGLYLLSTIYRNSELSTSAGLTYFLLGGLSSCFILLGTSLLYANYGTTNLDAY
+YILNNVSNNNCDYEKYIDLSKPFYLNTSLVIMLVGFLFKISAAPFHFWSPDVYDAIPTVVTTFVAIVAKISILIFLLG
+FTYYINSTNEYYNWKYALLVSCFLSLIIGTVLGLTQSRIKRLFAYSTISHLGFILLALSIGTLESIESFIFYLIQYTI
+SNLNAFILLITIGYSLYIYVNDEDSKDKCKNLLDRDYSPIQLISQLSGYFHINPILALSLAITLFSFVGIPPLIGFFA
+KQLVLSAALDKGYIFLAILAILTSVISAVYYLAVVKQIFFDENQYKVNENIENLQFSAYLSPLIFSFFFKNKKHKLTN
+KTIKFNGHNVKISSFFSTTISVLTLAIMLFIYEPVNILNTGLILSHLMIDT" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 2" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 571 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_12" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 131 ,
+              seq-data
+                ncbieaa "MFIPILAFILLAINLIFAPHNPYQEKNSAFECGFTSFLGQNRTQFSISFFIFA
+LLFLLFDLEILLVYPYLVSAYSNETYGLAILLMFLLALTLGFAFELGKKALSIDSRQLEKSTAIKSIYSSPKRLNPRT
+" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 130 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_13" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 50 ,
+              seq-data
+                ncbieaa "MPQLVPLYFTNESNSCFVLLILMTYVFSKHVLPFYNSLFSTRYLLCSFVK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 8" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 49 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_nothocaesiella_mt_14" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 431 ,
+              seq-data
+                ncbieaa "MTNLNKLDKNKQNIINNDKILVTNKLANIKQKQLKLGSKTLAETSYAHKIKHY
+PVASKEWSNSVYTYEKNSHKTTTLQDKTLVKLIKAYFNSYSRKLEKNLKRIKSRMLRSKKRKTSLNGILSSKAEIKHS
+NDKAIITIYVYNSQKKYYFNKLKKKENFIKHRLGLKRPNTWTENKVAQFLNPKINRRINSILNKNLSNYNYTSLAANF
+VNSLFSIEKKKIRNVTRHFYKMFNKGRYLLEFPKKFRAINKKFKSNKKIKSKKKNIKFKAISKIESKNLLKDFLKSKS
+KKNIKSKDVLDRSLSQLTNNETKDLNINKDFVFSSASSEAKGNISNKVNTINSYKLMKVIKSIKHKSLNGVTIQLSGR
+LSKYNTASRSMSSLKYKGNVRNLDSSDKGLSTVSLRGYDKSNLQHSKFNSKVRTGSFGLKGWISSK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ribosomal protein subunit 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 430 ,
+                          id
+                            local
+                              str "Lecanora_nothocaesiella_mt_14" } } } } } } } } } }

@@ -1,0 +1,2181 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Morgenstern" ,
+            first "Joshua" ,
+            initials "J.L." } ,
+        affil
+          std {
+            affil "University of Colorado Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "Colorado" ,
+            country "USA" ,
+            street "Ramaley N122" ,
+            email "jomo9831@colorado.edu" ,
+            postal-code "80309-0334" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Morgenstern" ,
+                  first "Joshua" ,
+                  initials "J.L." } } ,
+            {
+              name
+                name {
+                  last "Keepers" ,
+                  first "Kyle" ,
+                  initials "K.G." } } ,
+            {
+              name
+                name {
+                  last "Pogoda" ,
+                  first "Cloe" ,
+                  initials "C.S." } } ,
+            {
+              name
+                name {
+                  last "Tripp" ,
+                  first "Erin" ,
+                  initials "E.A." } } ,
+            {
+              name
+                name {
+                  last "Lendemer" ,
+                  first "James" ,
+                  initials "J.C." } } ,
+            {
+              name
+                name {
+                  last "Kane" ,
+                  first "Nolan" ,
+                  initials "N.C." } } } ,
+        affil
+          std {
+            affil "University of Colorado Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "Colorado" ,
+            country "USA" ,
+            street "Ramaley N122" ,
+            postal-code "80309-0334" } } ,
+      date
+        std {
+          year 2016 ,
+          month 12 ,
+          day 14 } } ,
+    subtype new ,
+    tool "Sequin 15.10 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            genome mitochondrion ,
+            org {
+              taxname "Gomphillus americanus" ,
+              orgname {
+                mod {
+                  {
+                    subtype specimen-voucher ,
+                    subname "New York Botanical Garden:Lendemer:45954" } } ,
+                mgcode 4 } } ,
+            subtype {
+              {
+                subtype collection-date ,
+                name "17-Jan-2016" } ,
+              {
+                subtype collected-by ,
+                name "James Lendemer" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Morgenstern" ,
+                            first "Joshua" ,
+                            initials "J.L." } } ,
+                      {
+                        name
+                          name {
+                            last "Keepers" ,
+                            first "Kyle" ,
+                            initials "K.G." } } ,
+                      {
+                        name
+                          name {
+                            last "Pogoda" ,
+                            first "Cloe" ,
+                            initials "C.S." } } ,
+                      {
+                        name
+                          name {
+                            last "Tripp" ,
+                            first "Erin" ,
+                            initials "E.A." } } ,
+                      {
+                        name
+                          name {
+                            last "Lendemer" ,
+                            first "James" ,
+                            initials "J.C." } } ,
+                      {
+                        name
+                          name {
+                            last "Kane" ,
+                            first "Nolan" ,
+                            initials "N.C." } } } ,
+                  affil
+                    std {
+                      affil "University of Colorado Boulder" ,
+                      div "Ecology and Evolutionary Biology" ,
+                      city "Boulder" ,
+                      sub "Colorado" ,
+                      country "USA" ,
+                      street "Ramaley N122" ,
+                      postal-code "80309-0334" } } ,
+                title "The complete mitochondrial genome of the licehnized
+ fungus Gomphillus americanus" } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 19 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2018 } } } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "G_americanus_mt" } ,
+            descr {
+              molinfo {
+                biomol genomic ,
+                completeness complete } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Assembly-Data-END##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "SPAdes v. 3.9" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 12 ,
+                  day 14 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 28370 ,
+              topology circular ,
+              seq-data
+                ncbi2na 'C1FBB32FC1F21F0FCE8E08098B55D8C7CF09D02389F3ABE023A7F
+BD350E40213EABFCC5F3FF9FCFF4ABCB2B127FF7B3C308F20737957AEE4333248C343EC432CD3C
+49139CFB0E3FFFCEBCE5E738CA28FEB0FF75F5DF7AEAA85A33A4CD423C0C130BFFAF1F3172CC9D
+CFDCFE4AA432006A92812BE077F3597F372CF40B4CBA172EC85F90CFE7793F34ACC24BF3EAE70C
+3FCF10533C0CE2075E8300F1301F9FCFE8E2432CB0492E73CF3CD3C52F7E52E43C73AC7048480F
+F0C7D3FFE0327A28AE350C7734137FDE3FFEB428E9533C32E33C33ECF99CCE680C3CCECCCCC7AF
+DF0B7FD0258A4B003CCCC703C0DE5AC1402CCEF1F2CA05D221C46641F770FDA80CC023333F4343
+8F27AFC323A21A7B73EB030102F31C9EE03C4B0B3008CE6FCF0330F0030BCA28DCC00C6F6A240E
+77C8E1BF130C78AA38233CB8364F0EBC4F6D3DC920F0907C302FECE33C0CC0317FC52303C04011
+1AF8C67ABDFE3923AC432AFF330006031743C10CDECD4301FE0E8FC0D4FCC803FEAAC33F3FE302
+ADC1A74CC0E0B312DE012330003F937C4701FED5B00DCF01B45BBFFF0C8C8CFFFFC0003C09F301
+70CFDC33FCDC017808FFDF100E032208E332D4271F44030D4720DF433F5FC4FCB0F0308A03F3E3
+092CCF1EFCFFCF804F30D33CECCB8CF033BC0F33F0CCD82CB245482FCCCF0F315A3DACC3CB1053
+F490BDC3027B3FAF3F2A3C005F090BFFB2D4D0ED01D6A82D7020F031C1C302B07F00AB702C3BF2
+0CCB042FC3CCC43002F0E8D3668DC0F5CF0CCA30089062C8693E8C4333CFB3F0ACC772C97E022B
+73F78006C8030028FFDD3F0332C23F2F033B2449F25F2730085429FFADC37B0CBE922E60C6ACCE
+438EDCCAECF2BF6CB3825144EC44BEBF23BA3108973F449271FC30C92C504A0C00CFF4E3C9C4EF
+3A28D3C3BC337DCEF3F93CABDB3D73F12CA28F34A2FB3C9C39F7723364F518C7CF3BEE913FD1CE
+C70B3AB92CFE473F2E7E33FF831400C328F37CC14C348B20C4FFE2CF3F328BC37C4F7D5104FFF2
+8F10ACE50820C263CD78E4FE4A380DFB8B2FFA3432C2ECB271F13FFF133ECCEF41C22B8DCCC71C
+8CD4E283249FFC4B8CCF08B3C04322C4C4D7C8389FC1C95170144E7F4CD3C53C409ACC7F3C1C0C
+00FC7C0F3C30CC82F0002F03D6FF03E07792F3C1E48000E343D8A3BE5A488F3CF0DCC00C4EBC1F
+CE70333211CEFFF32C3733223C7325FFE940CAC2938C7DE33403DCAF63D7208AF00C8C7FF32EC0
+0030C3FF4D4C7CC300FCACCFBF042F0CECC39C1DFCF38835F00B4D7F3C0BCBC3DF3F2C8CB5D053
+50FC2F373807FA37F3E97FEDCBCC40F3C4AEC17C90E4F30D70EFF2393F0F4B224CF3888EE0C3AB
+838C6F3F13DC3124DE4FFFFCCBF3F1332B228FB1CE8DF30245C81FCB381CFAC4BCCFCCF0E3271E
+7F5EAF3BFC5F3AD03B4F38AE412F3070FC38994F53832842332F83DF38A28FC9B030E41FC0C8FF
+FD3C4FFBFC53F33E9E4F2F30E47CBE4F138CB92BDC9057B28B34AC1CE320C5FF9D7CFF3FF023F2
+F18DFFCFCF7E8F3773DBBFFEE5C373CAE12E00F3B0E9C15CE4045D79CFB17838C5FF15FF390CF0
+8DCC5C303CF2BB0C90EFF79CCF0CF3C9CE53C963F3723522B310FC85FC2C0327FF333F32807F30
+C70E43CA27013B20D17FCF8BFAD073712FF33F744FFF0C32C5FFF0BF3C80327C320F178035D043
+C860FC3D1F2C75FEBF48ECD1131F3BCB371048CEB377F44BCFC080CACC30CF17FDF9F33CBEE340
+FE63E207C82503BBF272E73CE1CBF0E3388E4B1B6C332BF3C5EC93DF3FFFF317F2292EFCC3A3E2
+3E038445C8538AFCCFF4232E411440E82BF2E8BC4E30CC3BFCFCB0C33CFE4B2BE0C71CDCC9C813
+F0D30C7D17334CC2CC7053AC7F0C83C3381CC1D593C33C33C324FD7DFF03CFB3F0E8E030B8D7DC
+ED2EF248294D0EB1E0BC50C578FFF032E3823FCC83F8F4CFCBD78B78FC80CA36F083BE82C8C322
+F3FC5E07C44EC23D32F127923B0C4F7FE7ED7DFCACF0BB8E7CD7AC8F034AFDEC72C048828B3FCE
+B43BDE033BAECF132F739432F320D3C50C800FDC2F8F20412C3370C03D0FE1FF2DA043A4AEBC39
+FF09F58FCF31C2BD835F3EF5F0FFFC7CE0D47C0CCCF3DCE1D5B029E33735E03170D732C8EB3203
+EF3371FF2D5F2143F80F22370CAEC0275CFFFF0C740FF7C1833093B1F3BF2812C3E7327F03BCC9
+FC0C08001EC901D78D1C25F80B3F19C4BD32CCB2C2D0303C6CDEA40FCFD53F3F3B3CF4BFCC74C0
+C17CCACE397CCBFE5D47DD3F0FFC57E47CBFC732FF29907FFCAFF0C0468E00FFFD7EFEF524AFB5
+FCAFCF17F3CBBC3E0FCFDF3F36201BCBF28F9BF2890330E2EB4CEF3C04CF35AFFEF30CF3BCD28F
+ECFFC3CCA3C3D7F27F4F3E4FF7A7C8BCACC9FF3109D0BBFB2CF07E4BC4C0239DF8FC4F0CE00303
+C007C3F5CFCF03C2B0DFFD370CCF17CFAFC4C31CC3FCCB3CF0F3BC3CE07C0FBDEF3100CC43FB0E
+CEECCC3FC2FF0C7F9443CB14FFFF7C0D0B0CFE6FCCF3CBCF70CCE7FF703333C5C0FEF11FFFCB1B
+B37F0F0BEC30CE00BFCC3F73C232F300F039C10CD0F33FB9FF370E7FC52D8623F34F33FC3209F0
+C32CF1C3C6F3CF25303DC30FF3ED70082B3CB33CA28F3F4C3DC3F05307FD1BFF31CFCD2FCBCCF1
+0F049FFF14000C4F0C30CE0D50C323F3A00DEF350DC431FE30010204332CC320CD7F2C3EFFCF3D
+CA2733F3CF2CB2E33CCD2CFCCDCC83C48BCE87F3F3CECBF332012E0F3712B9EBF07CFFF3CAEAF3
+7D3BFCCF3C9F4A0CF33903DEB1C707C828C7333C9C3F340EC0D0D3CCC330CCF8CE30C3CCC0F3DF
+CBCCF35728FFCFC030B9275FF4FFE37523BF38E431712CBC713FB2706C900337F1F3FFF0C8CFB1
+14CB2C372033F0FF078133E7C7CC2F7FFCDFC30CAC4B3CAFC0D0DC8B0023CF27CCB1CFDD332BF4
+CF3CACFDCC0C9320DCE427F4FFF37CE433DCCDC330333F38CF2C2CCAB110FC4C5E001080013ED2
+04210755EC4B33E743C228CFFC6C0D4BFC9CC27C9CFBCECF7FECA6E55774FA3FFEA01038CFB5DE
+772302BC6CFCCDFC32731C1CBBCF2E4B33CFC0CC3C080CFFD8025208D27CB0010A3CC7B04F3410
+B335BFFBF73FF1FE30CF3CFCFFC9512438F0B3070CCF2733333F1F0CE077307FFF73BFCF5CCF25
+F0CF3CBFC07C93C9D74CB5734200372C5FE0E68FD1D3FF2840320443F2CCDFFF4CCE4FBCFDCF3F
+8FC83CF2F3F35F1BEF2F4C4706BAF3A3CDCC39F97FFCF3DF1CEA3F93F83CAC00277C13232C0433
+123030FCFF4303F0F0324F3BF033BCCDCF08FC0DF0C07FC03EC0F0004705FBB9CD1CF0F5F0EC0F
+FD3CB439FFF3C7AFF7FC0FCF030F43833F77DF7FFF0DA0FF29FECF032000CC31C3BC3F732030EF
+3C9CF13FF0CF0F9F7F00CE18CD728407FE533330C10C9E89A2D273287EA33CB24C7323C22B2CC1
+0C8B3030ECFCDCC33C39570CAF73F7DE8FFFA8802CAEC02BD10FCC13B2CE33CF27BC4FE7B1C2FF
+F20328F032C75EFDCFCFCF00E0C8FC8037033FF30BF43FE3DFC104D0E70C5EEFB7B35FE4B13B31
+DCCA3138B4E35D10D023FFCBCFC2DCFC7FCE38C33CB449C30F1F3F3BFB2BE20AECACCEF4CDFF2F
+2FDE3F1C83E790340BD0CDE73FC10322CAE3EFFF0432B3BFACFF382FCA03723CE412CFF4F255FF
+BC380130C1CD328139F3C32B90E98027440CA9F4EDE3C5CE94E8AB5C756CD27F0C4E79C73AF164
+AAFC7C7CF6F7DD77CD8332C712C7FCFBBFB832B90C1C7FBF2F470CA9CFD04233C002F325CF51CE
+2D0F287CEBEC9CCA3ED27CC7327F3F4FC3C34E5FF3024F3EFFCAE4AE8BCC4E4B248C0423FC8033
+A28F00BBFF17F35CF73CE70F9F4F89F2E9FD5FF387A3FFCB023FCCF20DF7CE703F0FCDCB30CBF3
+FCCDC712A9CEFC713CC77B001BCCFC1FF30705706B1FC123CC00CC4E2A0333338BF17F0C33C97C
+F77333FE8FF71008CEFECA7CAF78FDFEC8C1ACFFCC4D72438CB38C0C783D9EC5C7F3301EF97FCF
+FC63F4F04F3CDBC3CFD20CFC7000DC390FC0F070FFAF10CEFCBFFC0FC03FD0C83C3330C0CCF160
+3EEF0072BA1310720CF2302B9CC83C3E85F3AFC4021EEDF330B005F09DFC8C4ACCBC71F391FCCC
+7CC968F06CCFEFC5F333CD379CC2CCF1F33C33C24C33FF043C0FE7F0020391C9C005C3C78C310F
+43700C0FF031CFA300F3C22C1EF3E73CFF3DDCC2043FC31133F77C488003F3C8FFBCF3E40CC9E7
+33BD8E33C8117385CF5D3CD380C8C10173034E01C33000B408E02FF3F1C5DC10620C70F40F5017
+2FD0C52F70952778A72F70E72531770DBAC32D72E48121009E5DC28BF06802BDCB00BC37034C34
+0043203EF0C03CCFF3C3FCDF00B0DCE70B30C0CF0FFFF0CCF30F0C0B1C8CFCC00F3F3FB0340FF3
+B131C29733C8AC3EFF07BD49FEF2BB24CEF1EC9202021CE90B3906C8FAA5C112CA3FCEB31F424F
+658E7F8073CF00831B2454B43507C33CFFF76B5CCF04F0CFF77BD9F19EC3D5CEB52B305F3C0FF8
+FCA4CF33F3C9ECDF7F37173ACFF3C929E379C3DC0CE7FFCA37F082C69D0F8C2F381FB3C1F49CCF
+3CBEFF3D1282FC0DE3EC0EF80F4089CFE3DB3F55CFD7BFD30CFDF328DCC9E01C32255FD8FC9229
+E0D227AF2E8FCE1A046796C3FFBFDFFD7E78339CB32CF4EECCF072C573FF2BA337F10CF321F37F
+FF2203F384B733F20CC00F7C73FC47F72505EC1008F6717FEF123F232EC0000F77170C7A4F31F3
+202CC33397F2FCA3C007E4F3AFF4FF4CE2F227DFF5C8308CE341D3B4C7BE0737CF17F2C334F2C3
+0CB15E4F7FD2FD80C3973C732AF3CC3E7ECF45051B831CF28CA7FE41CECFF0AF23033FFC8C0CFF
+F030134340C004CA3031013C005F3BF00F7002BCEC883CB8833C0FC02B733C0F303FDD37CF3771
+F1075DCA2B31CF1CDCB317CCAE2C23F125F37136F3C0FC13DD1C3DDC4C17F8FFD0F0D0C52FEF41
+0CF105E8CCFE3333F29F23AFEDCCCFFBFCF0713C30C50CDCC7340F8DF43FC423B00DFDF0C30CF0
+EF2013C7CC92FFFCB3C8CF3BCF7333FFE024CF1755CFECF0CADCCEAD0A0C0B089CBFF3F3FFB317
+CF2BD9FFFCF1CD0CF07337DCF3AA3C48FF8E5F330040FF0FFDC54BEFFCFF1A8CFCC93F92C00458
+73FFF031387FC0274EC8375DFDEA2CC31C9A732F7C0F0BF33ACFF08F0FF1733C5009F7303CC5CC
+C33F3CCA2F3073CCCE42FF2C7F081CC8EC020F0F9F3DF4B374E49EFCFC329B3F2C31F4DEB320A2
+B33CF2B3274EBFEED34AFCFCCEE4A28B1CC63234D0722F304CF322BBC443C394BFFDCCF3FFCCF3
+B72B0FBA2C51F1FC0FF32883D3B7F31AE7FE023C5FCF28BFF9CBF3730CFF7924CC73F33BF0DB32
+7FE8AD7CCB033F60F433178FC040620FF433C3CBF2CB2712CBDFA4CCD73A830C8E8F11CCBB37F3
+C333809D33B38C38EFDC03FCA8C0280D1C0FFCBBCE80B5225BCCFC080028403FFFA0048030C003
+8003F31F3A1A4B8F32033030C4B15A7C7FCF7C3333F274C3077110335BFF2FF30073530E8C3D4F
+353C3EDC30F21000F300C73CFF03F1000303F62FEB8E9DE3E0673D0B9F844E70D81834713E00CB
+8F2EBB12B8B304F86015C0B0940327CCF04003833F9FCA3BF3B362C844530BCECDF32BA430C76C
+3429E02BC3E344BBA4E000951C68492E2833EB4325C0A7814907E8A0600160B4E26BC53BC020EE
+A9B4E60CBD8240DF8C384CBFBF72B7E141D3B9492D9AC213A0A526F3D37F3CAFC0AB1721AC8CD2
+7FFDDC08C3EC733F1C8BF8EC2835204B8BB2A300DEF8C51CB07AFCAEC84AF7CEC30786F8A860A7
+400C806A3CBC552C70A9210238394CEC200887FFF3B303C0BA093D45D08B0CE904CC0780D1CA5B
+F7A076CB82CEF3F0FE385440A17C512EECCBCCCEC0CCFDA10BBE469EDC4BE336E2078FE7D20341
+80D5C1FC7C0B02C70FFA4CE8D7CD60FC333A812842D34E9404F40F8CB3EEA6321B944BC9721002
+3900DB88FC9C37000CA323CC8FB2DE03D871380CA0F18B0DBB30B3A46BA3FE552F2B1C1476D299
+A028B3390CEFE8FCF4EFF0FC0C0C8FE00332323DF64EECDDE3EBBC2D80C6BDBB2682F91A830E00
+CF8CC012330CB84AE3F443717AF4E8A0DBD73CBC007F2817FC80AF5BFBEB386AF89EC074327CF9
+ED82BD0F5FF7F70DCFBCCCFFDFDDDFCFCFF13FC34DFCDD331073F38004F3082C1FD09D35FF4DFB
+375F45785DF0442CE1FEFEBF071347EFF04313A3DCC39CCCFF333FE77CCAFC31FDCEDDFE38223B
+CF2E0A04CCCAC34C4F25BD0228F073ABB28F3F30DD209FCFFFF2B33FE24CFD44BDFCDD71CC807A
+274785D4F28310D4F0D5F62F17F9F0C730C7FCDB4AEF1AC1F39134CB3CF02B8C802B9FEB2BD6EF
+C4B0C72710FFC57FC4283E0CE4B275FF1CD2E3AC7CE8D7BFF3FEB12BFD3A1C4EC30CA079FD3EAB
+ABF3862FFF5CD1F048534D3FABFA0D343FECF847DB2332CE1FBFECCCDCCCF3EA82F024000B3003
+10E3CFF173373C3BC354C00F5F433C1E30FFF398CFCC00F33EB4FCD3C0D33772E3FFD8FE1340F3
+DCCB1F0C3CFC32B040CFC3333DCFFCF273CF3DFF0E317FA36CFF015D30E35249DF65C8A0CE000A
+0002202008088082235CC35033C01B434CCF8908C01044D24088CCCE33C6F5732A9C8F8B0C83A7
+120F13F1B92FDDC9F1CC3B009D41C81E05889003B35C08C40D332B5C84C85EC024421C7C2E73EB
+309E380327FFCC003FCEF0C132B43030CF8D887F0FC3A4033B87FC34D3CEEAF415510B7CC02CCC
+384CEF0F0FC01AD32BC3AC873DBFD4460B3B63D0BD8787B170ABCB3F0CAC8AFF4FB4F8000CDAF6
+356370567C2802CB4DAC2108CFE7033EEC3F117A3BD034DDFF58BB406C337C3AB02FFB9C68440B
+3B0BD0B7CFC6FF39FF32740AC89A8C7BC33F230BBD8F47F029CC7A22CC3F0E800C009F417F33DD
+2F60D62C77E5BFD048F1FF0DA0EBA483AF39230F923CD73C2BD035F3EF5FB3F7C7FC0F7FF08047
+3C3C97F331F45CFBFC24CBC6CFFDD300F37043F90007FCCC7FCB81C9C320E0C0D0F0019FEB020F
+F01F01E33FD37F50CF1E0DCC888CFC0FC3E4F93D009C0AFFF48B2EFF39C7E3009131C387731C4F
+F380303C2020C3F3F3CA9F72017222CFF3210035E7F5CF7C33C039FE2F1B23CDB043D5E1F0CAF0
+2E4FFE30038CD26F40D9EA83C0220F878BAF80B8E27E01F3F0C33F3C4D6F40DA33DDE4DE0B1ABC
+894AFAF29974FEAFAA00BCEF60D30C1580C3F080C80F33F732A0CC34F23CCF3C340CF0C3373C4D
+BFF018E00B300221CFC023DC9CCCD0280C3F07312FC0D7C880F330C050B83E0137CB07E2802034
+0223DCE3CFB83803230948C070B0368CC0DEFE00CAA15F5DC29C0CE333098CB802C5B8A8080C32
+2CBFCC249F0FBC20C30009B17FECC3AB490BC30CCE62603982E0443CD13030C2CFCF3C8560872E
+33C558D28382D606BF36FB223358E0FAAC2C2E021037872CC9EBFDE6017370B29AFC00F34282B1
+243B0D30CF61C8072FFF3CF9AABB8497C43CECFE77602A7F8C03381CD2132C630AFB3B402A0125
+48100BC30AF500F3CF0B80F0ACBBFB7CF69CB0BA9F209A537FC08DDB0C891CBF3FC048CAA45823
+F068D02C331601FEDE4E4E4E4AB248132AECFB03C33FFF0EF00B00089DC88C39E138B060028A83
+3151765C09F3A3F3F0ECDA5DC2F0C8F20C170EB3818E2001B0FF03C0C10CFCB8B3EF7A000F0061
+3016C5C0070452C272C8831829BF8B810F3C281DA40FC75B07CA882B8945837EBC3342C0AA28A4
+4832EFB187BF0F004091FE4002C0FE0B222EE2F7940EFA4A332CFF17C60050CB23283E323D543C
+3A697C58E2AD40AC9A0C57A5BC0E6B7E4E0E3F0631049EDD8C3E9D2E03E8307B82312FC5DC8C86
+208573927F1E71CBCCA3B0FAE28F2FCC2B0C8F030C380D5FC75FAF13F1C577F032280436728ACB
+F39AA448D53032C1EA0CDC03C0FAC14DC3E1FC4BC3ECCCF0CC48EF04EC3C8800BFC7FF5F35ECF3
+DCFE2F205FC3FF3FE2C23F55CD100CC324B00C0EF0C3F304FF3B4F2E1FC0C31CC027B0EBF3DF9C
+07BF07C4AF3D299F066A9328D188E7C0A0EB7E8F3E802719CA8F0FCCB5DCEDCC2332F331EAC0FD
+030C73BB33F8260117FAE46F4187100000D4935C0FBFFCF0F3C2CC30FCC330380C05C02C839E3B
+0C31F0C33CFBE0FF30332C0008A020000FDE0A00A890CC60C4C02213D7383020E330CBF332FF0C
+0075BC8FCC5273F38F31FF03CF00E33FC33890E3E0C80000C4BCDC0CC008E6D9134AD803EE0F2C
+3520302CFF0E020C04C1CCCCFCC3206CC37FC00003C825FE0CCCF28DC332002C81C000CC00F39C
+E00603D9C3F00F1F0288335CECCCA040C03CFCE300B6E3CF1308BCC0387C0F0303311338F43323
+608CFCB3ACF030C005FBC0F3C03EF000D04F30F37CF4D2FC32107CCCFC03C01098EF3F0D0FC0CC
+381CCFCFD77C783FF001CCCC200032CE033EF13C003CF3F091CB33CF9230C90402C000DC2FC8AC
+8DF3F17F03D6738B0CC22C5CC70B00B23C9E882C037C4FA0C403B087C383F2D73C0023E8F050FF
+CFAF0D003700E23300332343CB3C2C37200C036C9E8B3F3003A7A08F37008CC89E30273000BF03
+D02B11F203B33D244C807CDB7DFCD08A332C33033E203420D8F702C6CCA24FEBF05AF8BA42F1C0
+300040C0A383032DE053FEC003A0302008DFCE304F3E04A7CF99088BD03E2E64BFA45D8EDA7C9F
+35138390A0CE0EBE87BDB53C009C4627ABC0C6DB884B3AFDCDF72280F02C0308A2157EC60281B2
+AF0941732CC4E7BFB8F78F0CF0303BFC06FC42992340F31130C3803C110938420271BEB130C2E7
+838372B380FFDF09C7FCCCC6CB10471B88C837B3FFFF5E0AC1F69F000C48FF1F3C29FC1EC33FF0
+F3F0AE30B1C3FFC0F1C32F00CF7FC3C00E5FBC1300B0EE96FFB2DACC2C2E631F910A77E970CB60
+FAF08661DFD0EF88EA8F43F55FA9CFAFAF8EC32C1304874E3FB7380B9037F6545CCCAB4C9F03EB
+224C79D38CBDCB80BD8D7F7A5702D62E780CAC84AB03F037C7AE405380BD8F7F5DA30F3C13C413
+BC2FD22000C07C8AA332FC3A003CC33E44F0AF70BD0B7EB37502748C1D0F2B22E432E0ACF9AF30
+BD837CFFA93D32C3C0E0F9CF333402CB8E83E9213832FCA5CFEBF017CD6F42DA371FC0303C35F0
+82C678CCC7C3DCCE7B21C3AB0B4C0FFEB3F20F29BD8365D24C2BA332F43292043ECEE0103AF77B
+D8B4AB351517320302F3D1CFDFCAF0C3159CAB2FC1AF4033C3F4E4F06F8ABD8F5F75C9C0126C0D
+FCB7280DEBCFFCC12232633B348D405BC0C724C0C435FBFB3004903FF03000AF4CC040000CC0CE
+30113E4CCCC3DFD368E33FCCDEE8CC33133CECCF3C90EE6F3C4BC005734FDACF3F70F27CFCF90C
+A0BCDF30C32B329FCCA7CDF3F3CB33B2892CDCC7BFF3D31F3BC303308BF583C30B8870012CC5FE
+B1DF0D1DCB3FA01D2BCCC7FC5D08035F376AFF7E2B0031FFF2712C8C1E230F3F271EC5113C42CC
+AC33CECE91FC9CFE3C35CBF7E4CF3E7E73AFA2432F3C33C000BFF3BF3001D41D0F817DE20C632C
+F10DC3FBBCF73FCC4879F22C1CF3FB3DC3F8ECC0F33BC320BBF8FF0FCF03CCF0E1F7FFF32FF30F
+70C8FFFC08BFF37F3F0036CB3D73BCDF4AC5CF30C4E75A00F000C30FCF4EDCB40307C8439031D1
+0CBD010C40F74220C40CD4220CC0D74220EC8C740B0E48F74330648C780306480BB28DD2823563
+9C3F74C41855A73CE0CC68A042F820F00863CDF019B0B8FC01AB200C3807B23263AE0DDC5D76E8
+6CC3E08FCBFB1D04237EF8E7020820FEF0E0BC9828237822FC0320FE32089C3FCD3209E7708922
+5C8DFC8108209E740C988483A2220B41F5CFF0C3E08A03D75FCCE0AE3DA3AC8A348A71D05CA194
+50CDC30E0410D43DC3A104370E0410D43DC38104350F78A2C005CD060D28DC38348370F70E0530
+DCB1C28200370CF060410DC35C1800F23D8B8C7C3C0C3CCCC1F0420071FCBFFFFA60FC0F3ECBFF
+FEF0283C3D04AC838537C44E9FBC26F62D9F3F7CCC07103303400037F232303C4D7FF3BF7CD01C
+CC19FCC8C830010308C3EF001F02CF0083B842F332307C0F3C2C7CCF0C143E3B8CE5F32FF03907
+F0341C30ACC01CC24C7FFC5F533C232C1139EC4C03FF03202CCF2E7C070C307EECCBF07C87C3F3
+A3820262D576310'H } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        gene {
+                          locus "cox1" } ,
+                      location
+                        int {
+                          from 33 ,
+                          to 3218 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_1" ,
+                      location
+                        mix {
+                          int {
+                            from 33 ,
+                            to 806 ,
+                            strand plus ,
+                            id
+                              local
+                                str "G_americanus_mt" } ,
+                          int {
+                            from 1922 ,
+                            to 2020 ,
+                            strand plus ,
+                            id
+                              local
+                                str "G_americanus_mt" } ,
+                          int {
+                            from 2442 ,
+                            to 3218 ,
+                            strand plus ,
+                            id
+                              local
+                                str "G_americanus_mt" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-ucu" } ,
+                      location
+                        int {
+                          from 3439 ,
+                          to 3511 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:ucu" ,
+                      location
+                        int {
+                          from 3439 ,
+                          to 3511 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cob" } ,
+                      location
+                        int {
+                          from 3624 ,
+                          to 4788 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 4785 ,
+                                  to 4787 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "G_americanus_mt" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_2" ,
+                      location
+                        int {
+                          from 3624 ,
+                          to 4787 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox2" } ,
+                      location
+                        int {
+                          from 5088 ,
+                          to 5822 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_3" ,
+                      location
+                        int {
+                          from 5088 ,
+                          to 5822 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnG-ucc" } ,
+                      location
+                        int {
+                          from 5854 ,
+                          to 5926 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 71 } } ,
+                      comment "anticodon:ucc" ,
+                      location
+                        int {
+                          from 5854 ,
+                          to 5926 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp6" } ,
+                      location
+                        int {
+                          from 5969 ,
+                          to 6799 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_4" ,
+                      location
+                        int {
+                          from 5969 ,
+                          to 6799 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad2" } ,
+                      location
+                        int {
+                          from 7194 ,
+                          to 8795 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_5" ,
+                      location
+                        int {
+                          from 7194 ,
+                          to 8795 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad3" } ,
+                      location
+                        int {
+                          from 8797 ,
+                          to 9165 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_6" ,
+                      location
+                        int {
+                          from 8797 ,
+                          to 9165 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4L" } ,
+                      location
+                        int {
+                          from 9368 ,
+                          to 9637 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_7" ,
+                      location
+                        int {
+                          from 9368 ,
+                          to 9637 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad5" } ,
+                      location
+                        int {
+                          from 9637 ,
+                          to 11622 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 11620 ,
+                                  to 11622 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "G_americanus_mt" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_8" ,
+                      location
+                        int {
+                          from 9637 ,
+                          to 11622 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad1" } ,
+                      location
+                        int {
+                          from 12272 ,
+                          to 13426 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_9" ,
+                      location
+                        int {
+                          from 12272 ,
+                          to 13426 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4" } ,
+                      location
+                        int {
+                          from 13578 ,
+                          to 15110 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_10" ,
+                      location
+                        int {
+                          from 13647 ,
+                          to 15110 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrnS" } ,
+                      location
+                        int {
+                          from 15468 ,
+                          to 16937 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "small subunit ribosomal RNA" } ,
+                      location
+                        int {
+                          from 15468 ,
+                          to 16937 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnY-gua" } ,
+                      location
+                        int {
+                          from 17053 ,
+                          to 17138 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 89 } } ,
+                      comment "anticodon:gua" ,
+                      location
+                        int {
+                          from 17053 ,
+                          to 17138 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox3" } ,
+                      location
+                        int {
+                          from 17216 ,
+                          to 18025 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_11" ,
+                      location
+                        int {
+                          from 17216 ,
+                          to 18025 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnK-uuu" } ,
+                      location
+                        int {
+                          from 18742 ,
+                          to 18813 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 75 } } ,
+                      comment "anticodon:uuu" ,
+                      location
+                        int {
+                          from 18742 ,
+                          to 18813 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnG-ucc" } ,
+                      location
+                        int {
+                          from 18850 ,
+                          to 18920 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 71 } } ,
+                      comment "anticodon:ucc" ,
+                      location
+                        int {
+                          from 18850 ,
+                          to 18920 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnD-guc" } ,
+                      location
+                        int {
+                          from 18926 ,
+                          to 18997 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 68 } } ,
+                      comment "anticodon:guc" ,
+                      location
+                        int {
+                          from 18926 ,
+                          to 18997 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnS-gcu" } ,
+                      location
+                        int {
+                          from 19003 ,
+                          to 19084 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 83 } } ,
+                      comment "anticodon:gcu" ,
+                      location
+                        int {
+                          from 19003 ,
+                          to 19084 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-acg" } ,
+                      location
+                        int {
+                          from 19092 ,
+                          to 19164 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:acg" ,
+                      location
+                        int {
+                          from 19092 ,
+                          to 19164 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnN-guu" } ,
+                      location
+                        int {
+                          from 19168 ,
+                          to 19238 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 78 } } ,
+                      comment "anticodon:guu" ,
+                      location
+                        int {
+                          from 19168 ,
+                          to 19238 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnW-uca" } ,
+                      location
+                        int {
+                          from 19245 ,
+                          to 19315 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 87 } } ,
+                      comment "anticodon:uca" ,
+                      location
+                        int {
+                          from 19245 ,
+                          to 19315 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnC-gca" } ,
+                      location
+                        int {
+                          from 19342 ,
+                          to 19412 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 67 } } ,
+                      comment "anticodon:gca" ,
+                      location
+                        int {
+                          from 19342 ,
+                          to 19412 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnI-gau" } ,
+                      location
+                        int {
+                          from 19895 ,
+                          to 19967 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 73 } } ,
+                      comment "anticodon:gau" ,
+                      location
+                        int {
+                          from 19895 ,
+                          to 19967 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnS-uga" } ,
+                      location
+                        int {
+                          from 19970 ,
+                          to 20055 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 83 } } ,
+                      comment "anticodon:uga" ,
+                      location
+                        int {
+                          from 19970 ,
+                          to 20055 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnP-ugg" } ,
+                      location
+                        int {
+                          from 20067 ,
+                          to 20139 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 80 } } ,
+                      comment "anticodon:ugg" ,
+                      location
+                        int {
+                          from 20067 ,
+                          to 20139 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrnL" } ,
+                      location
+                        int {
+                          from 20451 ,
+                          to 24472 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "large ribosomal RNA subunit RNA" } ,
+                      location
+                        mix {
+                          int {
+                            from 20451 ,
+                            to 21350 ,
+                            strand plus ,
+                            id
+                              local
+                                str "G_americanus_mt" } ,
+                          int {
+                            from 21479 ,
+                            to 22135 ,
+                            strand plus ,
+                            id
+                              local
+                                str "G_americanus_mt" } ,
+                          int {
+                            from 24218 ,
+                            to 24472 ,
+                            strand plus ,
+                            id
+                              local
+                                str "G_americanus_mt" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "rps3" } ,
+                      location
+                        int {
+                          from 22842 ,
+                          to 24128 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_12" ,
+                      location
+                        int {
+                          from 22842 ,
+                          to 24128 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnT-cgu" } ,
+                      location
+                        int {
+                          from 24821 ,
+                          to 24891 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 84 } } ,
+                      comment "anticodon:cgu" ,
+                      location
+                        int {
+                          from 24821 ,
+                          to 24891 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnE-uuc" } ,
+                      location
+                        int {
+                          from 24895 ,
+                          to 24967 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 69 } } ,
+                      comment "anticodon:uuc" ,
+                      location
+                        int {
+                          from 24895 ,
+                          to 24967 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-cau" } ,
+                      location
+                        int {
+                          from 24970 ,
+                          to 25040 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      comment "anticodon:cau; tRNA-Met2" ,
+                      location
+                        int {
+                          from 24970 ,
+                          to 25040 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnA-agc" } ,
+                      location
+                        int {
+                          from 25045 ,
+                          to 25118 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 65 } } ,
+                      comment "anticodon:agc" ,
+                      location
+                        int {
+                          from 25045 ,
+                          to 25118 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnL-uaa" } ,
+                      location
+                        int {
+                          from 25121 ,
+                          to 25202 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 } } ,
+                      comment "anticodon:uaa" ,
+                      location
+                        int {
+                          from 25121 ,
+                          to 25202 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnI-uau" } ,
+                      location
+                        int {
+                          from 25252 ,
+                          to 25322 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 73 } } ,
+                      comment "anticodon:uau" ,
+                      location
+                        int {
+                          from 25252 ,
+                          to 25322 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnF-gaa" } ,
+                      location
+                        int {
+                          from 25325 ,
+                          to 25398 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 70 } } ,
+                      comment "anticodon:gaa" ,
+                      location
+                        int {
+                          from 25325 ,
+                          to 25398 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnL-uag" } ,
+                      location
+                        int {
+                          from 25434 ,
+                          to 25515 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 } } ,
+                      comment "anticodon:uag" ,
+                      location
+                        int {
+                          from 25434 ,
+                          to 25515 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnQ-uug" } ,
+                      location
+                        int {
+                          from 25562 ,
+                          to 25634 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 81 } } ,
+                      comment "anticodon:uug" ,
+                      location
+                        int {
+                          from 25562 ,
+                          to 25634 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnH-gug" } ,
+                      location
+                        int {
+                          from 25636 ,
+                          to 25708 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 72 } } ,
+                      comment "anticodon:gug" ,
+                      location
+                        int {
+                          from 25636 ,
+                          to 25708 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-cau" } ,
+                      location
+                        int {
+                          from 25758 ,
+                          to 25830 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      comment "anticodon:cau; tRNA-Met2" ,
+                      location
+                        int {
+                          from 25758 ,
+                          to 25830 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad6" } ,
+                      location
+                        int {
+                          from 25993 ,
+                          to 27660 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 26692 ,
+                                  to 26694 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "G_americanus_mt" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_13" ,
+                      location
+                        int {
+                          from 25993 ,
+                          to 26694 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnV-uac" } ,
+                      location
+                        int {
+                          from 27881 ,
+                          to 27953 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 86 } } ,
+                      comment "anticodon:uac" ,
+                      location
+                        int {
+                          from 27881 ,
+                          to 27953 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "G_americanus_mt_14" ,
+                      location
+                        int {
+                          from 7000 ,
+                          to 7146 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp8" } ,
+                      location
+                        int {
+                          from 7000 ,
+                          to 7146 ,
+                          strand plus ,
+                          id
+                            local
+                              str "G_americanus_mt" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_1" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 549 ,
+              seq-data
+                ncbieaa "MDEESESPRYLLSSKMSLWVERWLCSSNAKDIGVLYLIFALFSGLVGTAFSVL
+IRLELSAPGVQYIADNQLYNSIITAHAIVMIFFMVMPAMIGGFGNFLLPLLVGGPDMAYPRLNNISFWLLIPSIALFL
+FAGAIENGAGTGWTLYPPLSSIQSHSGPSVDLAIFALHLSGISSLLGANNFITTILNMRTPGIKLHKLALFGWAIVVT
+AVLLLLSLPVLASAITMVLTDRNFNTSFFEIAGGGDPILYQHLFWFFGQHPEVYILIIPGFGIISTTISASSNKAVFG
+YLGIYAMMSIGVLGFVVWSHHMYTVGLDVDTRAYFTAATLIIAVPTGIKIFSWLATCYGGSLMLISSMLFALGFVFLF
+TVGGLSGVVLANASLDIAFHDTYYVVAHFHYVLSMGAVFALFSAWYFWIPKIIGLSYNHNQSRIHFWVLFIGVNLTFF
+PQHFLGLQGMPRRISDYPDAFAGWNLVSSFGSIVSVVATYIFLHIVYVQLRGDLYTTRYPWGIAAFYSDILRVLNNRV
+HTSLEWALTSPPKPHAFISLPLQSGILY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit I" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 548 ,
+                          id
+                            local
+                              str "G_americanus_mt_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_2" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 387 ,
+              seq-data
+                ncbieaa "MRILKSHPLLKLVNSYLVDSPQPSNLSYLWNFGSLLAFCLVIQIITGVTLAMH
+YNPNVLDAFNSVEHIMRDVNNGWMIRYLHSNTASAFFFIVYLHIGRGLYYGSYKAPRTLVWTIGTVIFILMIATAFLG
+YVLPYGQMSLWGATVITNLMSAIPWIGQDIVEFLWGGFSVNNATLNRFFSLHFVLPFILAALVIMHLVALHDSAGSSN
+PVGVSGNYDRIPFAPYFIFKDLVTIFLFILGLSLFVFFVPNLLGDSENYVMANPMQTPPAIVPEWYLLPFYAILRSIP
+NKLLGVIAMFSAILILLAMPLADLSRSRGIQFRPLSKIAFYIFIGNFIILMQLGAKHVESPFIEFGQLSTVLYFSHFL
+IIVPFLSLLENSLIELPENPQQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome b" } ,
+                          desc "stop codon not determined" } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 386 ,
+                          id
+                            local
+                              str "G_americanus_mt_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_3" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 244 ,
+              seq-data
+                ncbieaa "MDWDWNDTPRPWGLYFQDSATPQMEGLVELHDNIMFYLVIILFAVGWILLSIA
+RTFNHNTSPISYKYTNHGTLIELIWTITPALILILIAFPSFKLLYLMDEISDPSMSVLAEGHQWYWSYQYPDFLNSDE
+DFIEFDSYLVPESDLEIGSLRMLEVDNRVILPELTHVRFIVTAADVIHSFACPSLGIKCDAYPGRLNQVSVLVNREGV
+FYGQCSEICGVLHSSMPIVIESLPIEKFLSWLEQQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit II" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 243 ,
+                          id
+                            local
+                              str "G_americanus_mt_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_4" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 276 ,
+              seq-data
+                ncbieaa "MTPVKADIYPEIPNPIVDGIEIVISTFSPLDQFEIRDLIGVKAPIFFNTQIFL
+TNISMYLCLGTVIAIALNVIALNKEKTVANSWSLSLESIYATVHSIVVSQINYVSGQIYFPFIYVLFSFILINNLIGM
+MPYSFASTSHLIFTLALSFTIVLGATFLGFNKHGWKFFSLFVPAGCPLGLLPLLVLIEFISYLSRNVSLGLRLGANIM
+SGHMLLNILSGFCYNIMLSGFVFLIIGLIPLAFIIAFSGLELGIAFIQAQVFVVLTCSYIKDALDLH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 275 ,
+                          id
+                            local
+                              str "G_americanus_mt_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_5" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 533 ,
+              seq-data
+                ncbieaa "MLTISIIFVLLSNAFTSRRDLSLYFNRSLIIVLLITLLLAINSNNFIVLKEGI
+SILGGLFHNSNLTITFHVFILFISLVILQLTAFLPKKYINNNMNPNNRFMENLLSNLQYFDKNKEQYSIIEYPLVIVF
+IILGAIFIISSSDIISVFISIELQSYGLYLLCSLYRNSELSTGAGLTYFLLGGLSSCFILLASGILYANSGTTNLEGY
+YILANLSNVNQSLYNIIYWYDNNYINYSLVILSLGFLFKISAAPFHFWSPDVYDAIPTVVTTFVANVAKISLLIFLID
+IVHHSSNLEIFNFNWTYCLLISSFLSLIIGTVLGLNQSRVKRLLAYSTISHIGFILLGISINSIESMQAFIFYLMQYS
+ISNINIFMILVSIGYTIYIPEKQEKTLSEQDNSPVQYIAQLRGYFYVNPVLAISLAIVMYSFVGVPPLIGFFGKQMIL
+SSALDKGYVFISLIAILTSVISAVYYLNIIKEIFFEKPEDQLSKNKDYTVTLSTSISVFVSIFTLIILLFIFSPQQWL
+SITNILAIYIFT" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 2" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 532 ,
+                          id
+                            local
+                              str "G_americanus_mt_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_6" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 122 ,
+              seq-data
+                ncbieaa "MNSITFFLCFIPILALILLVLNLALAPHSPYQEKSSTFECGFHSFLGQNRTQF
+SISFFIYALLFLLFDLELLVIYPYVVSSYTNGGYGLSIMLAFFIILTMGFAFELGKKALNIDSKQYTDK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 121 ,
+                          id
+                            local
+                              str "G_americanus_mt_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_7" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 89 ,
+              seq-data
+                ncbieaa "MNISLLLFLIGILGFVLNRKNIILMLISIEIMLLAITFLILIASLKYDDILGQ
+TFAIYIITIAGAESAIGLGILVAYYRLRGSITIEYK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4L" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 88 ,
+                          id
+                            local
+                              str "G_americanus_mt_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_8" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 661 ,
+              seq-data
+                ncbieaa "MYLSIILMPLIGSISSGFFGRKVGVKGSQFITCSMILLAVTFAVLSFLEIGLN
+STPVSIYLLKWIDLENLNIFISFNFDSLTTSMLIPVLSVSFAVHVYSIGYMSHDPHNQRFFSYLSLFTFMMIILVTAN
+NYLFMFVGWEGVGICSYLLVSFWFTRIAANQSSISAILTNRVGDCFLTIGMFGILWSLGNLDYATVFSLAPFVNENII
+TIIGTCLLIGAMAKSSQIGLHVWLPMAMEGPTPVSALIHAATMVTAGVYLLIRSSPLIEYSTTVLLLCLWIGAITTLF
+SSLIGLFQQDIKKVIAYSTMSQLGLMVVAIGLSAYTIALFHLINHAFYKALLFLGAGGVIHAVADKQDFRKYGGLKVF
+LPLSYSIMLIASLSLVAFPFMTGFFSKDFILESSYAKFNLSSIIVYFISTTGAMFTTLYSVKTLYLTFITNPNGTLTD
+YKNIHEGNIYMSLPLIILALFSIYFGFSTKDMFVGLGSDFFVDNGIFIHPSNDSMINTEFAVPTLYKLLPFIFTISLT
+LLSLIISEYLLKNLMQFKLTNFGYNMFSFLNLKFSIELIYNKYITEIVLKLGGHTTRILDKGAIELIGPYGLQKTVSY
+ISKTLSSLDTGIVTTYALYILIAGLTYICLPYILSSAISILLILILSIIFLTIKFALKRNAL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 5" } ,
+                          desc "stop codon not determined" } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 660 ,
+                          id
+                            local
+                              str "G_americanus_mt_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_9" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 384 ,
+              seq-data
+                ncbieaa "MYILRPILEVIVLTVPALLGVAYVTVAERKTMASMQRRLGPNTVGFYGILQAF
+ADALKLLLKEYVAPSQSNLILFFLGPILTLIFSLFAYAVIPYGPGITLLNFDLGILYLLAVSSLSTYGILLAGWSANS
+KYAFLGSLRSTAQLISYELVLTSAILLVVLFTGSLNLIVNVEIQRAIWFVFPLFPVFIIFLIGSIAETNRAPFDLAEA
+ESELVSGFMTEHAAVIFVFFFLAEYASIVFMCILTSTLFLGGYLYNIIDLSFFREIYDSLYLEYKNSYYFTLSSQPVT
+KDSLPFVTDLDSVKKNSLPNTGIILIESIIYAFSLGLKTCIMVFIFIWVRASFPRIRYDQLMSYCWTILLPLVISLVI
+IVPCILFSFEIMPITIGLL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 1" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 383 ,
+                          id
+                            local
+                              str "G_americanus_mt_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_10" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 487 ,
+              seq-data
+                ncbieaa "MINFLILLSLLTTPLGGILLLSSIPYRWVRFTALSTSLLNLTFSLILYITFDF
+SINQYQFVQQYYNLDIFDIYLGLDGLSIYFVLLTTLIIPISILSNWSSILQDVKSFLIIILMLETLLIAVFLVLDIML
+FYIFFESILPPLFVLIGLYGSRNKVRASFYLFLYTLLGSLFLLLSILTISSIMGITDFDALYKTNFNFSTQLFLFYGI
+FIAFAVKTPTIFLNTWLLKAHVESPLSGSIILAAIVLKLSLYGILRLILPILPKASINYTYIIFIIGVITIIYASFST
+LRTIDVKELIAYSSVSHAAVYLIGVFSNTSSGIEGGILLGIAHGFVSSGLFICAGGVLYDRSSTRVITYYRGVTQLMP
+VFSILFFILCLGNCGVPLTLNFIGEFMSLYGAFERLPLLGVFASLSIIFSAAYTIYMFNRIAFGGPYSKYFEFNIPDL
+NKREFSILISLVVATVVLGIYPMGIIDGLHYSVSLLIYESSYVW" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 486 ,
+                          id
+                            local
+                              str "G_americanus_mt_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_11" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 269 ,
+              seq-data
+                ncbieaa "MKNIIRSNFQAHPFHLVSPSPWPLNTSMTLFGLTTSLVLTIHGFYNAIYFIYF
+ALIGLILSMSLWWRDVISEGTYIGNHTLAVQRGLTMGVGLFIISEALFFLGIFWAYFHSSLSPTIETGAHWPPLGIQS
+INPFELPLLNTIILLSSGVTVTYAHHSIIKGDRKGALVGSVFTVILATIFTLLQGIEYAVAPFTISDGTYGSCFYFGT
+GFHGLHVIIGTAFIGVGLWRVFSYHLTDHHHLGLESSILYWHFVDIVWLVLYISIYYWGS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit III" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 268 ,
+                          id
+                            local
+                              str "G_americanus_mt_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_12" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 428 ,
+              seq-data
+                ncbieaa "MNKEWYNSLYSFNKNSVRFIPAIYDYTFKLLKWYFNMSNDWIEKKIQLSKYKK
+MRRTSGRKLWISNPEIKYFNERINITIYIYNRTYNLLKKKLEAFEYILGSNIEKVELKKYKNYAMKTKFANLKLLKGE
+YPMYIGTNKIIYDKSRDYYIRVIKWLKLNKYTHMIQYRSKIFSMVLNNKNLVKLLKLLKNQHYNYLIHQFNRQLIYLK
+LKQAMLFNQFKYNELYLFPLTEFLKTIYKKKIVWNIVTLKNYYLSTSILLQIIATKVKKSKFRGRSYLPLNSAMSNIR
+VPILSKSRLAGEVKSYIGIQNVRLNEFSPIKKDWINQFLLVNQKSKMRYKNIDQLVLSNLENKIVAGVFIKMAGRLSK
+RYRADKAIKKFKFKGTLRNVYSAHRNLSSSLSRGYSNINIEKSRIDSKVRIGAFGLTGWVASY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ribosomal protein subunit 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 427 ,
+                          id
+                            local
+                              str "G_americanus_mt_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_13" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 233 ,
+              seq-data
+                ncbieaa "MNMINTLHIYNSFIGWYFISVDIIYILCILLAMCVITVKNPIISVLFLISLFI
+AIGSYLIIIGIGFIGLSYLLVYVGAVSILFLFILMLINIRVSELISETKNSIPLVLLITLVFGNSGYILLPQENPYLG
+FSWGKNTFLATVDNWDNYLATVPHITSIGNIMYGTLAIWLILVSCILLLAMVGAIVINIKKSFYVYKNSNSIEPSENT
+IVLQSNLCYSILYRLLRVTIICIL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 232 ,
+                          id
+                            local
+                              str "G_americanus_mt_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "G_americanus_mt_14" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 48 ,
+              seq-data
+                ncbieaa "MPQLVPFFFLNQVIFAFILLVILIYAFSKYILPKFVTLFLVRVSLIKL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATPase subunit 8" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 47 ,
+                          id
+                            local
+                              str "G_americanus_mt_14" } } } } } } } } } }

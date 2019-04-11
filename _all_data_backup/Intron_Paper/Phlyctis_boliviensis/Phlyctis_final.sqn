@@ -1,0 +1,2057 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Kane" ,
+            first "Nolan" ,
+            initials "N.C." } ,
+        affil
+          std {
+            affil "University of Colorado, Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            country "USA" ,
+            street "Ramaley N122" ,
+            email "nolan.kane@colorado.edu" ,
+            postal-code "80309-0334" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Kane" ,
+                  first "Nolan" ,
+                  initials "N.C." } } ,
+            {
+              name
+                name {
+                  last "Keepers" ,
+                  first "Kyle" ,
+                  initials "K.G." } } ,
+            {
+              name
+                name {
+                  last "Pogoda" ,
+                  first "Cloe" ,
+                  initials "C.S." } } ,
+            {
+              name
+                name {
+                  last "Lendemer" ,
+                  first "James" ,
+                  initials "J.C." } } ,
+            {
+              name
+                name {
+                  last "Tripp" ,
+                  first "Erin" ,
+                  initials "E.A." } } } ,
+        affil
+          std {
+            affil "University of Colorado, Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            country "USA" ,
+            street "Ramaley N122" ,
+            postal-code "80309-0334" } } ,
+      date
+        std {
+          year 2016 ,
+          month 12 ,
+          day 6 } } ,
+    subtype new ,
+    tool "Sequin 15.10 - MS WINDOWS VISTA" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            genome mitochondrion ,
+            org {
+              taxname "Phlyctis boliviensis" ,
+              orgname {
+                mod {
+                  {
+                    subtype specimen-voucher ,
+                    subname "New York Botanical Garden:Lendemer:45964" } } ,
+                mgcode 4 } } ,
+            subtype {
+              {
+                subtype collection-date ,
+                name "10-Jan-2016" } ,
+              {
+                subtype collected-by ,
+                name "James Lendemer" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Kane" ,
+                            first "Nolan" ,
+                            initials "N.C." } } ,
+                      {
+                        name
+                          name {
+                            last "Keepers" ,
+                            first "Kyle" ,
+                            initials "K.G." } } ,
+                      {
+                        name
+                          name {
+                            last "Pogoda" ,
+                            first "Cloe" ,
+                            initials "C.S." } } ,
+                      {
+                        name
+                          name {
+                            last "Lendemer" ,
+                            first "James" ,
+                            initials "J.C." } } ,
+                      {
+                        name
+                          name {
+                            last "Tripp" ,
+                            first "Erin" ,
+                            initials "E.A." } } } ,
+                  affil
+                    std {
+                      affil "University of Colorado, Boulder" ,
+                      div "Ecology and Evolutionary Biology" ,
+                      city "Boulder" ,
+                      sub "CO" ,
+                      country "USA" ,
+                      street "Ramaley N122" ,
+                      postal-code "80309-0334" } } ,
+                title "Phlyctis boliviensis complete mitochondrial genome" } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 26 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2018 } } } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "Phlyctis" } ,
+            descr {
+              title "boliviensis complete mitochondrial genome" ,
+              molinfo {
+                biomol genomic ,
+                completeness complete } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Assembly-Data-END##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "SPAdes v. 3.9" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 12 ,
+                  day 6 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 25319 ,
+              topology circular ,
+              seq-data
+                ncbi2na 'A8B3C972008B80BACA409935F3F0FC11FEAC898E3FE74D0390084
+CAC7F317CCFE4F3F928F0FAC493FDEF7CF23C8BEDEB52BB10FCC9230D0F330CB3CC1E74E432F38
+CFFF3AF3979CE328ABFAC3FFC794F3CB2BA968CE9315C87830CC2FFE3CF145C9F0CF3FF3F9CBAC
+C801A24AC4AF81DFCD757CDEB3102D32EB5CBBA37A733F93C4FC928B092FCF2B9CC0FF3C710CF0
+33882D7ACC23C4C07E5F3FAB892CBEC124B3CF1EFB7F15BFC94B9CC10EBFC123283F43135FFF82
+492BAEB8D737ECD04DFF78FFFAD35E0B3333C30C52BF6B3CC2C414FD2727404032CFEBCFCA0EB7
+39CE38B328B3CAFFB2FE094533B312CABC8EC8C4225CFD1A4904F0C3E7B171AB30033F2F8FA41F
+BCEBA373BCF04DF739CFE4F2BFECF4EF4432AAFC2EBBEFF240E4D9F8CC93D4E31F1CEFBA44FD4F
+1BFC2CEA27BBF9FCCCB9B8C7FE0C5C031CA3C8F3052FFCAC0B13F7833CFCCAAF0EF1BFFD7413F7
+CAFC4283976DB30B8F35E397F9ABE033AC2CBFE8DCC30BB0C9C7E3CFFCC4FB33310F2C82B02713
+42335FAF0C5D0FF32E333C42E73C0C89330F7322E27F032D45C05D19FFB36F16B902C330F37B23
+1C83CFECCC73F0CC8CB12CC8DF14AF1A50CE9C701C38CB05CF33090CB2C332BB149D65C30041C0
+30F07F0A3014CC03AC00000E0384002C4E310C88E20CFC025355FF00F2F0F6CFCB21D16497DC3F
+0BCFEE03FE8DDFF27FFBF0F31030C128B04F27393CC35C3BFC824FC1DEC8933CE6E3B030EBE3C3
+1BCFC4F40C493793FF7FF2DCFC4CCAC8A3CC73A34CC0914204F2EE043EB1CC33F33C38C9C493F7
+ABCEFF14CEB40ED3CE2B904BCC1C3F0E2E7314E2CA108EFBE2FFCE2BAFFDEF0C1904F0123FFF7F
+13FEFF17FECF2793C9FC391F0C93C4E32E7A34AC352CAECD2B0F38C8FA4FE7533FCCFC08FC3063
+3FF3F33EF3CDCCFECFFF39706E72A8CB803CEC3A40D73901175A732C520E337FC5FDCE733C2373
+170C0F3CAEC3243BFDE73CE33CF27397FC78FCDC8D08ACC4BF217F0B00C9FFCCCFCCAC3FFC3FC3
+90F2B9C04EC8345FF3E0FEB40CD07B3CC7F913F5CBCCB57FCF2FCFE00CBF0483C72010082C10EF
+C00C090C2E152007732FCF7AF8BFF1E03C083CF0D178FE34DE73CF372C3FFBB2AFEF37C9277C14
+3873FFEECDBCE3B31BC7FC007877FDECFC3263994217E28F33FD084B9C45103A0AFC320F138C33
+FCFF3F2E3CCF3F9ECAF833CBF730F003CC70C48345CCDD1033F014EB13C3E0F8CE073045E7F0FF
+8CF0F9FF5F7FC2F3ECFC3A388C2E35273B4BBC920AD3438CF82F14335E3FFC0CB8E28BF3E0FE3D
+F1F2F520DE3F208E89FC20EF20B210C8BCF31481F111BC8FCFBC49E78EF313D3F97B5A7F2B3C0E
+E39F152B23C050BF7BFC3C1220A07FF3AD0EF480CEEB33C4CBDCE5CDBCC834BF532003DF27E0F8
+2043224C10EFBC5CA8CF8483AF3B0F8F923405002BD0F5FCCD5CCCC72A8CDC04CCC4CFCFC0CF32
+D333C33008FF3CC07CEC2B3C3C303C3CC3F89CF27ABC731012FF938BFF0FBFCC0B0C96C7FECC3F
+F08005F30FF0CC30D98CFFFFFCCD477F33F301FF380239C2C03EFCF33830DACFD0CF337254F214
+3F82F203F0D2FC8E75CFFFF0CC4FCDFC10332BF33F377E83FDBCCF04F0B33C9070710C0B0FFC10
+78DFEA7C8073339C731124CB0C0D03039C302840CCFF5FF3F31FCFCCFCCF0C0C3F0FACEB17CCBF
+E4D04D11FCFF04FF73CBFC7B2FF2A946BFCAFF0C0468F00FFDDDFFEC564AF95FCAFCF17F3CBBC3
+22FCDD33F27203B0BF2AF1BF0B94333C2EB4CEF3C0CCF24AFFEF30CC387DEBFFCFFDFECAFC317F
+24FCF324FF4AFC83CACF97F3D29D0BFFB2CF072CBCCF023DFC8DE4F0CEDCCE23332C7CCDC33317
+7304333CDCFFC8C00E44023E4F04FDF303000B4E5107EC57DCFF30342C13F9FFBFC7CC30E3F1BB
+FDC0CCCF1523FBDBF3FF046ECFCC2C0F3035FFFC5CFD4F2743A08938C7DC3352142BD835F8EA0F
+E7CF1BB3CD33CF1CDC396D13C29B8DFDCFFFF2DB2DFF8733C7C12FFF1FABFF0BF0033417E203AC
+CA3CFEBAFEFD31049FC243EFF4CCFCCF3D7F9FCC3FC4BC1CBFF35C800CFEF0471E80FFFC2F0FDC
+32BEFFC3C703C7231C0A2043300FF20CD7F0CFBCFCC304AE7B3FF0F2CB2E332FDCCFFCD0C81C40
+BCEAF3331CEC43B12032E0F371F49AB7C7CFFF3CAEBF34D3BFCFF9CAC42FCF33B01DEB1C705C86
+AF733CC1C3FB7ACC0230FCF33E312E70F33C3F377FC30ED2CA7FF3F00C2E49D7FD3F782D68EFCE
+39CC5C732C104FEF98332400CDCCFCCFFEFE0F2C4F310B0F3C7703F8FF0F810F2FCF0F2F7F1CD5
+C34CAC4B3EA3C0D0CC830023CF27C4B1CCD13F2BFCCF3C9FC2CF0CB322DCF424FCFFF33CE433DC
+FD0330397F3DCF0F24EAF33FFCE7C450C320CFFF0FC3E30370F75EF43F1E040F02ACFFCCC057CC
+C90F2FF9CC14CC74FECACC5177ACA3FFEB0103ACF37924F210EBCEFFCC13CB2733E10BBCC2E7BF
+3CDC04C30080DFFF0C0DE3CC4F01122F030447FC083B008030D70033E43E330304CB3CDC32FC27
+C10FD0EF04F2F33C73F38C057420E3C26C1C13FC94F31FFC3C0CE1093C47FDFCFFCC5FFF2772FF
+3C9CF0FD33F9154CB5F14200242D7FE0EEBFD1D3FF2B40320443F24FDFFFCCFEB71DF7CF3F8FC8
+0C7FCBF35FFB2C2E4CCF0E3F33A5C30F39F3FDFFCBFC1FCABF13F81CAC00E4F003232484330FC0
+F3DFC3C7077DFFF2B3003FFCC3C8C9FC33E082940E9D88A200970DFCDFC223F0B308C4C2B3FC47
+CC5CC1000004C38F000003C00000383F3670C7FFF8CA0FF2AF6CF032000CC3FC39F3F63E030EF3
+E9CF1BDF0C7AC2F4F09CE38CCF2B404FE433330C10C928920DE732BFA833CBE4FF323C22B2CC90
+C833030ECDC93C30FF14F3CAB4325DEBFFFAC800DAEE42AD10F0C13B2E7B0C30419FF3432F9FF3
+20B6A7030CC5EE1FFCFCFC8E8C8F48347C3B3FE29FC1FE3DFC12FD4EF0C5EEF0CBF7DFEB11331D
+0F8333894E35130D72BFFCBCFC2FCFC7FCE38C3FCB069010FFF3C3BFB28E20AECA0CEF4CDFF2C2
+FFE3F1C832490340BD0EDA7FFC1C122EA23EFFF0432B3BF94FF3813FAC33E3CC312EFC47E75F33
+0B8033CC9CC32B3F9F3C32B90E9C02F740FA3C4EFE3E5CE98E82B5C45EFD24F0C4E49873AF1E4A
+EFCFCF0E6FBDD7F0C8B12F41AF7FCFBBF3B32A9CF106BBF2F77CFABCFD042330002F327CF710E2
+D0FAB38EBCC92CAFCD37CC3F27F3F47E3814E7FF302477CF7CA67A24BCF4E4B248C3421FCA0B3A
+E87C843FF17F04CF7BCEF0F9F77C972C9FF5F3384ABFCCB021FCCF202E5CE843DCFCD0B3CFBF3C
+CC90732B9CEFC71FCCF7BC0B3CCFC17FF070D50E858FBC3CC00E7460AC333338B7177AF33E90FF
+F733CFEBCCCD008CCFCCA3CAF4AFFFF78C32FCFCC4D73538CF33C8C48BFD2FDC4F7301EF17F3FF
+C433478FBCCD7FF3CD20CFC5C013C303FC0FC720FAF304CFCBF7F0D26FFF0F833FF30C0CCC1EBF
+EC7C0B2BA101C400CF230ABD0F83CF2B5F3AFC800A7C7027092C3F0B1FC8C4AAFBC4D3397ECCCF
+0CAFC335CC4F0C5F3F37F010C3FBFF3E31CFC913C3F3328FC300380C1F4C0002A3F0B0C05C0DFC
+CECDF07FC0B70710170F033C1DF01D33C43F34AD44550308330F4033063CD7FC055F035CC1C08B
+F0AFF01FC1000CF742FCCFC3C09E3C00C330EF0F29F3C700CF700000CCCCC00E3331D63CC3F53F
+C8ACF3CF04317BBC7C7BA7CCF1EC9202001CE9CB3906C87A8503BEEA3FCEB7FC4A4FE48E4F007F
+CF00833BA45C943707C33CFFF72B50CF07F0CF74F1CAF392C316C675EB2C431C8FC8FCACCF333B
+C93FDF7736133ACC73C9ABE379C3DC0CE7FFCAB7F0A2C49D0F8F27383E33E2F490CF3CBAFF3C12
+B2FE0FC2EF0ED80B40890FE0332C57CF543FFBCCF7C32BDEC9201036255FF8FC9209E0D227EF2E
+BFCE1204F79EC3FFBFDFFDF248339CB32CF0FECFF072FCFBFF2BAF3F3F8CD3233CCCFF310FCDDB
+F8E3CFC31F3C30202F73338E35C031FAB8EF3AFC1CE9FC007ECC38CFCFF4CE2F227DFF5483C8FE
+343C3B4CFBE043DFF1576E324CCC33C3D7ECFFB32FF80F337B03337F1EC303F3300C34FBF03CC2
+C3BF10FC2C0F00F003FFCEF1F11FFBE317704ACCFFF337ACC3B5CC370BFCC04C003300DCCAFC9C
+4DCCB03F0D334F0F3FFB0FFE3FCB2C343F43FB108314E030BD3F8FFCFCAEF8EBF37333FCCF3C10
+430F317BF4F3CDC3E03D0C1200CF237FEC30C33CF3C804FBCF24BFF72F7233FCF3FCCFFFF80B33
+C514F3FF3E32AF33AF4AC302C2242FFCFEFFCC44F3CAF4F3FF3EF3431F10ED7430EAC71E3FE39F
+CD00103FC3CF3112F3FF3FCEB33F324F64B001141CCFFC077E1FF009D3B60D17FA5ACB30F724AC
+CBBC03C2FCCEB31C23C3DC5FCF1702444F0F3133BECFFC328B0F10F3339CBFC910C2073233C08B
+C3E7CF4D2CDD1927BB3F3EAECF4B0C7BD0A8C82BA0CBDFAFC913AFFB34D6BF3F33B9AAACCF338C
+8DF7108F0C2FFCC8ACC112B8E5FCFF737CFFF33CEFCA03EEBB17F07703FECAA2FCEDDCC6B33F80
+8F1739EAEF3272FFDCF33FD249331CCCCEFC120C9FFA2BD335C0F7F3330CC521F0301B8BFCCFF3
+C1FCBFCFC4F2CF2B3335E75CFF23AFC4F1D2CDF770CCC3124C3C03323CCF3AD7F0FB0040C3BB08
+CCF337CC6FF10EEFCF03C8F3FF07F3C733F3C73F3C33003FCC3FA3309CFC88CFC1B03174A02D73
+1C31A02C50CCC0CCF1AC8AF005FADF31200CC0CE03B465C0DEB7FFFFCB34E0CCC4A05A7C7F0D40
+C00003F002FFCC000003B82FC430C3A0CCCF531330F8BF8E3A7783819ED40E7E1139C3606DCBCE
+FFF0FC3C82EBB12B8B0021C30BC5F22F2A300357CCC00203FC3FE7F08EFCEDDAB244E723C0F72F
+27F315B0508788AF0FAD12EEB78102546BF31C492E2833EB4325C1A7814907E820E83260270FB2
+0310CF040BC0C0BDEAC83CE38E103DCDCCEDF850B46E524B66B0C6E821CBBCF4C3C32BF02AC6C8
+69C3C25C0281E3C9C8BF0EE088B2C6B8BB22300F638C5372012B06980905FF3B001E1BE2A1829F
+0C0B04A3C8C572CFB89210E38394CCC23430CFFB330380BB093D45D08B0CE904CA0780D3C85BF7
+8052CB82CEFBF0FE30D46C017C5107E0CFCC33CF30F129BE469EDD4BC3B6E23FEBCBD4F03C1B01
+5F9FCFCF302CBD9CF33EB0E330A8F0842D14E95C3B2EA7321B946CE5F04008E403EE23F270DF30
+1FA1300C8FB2DEC3D8713800A0F1CB0DBB34F3946BA3015D2FAB1C1C76D299A028BFB90C2FE9FC
+BB9FF3FC0C3CAFC1CECC7F297D93BB8778FEEF0B6033AF6ECBA0BE46A3F3001010C55282BD6FEF
+ACE1ABE27B01F0C93F9ED82BD8F5FF7D73277CC9D06B224031EF0CFF8C2EF43D1FC2A77926E327
+C3AC0BFEE71A1102CC22F60DDFD1BFDF33ECC39CCF3CCCFC01F0EFFFFC703C7C2DCECC3CCFF47F
+3003BCCC3308BFFEB13F6F133303C0E73CF7FFC20000C080000E804004303FC48CC1040FF1032C
+C183FC420B0FF43F4D7FD3F2CDD6D14E943011CBF37F3CD3C1FBF2BBFC10E4EBFCF2E4223BDC3F
+FA7FF3BF0CF773B7FF8FC88EF33482B133F2B0D11FC9EC400AFC0CEA0C9FCFCCB37824FBDFFCAC
+CFF897FFD32C4FB45C7B203A8911E175CEACC8E43C35FF83C53E7C110C33CF37D2BBC4B06CE745
+3DCC310AC0208AAFF93AFCBB31EDFFC9C433D1FFF92AEE8B31EDDF7FC430B84B33FAB7EFFCFFA0
+6AFF4E8751B4E328124FCC96EAFEE1BB5E9F14FE1210534DEAFE837D4F7F3E13FEC8CFB387FF7F
+1B343F3CFAAF7C020CCCB33CC85CCD1031F4233A421C0DB48F2233226CB31A9E422792B050437B
+A3FF881999FE239F89A038BA3C2EB83E9E3912ADB0C12080CCF1400F3FCF0FFFC3C4FC7CF3F0B0
+CCD978FC8CFBC338F0BBF4FFE3D033373FC3C0CFFCCF8CC703E2E22FF17FCB0CFFCF333C0FCC15
+CF5CB709CA112217CBF0EB00CEE1FF0D04F33ABD835ECADF1740694CAF0EB016F6DF50182CED8F
+63F61E96CBCB8F3CAC3F0C0C2AF2C1F0FAC0998D7B460608EDAF62169707650A00BE53EB0A4233
+F9C0CFBBF3117A3BD834DDFF59C02CF00003FFFFC71002A4CBF02B00FA09F407D0BDD2F60D62E7
+7EC023D7C1F03AC0BB9FF8C2AC23C9BD0F670A0D3B0C1F312CFFF0C000033B3F3B643015B02D37
+BF3F27F3333CCCC1FFC56CC5790EF1330C2CC4F30CC0FFC530AFCC05D273165000233FDB03FB73
+EFCF1E733163FF04BBFC308C5C29C340324F392CAF33C118C330BB10C63C43F3F53E9A4F0CFFCC
+F2C5687F31FCAB007F02BC107CC3B3303C20CBF8C2B7CF8F02BFCF03FC329F0F043CF3B30CE02F
+F6F00C01F3BBCCCC90F0FE7C0222FA789AFC29AC27E21F1F8C093FCD135BD0368CF77BCCFC41AB
+C894AFAF29B74FEAF881FBCEF60D30C15801330D4CC3D268F4E20CC4C3233A00C3000034F17004
+FA0C38C2CC4080F3CE83449CCCD02A201171ABC3FC3FBB0344E457C8C0F0B0C060B83E0337CF27
+D28030340223DEE1CBB83801A0E97003C00B0068B0017BF8302A817D770A70338CCE24322C0B16
+E2A0082032CBFCC249D83000C00000C226C5FFB30EAD242F0C723989CC2408C052F30CC3042CDC
+23C8560972E37C538D2AF3009581AFCDBEC08CD60836EB0BCB808431E1CA327AFF79805CCC2CA4
+3F0F04D0A4AC498EC37C331CFC303FCCF3E6AA5E20D710F0B3F91DA0A9FE3833E8FB484CB18C2B
+ECEDC0A8049520422F0C2BD703CFBC2E03C2B2EFCDF3D85282EA7CB2694DFF02176C022478FC3C
+F8FC3B230A91608FC1A37010CC58C5FB533330F333AAC9204CA903708FFF7FF083F0048C15C88C
+39E138B06302ACF315D97027CEB3DF0ED1A5DC2FCCDFFB363C0443B3F3F0301C048E30B03306BE
+EDCC88D66FFF0FC4001C2F238BCC0F064A2B93C970281006388C340170CB0005FFF02CF0FFC330
+0F2EC02BDE8004CA3C0CDE0138333E316C5C8071572C2F2C8031829BF8B810D30281DA40F274B0
+7DA88289945CDFCF0CC0B00A8A29130EBBEC61EFC3C010247798200C1D8EC78BB89DE50396928C
+CB3FE7C3E1C3323CA3F8C8355AD0E9ADF1738A35C2B268315E96F039ADF93838FC18C4107B7738
+FA74B80FA0C1EE08C4BF177232188215CE49FC7BC72F3E8CC33262FF220C2B0FC0C310F8045FC7
+D1F3CCF69CCCE13F3B7F244C5FFCA043E7AFA6BF39AA448DD2002C1EAECD4332C0330CFC333CC3
+3F30373F3C4FCC0C07C1FBFFAC0001C01FFFFF1C3D373037CF0FC8B0C00FC0B08FF37340DB22B3
+100403333FEFF3B7DCF0C83D0DEF07238FFCF0C7C00BF0E9F0DF9FC7BF07C46F3D2D9B09AA4CE3
+44239A0280ADFA3FF8009C672A3C0EF2D75F00003CCBFF0AC300EA40FD080C7C00FF0BB3F80611
+C33010010FFFF3C81BD061C02B8BCEF0430D7FCC0D530FCC37F30DCC3C42333B3733301CC312FC
+2AC139C00008000A483C035C3130300CCEF0031F03E0049008CE40F4172D03C0440A23CEFAC08C
+033C3179CB020E370CBB331FF8C00FF702F3C5EC9230EF3CC03C31B2F3FC33B325B03C80000C0E
+4618F1B13800821B1E7E02BFAB0B01783C0911478C030C3447B3BF30C88333F3CFC082F3FF0442
+E4FF5C080033310C7004C303CF3C900F0000B2C103CCF303C7ECFCF020CCC8C3900F943C0F0040
+C33FFC313C03DACC0F331C53C03CF0C40033304002C43F0FEBACF000F347E0CB8CCF2740F304F0
+030A0C000301FF0ABFC2C3DDC202B0811733C0400073CC6EE5DF03CB2BB100C1F0C2E3FCFF0094
+BBC02FCDC38FCF23027F002CC000003F200CDF231C403300430BAEF00C425DEB23C1006CD12798
+890ECC0FC0CECA04F000EF8F7DFF02BF37D2F1350A80D003C05C4331FBF03DC01C03289FFAEC02
+BE2C9CBCF0C3C00F0CCCCC8C30230C0C080CB7814FFB080E80C0C3002CFCE30400F8129F3E6422
+2F40F8B992FE91763B69F27CD46E0E440D382AFA1EF6D4F00271189EAF031B6E212CEBF737DC8A
+0348B00C28C957DB180A3FAB3BC177AFC5EFBFBB7CB3C394CCF33AC36D230638EE3707011CCAFE
+FF244A4692829C2F27023039E0E4CCACE01F17CA31DF0303B2CC31C6C10F0C330C13FF0FC329FC
+BEC33F800330A4C0B1C3FFCFF1EFC319337CB3CECF397AF24C0243905BFECB6B20B0B98C7E47A9
+C7CEC7FFFC2950EB602BC213077F44BC03AA3D8FD77EA70C7F303F702FF533BA3EBB0C804C3E9D
+3952C8CA2E42DF7B513F029CC9F0FAC0901E74E32FC8CAEF40D17E97C0B58B9E83EB212AC07C0F
+F1E3C034E06F63DBFF68C000FFFF1F054CCCAB42A84CBF0FAC01E63FE4CD9CDD28DBC5E3B753FF
+0F0C276209D05EB22681DE08EFCAF30BD037CFD89302B2E3A07AC84E0C9F2873F8FC0DF35BD036
+8FC5F03C1F33BEE870FACAD303FFACFC03E2EF60D1D71302BA332F43EB2041CCEE932C2FF7BD0B
+4AB3515F3747FFED2528CBD0FAC81BC3F4E4F303883D8FF77529FC3300C02B3FF3C3000F30CC2B
+01DFC370B2F0FDF3FC1CECE72F0C8B310C23B333330E1331DFCCFF10887FC70EBFC3FFC3FC8CF3
+F730FD0FFFB9CCDEF3CC0C00D73ECDEFF3FF0FAFCFFC2CC96BC5F3C4328F0BFCCAFCD737FEB73B
+EB92FDCCF3FF3F3DF39F303B083F483CF0B805E832EC5FC3AF3CCAFF13C0C1336F010CF5F50CD8
+FC083F01FFC2DF8100013D7FDF103A21E2126F32680C0533032CFACB3FCCC42F3D0CE3CF0C1373
+4CF9CFA73ACAE73EF3043024000F2CC933F33FC038BF3C3304CCDB33BCCC3B0F3CB330143C10CC
+70C003AC0040DC02F2CE0C0B0FF3004BFCC8FEED32CD30726FF73370F000030C0E310D2400F32B
+12BF241C4ADF32892BB2832BB2EFEB93C33CA2C9C80D7D3C22841FF74CE433CA3F9FF9A0944ABC
+FE77CE3A7FFCF3CCEC970CCFCCCC1F005FFC3CB2CDCCC0003FCCFFC7FBFCFC00FD44A03C9D06B2
+2416FF111ACAF0BBD8347CFD73C13333CCCBCC323FCCB7F00109880CCBF03CC2F9C0CCCCC00103
+013C0E00340CF100CC043CC43C03EC0C31CC043FC40C8C408'H } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "product large ribosomal RNA subunit RNA" } ,
+                      location
+                        mix {
+                          int {
+                            from 18171 ,
+                            to 20184 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Phlyctis" } ,
+                          int {
+                            from 20469 ,
+                            to 20610 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Phlyctis" } ,
+                          int {
+                            from 22236 ,
+                            to 22647 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Phlyctis" } } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_14" ,
+                      location
+                        int {
+                          from 24727 ,
+                          to 24951 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp9" } ,
+                      location
+                        int {
+                          from 24727 ,
+                          to 24951 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_15" ,
+                      location
+                        int {
+                          from 7229 ,
+                          to 7648 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad3" } ,
+                      location
+                        int {
+                          from 7229 ,
+                          to 7648 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } } } ,
+              {
+                desc {
+                  name "boliviensis complete mitochondrial genome" } ,
+                data
+                  ftable {
+                    {
+                      data
+                        gene {
+                          locus "cox1" } ,
+                      location
+                        int {
+                          from 57 ,
+                          to 1670 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_1" ,
+                      location
+                        int {
+                          from 57 ,
+                          to 1670 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cob" } ,
+                      location
+                        int {
+                          from 1901 ,
+                          to 3071 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 3068 ,
+                                  to 3070 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "Phlyctis" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_2" ,
+                      location
+                        int {
+                          from 1901 ,
+                          to 3070 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox2" } ,
+                      location
+                        int {
+                          from 3239 ,
+                          to 4015 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_3" ,
+                      location
+                        int {
+                          from 3239 ,
+                          to 4015 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnC-gca" } ,
+                      location
+                        int {
+                          from 4038 ,
+                          to 4108 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 67 } } ,
+                      comment "anticodon:gca" ,
+                      location
+                        int {
+                          from 4038 ,
+                          to 4108 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp6" } ,
+                      location
+                        int {
+                          from 4430 ,
+                          to 5209 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_4" ,
+                      location
+                        int {
+                          from 4430 ,
+                          to 5209 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp8" } ,
+                      location
+                        int {
+                          from 5331 ,
+                          to 5477 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_5" ,
+                      location
+                        int {
+                          from 5331 ,
+                          to 5477 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-ucu" } ,
+                      location
+                        int {
+                          from 5494 ,
+                          to 5564 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:ucu" ,
+                      location
+                        int {
+                          from 5494 ,
+                          to 5564 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad2" } ,
+                      location
+                        int {
+                          from 5571 ,
+                          to 7226 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_6" ,
+                      location
+                        int {
+                          from 5571 ,
+                          to 7226 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4L" } ,
+                      location
+                        int {
+                          from 7806 ,
+                          to 8075 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_7" ,
+                      location
+                        int {
+                          from 7806 ,
+                          to 8075 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad5" } ,
+                      location
+                        int {
+                          from 8075 ,
+                          to 10054 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_8" ,
+                      location
+                        int {
+                          from 8075 ,
+                          to 10054 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad1" } ,
+                      location
+                        int {
+                          from 10371 ,
+                          to 11456 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_9" ,
+                      location
+                        int {
+                          from 10371 ,
+                          to 11456 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4" } ,
+                      location
+                        int {
+                          from 11535 ,
+                          to 12998 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_10" ,
+                      location
+                        int {
+                          from 11535 ,
+                          to 12998 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrnS" } ,
+                      location
+                        int {
+                          from 13451 ,
+                          to 14877 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "small subunit ribosomal RNA" } ,
+                      location
+                        int {
+                          from 13451 ,
+                          to 14877 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnY-gta" } ,
+                      location
+                        int {
+                          from 14907 ,
+                          to 14991 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 89 } } ,
+                      comment "anticodon:gta" ,
+                      location
+                        int {
+                          from 14907 ,
+                          to 14991 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnN-guu" } ,
+                      location
+                        int {
+                          from 14995 ,
+                          to 15065 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 78 } } ,
+                      comment "anticodon:guu" ,
+                      location
+                        int {
+                          from 14995 ,
+                          to 15065 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-acg" } ,
+                      location
+                        int {
+                          from 15070 ,
+                          to 15141 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:acg" ,
+                      location
+                        int {
+                          from 15070 ,
+                          to 15141 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox3" } ,
+                      location
+                        int {
+                          from 15393 ,
+                          to 16202 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_11" ,
+                      location
+                        int {
+                          from 15393 ,
+                          to 16202 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnK-ttt" } ,
+                      location
+                        int {
+                          from 16666 ,
+                          to 16737 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 75 } } ,
+                      comment "anticodon:ttt" ,
+                      location
+                        int {
+                          from 16666 ,
+                          to 16737 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnG-ucc" } ,
+                      location
+                        int {
+                          from 16745 ,
+                          to 16815 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 71 } } ,
+                      comment "anticodon:ucc" ,
+                      location
+                        int {
+                          from 16745 ,
+                          to 16815 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnD-gtc" } ,
+                      location
+                        int {
+                          from 16846 ,
+                          to 16918 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 68 } } ,
+                      comment "anticodon:gtc" ,
+                      location
+                        int {
+                          from 16846 ,
+                          to 16918 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnW-uca" } ,
+                      location
+                        int {
+                          from 17043 ,
+                          to 17113 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 87 } } ,
+                      comment "anticodon:uca" ,
+                      location
+                        int {
+                          from 17043 ,
+                          to 17113 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnI-gat" } ,
+                      location
+                        int {
+                          from 17118 ,
+                          to 17189 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 73 } } ,
+                      comment "anticodon:gat" ,
+                      location
+                        int {
+                          from 17118 ,
+                          to 17189 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnS-tga" } ,
+                      location
+                        int {
+                          from 17783 ,
+                          to 17871 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 83 } } ,
+                      comment "anticodon:tga" ,
+                      location
+                        int {
+                          from 17783 ,
+                          to 17871 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnP-ugg" } ,
+                      location
+                        int {
+                          from 17885 ,
+                          to 17957 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 80 } } ,
+                      comment "anticodon:ugg" ,
+                      location
+                        int {
+                          from 17885 ,
+                          to 17957 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrnL" } ,
+                      location
+                        int {
+                          from 18171 ,
+                          to 22647 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rps3" } ,
+                      location
+                        int {
+                          from 20919 ,
+                          to 22121 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_12" ,
+                      location
+                        int {
+                          from 20919 ,
+                          to 22121 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnT-ugu" } ,
+                      location
+                        int {
+                          from 22812 ,
+                          to 22882 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 84 } } ,
+                      comment "anticodon:ugu" ,
+                      location
+                        int {
+                          from 22812 ,
+                          to 22882 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnE-uuc" } ,
+                      location
+                        int {
+                          from 22903 ,
+                          to 22974 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 69 } } ,
+                      comment "anticodon:uuc" ,
+                      location
+                        int {
+                          from 22903 ,
+                          to 22974 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-cau" } ,
+                      location
+                        int {
+                          from 23079 ,
+                          to 23151 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      comment "anticodon:cau; tRNA-Met2" ,
+                      location
+                        int {
+                          from 23079 ,
+                          to 23151 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnL-taa" } ,
+                      location
+                        int {
+                          from 23153 ,
+                          to 23234 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 } } ,
+                      comment "anticodon:taa" ,
+                      location
+                        int {
+                          from 23153 ,
+                          to 23234 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnA-ugc" } ,
+                      location
+                        int {
+                          from 23273 ,
+                          to 23344 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 65 } } ,
+                      comment "anticodon:ugc" ,
+                      location
+                        int {
+                          from 23273 ,
+                          to 23344 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnF-gaa" } ,
+                      location
+                        int {
+                          from 23359 ,
+                          to 23432 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 70 } } ,
+                      comment "anticodon:gaa" ,
+                      location
+                        int {
+                          from 23359 ,
+                          to 23432 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnL-tag" } ,
+                      location
+                        int {
+                          from 23434 ,
+                          to 23515 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 } } ,
+                      comment "anticodon:tag" ,
+                      location
+                        int {
+                          from 23434 ,
+                          to 23515 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnQ-uug" } ,
+                      location
+                        int {
+                          from 23527 ,
+                          to 23599 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 81 } } ,
+                      comment "anticodon:uug" ,
+                      location
+                        int {
+                          from 23527 ,
+                          to 23599 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnH-gug" } ,
+                      location
+                        int {
+                          from 23602 ,
+                          to 23674 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 72 } } ,
+                      comment "anticodon:gug" ,
+                      location
+                        int {
+                          from 23602 ,
+                          to 23674 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad6" } ,
+                      location
+                        int {
+                          from 23861 ,
+                          to 24499 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Phlyctis_13" ,
+                      location
+                        int {
+                          from 23861 ,
+                          to 24499 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnV-uac" } ,
+                      location
+                        int {
+                          from 25045 ,
+                          to 25116 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 86 } } ,
+                      comment "anticodon:uac" ,
+                      location
+                        int {
+                          from 25045 ,
+                          to 25116 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Phlyctis" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_1" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 537 ,
+              seq-data
+                ncbieaa "MTLWVERWFCSSNAKDIGTLYLIFALFAGLIGTAFSVLIRLELSGPGVQFIAD
+NQLYNSIITAHAIVMIFFMVMPAMIGGFGNFLLPLLVGGPDMAYPRLNNISFWLLPPSLILFLFASGIENGAGTGWTL
+YPPLSGIQSHSGPSVDLAIFALHLAGVSSLLGAINFITTILNMRSPGIRLHKLALFGWAVVVTAVLLLLSLPVLASAI
+TMVLTDRNFNTSFFEAAGGGDPILYQHLFWFFGHPEVYILIIPGFGIISTTISASSNKIVFGYLGMVYAMMSIGVLGF
+VVWSHHMYTVGLDVDTRAYFTAATLIIAVPTGIKIFSWLATCYGGSMLLTSSMLFALGFVFMFTIGGLSGVVLANASL
+DIAFHDTYYVVAHFHYVLSMGAVFALYSAWYFWIPKILGLDYNQFLGKVHFWILFIGVNVTFFPQHFLGLQGMPRRIS
+DYPDAFAGWNMVSSFGSIISVIATWLFLYIVYIQLVEGKATSRYPWLIPQFYSDILQVLLNRAYNSIEWALNSPPKPH
+AFVSLPVQSNIIICRY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit I" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 536 ,
+                          id
+                            local
+                              str "Phlyctis_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_2" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 389 ,
+              seq-data
+                ncbieaa "MRIFKSHPLLKLVNSYLVDSPQPSNLSYLWNFGSLLAFCLIIQIITGVTLAMH
+YNPNVLEAFNSVEHIMRDVNNGWLIRYLHSNTASAFFFLVYLHIGRGLYYGSYKAPRTLVWTIGTIIFILMIATAFLG
+YVLPYGQMSLWGATVITNLMSAIPWVGQDVVEFLWGGFSVNNATLNRFFSLHFVLPFVLAALALMHLIALHDSAGSGN
+PVGVSGNYDRLAFAPYFIFKDLITIFLFILLLSIFVFFMPNVLGDSENYVMANPMQTPPAIVPEWYLLPFYAILRSIP
+NKLLGVIAMFSAIMILLAMPFTDLSRSRGIQFRPLSKIAFYIFIGNFLILMQLGAKHVESPFIEFGQISTVLYFAHFL
+VIVPFISLFENSLTELLETKEVTM" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome b" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 388 ,
+                          id
+                            local
+                              str "Phlyctis_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_3" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 258 ,
+              seq-data
+                ncbieaa "MYRYDVYVTFKNWLFSVFNSDAPRPWGLYFQDSATPQMEGLIELHDNILFYLV
+IILFAVGWILVSIIKNYTNTESPISHKYLNHGTLIELIWTITPALILILIAFPSFKLLYLMDEISDPAMSVLAEGHQW
+YWSYQYPDFLNSDEEFIEFDSYLVPESDLEDGALRMLEVDNRVIIPELTHVRFIVTAADVIHSFACPALGIKCDAYPG
+RLNQVSVLINREGTFYGQCSEICGILHSSMPIVIESVSIEKFLAWIEEQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit II" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 257 ,
+                          id
+                            local
+                              str "Phlyctis_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_4" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 259 ,
+              seq-data
+                ncbieaa "MNNRYFNIISSPLDQFEVRNLISLDAPIFFNIHLSLTNIGLYLSLGIFVILTL
+SILATNYNKVIFNNWSLGLETIYATIHSIVINQINANKGQIYFPFIYTLFIFILINNLIGMVPYSFASTSHFILTFSI
+SFTVVLGATVLGFNKHGLKFFSLFVPAGCPLGLLPLLVLIEFISYLARNVSLGLRLSANILSGHMLLNILAGFCYNIM
+TSGFLFFFVGLIPLAFIIAFSGLELGIAFIQAQVFVVLTSSYIKDSLDLH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 258 ,
+                          id
+                            local
+                              str "Phlyctis_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_5" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 48 ,
+              seq-data
+                ncbieaa "MPQLVPFYFINQVTFAFVLLIIMIYVFSKYILPRFVRLFLTRVFISKL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 8" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 47 ,
+                          id
+                            local
+                              str "Phlyctis_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_6" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 551 ,
+              seq-data
+                ncbieaa "MTCIIILLLSNAVTLRRDLSIFFSRSLLTILLNSFLLGFLSLKISTLRNGIGL
+FGGLFHTTALSNCFHIFILFLCFIILQLTSFYPRKIFVNTTGNFFKLISNRLFLITKLLDTKGEQYKILEYPLILLFI
+ITGAVFLISSSDIVSIFLSIELQSYGLYILCTMYRNSELSTSAGLTYFLLGGLSSCFILLGTSLLYVNSGTTNLDGFY
+IITNLSGIKDNLLYWYSANYINLSLLIMSVGFLFKISAAPFHFWSPDVYDAIPTIVTTFVANIAKISIFIFLFELVHY
+TSNYYSKFDFNWTISLLISSLLSLIIGTVLGLNQYRIKRLLAYSTISHLGFILLALSINSIESIQAFIFYIMQYSISN
+INAFILLISMGYIFYAYTNNRIFFNLIDKSNSPVQFTEQIKGYFYINPYIAISFAITIYSFVGIPPLVGFFGKQMVLS
+AALDNGYVFITLVAILTSVISAVYYLNIIKEIFFNKSDYTLNTELNNTLLKNVKENNPKNIAIDINNIVLSNSLSLTI
+SMLTLVILLFMINPQEWLSVTNILAIILFN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 2" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 550 ,
+                          id
+                            local
+                              str "Phlyctis_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_7" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 89 ,
+              seq-data
+                ncbieaa "MNLSLILFLIGILGFVLNRKNIILMLISIEIMLLAITFLILVSSLSYDDILGQ
+TFAIYIITIAGAESAIGLGILVAFYRLRGSIAIEYK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4L" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 88 ,
+                          id
+                            local
+                              str "Phlyctis_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_8" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 659 ,
+              seq-data
+                ncbieaa "MYLALIILPLLGSIASGFFGRKIGVQGSQLITCSAVIITTLLSIVAFIEVGLN
+NIPVTFYLFRWIDSESLNVFWGFNFDSLTVSMLIPVLIVSSLVHIYSIEYMSHDPHNPRFFSYLSLFTFMMIILVTAN
+NFLLMFVGWEGVGICSYLLVSFWFTRIAANQSSMSAFLTNRVGDCFLTIGMFAILWTFGNIDYNTVFTLAPYISENII
+AIIGICLLIGAMAKSSQIGLHVWLPMAMEGPTPVSALIHAATMVTAGVYLLMRCSPLIEYSSTVLLLCLCIGAITTVF
+SSLIGLFQQDIKKVIAYSTMSQLGMMVIAVGLSSYNLALFHLMNHAFYKALLFLGAGAVIHAVADNQDFRKYGGLRQF
+LPLTYSVMLIASLSLVAFPYMTGFYSKDFILESAYGQFYLSSIIVYYIATIGAMFTTLYSVKVLYLTFLTNPNGPIVN
+YKNAHEGNIYMSLPLVILAIFSILFGYISKDIFIGLGSGFFSDNSLFIHPIHDIILDTEFSVSTFYKLLPLFFTISLI
+VISFLLSEYLPKTLINFKFTRIGYNIFSFFNQRFLIEYFYNKYITGFVLKVGGQTTKILDKGSIELLGPYGLEKGLLK
+LSSNLSTLDTGVVTSYALYILIGLISYTLIPYLSLNNNLFLLILFSTLIYIGFNKNEITS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 5" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 658 ,
+                          id
+                            local
+                              str "Phlyctis_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_9" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 361 ,
+              seq-data
+                ncbieaa "MIYTPIIISILEVLLLTIPVLLTVAYITVAERKTMASMQRRLGPNVVGFYGLL
+QAFADALKLLLKEYVAPSQSNLILFFLGPILTLIFSLLGYAVIPYAPGSTILDLDLGILYMLAFSSLSTYGILLAGWS
+ANSKYAFLGSLRSTAQLISYELILSSAILLVVLLTGSLNLSVNVESQRAIWNIVPLFPIFVIFLIGSVAETNRAPFDL
+AEAESELVSGFMTEHSAVIFVFFFLAEYASIVLICILTSLLFLGGYLFDIIDIIYFIQFISFDDYLILINKESSIYDD
+PKILGWCYGLTMALKTCIMIFIFIWVRASFPRIRFDQLMSYCWTILLPLVIAYIILIPCILYSFEIISVNISLL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 1" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 360 ,
+                          id
+                            local
+                              str "Phlyctis_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_10" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 487 ,
+              seq-data
+                ncbieaa "MLLTLLLIPLTGIFFISGIMSYNLSFINIKNIKSIGLATSIVNLIISLIIFVI
+FDFSSNQFQFVQEYHEISSFDFYLGVDGLSIYFILLTTIIIPVSLLSNWNSITENIRSFVIIILLLETLLLAVFLVLD
+ILLFYIFFESILPPLFLLIGLYGSGNKVRASFYLFLYTLLGSLFLLLSILTMSSIMGTTDFDALSKTNFNYYTQLFLF
+YGIFIAFAVKTPTIFLNSWLLKAHVESPLAGSIILAGIVLKLSLYGILRLILPLLPKAHINYTYVVFLIGVITIIYAS
+FSTIRTIDIKELIAYSSVSHAAVYLLGVFSNTVQGIEGGIVLGLAHGFVSSGLFICAGGILYDRSSTRLISFYRGITQ
+VMPLFSILFFILCLGNCGVPLTLNFVGEFMSLYGIFERLPMLGVIASFSIIFSAAYTIYMFNRIAFGGSYPKFFIYNI
+PDLNKREFYILLTLVLFTLVLGIYPAPILDGLHYSVSSLIYNTA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 486 ,
+                          id
+                            local
+                              str "Phlyctis_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_11" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 269 ,
+              seq-data
+                ncbieaa "MTNFTRSNFQFHPFHLVSPSPWPINTSLSLLSLTCLGVLTMHGFISARDVLIF
+GFLCLIFSMSFWFRDVISEGTYLGNHTLAVQKGLNMGIALFIVSEALFFLGIFWAFFHSTLSPTVEMGAHWPPMGIDA
+INPFELPLLNTIILLSSGVTVTYAHHSIIQGKRRGVLHGLVYTVFLATIFTFLQGVEYTVSSFTISDSIFGSCFYFGT
+GFHGLHVMIGTAFIAVGLWRVLAYHLTDNHHLGLESSILYWHFVDIVWLFLYVSIYYWGS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit III" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 268 ,
+                          id
+                            local
+                              str "Phlyctis_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_12" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 400 ,
+              seq-data
+                ncbieaa "MLKILKLKTAKDMQIQPSQIKHKGDYVGKDKILIPASKEWSNSVYTFDKNFLK
+LLPVADNVIIKLIRSYFNMYSRKLEKKINARRLRTWKRRRTAWKVWVSKPELKHTTDKIIITLYVYNREYIYYLKKLF
+LTQVHFPKEKIYTILKHNKLLLAKLKKSSNKLYYKLLVFIKEYIDNAKLPIKLKQIIFFNTLKFGINYILPLKLLIQK
+IYNKKVQFNLVVLKNYHLNSDILAQIITLKIRNKKNKLLRVLSNSLRKVRTPILNKKTIIRVPLKLVGVQNNLISDFI
+LKASVKSLSNDLLDKALKSIKKKNLENILDTTKYKTISGVKIQASGRLTKRITAARAMYKFKYVGTLKNVDSSFKGLS
+SVTSKGNQKLNLQYTCLNSKTKIGAFGVKGWVASY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ribosomal protein 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 399 ,
+                          id
+                            local
+                              str "Phlyctis_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_13" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 212 ,
+              seq-data
+                ncbieaa "MLVNRVYNKMYIYIMTYTLYILQETFTNGFNFLILDIISIISIFCAISVIINK
+NPIVSVLFLIGLFLSIAGYLITIGLSFIGLSYLLVYVGAVSILFLFILMLINVRISELLSETWNSVPLMVIIGFTLNN
+ISLNNIPSNIDLKNLNFLSLEQKNIPFLTNGDWDSVIAEINHINSIGSILYTSYSIWLLITSIILLLAMVGAIVITIK
+QKN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH-ubiquinone oxidoreductase chain 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 211 ,
+                          id
+                            local
+                              str "Phlyctis_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_14" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 74 ,
+              seq-data
+                ncbieaa "MIQSAKIIGTGLATTGLIGAGVGIGVVFGALILGVARNPSLRGQLFSYAILGF
+AFAEATGLFALMMAFLLLYVA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATPase subunit 9" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 73 ,
+                          id
+                            local
+                              str "Phlyctis_14" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Phlyctis_15" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 139 ,
+              seq-data
+                ncbieaa "MTSITLFFIFIPFLALVLLAINFIFAPHSPYQEKASPFECGFHSFLGQNRTQF
+SISFFIFGLLFLLFDLEILLVYPFVVSAYINDLYGLIIMLIFFLVLTLGFTFELGKNALKIDSRQYNLNYSLITNSSF
+LGIKIFYN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 138 ,
+                          id
+                            local
+                              str "Phlyctis_15" } } } } } } } } } }

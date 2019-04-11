@@ -1,0 +1,1966 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Wojcik" ,
+            first "Kyra" ,
+            initials "K.J." } ,
+        affil
+          std {
+            affil "University of Colorado Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            street "Ramaley N122" ,
+            email "kyra.wojcik@colorado.edu" ,
+            postal-code "80303" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Wojcik" ,
+                  first "Kyra" ,
+                  initials "K.J." } } ,
+            {
+              name
+                name {
+                  last "DeHoff" ,
+                  first "Allen" ,
+                  initials "A.W." } } ,
+            {
+              name
+                name {
+                  last "Keepers" ,
+                  first "Kyle" ,
+                  initials "K.G." } } ,
+            {
+              name
+                name {
+                  last "Pogoda" ,
+                  first "Cloe" ,
+                  initials "C.S." } } ,
+            {
+              name
+                name {
+                  last "Tripp" ,
+                  first "Erin" ,
+                  initials "E.A." } } ,
+            {
+              name
+                name {
+                  last "Lendemer" ,
+                  first "James" ,
+                  initials "J.C." } } ,
+            {
+              name
+                name {
+                  last "Kane" ,
+                  first "Nolan" ,
+                  initials "N.C." } } } ,
+        affil
+          std {
+            affil "University of Colorado Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            street "Ramaley N122" ,
+            postal-code "80303" } } ,
+      date
+        std {
+          year 2017 ,
+          month 11 ,
+          day 21 } } ,
+    subtype new ,
+    tool "Sequin 15.10 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            genome mitochondrion ,
+            org {
+              taxname "Lecanora cinereofusca" ,
+              orgname {
+                mod {
+                  {
+                    subtype specimen-voucher ,
+                    subname "45937" } } ,
+                mgcode 4 } } ,
+            subtype {
+              {
+                subtype collected-by ,
+                name "James Lendemer" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Wojcik" ,
+                            first "Kyra" ,
+                            initials "K.J." } } ,
+                      {
+                        name
+                          name {
+                            last "DeHoff" ,
+                            first "Allen" ,
+                            initials "A.W." } } ,
+                      {
+                        name
+                          name {
+                            last "Keepers" ,
+                            first "Kyle" ,
+                            initials "K.G." } } ,
+                      {
+                        name
+                          name {
+                            last "Pogoda" ,
+                            first "Cloe" ,
+                            initials "C.S." } } ,
+                      {
+                        name
+                          name {
+                            last "Tripp" ,
+                            first "Erin" ,
+                            initials "E.A." } } ,
+                      {
+                        name
+                          name {
+                            last "Lendemer" ,
+                            first "James" ,
+                            initials "J.C." } } ,
+                      {
+                        name
+                          name {
+                            last "Kane" ,
+                            first "Nolan" ,
+                            initials "N.C." } } } ,
+                  affil
+                    std {
+                      affil "University of Colorado Boulder" ,
+                      div "Ecology and Evolutionary Biology" ,
+                      city "Boulder" ,
+                      sub "CO" ,
+                      street "Ramaley N122" ,
+                      postal-code "80303" } } ,
+                title "The complete mitochondrial genome of the lichenized
+ fungus Lecanora cinereofusca" } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 25 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2018 } } } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt" } ,
+            descr {
+              title "Lecanora cenereofusca mitochondrion, complete genome" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Assembly-Data-END##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "SPAdes v. 3.9" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } } } ,
+              create-date
+                std {
+                  year 2017 ,
+                  month 11 ,
+                  day 21 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 32357 ,
+              topology circular ,
+              seq-data
+                ncbi2na 'BBF1FD0FEA63FAD4007C84E6B7DB39B87F8FAEF0B6033AF6ECBA0
+BE46AFE3033C00CD5BC4010C27CDB80024B3AC030394C9483CCC00F5A912CEFCFBFEC130808D5B
+FBEB306BE27309D46BBC47FFCAC011C422F63DDFDFD74FB008CCCC03BF744330333111111DAFCE
+3BF310A4C9B19733038FEF3113C3BFEFC035939C3C37247CB9C8F03C30C23B01407014C072CCB3
+C66FF65EDFB24511900C3DC0F392062EFF93E7FFC70C303E43CA2E02807D4C3E90CEAF89EC0743
+26589F708BD8377EFD73C33FC6007F4EB09EFB730C3F333820CC3F0EB00CA09F407D03DD2F40D6
+2CF7E13C036FCF0000032013EEEFBFF30C48EC14011EBC72FE5CDF30FFCEC2A40FBFEBCC1CBBC2
+FC10E3FC3F0170BF0F300EFBC2EFC8CEFC70D0FC25FCC9D06B226231EF0CFF8C2EF43D1FC2A711
+010E7CEEC00FFE3DFFFFCAEEF27C3EBC24FB9C694438F10BD8B7EC475FB9F0FBF114F8B003D74F
+F01200FEFC0BF27FCFECC38A4833530330298E0CBFBE74C0E01BF1C3AF32A323FFA3BCFFFE9F6B
+7CD2A37FBCC30900354CB34B9CFFC32BF3F709325EF371F33CACE07F328F37CFEF2CC6FA24B743
+3CFFEF4CF0EF0F06C22CDE079C2E31CB0493157253AF324BB7FC3CD5BF340CF177C1F3C0F3049C
+C3BC310BC7D8F3F2BA3FFC3FFF24304388C3BFB07DC07F886B0DC92010444C90B32B0CF3B32CBC
+753387EF3C5DCF3FC73C9CEBEB9CFBCC10F010003C327FDB7003FC733C133CE68D10E622CF7A38
+00C03011221FCBF0FAC033B87FC34D3CEEAF40D592B7C37021733D3130331FF1F71F37F37F37F3
+2F112B28F270733EF2C8B4FFFF47B9CC0013BF900020CC24C00A0F2743AC89C5BFC446B2BC2EF6
+2D1F3F7CDFCAF087ADFA4F9EE4EF9DF6DFCC74E72EFCC2410EDFCACCD1231C1CF112DC8CEEC309
+F173CCFCDC43FC5FCD0C0572180252C429E3D4B3932C2BFF017F3DE9ECBD2EC0C043C8C077319F
+25FF002C301F7203440F030CCCF7AF33004842F325F13AF34FCD40EECC7CC80DB8FDCC2C3FFFFF
+29C02D70CC0B354304108030433B30F0CF0F0EF0E7D311338EBB18B330070C104E101F0E2090FF
+4A5454F537EFDD7D15E173FF17BBF773C9DC1C5D2BBFC10E469FF79244A0FFC33EA7CBFC7CCEF7
+3B4FF8FC88EC3C9824133F2B0511DC92C408A9C0CEA2D9FCFCCB8B824FBFFFC9CDFF817FFD3267
+F345E4B203A8950E945CBACC834BC35FF81C5FC7C31EF31EF35D29FC4BC4CE54D3DFE350ABF20A
+AE4F33A4CBDD12F3BC92C3FF1E4F90A5E83312EDF7FC7F3784B133AF5EFFC7FAC4A7D46BF11B0E
+3281E7FCC9ECA7CE08BBC9F14FD1E00534FEADC835DCC7F3E13FEC84FBF872F7FF334333C7AAB4
+CBF03C30A78013C00D8FC06300963002700338C0FC940A140BFFC71EC370C00323ECC5F3CDCC03
+6808B3F3F325F8ECFDF330DFFCCDC000694CAF0EB216FEDF50102EED8F61F61E96CB03847C8BCB
+07C3E90227D7ED8A0B23968D3A5A5C1D9134F33CF3C3312800D9CFAC0908CFE7033EEC3C117A3B
+D834DFFF5B2BFCC0E13F0FCC22F02C0CFC7F3F33F3CFFC3043C38AB028C2C3137CFC0AF5F07C3E
+B02CC7FE308B2BFA6F40D9C2834BCBFCF070D502C2220F858BAFC2B8C27E01F3FAF00E344D6F60
+DA33DDE0A8C13790CFCF3147CFC0CC6AF2252BEBCA6DD3FABE283EF3BD834C38563C4CFCCC31FB
+EFBFC6F0040731B38000CDC0103005CC3370048C237B0CC432E33A12CF3FCD3F0388C32CCC080F
+BC6834C9CCCD02227BF81647A15E783F3D28BAFEA5635100F0032A2BF92700BAFEEC3BC4E2BF91
+3BC0770C203CCFC4C0301A2E0F80CDF0C1F4A00C0D0088F7F8B0EE0E010802DF032C03A2E4CDEF
+E0402A817D770870338CCCE632E0CB16E2A038FC0C90FF309274203BF0B090A226C5FF930EAD24
+2F0CFE39899C39B230043CE330E3B2CD023C85601F2E37C538D28F300B581ABCDBEC08CD6083EE
+B0BCB808431E1C2327AFF59805CCC2CAC3F0320CD20AC483EE374C41CB3FFFFD27300EFC280019
+FFEE84FAAADB821FCD2E2CFEF7682A7233833E0C3684CB18C2BECEDC0A8049520422F0C2BD403F
+FBC2E03C282CFED535A52B0CA7C82694FFF82376C12247AFFCCC30CE8C0245003F068DC043F160
+17ED4CEC00CC8FB33EC40EAB26813EA4AFF23CF5FCC28700F012F42E00E784E2C18C0ABBC5765C
+09F3A0FC8C0BC69770BFBCEFCCEEC0370FFC40005402A3218E240DC9FF1200C13FF213377F233C
+B840EF5A007B013E45F2B0330178AE633C5B17031C110B090B22CC60A6F62E0434F0A076903E1D
+1B07DA8C2BA94F5DF8F0CD2B28228A4483AEFB187BF0F0040919E4080E0F60B3E2EE377958E9A7
+A7368FF7CBC0C1309CAFF828155BD0E9A5F1730AB5C2B268315E96F039ADF93838EC18C4127B74
+38FA76B80FA0C1EE48C4BF1772F2188215CE49FC7BE72F1E2CE320E2DB2ECC2B0D9C2320F8045F
+C7D3F34CF33015C5288CADCC2E94F7FC23F6E70CFCE13891EBEC003F32810F9CAE92FCE6A91235
+4C00B17A8B3503D1FFB00F933E4FC04EDF3103C63FB3084EFCC33F2DE03EB3C3FCE70F4BC4CD4F
+C2FA27F3FFFCB28FF0713C0ECBEC3C09BCFE7F0C795DDCCC3093B03330F311F13C23C330CAA9F3
+FB830E3FFBEFC7F0CDC9FEEC8A630A5DC442C0E0CB372337EF238C3CF31F142FC1A7C35E7F1EFE
+1F11B734B66C26A9338D108E4C0A02BFE8F3E002F19CA8C129C3E65222F40F8B992FE91763B69F
+274D44E0E4A21382ACA1EF6D4F02271189EAF031B6E212CEBF737DC8A03C8300C28C957EC6C28B
+EACCF05CEBF17BEFCDC5CCF0CCBC7387CC2FCC1C2A6435500BD4E9F31EA3BCFFD1C030EFCACC00
+0700C8E33172D4A3291A4A0273BCBC08C2E783937291804C5F08CF7C0CCECB30C718FF2B7F333F
+FFF1CCFB07C3F18CAB23040EF3387F0F0CA7FA7C083EE13FF29102C70FF30FC7030C67CDFC47B3
+1CC0013B71008CEC1C2F327F097AF24C02C3BC5BFEC36B2090B98C7E47A9D3FFDFCF015FF30005
+08F340CDF0B32950DB726B284CFBFD1431166AF60D59FA9C32AC31F33FCF3733030E6C0C00E68F
+8EC12C1307A74E149312AB90F5FCD64CF9FCB723C420F33C8EF3721C04CCC3051C8C21FA7FF9C0
+C7FFCF0091B053F3B73C80E3003BF50B33007C00ABCC9F0FAC0941E74E1AFC8E2EF40D3DE95C17
+CC34CE4CFE7C4E72D62E7A0FAC84898DF08F67A6CF96C06F42DBF7E8CF07B3CB07B3DCBCDC8040
+4CEFF2400C9DF0CAA332FC1EB004DCFF9136F0F6AF63D78CDD431F02C3FF11F71E444CECF3125C
+209D07AC89A077823BF2BCC2F60DF37EA4FC6C7CEC33FC9803C3F10FC23E0A8FFCBC01F3333FFF
+FC3D1C00ACB8E83EB21383C0323A3D03233BE83EB210FD47CA3A0EBF296C42F62DFBCDCC4E8011
+80E3C0DC043029C4DFC364FC4188339CACEAB4ACCCE7C4CF2F7618072BFC44AF69CC0FC9106FD2
+904C8CC0EFB2B302B0C3FAB80C1FE2CCB33C801344DA038290C303722401C780C0CF45367031C3
+0024AB739CAFB893D2376103C00AAE3F1B20B0BCC40E26FC05AB24044CB03C0C1C82C0700F8B10
+CA0756FECCC43001E83F0C034F971CF22092B0FF8A9FB5C772CC2C00CCD00A47FFC0E1033C7F03
+29C11ACC55FF037CD6C42DA3F37C80F3B1FC6C40EEFFFBCCFC0CC713F0311C47D1CEFB21C3A90B
+4C0FFEB3F3CF8BBD8347504C234A711B2260C00F02BAF327432B2241ECEE812EAF77BD0B4AB351
+5FC0F2703FF3BC0DF2320033FF0FCE528CBD07AD206F0FD393C20EA0F62FDDD7A7A4DC1CDF3EF0
+77FE73C1CCF1F7090CCEFCBF100DC07B132CEC2BEF3CD3C7FFF7BFFFFCC00CAC2EE0DF30010E1C
+CFF7F3CFFCF3CDC396D1F7E188C0D4F731D084073FC3FE7F7DF7F0C91C0017E3197F5E9E2ACCAD
+CC69ADDFD19C55CC11017F4EFFCDFFD30B94D3FC43C1E5FF35C801FE0F001CE72FDCC779CDC70C
+DC738C40DFBC300EA1243F28C360CD7F0F33CFCF33CA2B13FF2CDE726132FD0DFDCDCC89C40BCE
+8F31F1FEC47F1203DE0F371F49AB7C7C7FF1CAEBF35D3BFCC7FCAC42FCF33901D6B1042FC8E9CF
+3BCC1EBF3724C9C383310B0CEF23EB3015FF1F013F777C3CED2CABFF3F00CDE7914F53F782D78E
+CCE39CC5C532F107FEC9CFFA700CDCDF0FF7CF207AE4F31CB07DCFF9FF07F2781F597CFBF2F5FF
+CDFE34CAC7B3CAFC190FC830023EFE4CCB14CD117EBFCE7FC93C24F04B7A2D4C4A5F4CFF1F0E43
+1DCF101F039FF3BE78F9CCA3FDFCC57F6C3C08677C0050C4007CF233030F45CC49C1CB41E02BC7
+FC5D055B3C97C2FC9CF1FCF74FECACC517F0CABFFE40103AC7379E732326BFEFFFC13C325B7C1C
+BBCC2E5BF3C7C2EC3C040CFFF8444614E0F01423FE00071DC0271CF1F4DFC0C0041323BAC1FF00
+C043304F34DF7F073C73F53FC1FC33CF1FFCEF44552ACFB81334D0231C91F30EFC35F23B72C733
+FFFDF3FB14F1E9FD33EF27BC3F0DFE7593056CCE88004B9BD8B9A3D2F4FFCAD00C8190FCB334FF
+D3FF9FCF3FF9EFE37223FEF2FC54CFEBCB9F1103A0CCEBF0731FF1CFDFF27F07F2BFE7FE2F2B00
+099CDCC8CB2103470ECD570ECD07241B379C10770F37CB12C0672BC0FCDCC8480A30C78CB030CF
+11CF0C3CAFA37C3FCC77F242B77B3D7CCC97A5C3F33F2FF2B45CCCFCFB217F23C0D803BCE770C0
+2DFF773F1DC8CFE7BF04DF8FC1A5C88F00C300DF4EFC3FCFBE93C4EC97F3F7FB947DC3CE3A90F2
+27D33E201FC090007FF2F3F330BF377000C0C3F031137310CC130C383F3470C7FF70CA0F7A8F6F
+F032800CC3FC39F3F732030E7FE9CF13FF0CFAC2F47C9FE38CCF2A404CE5373B0C9CC968920D27
+3E9F2B35CBA7FF321C2282CC9CC833030ECDC94C36FF15F3CAF432FDE8FFDAC802FA2F26B910F0
+F13BF35B0C9C411F3A410FAFFF22BAB3010CC5ECD2FD3CFC8E0F8F48357C1B3CEA6FC3FE1DFC12
+FDCEF0C5ECF0CBF7DFCB93B33D8CAF138B4E35D305023FF4BCFC2FCF47FCE38FB9DF0490107F73
+C3BFBABE20AEEAEFEF6CFEF2C2FFE3F1C83249C148BDDFDE7FFC1C122EAE3E7FF04F2B3BF9CE33
+81BFAC3FA3C7716CFF4F275B3B03AC3BEF1CF36B3F9FBC3E89CE9C02F740CADF4EFE3C5DC94E8A
+85C65EFDE4F0C4E59443AD127AECCFCF8E624D577CC8312F412CF0C7FBF383282CF107B3F2F670
+CAFEF504213C002F327C751CE2D0F2938EBCC9EFADFDF4CC3BE5F3D4FCBC34E7FF3028F3CFFEAE
+7AE5B0C4E7B278C1423F4A033AEA78C1FFF17F87CF4BCEF0C9F77CBF2C9FD5FF387AFDC770A1FC
+C7E0DE7C6843F4FFDE930F933B4F90732B90CFC71FCCF4BC0BFCCFC17FF870E50E85FE3C3CC002
+44E0AE133F389F97F0CB7E9CFFF733FFEBC4F14206CFCCA3E9379FFFE68412FCFCC457F1180F3B
+C80783F9EF5C7FBF01FF1773EF04BF4FCD9CFDFC3FCDE2F7C5C011FBD1FC2F472BCAF10CDFCBFF
+F0506FC76E837F330CACCF1FBFCFFC0FA8AD01C402FF2302BDCF89CF2A573ADC800ABC7C2F8B06
+7F0903C8C7A6C345DF39FCCCC70DAFC334C4CF0C5F3374FEC84C2FCFBFF0C33F9FC704BFC43289
+2C53DBF0234E7B8415441C8FE873FF472FDCAD6FCCECDFFFB73771C0797341FC5D0C07CD653FFC
+D13F37475FF2470CF3D32C08EFAC148DC9231200603100FC6B9C47B0118D29B3C1D74F2E6106CF
+0FFCBC7CCF2FF726CE269C07CFC3771DC0C302C30DC0CD45B223B0C08CFC1928EFC2F5CDCECC0C
+33B7C569CC0CFC0C3339EC5173012E5CCBFE99F8B0CF0F9003C347EE8863304048D2FA7A040401
+2CAC730808CCC3CF2164C09FFFF0D2F1CEE9879FF4DCEDCF5650FE5C5837800485F3770A8D1003
+DF18FE38F0051A30C2F0110100B8CCDDCE3C808E3FF34D019C08CCAC5FB37CFFE771C9EB72CA06
+97FD6CF8F2BC89FD295A8B90FCC4230D0F310CB30C1E746732F38CFFF3AD3949CE328AFFAC3FFC
+F14F9FBABAD484E93D5C878304F2FFE1CF2C50B33CF3FFBF9CBACF801A24A04AF81DFC5455FD68
+3102D12E85C9B2172733F97C45FD2BB0B2FCFAA98E07D3071CD783388257ACF21C440727F3FAB8
+9EFBCC127BFEF3CF37717B9C968ACF10E33C1E3203F41135F7F8249ABA2B8D735EC504FCF78FFF
+AD1522B7333C34C52BFEBB0F2C41CDD659F70C02ECFEBCDFA0EB3394E3B532BBBCAFFB2DE34451
+3B32EFADC86E8C4224CFD1279C7F0F325B141EB3C033D2F8F2513BCEBA35FFCF0457D39CFE4F2A
+FECF4EF47BA8ABC2EBB6FFA6067D5F84C93D4631F1C6DB274FD473BFC2CEAE5BBF91CCCB9B8C7D
+E0C5C237CACE83104AD38AC0313FF831CFCCAEF0EF1BFF57411F7CAFC42839720A30B8739E39FF
+92BE03F2C2CBF68D0F3CBB8C9C7E3EFFCC4CF31B10F2C82B0A71342B35F8F075D2FF3C6331C404
+CFCDC81FF0F7F22E2BF032D454051393F1CBF17BD02C653C50070450252302C7F37159F2B0DE02
+7810247100922F000D002741C9CB0126E1CC103C0F3391DE29D0C132600403268E412C03F3626C
+0F9499CC107E2A4FB000DCC0C0BC43741080131043EB0131FCC3FC3C0702CDF34C004BDC4C8C5F
+CDF2BD10A0E5C82CC2F07030BFFB11430002ADC910AEB4944137EECCCFCFDFBFCC04021AE6BF5E
+70722FCFC38C05FCD535CC4FF10EF3ABA01B289FCF1F23333CF2C32AC40A882ACDB0A4C0C73C32
+FCDE13A94C0970114F1CEF3FFFDCFBAE310FD930D32C1CD70C70F030D3F0F0FFB64D2B25F02278
+2676FBFEE0010E0DF31BFC211F3D3E0EC8ABF0E77D657EFDDF8C130FEF2CF108D39EEFC2E0A47D
+18CE7F07023F7EE54CF3BC5FB9C3FCEB0E2835E6B03FC7F31DC473BC3DFF1C735B17F0CAEC7CF3
+F71C23B14C3BF7F174970412EF303143B17F370C3CC02C7F231E2337F3706F803A7C2E7844DCC1
+D008F8039FC8C3044DF4DCF32B0C02CF0B69E7F80134B1C1FCF0FDFEB4CFE7FFF8EC24B0D2FD2F
+EC422CD380F0F7FC3F337EB323AFEDCCC7FBFCF041CC30E54DD1CFB40780343368017007BF3CC9
+CFFBCF20B1EF3CD2EFFCBDF8CFF3EC71B7FF6224DF175DCFCCF8FA36F6BD0B0C8B8A98BFF373FF
+3313F329DFCFFCF3EDCDB073B7DCD1283C787D8E7F3300C0FF873CC440FFFCFF7A0DFCC9FF92F0
+065CC3BFF031F873C0A54EF8345FC26B2CF33C92532EF0070BF33A0C7CAF0CF17F1C500BF3F03C
+47FCC373BCCAEF3073EFC652CC2C470814C84F0227CD9F3D36BF74E792CCDF38BBFD2C3B0C42B3
+20A2A32FF2BF2746BFEFDB5A1DF4F267A2BBBCC63237DC523C305CF322B32548C39773F9EFBFDF
+CC73BF2B07BAC45DF1FC0FF32B83FF34733AE7FE023C51EF28BBC9CBDF732FFF4925C473F33BF0
+4A327FE7AF4C7703FFC2B0333F8DD0C26E0FF137CF047AFB3F16F33EAEECD7914B1C868F11CF4B
+0411F371D3CA2E8F0FE7F04097467FDC5FC1CB0093CC0C1FC7A71C07EC01FCF19F08FE7F00CE88
+432337AFBFB448719AA6A9B2F3301C39D9204C0CDCF97CBFEFE0C4431702409D300F4201083EC9
+002311FB373737AFF93CB53EBBDAC047C004D2900F0220FF7EC00FDFF09C0E3C004F1F376FFC20
+C0A3004307F00B1BFCEA2AFA18EAC1EAC37C00C55D4CF73EA4CDF08C23397B30E3C1003BC38038
+7C177CDFCC49C3FCCC00308EC828007C02F09FA84334CE3130BC481E94EF13070E035CF201CC07
+3830003C263E7E03C30EC0FB4982C32470F513F27E05DFC3300D00013C405C01283C180482C0C0
+07DB2B0170B1CD65A44EC83AFC12CCCE5C4120310F0BCF171A5702844FC07EC009C7D0FDC49402
+720002B08FC764C6C322F208F341C320C70F2405A27804442610AE3EF34CCE7CC1210080CF17C1
+00E00AB25D0C8C13632CF7158E3B008AC70C89F0E85BA5F707E0BC405F040003DC38C23402C000
+4D084F9FC0067AF000B3BCC30BF8C14C01808F4011CE70F3800033F028F3B370BBF1B2203FCDC5
+C7D010FACDFD0C0DC0FE2408C7EF15F071FCB092ADCC3020BE0FD272C8FC0B3F330C32C13FFD20
+1FCBC403C2012000CEF3C22C7801F7F3C3BF01C51712320492ECE780CCC1200202F100CC00E8E3
+30CDE327C8CC42F0E327702C83E4018A337C89FD1CD8032BDCB83FF0401C023CC82F9F07D03846
+E7C0735FCFCE9031CF3027CF011033B09A0C28F42492B23C1486C31249C8DEFF427CACC0AC1300
+04E877DF302BF17D2F7FC22BCE60B70FC43D240D00DCA31B3E8DBFADC029E2C2CBC0FC013212FF
+270332703B3278BC2CFC7BFB33F1CC0DDF3B090CD309FC712C495B08C3F31C331FE0B2FEDC8DCE
+7B31F9B0EC013C42F2BF2F30CC70BC1C003FE70EF70068AFF233FBFF9F3B0314ECB5FE57133700
+40CC2E3C8CB301EFFBB0B0C2C1810109CEE304C07FC40DF33CB39733B2E2B321FC311CCBA46E84
+4F3F90E070303F150CB2FF9C06C1A5F30EFF13C6424E4019530509000FFB43CB11033C81FDC4FC
+8900C770303ECFF0DC8137001C87CFDC00C08C41B00CCC43C038833F00B457F1E03EBC3D33B0C8
+745105340CC2FFF3807DAF7F1C9FFEDCB0C40CBC4A2C1FC90E4F10E726FF2093D074B2044C39B8
+EC043A38F8C6F3F13D01124DE4FFFFCCBF371132B228F31CEAD310275C813CBF810FAC4B0DFCFF
+0E3A7125F5EAF3B3E531A903B4738A6412F34725F38B94C5F8BE842332F8BD3F8AABF49BC30651
+3C0C8FFF9FC4FFBDC5FF37C9E7F24F0E4FC3647138C9929D2B0D7F2BBF4AC3CE323C53F957C7F3
+3F023F0C1CCFCFFCCF2CF37F3FBFDFCE5C17FCA212E20F3B0E9C15CE4075D79CCBD78B8CDFF14F
+F394C7C8DCC5C301CF2BBCF9CEFF79CCF0CF3CBCE5BD1E37F723422B112FC057C2C0927F7F37FB
+2B0FFF0DF0E83CAA7013BA0D54FCC83FA1033412F3F3FE44FFF0C32F5FC34BF1D8032FC3E27A72
+44835023CFEC772049ECB90DEF054F0B61F3E486C2E410FDCBFC3CC8DD79C7548FE13EFBF4F2CF
+3FF2731FCD49FC1DC7BFD031093FF1E743FF11EE3917215E2BB33FD08CB9045103A2AFCB207138
+4333EFF3F2E30DFBFAACA38F1E33532F001C472C482450FD11033F094E913E32070CE043C65E7F
+0CF0FF0C9FD537FC0F3CCFC3A182C2E35253A7B3C9E2A93438C78273431561FFC04B86383F362F
+63D31F2C5E0DE3F228EB93C20EF22BA304878F3148BC113BC8FCFBC4AE58EC3D325D9B9527F2B3
+C0EE39F352A63C052BF4BCE3C32A0A05FF1AD0EF480FEEB31C44BD0E54CBCC834BF532003FBF7E
+3C4204B2F9FC7BE51BCCB0E3B004E117FC09C7C80C301FC39BC84CF466F050F7CF2743AC8920C7
+DC33F2370BD8B7C8CA0F4470CFBDEFFE1725BC4EBF3E5B3C170040C12F1CF9BFF3F94C14F30B03
+2C873CCFCFF170EC84271D0EFFB8F3002CCFC3040ED94E8C0F054FDE3CCFFCCAEFC4EFDBFC0CFC
+D2B2EBCCEB9344CFCB5482AEFB0C35823F378DCFF2FCCBFF03FB23C9FE8C9DFB4EFC4C7C234C0F
+30BCAD26021FB895FD2103F337F003304C52A1392C42B2E4BF8F9034C1C28BD8F554ED5F36F0C0
+33BEC0100FC2307FC747319E7CFC117C8E7C7910B340C071C049F24EF33DF3C9D0EB224833D70C
+FE8DC2F62DF23283F03C979FFD3104C73D007C8F9CDC007C1FC74F5CC3F37230C3830FEC4FD1D4
+0DCD3ECBEB31103100A24903D3FCFF43FCFFFFFCBFF31773008FEC000038D0077CC3453BCCF359
+EF0CD4F720BFC32C1CC52EF3C16C97FBC4BE68080043A72CE4082BCAD704FB2AC73A5FF1097F9E
+397C01FFBC020CEFDD7190903F2F7FFFDFA1734C1FE37FDFEF28FF7BEC533AD5ADC9CCD23FE3F2
+A31FCCEF24BF5D3CD44C6B35CF24AF8D670740B19BFF2AD7E20B1A549C3CBCE07CFF09D2533C7E
+C31E735A4B7CBF07BC3120910027378C4CB147FC5CDFCC33FFCCAF73278040C89D7FE3F258A78B
+781CBCBAFF384813924BCFFEEFFFFDC9E0C6724FBDF3FB31C10B33CFFCA2BCFCF43FE4C4FB3374
+F0203E1FF3F33335FEC0770F3B07FFCD6157C320AC4333AFC1FCA3C025ECF38CFEFFCCE2F227DF
+F5C831BCE14BC3B7FFBE0737E797F2E327FCF33C714ECCF3127F80F3372C1BFDF3CC8FC2DEBF0C
+EB833ACCB3FC9D0EC204F9FFF710F002C033FFC8FF203144F33732F0F3F06AF35C3C40F3EC92FF
+5F1013FC1C3372ECC247233C77F3FF93C9FB9309084F104B7B1B33C3C19FF437C0B3878FB90C4F
+3353DECB0C2D7F234BF80C2017FC2FC8E754CF270FC4DFDFC1C13287F1F063E793FF2FF07F017F
+C9870730C0B0C9C3278DAE2D08373339C73112CCBAC0D030390302840CCFD5FF3F197CFC4FCC70
+C0C3F0CACEB17C49FE5DC4D51FCFF04FFD30BFC7BAFF2890733CA3F40846B700F7DD3CF6C574AF
+B57EADCF1771CB3C320FCFD33F27201BF476A708F249C33FC26B4CE79F0CFF0BA7F9730CF384D2
+9F6FCFFFEEADC317725FCF325FF4A3C82CACC9FF310910B3FB2FF07DF4C4F02399C8DC4F00C113
+04138FFCF4425F0FFF10C21F253BAF1C3CE1D7CF27F979D3F97D3CFD4C03CDFFFCFDE4FA3C0230
+C339C3C3FCB7EBEF04CA35F0FD5B057FCDCC1C8FD8E4E40CD2038C9141130CFF3F4CE51072C5FF
+CFF70140C1FF9FF37C7CCB0E333B3FD80CCCF9422DBDBF3F9C46EFFCC1C2F30EB043F0BFCECEF1
+F3BFC132F0FDEF03CF04B3CC3330EC8CBCECB39CC8873FBFC04C7CDF0F4C4CFC7C1B039B0C3B30
+CC3D4480C42C3A4EECCFF05CC44C13BCF0EF10F2C14ECC439030CAE4CD1E63113EFCB9EF1CC304
+932A0B5027CC2BF3133FF903270CCF27302339033303BEBF32480303CCC74F0338E00700BFF4DC
+B32CC93E030415C05C97F3F23D301041281E9F3FB352CA9C2F3ACC3C8C1F39731ECC934CD077CE
+7CAD2F0C8DFFC00904413BF3C09C0CCF3B069710C07A60C033721BFE4403FC1C333CBC0C73949A
+4CC0CF034F303CBC031CCF2CB334033C4C0FCC1FC4C0BEC30C0000CF0CC0F13CBE2FE38E9DE0E0
+67B5039F844E70D81872BF0C3C1CB2EBB12B8B308C110597E8B0A202357CC3040807CAFF9DF20B
+BB376ECBECB2F2AC027C1C9FCC46CB601E22BE36344BA9783025463803C492E2833EB4325C1A78
+14907E8A0ECC9809C3ECD0CCCBE390CD870BE0C03DCAC83CE30E13FDE5CEEDF8503C6E524B66B0
+C6C821CBBCF4DFC3EBF02AC5C86B03425F42A870FC722F1F38AA92C0B1E7AEC88E03DED3170F4C
+C1B7DC860205C6912B329809375F3B8C1E1BE2A1829FEEC98128F23150B2D0248038E0ED323C84
+CCBF3DCC0E02EC24F517422C3FA413E81E034F216FDE014B2E0B3BEFC3F8CB5D0005F1443F833F
+3BFE3CBDEFFC01FBF4C004200CCC01C2FFFEF0C301A9E81C3C21337109BE469EDF4BC3B6E23FEB
+CBD4F03C1B015F1FCFFC8C0B2F550CCFA308C12A1C210B4D3A5C05CFBA9CC86E713297C402AEE0
+3E603E070D55001A2311C10E8F12DEC1D879B800A0F1CB0DBB30B1A46B8370DD232B1C1C76D299
+E020BBB90C2FE9CBBF1FD0FEA63FAD4007C84E6B7DB39B87F8FAEF0B600'H } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        gene {
+                          locus "nad6" } ,
+                      location
+                        int {
+                          from 1427 ,
+                          to 2062 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_1" ,
+                      location
+                        int {
+                          from 1427 ,
+                          to 2062 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox3" } ,
+                      location
+                        int {
+                          from 3043 ,
+                          to 3852 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_2" ,
+                      location
+                        int {
+                          from 3043 ,
+                          to 3852 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad2" } ,
+                      location
+                        int {
+                          from 10863 ,
+                          to 12569 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_3" ,
+                      location
+                        int {
+                          from 10863 ,
+                          to 12569 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad3" } ,
+                      location
+                        int {
+                          from 12570 ,
+                          to 13049 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 12930 ,
+                                  to 12932 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "Lecanora_cenereofusca_mt" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_4" ,
+                      location
+                        int {
+                          from 12570 ,
+                          to 12932 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4L" } ,
+                      location
+                        int {
+                          from 13462 ,
+                          to 13743 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_5" ,
+                      location
+                        int {
+                          from 13474 ,
+                          to 13743 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad5" } ,
+                      location
+                        int {
+                          from 13743 ,
+                          to 15701 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_6" ,
+                      location
+                        int {
+                          from 13743 ,
+                          to 15701 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox1" } ,
+                      location
+                        int {
+                          from 16498 ,
+                          to 18189 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_7" ,
+                      location
+                        int {
+                          from 16543 ,
+                          to 18189 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4" } ,
+                      location
+                        int {
+                          from 19346 ,
+                          to 20887 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_8" ,
+                      location
+                        int {
+                          from 19403 ,
+                          to 20887 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rps3" } ,
+                      location
+                        int {
+                          from 21634 ,
+                          to 23172 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_9" ,
+                      location
+                        mix {
+                          int {
+                            from 21634 ,
+                            to 22338 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_cenereofusca_mt" } ,
+                          int {
+                            from 22657 ,
+                            to 23172 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_cenereofusca_mt" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "cob" } ,
+                      location
+                        int {
+                          from 23918 ,
+                          to 25141 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 25139 ,
+                                  to 25141 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "Lecanora_cenereofusca_mt" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_10" ,
+                      location
+                        int {
+                          from 23918 ,
+                          to 25141 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox2" } ,
+                      location
+                        int {
+                          from 25292 ,
+                          to 26017 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_11" ,
+                      location
+                        int {
+                          from 25292 ,
+                          to 26017 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad1" } ,
+                      location
+                        int {
+                          from 27210 ,
+                          to 28322 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_12" ,
+                      location
+                        int {
+                          from 27210 ,
+                          to 28322 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp6" } ,
+                      location
+                        int {
+                          from 28632 ,
+                          to 29423 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_13" ,
+                      location
+                        int {
+                          from 28632 ,
+                          to 29423 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp8" } ,
+                      location
+                        int {
+                          from 29725 ,
+                          to 29871 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_14" ,
+                      location
+                        int {
+                          from 29725 ,
+                          to 29871 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 89 ,
+                              codon {
+                                9 } } } ,
+                      location
+                        int {
+                          from 684 ,
+                          to 768 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 78 ,
+                              codon {
+                                41 } } } ,
+                      location
+                        int {
+                          from 1123 ,
+                          to 1193 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 87 ,
+                              codon {
+                                14 } } } ,
+                      location
+                        int {
+                          from 825 ,
+                          to 895 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 ,
+                              codon {
+                                28 } } } ,
+                      location
+                        int {
+                          from 1240 ,
+                          to 1312 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 75 ,
+                              codon {
+                                42 } } } ,
+                      location
+                        int {
+                          from 2151 ,
+                          to 2223 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 86 ,
+                              codon {
+                                50 } } } ,
+                      location
+                        int {
+                          from 2390 ,
+                          to 2461 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 71 ,
+                              codon {
+                                62 } } } ,
+                      location
+                        int {
+                          from 4069 ,
+                          to 4139 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 68 ,
+                              codon {
+                                57 } } } ,
+                      location
+                        int {
+                          from 4154 ,
+                          to 4226 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 83 ,
+                              codon {
+                                45 } } } ,
+                      location
+                        int {
+                          from 4255 ,
+                          to 4336 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 73 ,
+                              codon {
+                                33 } } } ,
+                      location
+                        int {
+                          from 4456 ,
+                          to 4527 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 83 ,
+                              codon {
+                                6 } } } ,
+                      location
+                        int {
+                          from 4558 ,
+                          to 4643 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 80 ,
+                              codon {
+                                22 } } } ,
+                      location
+                        int {
+                          from 4690 ,
+                          to 4762 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 84 ,
+                              codon {
+                                38 } } } ,
+                      location
+                        int {
+                          from 8424 ,
+                          to 8494 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 69 ,
+                              codon {
+                                58 } } } ,
+                      location
+                        int {
+                          from 8555 ,
+                          to 8625 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 ,
+                              codon {
+                                35 } } } ,
+                      location
+                        int {
+                          from 8678 ,
+                          to 8748 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 ,
+                              codon {
+                                35 } } } ,
+                      location
+                        int {
+                          from 8921 ,
+                          to 8993 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 ,
+                              codon {
+                                2 } } } ,
+                      location
+                        int {
+                          from 9029 ,
+                          to 9111 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 65 ,
+                              codon {
+                                54 } } } ,
+                      location
+                        int {
+                          from 9184 ,
+                          to 9255 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 70 ,
+                              codon {
+                                1 } } } ,
+                      location
+                        int {
+                          from 9305 ,
+                          to 9377 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 ,
+                              codon {
+                                18 } } } ,
+                      location
+                        int {
+                          from 9528 ,
+                          to 9609 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 81 ,
+                              codon {
+                                26 } } } ,
+                      location
+                        int {
+                          from 10378 ,
+                          to 10450 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 72 ,
+                              codon {
+                                25 } } } ,
+                      location
+                        int {
+                          from 10486 ,
+                          to 10558 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 ,
+                              codon {
+                                35 } } } ,
+                      location
+                        int {
+                          from 10617 ,
+                          to 10689 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 ,
+                              codon {
+                                46 } } } ,
+                      location
+                        int {
+                          from 26126 ,
+                          to 26196 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 67 ,
+                              codon {
+                                13 } } } ,
+                      location
+                        int {
+                          from 26698 ,
+                          to 26767 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 ,
+                              codon {
+                                47 } } } ,
+                      location
+                        int {
+                          from 26899 ,
+                          to 26969 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "16S ribosomal RNA" } ,
+                      location
+                        mix {
+                          int {
+                            from 30811 ,
+                            to 32356 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_cenereofusca_mt" } ,
+                          int {
+                            from 0 ,
+                            to 115 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_cenereofusca_mt" } } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "rrnL" } ,
+                      location
+                        mix {
+                          int {
+                            from 5241 ,
+                            to 7140 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_cenereofusca_mt" } ,
+                          int {
+                            from 7560 ,
+                            to 8494 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_cenereofusca_mt" } } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Lecanora_cenereofusca_mt_15" ,
+                      location
+                        int {
+                          from 12933 ,
+                          to 13049 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "intronic ORF1" } ,
+                      location
+                        int {
+                          from 12933 ,
+                          to 13049 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrnS" } ,
+                      location
+                        mix {
+                          int {
+                            from 30811 ,
+                            to 32356 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_cenereofusca_mt" } ,
+                          int {
+                            from 0 ,
+                            to 115 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Lecanora_cenereofusca_mt" } } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_1" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 211 ,
+              seq-data
+                ncbieaa "MNSLLLINETFTNGYRDRFLDVIFLASVLSGIFVIISKNPIVSVLFLIGLFLS
+IACYLLILGMNFIGLSYLLVYVGAVSILFLFILMLINVRVSELLSDTSNSIPLAMVIAVSFNYPVYQILPLNLLNYNS
+YNVNTSYFDYLGGFFNFFSNNNEIMFVTSKLWDGNLAETTHIASIGNIMYSSYSIWLVITSIILLLAMVGAIVITIKQ
+KN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 210 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_2" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 269 ,
+              seq-data
+                ncbieaa "MTNLMRSNFQAHPFHLVSPSPWPIFTCVSLLALTTSGVLTMHGFSAAQEFLIL
+GLVLLICSMSFWFRDVISEATYLGNHTLAVQRGLNMGVALFIVSEALFFLAIFWTFFHSALSPAVEMGAQWPPSGIES
+VNPFELPLLNTVILLSSGFTVTYAHHSLIQGFRRGALYGIVLTVMLAVIFTALQGLEYTVSSFTLSDSTYGSCFYFGT
+GFHGLHVMIGTAFIAVGLWRVLAYHFTENHHLGLESSILYWHFVDIVWLVLFISIYYWGS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit III" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 268 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_3" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 568 ,
+              seq-data
+                ncbieaa "MTIFSLLFLLLSNAVTSWRDKSILYSRQTILILLSSSLIALKNLDTPFLAEGI
+GLYGGLFHATPITQTFHVFIFFISAIILQLTAFYPRKLWIKNYASFYTLLSTNIYYDTNLVNKMGQQFRIIEYPLIIL
+FIILGGTFLVSASDIVSIFLSIELQSYGLYLLCTLYRNSELSTSAGLTYFLLGGLSSCFILLGTSLLYANSGTTSLDG
+YYVITGLSSIANEYTSNMLDWYKPFYLNISLLIMSVGFLFKISAAPFHFWSPDVYDAIPTIVTTFVAILAKISILIFL
+LELVHYTSNFYFAFNFSWTSALLFSSFLSLIIGTVLGLTQFRIKRLFAYSTISHLGFMLLALSINSLESIQAFIFYLM
+QYSITNLNAFMLLIAIGFSLYPFVIKDALKNQYKNLLDINNSPIQLTSQLKGYFYLNPVLALSLAITLFSFVGIPPLI
+GFFAKQMVLSAAIDSGFVFLTLIAVLTSVISAVYYLSVIKQIFFDTHDHELNQDFEKTTLKATITSSLNKNNIDVVTF
+KINNITLSSSLTITISILTLILLLFMFTPQGIVNISSKILALIMFNP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 2" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 567 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_4" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 120 ,
+              seq-data
+                ncbieaa "MSSTIFFFLFVPLLAFILLAVNLIFAPHNPYMEKNSAFECGFSSFLGQNRTQF
+SISFFIFALLFLLFDLEILLVYPYLVSAYTNGIYGLTILLLFLLALTLGFAFELGKKALSIDSRQIT" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 3" } ,
+                          desc "This product shares an in-frame stop codon
+ with a short 3' intronic ORF." } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 119 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_5" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 89 ,
+              seq-data
+                ncbieaa "MNLSLILFLIGILGFVLNRKNIILMLISIEIMLLAITFLILVSSLSFDDILGQ
+TYAIYVIAIAGAESAIGLGILVAFYRLRGSIAIEYK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4L" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 88 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_6" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 652 ,
+              seq-data
+                ncbieaa "MYLAIIVLPLLGSIVSGFFGRKVGVSGAQLITCLSVIATTLMATIGFLEVGIN
+NIPVSVSLFRWIDSESLNVLWAFNFDSLTVSMLIPVLIVSSLVHVYSIGYMSHDPHNQRFFSYLSLFTFMMIVLLTAN
+NFLLMFVGWEGVGVCSYLLVSFWFTRIAANQSSLSAFLTNRVGDCFLTLGMFAMIWTFGNLDYSTVFSLAPYVNGNVV
+TIIGICLLIGAMAKSSQIGLHVWLPLAMEGPTPVSALIHAATMVTAGVYLLMRASPLIEYSSTVLILCLWIGSITTVF
+SSLIGLFQQDIKKVIAYSTMSQLGMMVIAVGLSSYNVALFHLVNHAFYKGLLFLGAGAVIHAVADNQDFRKYGGLITF
+LPLTYSVMLIASLSLVAFPFMTGFYSKDFILESAYGQFHFSGIIAYVIATIGAIFTTLYSVKVLYLTFLTNANGPLIN
+YKKAHEGDIFMSLPLIVLAIFSIFFGYITKNVFIGLASAFFADNSLFIHPLHEIMLETEFAVPTLFKLLPLLLTVSFI
+AISLILSEFLPKTLVHFKFTRLGYNIFSFFNQRLLVESLYNRYITCFIFKLGGQTTKVLDKGSIELLGPYGLEKGLLK
+LSNALSKLDTGVITSYALYILIGLISYILIPYISFVDISLLFLIIFALLTVLQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 5" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 651 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_7" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 548 ,
+              seq-data
+                ncbieaa "MSLWLERWFLSSNAKDIGTLYLIFALLAGLVGTAFSVLIRLELSGPGVQFIQD
+NQLYNSIITAHAIVMIFFMVMPAMIGGFGNFLLPLLVGGPDMAFPRLNNISFWLLVPSILLFLFASGIENGAGTGWTL
+YPPLSGIQSHSGPSVDLAIFALHLSGVSSLLGAMNFITTILNMRSPGIRLHKLALFGWAVVITAVLLLLSLPVLAGGI
+TMILTDRNFNTSFFEAAGGGDPILYQHLFWFFGHPEVYILIIPGFGVISTTISAASNKSVFGYLGMVYAMMSIGVLGF
+VVWSHHMYSVGLDVDTRAYFTAATLIIAVPTGIKIFSWLATCYGGSFLLTPFMLFALGFVFMFTVGGLSGVVLANASL
+DIAFHDTYYVVAHFHYVLSMGAVFALYSAWYFWIPKILGMEYNRSWGKIHFWILFIGVNVTFFPQHFLGLQGMPRRIS
+DYADAFAGWNLVSSFGSIISVIATWLFLYILYVQLVEGKATSRYPWLTPQFYYDILQTYLSRTFNSLEWGLNSPPKPH
+AFTSLPVQSTPLPKLTPKPDKVLYLPA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit I" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 547 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_8" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 494 ,
+              seq-data
+                ncbieaa "-LSNVENGLSADTSITQKIENALDNNTSSSIIGNKSIKSAALKTSVLTLLISL
+VIFAFFDVSSNQFQFVQEYHEINSFNLYLGIDGLSIYFVLLTTIIMPISLLSNWKSISENLKLFIIAILLLEVLLLSV
+FLVLDILLYYVFFESILPPLFILIGSFGSSNRVRASFYLFLYTFIGSLFLLLSIVTMSSITGITDFDALYKINFDYYT
+QIFLFSGIFIAFAVKTPIMFLNTWLLKAHVESPLSGSIILAAIVLKLSLYGILRLILPLLPKVYLNYTFIIYVIGVIT
+IVYASISTLRTIDIKELIAYSSVSHAAVYLMSVFSNVIQGIEGGIVLGLAHGFVSSGLFISAGGVLYDRSSTRLITYY
+RGIAQIMPLFAVVFFILCLGNCGTPLTLNFIGEFLSLYGAFERLPLLGVLASSSIVFSAAYTIYMFNRIAFAGSYSKF
+FKVNIFDLNKREFYILLTLVVFTVILGVYPAPVLDGLHYSVTTLIYSLGVD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 493 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_9" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 406 ,
+              seq-data
+                ncbieaa "MNKKIKRLLEINNVNCQRSNSTNSTFSLNLFNIKSKKHYKPKTGINETEVNKN
+FVGKPKYYPPAHVEWFNSIYAYNRNTIKLLPTALKDTFKLVKSYFNFYSQKLEKKVRFTRIRNRVRRLSTNRILISKP
+ELKHTSDKVIVIIYAYNRQKKYYLNKMKRVASIDNIDSILPDDVKEVLIELNGPWPSNLKLQTLTKKILMIRSKVKKH
+QDIALKTLVKKVCYNKFDNHKTKDSKDRTAVYAEIYNRKRKLQNIKMDDIISDSLDIQVNDSSKVELQNEDILELSLS
+KIGSSEFLTKLKDYRSCLTSNDTCLNYPLFMANTIIKLIKHKYVSGIRIQAAGRLTRRNTAARSVFKLRYKGNIKNMD
+SSYKGLPSVLLRGYAKSNLQFSKSKSRIRIGSFGLKGWVSS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ribosomal protein S3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 405 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_10" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 407 ,
+              seq-data
+                ncbieaa "MRIFKSHPLLKLVNSYVIDSPQPSNISFLWNFGSLLAFCLVIQIVTGVTLAMH
+YNASVLEAFNSVEHIMRDVNNGWLIRYLHSNTASAFFFIVYLHIGRGLYYGSYKAPRTLVWTIGTVIFILMMATAFLG
+YVLPYGQMSLWGATVITSLMSAIPWVGQDIVEFIWGGFSVNNATLNRFFALHFVLPFILAALALMHLIALHDSAGSGN
+PLGVSGNYDRLPFAPYFIFKDLITIFIFILVLSLFVFFMPNLLGDSENYVMANPMQTPPAIVPEWYLLPFYAILRSIP
+NKLLGVIAMFSAILILLVMPFTDLSRSRGTQFKPLSKAAFFIFVGNFLILMELGAKHVESPFIEFGQISTVIYFAHFL
+IIVPLISLLENSLIELASTESKDYLYSRTAVVQSVNPLSRLI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome b" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 406 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_11" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 241 ,
+              seq-data
+                ncbieaa "MHCDAPRPWGVYFQDSATPQMEGLVELHDNILFYLVIILFGVGWLLISIVKNY
+TSTEAPISHKYLSHGTLIELIWTITPALILILIAFPSFKLLYLMDEVSDPAMAVLAEGHQWYWSYQYPDFLNSDDEFI
+EFDSYLVPESDLEDGALRMLEVDNRLIIPELTHVRFIVTGADVIHSLACPALGIKCDAYPGRLNQVSVMINREGTFYG
+QCSEICGILHSSMPIVIESVSIEKFVSWLQEQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit II" } ,
+                          desc "This feature shares a stop codon with cob." } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 240 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_12" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 370 ,
+              seq-data
+                ncbieaa "MIKTLIITMLYYPLLISILEVLIVTIPVLLTVAFVTVAERKTMASMQRRLGPN
+IVGYYGLLQAFADALKLLLKEYVSPTQANLVLFFLGPIITLIFSLLGFSVVPYGPGLAISDFDLGILYMLAVSSLSTY
+GILLAGWSANSKYAFLGSLRSTAQLISYELILSSAILLVILLSGSLSLTVNTEAQKAIWYIVPLLPIFIIFFIGSIAE
+TNRAPFDLAEAESELVSGFMTEHAAVIFVFFFLAEYASIVLICILTSILFLGGYLFNFAYIVYLIKEIDFYLYISFVN
+SNYVTFLSDPLIEGTIYGLTLGLKACIMIFVFIWVRASFPRIRYDQLMSFCWTILLPLVIAFIILLPCILYSFEIISS
+NVFLL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 1" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 369 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_13" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 263 ,
+              seq-data
+                ncbieaa "MTDCAIHYIHSVVISPLDQFEIRNLLSLDAPILANLHLSLTNIGLYLTIAAFL
+VLTLNLLATNYNKVIANSWSVSQESIYATIHSIVVNQINANKGQIYFPFIYALFTFILINNLIGMVPYSFASTSHFIL
+TFFISFTVVLGATILGFQRHGLKFFSLFVPSGCPLGLLPLLVLIEFISYLARNVSLGLRLAANILSGHMLLNILSGFA
+YNIMTSGFVYFFVGLIPLAFIIAFSGLEVGIAFIQAQVFVVLTSSYIKDALDLH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 262 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_14" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 48 ,
+              seq-data
+                ncbieaa "MPQLVPFYFLNQITFAFILLIVMIYVFSKYILPRVVRLFATRVFITKL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 8" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 47 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_14" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Lecanora_cenereofusca_mt_15" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 38 ,
+              seq-data
+                ncbieaa "-SPNVSTSNVSANNSNYLSTVNARLNLSIDRKDNTDSK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ORF1" } ,
+                          desc "This feature shares a stop codon with nad3." } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 37 ,
+                          id
+                            local
+                              str "Lecanora_cenereofusca_mt_15" } } } } } } } } } }

@@ -1,0 +1,2342 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Theobald" ,
+            first "Emily" ,
+            initials "E.M." } ,
+        affil
+          std {
+            affil "University of Colorado Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            country "USA" ,
+            street "Ramaley N122" ,
+            email "emth4657@colorado.edu" ,
+            phone "7203179990" ,
+            postal-code "80309-0334" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Theobald" ,
+                  first "Emily" ,
+                  initials "E.M." } } ,
+            {
+              name
+                name {
+                  last "Keepers" ,
+                  first "Kyle" ,
+                  initials "K.G." } } ,
+            {
+              name
+                name {
+                  last "Pogoda" ,
+                  first "Cloe" ,
+                  initials "C.S." } } ,
+            {
+              name
+                name {
+                  last "Kane" ,
+                  first "Nolan" ,
+                  initials "N.C." } } ,
+            {
+              name
+                name {
+                  last "Lendermer" ,
+                  first "James" ,
+                  initials "J.C." } } ,
+            {
+              name
+                name {
+                  last "Tripp" ,
+                  first "Erin" ,
+                  initials "E.A." } } ,
+            {
+              name
+                name {
+                  last "Persinger" ,
+                  first "Jessica" ,
+                  initials "J." } } } ,
+        affil
+          std {
+            affil "University of Colorado Boulder" ,
+            div "Ecology and Evolutionary Biology" ,
+            city "Boulder" ,
+            sub "CO" ,
+            country "USA" ,
+            street "Ramaley N122" ,
+            postal-code "80309-0334" } } ,
+      date
+        std {
+          year 2016 ,
+          month 12 ,
+          day 16 } } ,
+    hup TRUE ,
+    reldate
+      std {
+        year 2017 ,
+        month 8 ,
+        day 1 } ,
+    subtype new ,
+    tool "Sequin 15.10 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            genome mitochondrion ,
+            org {
+              taxname "Hypogymnia vittata" ,
+              orgname {
+                mgcode 4 } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Theobald" ,
+                            first "Emily" ,
+                            initials "E.M." } } ,
+                      {
+                        name
+                          name {
+                            last "Keepers" ,
+                            first "Kyle" ,
+                            initials "K.G." } } ,
+                      {
+                        name
+                          name {
+                            last "Pogoda" ,
+                            first "Cloe" ,
+                            initials "C.S." } } ,
+                      {
+                        name
+                          name {
+                            last "Kane" ,
+                            first "Nolan" ,
+                            initials "N.C." } } ,
+                      {
+                        name
+                          name {
+                            last "Lendermer" ,
+                            first "James" ,
+                            initials "J.C." } } ,
+                      {
+                        name
+                          name {
+                            last "Tripp" ,
+                            first "Erin" ,
+                            initials "E.A." } } ,
+                      {
+                        name
+                          name {
+                            last "Persinger" ,
+                            first "Jessica" ,
+                            initials "J." } } } ,
+                  affil
+                    std {
+                      affil "University of Colorado Boulder" ,
+                      div "Ecology and Evolutionary Biology" ,
+                      city "Boulder" ,
+                      sub "CO" ,
+                      country "USA" ,
+                      street "Ramaley N122" ,
+                      postal-code "80309-0334" } } ,
+                title "Hypogymnia vittata mitochonrial genome annotation" } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 23 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2018 } } } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt" } ,
+            descr {
+              molinfo {
+                biomol genomic ,
+                completeness complete } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Assembly-Data-END##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "SPAdes v. 3.9" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } } } ,
+              create-date
+                std {
+                  year 2016 ,
+                  month 12 ,
+                  day 16 } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 38888 ,
+              topology circular ,
+              seq-data
+                ncbi2na 'DFBE70EFDF4D239E3B9F6441641E0A8E08E10B324D33C223CCCFD
+000970029CC9B0FAC0909E74E12748E2EF60D3DE97C33E42CCFECEBCFC40C82D62E7A0FAC84B98
+1F08F67AFC336C06F42DBFF68C0BFF0F38FFDC080080998CCFB00430DCF270CB3EF2FACE7D9375
+F38FFC8034A008D2C0AA332FC3EB006DCFF9136F0FEAF61559EDD439C3F0FB33FF30ECCBDC3CC5
+F0E7CF3B0310B3104C97082743EB22681DE08EFCA7B0BD837CDFA93D32B31E8CCC14B31A70FBF3
+5C2330CF05C0BBCCC0C000AB2E3A0FACC4E0C9F287BF8FDC0DF35BD0B68DC5F3B8D0EFF09FC3B8
+EFDFFB9FBA0429134DFF783FF348000824E91040043C803FC7CCF3E793D333BEC870DA42D383FF
+ACFCF3E2EF60D1D41302F03CFEFFCAA137F040C0C332BAF32F43EB2241ECEE812E2F57BD894AB3
+515FFFCE3FF77DFF0DFFC30023CBE7EE8FCF030D20934E938038C20000200C0CC033F094A32F41
+EBC81BC3F4E4F083A83D8BF77569C9FF0E43BFECBFF24FB4CFE13B043FFF3CBEBE40934DFF2FFF
+F2E01303CEA7E7EE3F80344293470A000B8AC2FE0F5D0010F3CFCF53FCFFCF3CDC396D17F21B80
+2D4D7F3D4888430C33E729DFB38FB3C00BF21334FFC880ACCAFCC6BADFF539C45CF1121FD4CFFC
+DFFFBCB9C533C43C1E7FF3DC802FE2F001CE72DDC417BFFC00FD3338C404F3C308EA1043320C3E
+2CD7F0F33CFCC30CAAB13FF2CD672E332FDCFFDCDCC8BC40BCEBF33F1DD44733201DE073717792
+B7C7CFFF3EAABF37DFBFCC71CAC42DCFB3941DEB10407C8EBCF3B8C16BF3705C94383310304CFA
+3E33017F33F0133777C3CED2CABDF3F08CD65916FD3FF82578EECE39CD5C432C107FEF90C32700
+CDCC7CCFFEF20F0F4F31CB0FFCFFBE689357F2FF2F8135A3C77F275FFCDFC30CACBB3CADCD12FC
+830021CF64CCB10CD1172BFCC7FC97C2CF04BF22DCF4A5FDCFF1F0E431D0FD0370397FBFCF0F24
+DA7DDFCCD7FEC0C1AD77C08D2C410FCF232010745CC41F3CB43E02BCFF0DF0D7B3C9FC2FC94F1F
+EFF7FECACC5D77CCABFF640103AC7B5924F2326BC6FF7C1FC12733C1CBBCC2E7BF3C7CAEC3C040
+EFFF8E04E0CC0F014217D08C403F02B2EFB34DCC0638ABCEC844F49FC13C30CCB3CD35DFC1CF1C
+FDCCF05F04F1CFBF33F1D7822D4C2CE9C333C91F33EFC35F03B72C433FFFCF3F315FBC9FF33CFA
+5BC3F0CFE75D10D7CCE8000C99BF83BAFF2F4F7EA12048112FCB3F7FFD33F9FCFBF79EFE3F2237
+CF2FCD7CDFB0B9F31C3AECCEBF273CEF0EF5FF24F04FABFE7F60F2B00091DFCF8CB210BB70EE90
+7000D03CCF240B0B57EF8330B0004F3D07F2B0C3BC8FF07CFCE132C33F23AFFCBCBFCF0153EF27
+F027FCC33C4F819BFAF31FD0CFACABE71FEFFD337FCDFFDFFD902CAE79FF10F37AFF01FF2236DC
+CF05FE0FAFCC33173F71739FBCFFC2D0EC3B397FF3200A4C7C030B00970B27CEF0FC09730C0C15
+44FF3931F9FFDF27C3C4F377F34CC0F3332FCCCBF008C4D4C4CFCC4F110430E0FCDCC31FFFC3E8
+33CA3DBFC0C800130CF0E7CFD0C80C39FFA73C4FDC33EB0BD1F2FF8E331CA101339CDC6C326327
+AE48359CFA7CACFFAC9FFCC8F08A89324320CC0C3B372530DBFC54CF2BD0CBB5A7FFEB200BE8BC
+9A244BC3C6ECDDEC30D104FCE9043EBFDF8AFAFC0C3314B34BFCF3F2BA763D20D1F3ECF3AA3F0F
+F8F7F04B773BC317B1C32FDF7F2E4CCCF432BC4E2D38D44C3408FFF2F1F0BF3D1FF38E3EC7EF12
+4043FFCF0EFECAF882BB2AB3BD7373CB0BFF8FC720C9270D02F53B797FF07048B2B8F9FFC13EAC
+EFE738CE05FEB07C8F3DC6B3FD3C9D7C4C0E80CCBC734FACFEFCF0FA273A700BDD03EB7D3BF871
+77E73A0A57117BF791C3D39271CEB879EBBB3F3C3981F557C320CCBD04BFC35FE7CE0CA0B3C71E
+CFCBDFC3EBF3F4908CD082BCC9F1D4738B43CA8E3AD3E4B2B7F7D330CF97CFD3F2F0D39FFCC0A1
+DF3FF2A92B9EC3139EC9230D087F280C6BAFC324FFC5FC1F3D2F39E327DDF2DCB27F57FCE1EBFF
+3DC08FD31F8379F3A10FD3FF72EF9EFC7F3241CEAE73BF144F33D2F0AFF31704FFC1C3943A1770
+C0730089D38298E4FCE27E5DC30FF24BFFD4CFFFAF33050233BF32B3A7DEBF7FDE30CBF3F1135F
+C4E034E7031E0FE7B171DEFC0F3C5FFF7C1EF13C2E73F7F0CF378BFF150347CFCFF0BC1C83ABC4
+133F27FFC341AFDC3E0FBFCC10337476FF3DF03CA284071C2BFC8C0AF4320F3CA14CE9F20029F1
+F03C2C025C2C9F211EBBCD135CE4FB33FC3EBF0CF3131C317C4DDFC32330B33EF3B30CF29F1C24
+C16F0C67F77C3B771FC9C0C3DCDCCFCF3FF0B47B36CEB30BC743E2E1F31307E7FEEFEC77CFD7FF
+F33F9FCFB17ACFBF0D7C0EDCB10CFFFFFCFCC57CF27FCCE8DFC233DDC32BF3EF20DC430CF7C7C0
+FB9F4F3B0F02B34A08F327C751CE2D0F2A38E3C22D133FE7E7EE0F00344242C033B39FC04F7B32
+F9A24D5FC0C0FE04FCDC0078CB3F33C94BE273023CC330CA8CB330AF31285DBB1F30C48B3E5C1E
+B0C0572CFDC770DC0E7CFFFCBE7EEF9FFFDF7FE4E40208200B9353A4D3A01DF733FC0713C33AEE
+C024454CC0CCC1CF29CEC0B3FF073CCC4C8DFFFF7BE5CF5C70CD5C541443A6840BB81F137DC08D
+C0029F382FDE43C3380040F1130100300CDFEE1C80AE3DF34D039008CCA2FFB37CDFE5F3CD2BF0
+CAC497FDECF0D23C81CDE852BBD2FCC9230D0F310CB34C1274E732F38CFFF3AD39690E328ABFAC
+3FFCF14F3CB2AAD78CE93D5C87C30CF2FFE3C70C50B324F3FF3F9CBACD803A27AC7AF81DFC575D
+FDE83102D32E85CBB237253FF9FC45FD2B30B2FCF289CE07F3C41CDF033882D7ACF21C440FA4F3
+DAF896FBCF1A5BDC7FCF37717BFC96BACF10E33C123203F41134F7F8249EBAEB8D73FCC504DFF7
+8FFDAD1522BF133C34C52BF6BB0F2C41CCD252750C226EF6BCDFACEB3394E3B732BBFCAFFB2CE0
+B4533B32EFADC8EE8C4227C7F1259C4F0F327BD71EB30033F2F8F2713BC6BA34F507045FF39CFE
+4F2AFEEF4EF44BE8ABC2E8BEFF27064D1C8CC93F4E31F3C6CBE447D4F3BFC2CEA25BBF91CC4B9F
+8CFDE0C50033CAEC87104AD38AC0993F7A33CFCFAAE0EF13DFD7413F7CA9D42839720830B8F15E
+39BF92AE0372E2C9F6BDCF30BB4C9C7E9CFFECCCF31BD0F2C8AB0271342315F8F075E0F7B2E113
+C40447C1C893F0747A0E287032D65D95D39FF9C9F177902C9F0CA700AECB1FCFF34CED6FCFB0F1
+FF3C31FF32A2CF37FC3CCE5E2F4194FFCF83AF0313B0CF8DF31F08E2C1AD5B21AD50D1BF22D53D
+1BF22D50D1BF22D50D1BF22D53F17F12CD0C5AD4A23AD085784376BFE0A6B0C1DE3AF38C739F9D
+7FC15E7128F35F7B9FD22B171EB06385703BA034EAFC35E383FA63B1146B840867443EB34E2110
+400CE2DFE8FB133EE24229CF1D2D2E0E302F3FB0CBEE34279D37E0E4C5E78C92E0857DC8DFB2A3
+C030770C79D7CB104D0C91600432C3CBB3CFBFF313398C9FFF7FECFE3FF23B38EE75910710CEC3
+FBB8E0FF233B57FDC41F738B00803CEC4C3FD3EF2CF031C3B8832A8A2CCF306C9F024003C904EF
+F330CAEF11B0011F93BE2B1C93703B30F030C0CC00F317FECF1F3CCA1B0A290C3F0C672CFF0C3F
+A78F3448E746E9BA6EBBA6A9A93630F0B0B0C3C3F3CB32D308092AEC373A2F9824D15508C59B33
+708B8077CFF0F630F32DEFFCF6F35CBCCC2E320F4A422A9AFD7BC1EBBF3B0D33D1F357F7E3BFCA
+C5F000F2BA4C01080C334390390390390C3384275F07C4D7327F6300312B3FF377333200D3F333
+B8EFD90410040F320273130CCE3FBFE52F3FEFFD29F9A24E730C8C002A8FBBAC0FCDD2FFF7FF4E
+30C3FFF3CF8C5FC3EBBBF7CCDC400EFDB0C01CF1A3BC312FDA3E090C841F0373E5F1013733B1FC
+FEFDFC3CDFE4FB38FF2C70D0FD2FEE420C5180C273FC3FF3F28BE3A5CDCCCFFBFC7C418C30E5CF
+D3CFB40781353374C170013370C14FFBCF2211EF3CD2EFFCB9C8CFF3CF7133FFE02CF71757CF4C
+70FA34FEBD0B04AB0890BFF3F3F73111FF2BD7CF5CF3CD4FBC43B7D0C1281C78FF8E7F330040FF
+0F3CC749DFFCFCEACFFCC9FF92F0045C73FDF811F8F1C02746F8345FC2EB2CF33E96832EF00F0B
+F33ACC7D9F0CF1771E5009F1301EC7FFC333F0FAEF3C53EDCE52CC244F081CF8EF0207CF9F3D35
+BF44E792CC5F3ABBFF2C310C42B320AEA32EF28F274E8FEFDF7A1CFCFEE7AABB3CCE3237DC723C
+305CF12AB32740E39733FD6F37CFCFFBBF2B0FBAEC5DF1FC07FB2B83DF36F33A24FE023C5CCFAB
+9FC9CBD773CFFF69E7CC73333BF048324FE7AB4CF703FFCFBC33378DF0C06E0FFF3FCF05FAFF3F
+12C9FCACCCD7957B9C86BF13CF4B043FC3F3DED5F57F01B30CF3F3DB9F9F9F9F9FBF9F9F9F9804
+2935311CB8C03CC0FF27BEFF7DFFC7FFF38FFDE1C01EFC0CBC211E4F2EFBB0C4711C47117EC02B
+B33FA8F0EF2D750EFC3334FAC007A903F42021F3C01CC2ECFE09827C7C24F330FCCCC0B281BD06
+1C88B893E724307FC0539D24FFC0EFF733CFDF9824D4CDD0EC2C77F373F3210C13ECC233939D64
+11090B30E3C3CCCC3C3800CDC33FCE4F4FFC73CB020402C03A970AF0BC2843302BCCC1440BDCFC
+304441C38003F70F10100113903D7F33010C678398C0433150B70FC7EFCFF53C00B80CD2F9024F
+C1C33F30C9DC784EF01BBF0E42BC000084400B02F208C1CC3CCCA805C84735179030A2E3F0CB33
+1B330C3044BC2F3C54772102F11F01CB002F3FC1FF325B01C88000C03761BF9B308ACA2BCD070C
+A31C3C92248BE0131038C0BAFBC7333BF30C8400833CFF0C030F28E94430305F3F70C83C030030
+C000009F023CCD88BC009000032FE0019FAFCFF3D030030A48C30C2FC00738840F3F804F3BC52B
+771B0A03BCDCFCDFE12F2CDFF0E0DC0FE0008CDFF17F072FCB082ADCC3000B20FC37EC0FC01373
+37C32733FFD2017CBC403C2032030CAF3C22CF801F7F3C3BF03C57FBE32349FCC6080FCC320028
+07D00FC02F8C310E8C37CC2FE0390CF03443F2E373E818DBEF031A35C08F733301C023DC0F38E5
+38E7DE3CFC3035109085D00FCB73EC3CD4F3F72E0453FC2373C80C0DEC2EB30AF22B26AC8F0721
+B0C496723773F01F2B302B04C0013A3DF7CC0AFCDA4BDFF08AF3900DC3F10CC703C03720C6CFA3
+7FEB700A3AB0B2CBC0CFE9F33333F0330AFB1320BF12F07CFECCC3103B364DC003FFFFC43CD986
+5D5D0EC809030038E032DE0537EE02BA310A8C0C153B8C1307EC1007E3CC0000481FC01042FF1C
+70C0B09FDF0CB33DC3F0BED77A3F171CBF37ACA106FEC1CCF34B347B0C0C8D6FCC8C03340D2BCC
+8FDFFB4F94C7DB090D07CC7D08F7E7F9FEEE09108C0FD8C313C7F824FD6C81C8BD1F5808DC5A1F
+B3C3D3217FB4D303FC7DFFFEC4ED38709DCCAEE8FDF0FDEE097D24CBC13C7F40DFB27F0CD7EF30
+CC2DDB33CD82DC48FC81C317F03F8F307D35F7CFCCD34F0731BB309328FF5E3326C09FEF3EEDC7
+0FE0F85C1E175CF07ED340A7F3CBCF01CD2CDECCB3308D177FD00FD09FCCBF933335C9308BC1A7
+8233C732013F730BB4D9C89C3FF8FC7DC8FCB7F0BFDC6C2470CC341D7831D133F70B41BCFBCC1C
+148CF8D1F8D733FF308FC3DFF2FE4F036F88BF41340CFDEC337F370230140DF5CD23CFC301DF23
+1E43F7828F6C73C8FDF30CC2DFF133F36006F27DFCF02E385FFF0A0CFFB35BF922901F0DDF4782
+CD35F742C5FCA1330D854D7FF39AC3017230F34FA7D04B10C020140C3DFC430D3FB88DC01DCF0C
+DFFD33B1FD48529328F087E6C28C4383C136CB2CC3DF6F3F93CBAB3301F6BCC5D4CB087DF0CDF4
+0CC5FF7BC340ACCF3EFB8CFF708CCDDC094B5E03EC21CF2C1F81B4C34EB3378D1C0BCBC81F4EC0
+80F037F3F030DC2B07BDC93F43CDE2ACF93ECC8DC2077DFBF4EF34A7CDD2CF7094AFCF17D30EC0
+BFFDED381730A03333FE01B7BFECE4313234E427805C0324C1CDC433D32CCDCD7D7CF8C3F8F3FC
+DB7782B2CFC3F333F45FC5FCF0F8CF73C175108B3B1CE01C934C15500F3833342DF3CDB3F2FB0B
+3ECD8C2FD0CC2371E0FFF3FF1ECA7C15DF2BDCCF3DF36CFF17C345F7DF7FE7F13F337FFCD34D67
+F09FCDDC4D36EC2C013C4AE0DF7130FECECB5CC9311F6AFCFBCF4CCEFDC8DCCB14C5CA34F37003
+83702FFD71FFF2B8C673C0FCBFF3FF1BF20F3FDF193371234CC13CF1C8DCB03334F203C3F37B31
+7FB30B31684CB333233F4C10154D3430CF059CC330F25F36077F0CC01210F2C8CFF34DBCF76F07
+2F7300F3732CFF4E5FBF4424DCB0E08BCD081F72FFC5B073F3B531D22B30DE801F7FCBFE39ACD2
+A70CFFCDC384ADFF1EE00DFF4AE37EAB30FCC7011B40FB31630FD34BF4094C3C824B74ECAEB122
+743F7008C10368FF73CF2C5FED202CCCF8EA424FF332BCD24C10368FF7FC70C5FEDBC271C4CAEC
+231C4CCB027FEFFCC0400232F1CC1E2BC33D0F6B7E98178E31CEBBA4F22DEF830050FF77FE7D7B
+30495439F243826C0D3FFD7701E00363F2B4C5CC2138A1E3F057EAFC0555557F3CCC0C4ECF9C84
+0F88ACC08D9D87237DCD44183B236042650B671D2D54E7AEA0A8425F309FB4000033CF15BB3EC3
+0EB0107FCFCCE6F30D30FC7103F3C011F302D17B33FC700033CB24A7C50FC7FCF1FF03330730C4
+CCC03C038833F00B4D7F3C0BEBC3D31B0C87751053404C2FDF380FFAF473CA7FEFCB0C40C3C4AA
+C1FC90E4F10E70EFF2093F074BA24CF3888EC041AB8F0C633F13D03124DE6F7DFCCBF371132B22
+8731CE8D330275C813CBF810CAC4BCDFCCF0E3A7124F7EA33B5F571A503B4FB8AE412F30725F38
+B94C5B8BE842332F8BF37AAEBF4BB010E513C0C8FFF93C4FFBFC5FFB3E9E7725F0E4FC324F118C
+B92BD2B0D7FABBF4AC3CE323E53F955C7F33F02370F1CDFCFFCDF2EFB43BFBBFFCE5C17FCA212E
+0073B0E9C35CE4075D79CCB17838CDF714FF39CC7CADCC5C101EF2BBCF9CEFF79CCF0FF3CBCE5F
+D1E37F723522B310FC05FC240925FFF33FBEB07FF0CF0E83CAE7011BA0DD4FCC83FA1033712F37
+3F644FFF8F32F5FC30BF3F8032FC320F27AF700302C3830433498248C112B38F102BB4ADFF142F
+C3380E70FF42C4002F3137AC0EBF3C00C83FD0FEA38F4DFC3F3C2EC2DE7FD92BF057FC47EDCC0C
+4AFFF079F453C47B8E45C85F8ACCCFF4232E411440E829F2E8BC4E30CCFBDCFCBCC33CFEAB28E3
+CF0CD0CBC00731C3122D143F44C0CFC2D3A0470D89C3381CF11797C33C3FC367FD4DFF03EF33F0
+E8E0B0B8D49CE92EF248AA4D0E33E0BCD0C578FFF032E38E2FCF83F8F4CFCB978B787C821AE7F8
+83BC82E8C321F3CC5207074EF23F32F12B9E1BCD4F7FE7E579FCACF03B865CD7A08F0342FDEF38
+F04A8281FFCEB43BD223FBACCF112F43973EF320D2EDCC800FEFDF8710810C8C1F11FBCC004C4C
+DE4ECEFFCF72F3B3BF33FF2E779F64253B8FFC3D1090904CC2A0F2742AC8905BFC446B2BCAEF40
+D377D7CFBF14FBB3DB03FC3B007C1387077F2473C10C80931EBA6ACC3344E9FF3BF7AFFB1EF34D
+FDDACD34463B577E3DBB8C11C933E7F387F0CBFCE2F57230A2F8CED070C3D0083FBC3CFA7F3ACE
+904B1F0F8FE302FED0BEBE0BCCF02B9792C73D4BC70C3F338EBD2B820F2EB069C3CDFBFEAFCAF9
+F1F328EE733F9C31F3CC17E339FC23833E34117930CF7BF3BF87F5E9FCE82A286DCF3B2F24523F
+E37CAB2247FE80FF91237AA38CAFABF2F4DF909CCBF21462FFDE3C49F0F44D4525E3457C7857C6
+DF1EC10EB04CF7CF2743AC8920C7DC33F2370BD0B7C8C20FC1FCFCD2609380FBC30C3CC73CEC30
+C008C00C0A8EDBB30AFB12FE3E48D33D38AF63D769357DCBE409346FACC38730998372FC4FCC3F
+0CFB38E539D642420934C4FCEF3EE002C0CB32BCB3C224039C3F3CCF7CF2743AC8920CF5C33F23
+70BD0B5C8C20F42FEFDCBF33B3C70CFF3F38C0D202F1FFFE7EE810A4F130EBFFEDCFFCFBF3F5FF
+F4FFB39F64DD7FFC40CE39F641C70C3032FCDEF5373043CCFBCDB2483445700F04035CBF1F73FF
+3CCCF3CEA002FFC2F4CE3CFFFDD388CF33B7CF3C314EF33F1733F337BCC82F30CB05B94B3CF05B
+A7CEF1AF92220010E90B390208F2B5C132CA33CEB73C4A4FE48E5F027DFF00833BF55C44270FCB
+FCFFF7E85CD307F0DFF5FBCA3FDEF314CEB5EB72733487F8FCA0C7F33BC92FDF5F371F3ACC71C9
+EBE379C3DC0CE4F7CAF4F082C79D070F27383E37C2749CF79FBCCF3CD2B27C07C12F0C480E4009
+0DE333EC51CF9733F30FF7F328D4C92010322757F8FC9629C7030006338FEB76C033E7339E8017
+F3BCCC210D24A0140233C1335CB28D748871190D3F0C403CCFBBF0C2332D417E4EE0EC02C3B3F3
+7805CC947133043AC032AFDB7D03E04C8229CF71DF3F71FBD37434BA18FC9C75CF5CC02FFD30FE
+0C30E012F3F7CC100CF080C292B331EFF3031EC0C301ACCCACB9428FCC7C21F3EF9AFB9DC7DF4D
+3578EE739104A8E08E20BC244E24EC7F1F3CC900CB0B0C09FC121F2010BC4F000CD5FE30FEC43F
+CE2049C42DF82BCC04C78609C2F003BC088FE20C0D034D73B3BE60934044C288E6093100FC03E3
+0B014AE2F835CEFEF9824D04132E080408008C26320C2C04570E8B2B379F678E3F010C3F0F003F
+C00C33E2F2E539D64241013F0333702F12CBE7EE0F00344E939824D033F03D017EFCC0050CCAFC
+0B830C3C8C07085F0FF7FF3313C4CA83489CBCBAFF384813924BCCFEFFFDF7C960CE72CFBDF3FB
+3FC10B31DF7CAEBCFC703FC4DDF731F8F0A3363F73F337CB3CC84BA33007F3DDE157C320ACE333
+ADC17EA3F0A5E6F38CFEEFCCEA8227DFF5C831BCE343E3B4FF9E0731FF14F2C327FCC33C7D5ECF
+F332FF80D3171C3BF777CC833080087CFBE6BEE771F7D34D5E3B9CE4412A3823882F891389374C
+CCDF3964C04CC1C30034434834771D379F674D2F0E73C10F3C338007F13DB1CFF1F09C02F03FF3
+F23C0C07C9F4004500102F0BF001F0CFF7317FCCFC2133BD305CC3E08B1704F3FCFCDCC07F5F3D
+C3F3DDF333C3C39CF1C30FC7338007FFC41CF191DC4F846033CC72493CA647C7FCCDCCCCCCF934
+E42F0C1DE9274F0B3F3FCB7E95CF00B5FC8D0FE230A0DFF0BF239573FC9C17D33F7F070CFA1FCF
+C10D1E4DEC9FCBFC05FF27101CC302C3270C9E3430B422DCFCE71CC44932CB0140C054240A103B
+3FD7FCDCE4F3F33F31C3030FE32B3AC5B12FF9771344FF3FC13FFCF2FD16CB3CA241CD72BFD001
+3ADC03FF77F3DB179ABED73297BC5DC7ACF0C83F3F4CFC9C80EFDFCADF23C9240CFF0BAD33BC7C
+137E26BFE7CC334E134A3D3F3FFD32BF0C53C97F3CC93FD2BF20728327FCF42442EF6CB7C1F7D3
+33C08E5723F13C00603800A00707B142424252C6887BF6301B30F04E5FE552400029BB4DCD7DDF
+33F049EB8B17BE73C2CF2BC31C0203AF0431C13E73C20CE00140F0D4CFB001EECD0AC280FB2273
+3CF8B3007F2F33041FC07C0C70C38DE4C3330707A7FDE3A83DC5FD234270CCDB0C16C582C7FC07
+D48C8E39D3B9D07DD37D357BEE4C9134A8E3820B2244167100300E1FBCBBEB03AF716BCE8D4FCC
+04EF0F3C00C0CD3F03023A0C8CC3C0038E731FB4DF4D5F4BE6BEE6091349378E0804F241083234
+2FCEC03233AFC2302D70420EF03CE8B7C2C008008AFD7DCF30303BBFF1344D0F3C343CC1073BFC
+30CC73E9724737C2FC327F8FCD1004000A7CF0B7C4040404C6CC0C9F1F3F9824DF3FCC5F857DCD
+FC3C8F18E4CCF28F8C91413F0CB3DC38CE51072C5FFCFDF0340C1FF97F3FC7CCB0E33133FD00C4
+FF142BFB1BF3F0C466FFCC1C0F32F1E7064B0D71FBFCFC3CCCCFFDFFC3FC3FDF75D3400C2200A2
+080082008004082D3BC78C487F1EFF03FB7E6BEE771F7D3578EE739104A8E082F89130934CBCCC
+333FF31D2C72E44DF4CAFBB3330FFFFFF4F700F1D3003872E7B8C44FBF0E71FF0B0B26CA82D409
+F3CAFCE4C6FCF9303F13FCFB9A244E40F4E4ACE02CFAD7C9200C02B33FCCCEE10C3C02F07FB52F
+CB3273C0ED0D703725F4FC874484304A05A7CFECD4BC048FEEF9F9FB83C00D13A7E609224DCFAC
+010B2FF3FFBFF7ED74DFFCE28020071C30F4BD8178042D030D31BF730337047D0F79FE78EE741F
+74DF4D5EFB93244D2A38E082C89105900403CACB273004C51C078CCDD70B3129FCFF7E0C0D3F3E
+F9C3BF7DF48E78EE7D910590782A3823842CC934FFFC315FEF00D1C0BD477487F333423BF89034
+3D003B7CDC3382CCBF37CFF32430C18303CD0B50BFB3F73F1D28C38E03CE1A293C7242EC003B00
+530C33B00500ECCFF13FB71FBC011C4F22CB334F18EAC0331C7F332F8BF8E3A7783819ED40E7E1
+139C36061CBFCBFF072CBAEC4AE2CC230EC145FA2C28808D5F30C30202F0BF677C82FECDDB9BAC
+B2F28F009707273391B2DB0780AF8D8512EA5E0C0953863ED124B8A0CFAD0C97069E05241FA283
+B3243271F934FB0038E4A361CED8300F72B20FF8C384FB7973BB7E140F1B9492D9AC31B20872EF
+3D3BF0DAFC0AB1721AC0D09700F0382A1C3F1C8BC7CE2AACF02C79EBB22380F7B4C5DFF4320030
+E912B329809355F3B8C1E1BE2A1829FEEC98128F23154B2D0248038E0ED323C8C0C2FCF730380B
+B093D45D08B0FE904FA0780D3C85BF78052CB82CEFBF0FE38D640017C510FE0CFCCDCF3EFFFFC3
+FDC0802298CE333F109BE469EDF4BC3B6621FEBCBD4F03C1B015F1FCFFCCC8B2F559CCFA338C12
+A1C210B4D3A5C0CFBA9CC86E513097C402AEE03E603E270D55007A3310C10E8FB2DEC1D879B80C
+A0F1CB0DBB30B1A46B8370DD232B1C1476D2996028B3B90C2F69CBBF3FF0FCA63FADC307CA4E3B
+7DB39B87F8FAEF0B6033AF6ECBA03E46A3C3833C00C552F10283010C2A303075F3EFCF5FEC1154
+1C403131B1FF7CCFBBF072044B38FDBE0DC04FC1C33173F1EFC7BF1EFC7BF1EFC7BF1EFC7BF1EF
+C7BF1EFC7BF132A8FF7C0CE39F44114310A0AF5BFBEB386AF89EC07432F1A7B60AF62D7FDF5C24
+E0B3FC0FF1CBEF372F6BCD30C39A10BCD0B104CE2801084CC16CF132CDCCC2DF033F390022CC3F
+06B00CA09F407D03DD2F40D62CF7EF9824D33BFCFC00CC1CF3FBC325FEC9D06B226231EF0CFD8C
+2EF63D1FC2A7BF3B067EFFC390F3030CC21FFF33F13C09BBC9F0FAF098EEFDA510A3EC2F615F11
+99C3B00325133DD3C02002273B03300FCECBC0D388CC077F107C338F0C9F3E7CC0E01FF1C3AF32
+A6825F217CCDFE9F733CDAB3FFBCC30B00154CBB4B3EFFC32873FF09324EF3F1CBFCACC07F32BF
+34CFCFAFCEFA27BF437CFFCFCC70EF0C06E22CDE27FE2E11CB0CB314F26F3C32BBB7FC3CFFB134
+06F17743F362770CE3E01348333C4FE343F3C3CCC0E8DF10FCDC32E070CFEC1C700DE23ACB7A48
+041133062CCAC13CECC42F3DCCE9F30C13730C73CF273AFA6536F3043004028F21C9F3733B01CF
+9BC0AF34FC0B0204B1B7EFFFF2C8DBC3037221FCBF0FAC033B87FC34D3CCEAF6055B2B7C04050F
+BC32313F393724132FCCFFCB9DE7D9094EE3FF0F4424241330A83C9D0AB22416FF111ACAF2BBD0
+34DDF5F3EFC53EECF6C0FF0CC01F338407CB0A2C3FD09D35FF4DFBF75745FA5CFFC4ECCDDFF277
+C7134AEFF04391A7FDFC9128FF7313A7F1F72C3FFD4ED3FE3F221BCF2E2904C7CAC34C7F27B102
+AB7033A8BE5FBF32F2E093EFFFFA73FFE04FFF4CB93CDD79E480EA274B85150AB323DEF0D6FE27
+15F3C044BCCF3CD34A7F12F1F39514F7F0C4A80C82E897ECEB32E7C7B0EF25F0FFC7AFC427F20C
+C4BF7D3D13CDE12C4CEBDFBF71F6A12BFD3ADF46C38CA079FF32BB29F3822CF27C51FC78014D37
+AB722DF731FCF84FDBE3BEFE3C3DFFCFDCFCF3E28DF2F09BBC333F3C73F1CC0CCCCC1A532BC3AC
+85BDB7D4063BBB63D0BDA7A5B03CC23F22F2C9F0FA40B9FDFB620A38E5A34C16B7076FCC3FF908
+FE753FDD74F122C3220062800F94FAC2928CFE7033EEC30117A3BD834DFFF5B0B3D0F73F200C30
+3EEF4E539D64241DCBE7BC33FCE0F9FB804E934F3F383F00C0AF5F07C1EB02CC7FE308B2BDA6F4
+059E2834FC7BE7EE813A4D33F3FC220F8589AFC2BAC27E01F3FAF00E344D6F60DA33DDE0B09321
+33CCFCCC6AF2272BEBCA6DD3FABE282EF3BD834C38563F37CD379F7E7EE0F00344E91E30C20E30
+0C8D70330D4473CBB038CE80B3CFFED3FCD37FDDC22008E300E1310B310223EF3A0D3273334088
+9C97EB3F057002F01F02CF8AEE7806EC37038C4E428B93BD0770C203CEEDF00B0182E0F80CDF1C
+1F4A0000D0088F7F0B0EE0E030802DF010B00E8B9337BF8300AA05F5DC21C0CE3333B8C9802C5B
+8A80E3E0324BFCC249D0002FC0C063089B17FE4C3AB490BC3BF8E6243F20BF20F08BE7F3B3E6C8
+C010F38CC38ECB3400F315827CB8DF14434A3CC02D606AF36FB02335820FBAC2F2E0210C78708C
+9EBFDE6017330B2B0FC0C833482B120FB8DD39072C74FF5EF07CA0038302E7FF9A13EAAB6E0877
+34B8B3FBDDA0A1C8CE0CF830D2132C630AFB3B702A012548108BC30AF500F3EF0B80F0ACB3F350
+0694A8329F209A53FDE085DB04891EBFEFF0E30C28C0245803F068DC043316217ED40CCF0ECFC0
+FF13ECCF2AB26813EA82FDF3CE5FCC29300CFC10542630E784E2C18C0AA0C5765C09F3A0FC3C0B
+C69770BF3CCCFC3830DEF3F3C30D500AAC0638903708FCC80334FDC4CB840E37A007B3376FE703
+28301C01238CEFC9239FC5B17031C510B090B22CC60A6F62E0434F0A076903E1D9B07DA882BA96
+D5FF8F0CD233A8CA29120EBBEC61EFC3C01024679020303D82CFABB8DDE563A69E9CDA3F9F2F87
+8CC2729FE0A0556F43A697C5CE2AD70AC9A0C57A5BC0E6B7E4E0E3B0631049EDD0E3E9DAE03E83
+07B92312FC5DCBE86208573927F1EF9CBC58338CC38BFCBB30A03EB88C03E0117F1F4FCD33CCC0
+5F14A832B70C3A53F7C083D3BC113891EBE433FCCA043E72BA4BF39AA448D53002C5EA2CD40F4F
+DEC03E61390F033B128FF78C2003A5C4EFFF3FF2DE0BEBBCFD0EFFFC33FCF9C3D2F33353F0BE81
+FFFFFF0B08FF573CC03323B0F03EF397FBCE24D3905080C1FCF140C2CC4C2F0CA3B33040295D45
+2980840C223C0C30FFCFBF14833737B790E48C31615A081CDCCFF32337AF038CFC771F742FC1A7
+C37E7F1EFE1F11B7F4B66C26A9338D108E480A02B7E8F3E002719CA8C129C3E65222F40F8B9A2F
+E91763B69F274D44E0E4A2D382AF61EF6D8F0A271189EAF031B6E212CEBF737DC8A0BC8300C28C
+957EC6028BEACCF05CEBF17BEFCDFDCCF0CCBFC428530EDFF307B8DEE2FCC9E2ED4359C2C73A7C
+47A0FF3FF4700C02AC00C070088E3B178C028CA4692829C6F2F0E30B9E0E4CCA4601317CA33DF0
+333B2FC31C63FCAD7FF3FF4BF0339CF0FD8BF0F1C0C044598305780D11D68FF0C0CCCE1E09C004
+A37E3C32B709F020FB8EF7CA6F2B1C3FCC171CAC313F37313EFBF333FA3F0CDC33C57317070318
+B38E5E5EBC9300B0E416FFB0DAC82C2E631F91EA7C7F3FF7FC208034C0B17C51D30FCA54B6D01A
+F084C39FD14F3066AF63D597A9CC4BEFF3C10222CF331CC3139ABE3B0CB04C1E9D3852DCCAAE60
+D7F3593329FFEBB3BF4FEF0C73B8E7190F4CF04251FF0DE27BC8C910C87AFB34CE3307333B3A4F
+3C240DC87E6092F4C8CBFF0FF310F3222F0011230D1D073BC6BBF3FB9FF3F140CC51CF1FBBC609
+30D4DFBE70EFDF4D239E3B9F6441641E0A8E08E10B324D3'H } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        gene {
+                          locus "trnM-cau" } ,
+                      location
+                        int {
+                          from 119 ,
+                          to 191 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      comment "anticodon:cau; tRNA-Met2" ,
+                      location
+                        int {
+                          from 119 ,
+                          to 191 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnL-uaa" } ,
+                      location
+                        int {
+                          from 231 ,
+                          to 313 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 } } ,
+                      comment "anticodon:uaa~anticodon:uaa" ,
+                      location
+                        int {
+                          from 231 ,
+                          to 313 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnA-ugc" } ,
+                      location
+                        int {
+                          from 454 ,
+                          to 525 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 65 } } ,
+                      comment "anticodon:ugc" ,
+                      location
+                        int {
+                          from 454 ,
+                          to 525 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnF-gaa" } ,
+                      location
+                        int {
+                          from 610 ,
+                          to 682 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 70 } } ,
+                      comment "anticodon:gaa" ,
+                      location
+                        int {
+                          from 610 ,
+                          to 682 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnL-uag" } ,
+                      location
+                        int {
+                          from 773 ,
+                          to 856 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 76 } } ,
+                      comment "anticodon:uag~anticodon:uag" ,
+                      location
+                        int {
+                          from 773 ,
+                          to 856 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnQ-uug" } ,
+                      location
+                        int {
+                          from 1007 ,
+                          to 1079 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 81 } } ,
+                      comment "anticodon:uug" ,
+                      location
+                        int {
+                          from 1007 ,
+                          to 1079 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnH-gug" } ,
+                      location
+                        int {
+                          from 1130 ,
+                          to 1202 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 72 } } ,
+                      comment "anticodon:gug~anticodon:gug" ,
+                      location
+                        int {
+                          from 1130 ,
+                          to 1202 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-cau" } ,
+                      location
+                        int {
+                          from 1338 ,
+                          to 1410 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      comment "anticodon:cau; tRNA-Met2" ,
+                      location
+                        int {
+                          from 1338 ,
+                          to 1410 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad2" } ,
+                      location
+                        int {
+                          from 1527 ,
+                          to 3323 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_1" ,
+                      location
+                        int {
+                          from 1527 ,
+                          to 3323 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad3" } ,
+                      location
+                        int {
+                          from 3324 ,
+                          to 3785 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_2" ,
+                      location
+                        int {
+                          from 3393 ,
+                          to 3785 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4L" } ,
+                      location
+                        int {
+                          from 4267 ,
+                          to 4554 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_3" ,
+                      location
+                        int {
+                          from 4285 ,
+                          to 4554 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad5" } ,
+                      location
+                        int {
+                          from 4554 ,
+                          to 6548 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_4" ,
+                      location
+                        int {
+                          from 4554 ,
+                          to 6548 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox1" } ,
+                      location
+                        int {
+                          from 7269 ,
+                          to 9107 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_5" ,
+                      location
+                        int {
+                          from 7503 ,
+                          to 9107 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad4" } ,
+                      location
+                        int {
+                          from 10945 ,
+                          to 12363 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_6" ,
+                      location
+                        int {
+                          from 10945 ,
+                          to 12363 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rps3" } ,
+                      location
+                        int {
+                          from 13047 ,
+                          to 14648 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 13047 ,
+                                  to 13049 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "Hypogymnia_vittata_mt" } ,
+                              aa
+                                ncbieaa 77 } } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_7" ,
+                      location
+                        mix {
+                          int {
+                            from 13047 ,
+                            to 13637 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Hypogymnia_vittata_mt" } ,
+                          int {
+                            from 14091 ,
+                            to 14648 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Hypogymnia_vittata_mt" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "cob" } ,
+                      location
+                        int {
+                          from 18846 ,
+                          to 19979 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 19977 ,
+                                  to 19979 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "Hypogymnia_vittata_mt" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_9" ,
+                      location
+                        int {
+                          from 18846 ,
+                          to 19979 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox2" } ,
+                      location
+                        int {
+                          from 20253 ,
+                          to 20978 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_10" ,
+                      location
+                        int {
+                          from 20253 ,
+                          to 20978 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnV-uac" } ,
+                      location
+                        int {
+                          from 21108 ,
+                          to 21179 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 86 } } ,
+                      comment "anticodon:uac" ,
+                      location
+                        int {
+                          from 21108 ,
+                          to 21179 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-ucu" } ,
+                      location
+                        int {
+                          from 21970 ,
+                          to 22040 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:ucu" ,
+                      location
+                        int {
+                          from 21970 ,
+                          to 22040 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-ccu" } ,
+                      location
+                        int {
+                          from 22368 ,
+                          to 22438 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:ccu" ,
+                      location
+                        int {
+                          from 22368 ,
+                          to 22438 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad1" } ,
+                      location
+                        int {
+                          from 22811 ,
+                          to 25110 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_11" ,
+                      location
+                        mix {
+                          int {
+                            from 22811 ,
+                            to 23266 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Hypogymnia_vittata_mt" } ,
+                          int {
+                            from 24658 ,
+                            to 25110 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Hypogymnia_vittata_mt" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "LAGLIDADG 1" } ,
+                      location
+                        int {
+                          from 23656 ,
+                          to 24018 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_12" ,
+                      location
+                        int {
+                          from 23656 ,
+                          to 24018 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp6" } ,
+                      location
+                        int {
+                          from 25557 ,
+                          to 26498 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_15" ,
+                      location
+                        int {
+                          from 25722 ,
+                          to 26498 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "atp8" } ,
+                      location
+                        int {
+                          from 27627 ,
+                          to 27773 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_16" ,
+                      location
+                        int {
+                          from 27627 ,
+                          to 27773 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrns" } ,
+                      location
+                        int {
+                          from 29234 ,
+                          to 30742 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "large ribosomal RNA subunit RNA" } ,
+                      location
+                        int {
+                          from 29234 ,
+                          to 30742 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnY-gua" } ,
+                      location
+                        int {
+                          from 31061 ,
+                          to 31293 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 89 } } ,
+                      comment "anticodon:gua~anticodon:gua" ,
+                      location
+                        int {
+                          from 31061 ,
+                          to 31293 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnW-uca" } ,
+                      location
+                        int {
+                          from 31293 ,
+                          to 31363 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 87 } } ,
+                      comment "anticodon:uca" ,
+                      location
+                        int {
+                          from 31293 ,
+                          to 31363 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnN-guu" } ,
+                      location
+                        int {
+                          from 31415 ,
+                          to 31485 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 78 } } ,
+                      comment "anticodon:guu" ,
+                      location
+                        int {
+                          from 31415 ,
+                          to 31485 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnR-ucg" } ,
+                      location
+                        int {
+                          from 31551 ,
+                          to 31623 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 82 } } ,
+                      comment "anticodon:ucg" ,
+                      location
+                        int {
+                          from 31551 ,
+                          to 31623 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "nad6" } ,
+                      location
+                        int {
+                          from 31727 ,
+                          to 32371 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_17" ,
+                      location
+                        int {
+                          from 31727 ,
+                          to 32371 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnK-uuu" } ,
+                      location
+                        int {
+                          from 32469 ,
+                          to 32541 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 75 } } ,
+                      comment "anticodon:uuu" ,
+                      location
+                        int {
+                          from 32469 ,
+                          to 32541 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnV-uac" } ,
+                      location
+                        int {
+                          from 32653 ,
+                          to 32724 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 86 } } ,
+                      comment "anticodon:uac" ,
+                      location
+                        int {
+                          from 32653 ,
+                          to 32724 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "cox3" } ,
+                      location
+                        int {
+                          from 32768 ,
+                          to 33577 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 4 } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_18" ,
+                      location
+                        int {
+                          from 32768 ,
+                          to 33577 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnG-ucc" } ,
+                      location
+                        int {
+                          from 33626 ,
+                          to 33696 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 71 } } ,
+                      comment "anticodon:ucc" ,
+                      location
+                        int {
+                          from 33626 ,
+                          to 33696 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnD-guc" } ,
+                      location
+                        int {
+                          from 33711 ,
+                          to 33783 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 68 } } ,
+                      comment "anticodon:guc" ,
+                      location
+                        int {
+                          from 33711 ,
+                          to 33783 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnI-gau" } ,
+                      location
+                        int {
+                          from 34058 ,
+                          to 34129 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 73 } } ,
+                      comment "anticodon:gau" ,
+                      location
+                        int {
+                          from 34058 ,
+                          to 34129 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnS-uga" } ,
+                      location
+                        int {
+                          from 34170 ,
+                          to 34255 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 83 } } ,
+                      comment "anticodon:uga~anticodon:uga" ,
+                      location
+                        int {
+                          from 34170 ,
+                          to 34255 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnP-ugg" } ,
+                      location
+                        int {
+                          from 34286 ,
+                          to 34358 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 80 } } ,
+                      comment "anticodon:ugg" ,
+                      location
+                        int {
+                          from 34286 ,
+                          to 34358 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "rrnL" } ,
+                      location
+                        int {
+                          from 34816 ,
+                          to 37598 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type rRNA ,
+                          ext
+                            name "large ribosomal RNA subunit RNA" } ,
+                      location
+                        mix {
+                          int {
+                            from 34816 ,
+                            to 36747 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Hypogymnia_vittata_mt" } ,
+                          int {
+                            from 37218 ,
+                            to 37598 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Hypogymnia_vittata_mt" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnT-ugu" } ,
+                      location
+                        int {
+                          from 38181 ,
+                          to 38251 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 84 } } ,
+                      comment "anticodon:ugu" ,
+                      location
+                        int {
+                          from 38181 ,
+                          to 38251 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnE-uuc" } ,
+                      location
+                        int {
+                          from 38308 ,
+                          to 38379 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 69 } } ,
+                      comment "anticodon:uuc" ,
+                      location
+                        int {
+                          from 38308 ,
+                          to 38379 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "trnM-cau" } ,
+                      location
+                        int {
+                          from 38425 ,
+                          to 38495 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        rna {
+                          type tRNA ,
+                          ext
+                            tRNA {
+                              aa
+                                ncbieaa 77 } } ,
+                      comment "anticodon:cau; tRNA-Met2" ,
+                      location
+                        int {
+                          from 38425 ,
+                          to 38495 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        gene {
+                          locus "LAGLIDADG 2" } ,
+                      location
+                        int {
+                          from 13638 ,
+                          to 14078 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } ,
+                    {
+                      data
+                        cdregion {
+                          code {
+                            id 4 } ,
+                          code-break {
+                            {
+                              loc
+                                int {
+                                  from 14076 ,
+                                  to 14078 ,
+                                  strand plus ,
+                                  id
+                                    local
+                                      str "Hypogymnia_vittata_mt" } ,
+                              aa
+                                ncbieaa 42 } } } ,
+                      product
+                        whole
+                          local
+                            str "Hypogymnia_vittata_mt_8" ,
+                      location
+                        int {
+                          from 13638 ,
+                          to 14078 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_1" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 598 ,
+              seq-data
+                ncbieaa "MGLLVIWKSQGITKEKSEVSLNSSKTIIIYSILFLLLSNAVTFRREKSILYSR
+ETIIILLGSCMIVLKSLDISFLEKGIGLYGGLFHATPITQTFHIFIFFVSATILQLTAFYSRKVWVKNYASLYNLFFK
+NFIYDTNIINKMGQQYRIIEYPLIILFIIIGGTFLVSASDIVSIFLSIELQSYGLYLLSTLYRNSELSTSAGLTYFLL
+GGLSSCFILLGTSLLYANSGTTNLDGYYVITGLSNLANEYTNNILDWYKPLYLNISLLIMSVGFLFKISAAPFHFWSP
+DVYDAIPTIVTTFVAIIAKISILIFLLELIHYTSNFYFVAEHPFSFSWTSGLLFSSFLSLIIGSVLGLSQFRIKRLFA
+YSTISHLGFILLALSINSLESIQAFLFYLMQYSISNLNAFVLLISIGFSLYPFVNNGPLKDQYNNLLDRNNSPIQLIS
+QLKGYFNLNPVLALSLAITLFSFVGIPPLIGFFAKQMVLSAALDSGYVFLTLTAILTSVISAVYYLGVIKQMFFDEHE
+YKLNQDLQDTKFKGSVVSSINDEGYVDTFSFNINNIVLSSSLTITISILTLTLLLFIFTPEESISMANILALILFNP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 2" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 597 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_2" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 130 ,
+              seq-data
+                ncbieaa "MFAPHNPYMEKNSAFECGFSSFLGQNRTQFSISFFIFALLFLLFDLEILLVYP
+YLVSAYTNGVYGLAIMLMFLLALTLGFAFELGKKALFIDSRQVSNVATKKSNYISKVSPLLNISKKHYSTLGNNVRF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 129 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_3" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 89 ,
+              seq-data
+                ncbieaa "MNLSIILFLIGILGFVLNRKNIILMLISIEIMLLAITFLILVSSLSFDDILGQ
+TYAIYVIAIAGAESAIGLGILVAFYRLRGSIAIEYK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4L" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 88 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_4" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 664 ,
+              seq-data
+                ncbieaa "MYLAIIVLPILGSIVSGFFGRKVGVSGAQLITCISVIITTFMATIGFLEVGLN
+NIPVSVLLFRWLDSESLIVLWGFNFDSLTVSMLIPVLIVSSLVHIYSIGYMSHDPHNQRFFSYLSLFTFMMIVLVTAN
+NFLLMFVGWEGVGVCSYLLVSFWFTRIAANQSSMSAFLTNRVGDCFLTLGMFAMIWTFGNLDYSTVFSLAPYINGNIV
+TIIGICLLIGAMAKSSQIGLHVWLPLAMEGPTPVSALIHAATMVTAGVYLLMRTSPLIEYSSTVLILCLWIGSITTVF
+SSLIGLFQQDIKKVIAYSTMSQLGMMVIAVGLSSYNIALFHLVNHAFYKGLLFLGAGAVIHAVADNQDFRKYGGLIAF
+LPLTYSVMLIASLSLVAFPFMTGFYSKDFILESAYGQFHFSSVAVYFIATMGAMFTTLYSVKVLYLTFLTNANGPLIN
+YKRAHEGDAFMSLPLIILAVFSIFFGYITKDMFIGMASGFFSDNSLFTHPLHEIMLNTEFAVPTLFKLLPFFLTVTLS
+AISLILSEFLPKSLIYFKLTRMGYNIFSFFNQRFLIELFYNKYLTRFILKLGGQTTKVLDKGSIELLGPYGLEKGLLK
+LSKSLSSLDTGVITSYALYILIGLILYILIPYISLIDISILLCIILGLLSITVNTLSLNVSTLAK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 5" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 663 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_5" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 534 ,
+              seq-data
+                ncbieaa "MSLWLERWFLSSNAKDIGVLYLIFALLSGLIGTAFSVLIRLELSGPGVQFIAD
+NQLYNSIITAHAIVMIFFMVMPAMIGGFGNFLLPLLVGGPDMAFPRLNNISFWLLIPSIALFLFASGIENGAGTGWTL
+YPPLSGIQSHSGPSVDLAIFALHLSGISSLLGAMNFITTILNMRSPGIRLHKLALFGWAVVITAVLLLLSLPVLAGGI
+TMILTDRNFNTSFFEAAGGGDPILYQHLFWFFGHPEVYILIIPGFGVISTTISASSNKSVFGYLGMVYAMMSIGVLGF
+VVWSHHMYSVGLDVDTRAYFTAATLIIAVPTGIKIFSWLATCYGGSFQLTPFMLFALGFVFMFTVGGLSGVVLANASL
+DIAFHDTYYVVAHFHYVLSMGAVFALYSAWYFWIPKILGVDYNRSWGKAHFWILFIGVNVTFFPQHFLGLQGMPRRIS
+DYPDAFAGWNLVSSFGSIISVIATWLFLYILYVQLVEGKATSRYPWLTPEFCSDTLQTHLTRAFNSLEWGLNSPPRPH
+AFASLPLQSSLIG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit I" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 533 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_6" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 472 ,
+              seq-data
+                ncbieaa "MTDVNTVSDWSNRQLKSIALQTSICTLFVSLIIFALYDFSTNQFQFVQEYHEI
+SYFNFYLGVDGLSIYFVLLTTIIMPISLLSNWTSISHNLKTYLITILLLETLLLSVFLVLDILLFYIFFESILPPLFI
+LIGSFGSSNRVRASFYLFLYTLLGSLFLLLSIVTMSSITGTTDFDALYKTNFNYYTQLFLFMGIFIAFAVKTPTIFLN
+TWLLKAHVESPLSGSIILAGIVLKLSLYGILRLILPLLPKAYINCTFLIYLIGVITIVYASISTLRTIDVKELIAYSS
+VSHAAVYLMGVFSNTIQGIEGGIVLGLAHGFVSSGLFICAGGVLYDRSSTRLITYYRGIAQMMPIFSVILFILCLGNC
+GVPLTLNFVGEFLSLYGAFERLPILGALASSSIIFSAAYTIYMFNRIAFAGSYSKFFIVNISDLNKREFFILLTLVLF
+TVALGIYPAPVLDGLHYSVTILIYSVPSL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 4" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 471 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_7" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 382 ,
+              seq-data
+                ncbieaa "MFNNTQLMKKFLITNKNTCKFLYINNTLNAINNIPKSNLLVYFPLKSEISVAK
+HLTNIYNSSTDMLNVFNARLKKKTQKVKLEDNYNYIGKPRHYPPANKEWFNSIYVYNNNTVKLLPTLDKVTLKLVKSY
+FNFYSRKLEKKIKSRRLRIRGRRLSTNRILISRAELKHTNDKVVVTIYVYNRQKEYYFNKIIRMATLPFVDRSALYEE
+IYNRKRKLQNLKVDNTMDNLISLKCNIKSQFSDLLERSLLNTDPKDSIYKLKDSKLWCHDASDYLINPQARPQNLVYC
+NYPLFLVNTILRSIRNKSVSGIRLEVAGRLTRRNTAARSLFKLRYKGNIKNMDSSYKGLSAVLLRGYAKSNLQYTKLK
+SRIRIGSFGLKGWVSSS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ribosomal protein S3" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 381 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_9" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 377 ,
+              seq-data
+                ncbieaa "MFKSHPLLKLVNSYVIDSPQPSNISFLWNFGSLLGFCLVIQIITGVTLAMHYN
+ANVLEAFNSVEHIMRDVNNGWLIRYLHSNTASAFFFIVYLHIGRGLYYGSYKAPRTLVWTIGTVIFILMMATAFLGYV
+LPYGQMSLWGATVITSLMSAIPWVGQDIVEFIWGGFSVNNATLNRFFALHFVLPFVLAALALMHLIALHDSAGSGNPL
+GVSGNYDRLPFAPYFIFKDLITIFIFILVLSMFVFFMPNLLGDSENYVMANPMQTPPAIVPEWYLLPFYAILRSIPNK
+LLGVIAMFSAILILLVMPFTDLSRSRGIQFKPLSKAAFFIFVGNFLILMELGAKHVESPFIEFGQISTVIYFAHFLII
+VPLISLFENSLI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome b" } ,
+                          desc "stop codon not determined" } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 376 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_10" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 241 ,
+              seq-data
+                ncbieaa "MHCDAPRPWGIYFQDSATPQMEGLVELHDNILFYLVIILFGVGWLLISIVKNY
+TNTESPISHKYLSHGTLIELIWTITPALILILIAFPSFKLLYLMDEVSDPAMAVLAEGHQWYWSYQYPDFLNSDDEFI
+EFDSYLVPESDLEDGALRMLEVDNRLIIPELTHVRFIVTGADVIHSFACPALGIKCDAYPGRLNQVSVMINREGTFYG
+QCSEICGILHSSMPIVIESVSIEKFVSWLQEQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit II" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 240 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_11" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 302 ,
+              seq-data
+                ncbieaa "MLYLPIFISVIEVIIVTVPVLLTVAYVTVAERKTMASMQRRLGPNIVGYYGLL
+QAFADALKLLLKEYVSPTQANLVLFFLGPIITLIFSLLGFSVIPYGPGLAISDFDLGILYMLAVSSLSTYGILLAGWS
+ANSKYAFLGSLRSTAQLISYEESELVSGFMTEHAAVIFVFFFLAEYASIVLICILTSILFLGGYLLNFTSLLYLIKDI
+DFYLYLSIIDSGYKTLFSDPLIEGMIYGLTLGFKACVMIFVFIWGRASFPRIRYDQLMSFCWTILLPLVIAFIILLPC
+ILYSFEIIPTNVSLL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 1" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 301 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_12" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 120 ,
+              seq-data
+                ncbieaa "MYLKPIATTYNNGKIGFRLQIEHRRGYSTLISTCSSQSVDDLATPIPIKVFHN
+LNNNETVISYNKILRNKAGIYCFINTVNNKRYIGSAKDLYLRLIVAVVLYFFIIPDVLCTTGMKMRS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Probable intron-encoded endonuclease" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 119 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_15" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 258 ,
+              seq-data
+                ncbieaa "MYFSLGPIKSPLDQFEIRNLLSLDAPILANLHISLTNIGLYLTITASVALVLN
+LLATNYNKVIANSWSISQESIYATIHSIVVNQINPSKGQMYFPFIYALFIFILINNLIGMVPYSFASTSHFILTFFIS
+FTVVLGATILGFQKHGLKFFSLFVPAGCPIGLLPLLVLIEFISYLARNVSLGLRLAANILSGHMLLNILSGFAYNIMT
+SGFIYFFIGLIPLAFIIAFSGLELGIAFIQAQVFVVLTSSYIKDALDLH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 257 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_15" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_16" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 48 ,
+              seq-data
+                ncbieaa "MPQLVPFYFLNQITFAFILLIVMIYIFSKYILPRFVRLFNTRVFITKL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ATP synthase F0 subunit 8" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 47 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_16" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_17" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 214 ,
+              seq-data
+                ncbieaa "MNSLLLINETFTNGYRAEALDLISLASILSGIFVIISKNPIVSVLFLIGLFLS
+IACYLLVLGINFIGLSYLLVYVGAVSILFLFILMLINVRVSELLSDTSNSIPLALLIGVSFNYFVHQTLPLNLSSSNM
+IETSEYITFDQFINYINGSYNLSNSELIFVTTKIWDGSLAETTHITSIGNIMYTSYSIWLIITSIILLLAMVGAIVIT
+IKQKD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "NADH dehydrogenase subunit 6" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 213 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_17" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_18" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 269 ,
+              seq-data
+                ncbieaa "MTNLVRSNFQAHPFHLVSPSPWPIFTCISLLALTTSGVLTMHGFSLAQDFLYM
+ALLLVIFSMSFWFRDVISEATYLGNHTLAVQRGLNMGVALFIVSEALFFLAIFWTFFHSALSPAAEMGAQWPPKGIDS
+VNPFELPLLNTVILLSSGFTVTYAHHSLIQGNRSGALYGIVLTVMLALIFTGLQALEYTVSSFTLSDSTYGSCFYFGT
+GFHGLHVMIGTAFIGVGLWRVLAYHFTENHHLGLESSILYWHFVDVVWLILFISIYYWGS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "cytochrome c oxidase subunit III" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 268 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_18" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Hypogymnia_vittata_mt_8" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans-a } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 146 ,
+              seq-data
+                ncbieaa "MNNLISNRIKIKIIKKKSLKIISRVKKQKKIVWKTLGLFYSNKNKADNNKFKN
+YETNYLKHYVTRSLRKEMLSIYLWQLVSFNESKFEKRYLLPLTSLVRRVYNKKVEFNLVNLKHLYLNSYIFSETLVTK
+LRNRNNRLLRVLKTS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Homology to LAGLIDADG" } ,
+                          desc "stop codon not determined" } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 145 ,
+                          id
+                            local
+                              str "Hypogymnia_vittata_mt_8" } } } } } } } } } }
