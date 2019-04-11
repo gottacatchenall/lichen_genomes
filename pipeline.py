@@ -28,5 +28,5 @@ print("Running MrBayes...\n\n\n")
 os.chdir("./scripts")
 subprocess.call("perl mb.pl ../" + dir_name + "/genes.tar.gz -m ./mb_block.txt -o ../" + dir_name + "/mb_data", shell=True)
 
-printf("Running Bucky...\n\n\n\n")
+print("Running Bucky...\n\n\n\n")
 subprocess.call("perl bucky.pl ../" + dir_name + "/mb_data/genes.mb.tar -o ../" + dir_name + "/bucky_output", shell=True)
