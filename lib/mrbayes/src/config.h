@@ -8,10 +8,10 @@
 /* #undef BEAGLE_V3_ENABLED */
 
 /* Compiler vendor */
-#define COMPILER_VENDOR "gnu"
+#define COMPILER_VENDOR "clang"
 
 /* Compiler version */
-#define COMPILER_VERSION "5.4.0"
+#define COMPILER_VERSION "10.0.0"
 
 /* AVX code path should not be compiled. */
 /* #undef DISABLE_AVX */
@@ -39,7 +39,7 @@
 #define HAVE_AVX 1
 
 /* Define to 1 to support Advanced Vector Extensions 2 */
-/* #undef HAVE_AVX2 */
+#define HAVE_AVX2 1
 
 /* Define to 1 to support AVX-512 Byte and Word Instructions */
 /* #undef HAVE_AVX512_BW */
@@ -69,10 +69,10 @@
 /* #undef HAVE_AVX512_VL */
 
 /* Define to 1 to support Bit Manipulation Instruction Set 1 */
-/* #undef HAVE_BMI1 */
+#define HAVE_BMI1 1
 
 /* Define to 1 to support Bit Manipulation Instruction Set 2 */
-/* #undef HAVE_BMI2 */
+#define HAVE_BMI2 1
 
 /* Define to 1 if you have the <float.h> header file. */
 #define HAVE_FLOAT_H 1
@@ -81,7 +81,7 @@
 #define HAVE_FLOOR 1
 
 /* Define to 1 to support Fused Multiply-Add Extensions 3 */
-/* #undef HAVE_FMA3 */
+#define HAVE_FMA3 1
 
 /* Define to 1 to support Fused Multiply-Add Extensions 4 */
 /* #undef HAVE_FMA4 */
@@ -198,7 +198,7 @@
 #define HOST_CPU "x86_64"
 
 /* Host triplet */
-#define HOST_TYPE "x86_64-unknown-linux-gnu"
+#define HOST_TYPE "x86_64-apple-darwin18.0.0"
 
 /* Define if you want to enable MPI */
 /* #undef MPI_ENABLED */

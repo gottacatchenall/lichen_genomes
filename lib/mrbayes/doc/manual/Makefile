@@ -86,8 +86,8 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-build_triplet = x86_64-unknown-linux-gnu
-host_triplet = x86_64-unknown-linux-gnu
+build_triplet = x86_64-apple-darwin18.0.0
+host_triplet = x86_64-apple-darwin18.0.0
 subdir = doc/manual
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps =  \
@@ -152,32 +152,32 @@ DATA = $(dist_pdf_DATA)
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
 am__DIST_COMMON = $(srcdir)/Makefile.in
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /home/michael/lichen_genomes/lib/mrbayes/am-aux/missing aclocal-1.15
+ACLOCAL = ${SHELL} /Users/michael/Projects/lichen_genomes/lib/mrbayes/am-aux/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
-AUTOCONF = ${SHELL} /home/michael/lichen_genomes/lib/mrbayes/am-aux/missing autoconf
-AUTOHEADER = ${SHELL} /home/michael/lichen_genomes/lib/mrbayes/am-aux/missing autoheader
-AUTOMAKE = ${SHELL} /home/michael/lichen_genomes/lib/mrbayes/am-aux/missing automake-1.15
-AWK = mawk
+AUTOCONF = ${SHELL} /Users/michael/Projects/lichen_genomes/lib/mrbayes/am-aux/missing autoconf
+AUTOHEADER = ${SHELL} /Users/michael/Projects/lichen_genomes/lib/mrbayes/am-aux/missing autoheader
+AUTOMAKE = ${SHELL} /Users/michael/Projects/lichen_genomes/lib/mrbayes/am-aux/missing automake-1.15
+AWK = awk
 BEAGLE_CFLAGS = 
 BEAGLE_LIBS = 
-BIBTEX = 
+BIBTEX = /Library/TeX/texbin/bibtex
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -O3 -DNDEBUG -std=c99 -pedantic  -Wall
 CPP = gcc -E
 CPPFLAGS = 
-CPUEXT_FLAGS =  -mrdrnd
+CPUEXT_FLAGS =  -mrdrnd -mbmi -mbmi2
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
-ECHO_C = 
-ECHO_N = -n
+ECHO_C = \c
+ECHO_N = 
 ECHO_T = 
-EGREP = /bin/grep -E
+EGREP = /usr/local/bin/ggrep -E
 EXEEXT = 
-GREP = /bin/grep
-INSTALL = /usr/bin/install -c
+GREP = /usr/local/bin/ggrep
+INSTALL = /usr/local/bin/ginstall -c
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
@@ -187,8 +187,8 @@ LIBOBJS =
 LIBS = -lm  -lreadline
 LTLIBOBJS = 
 MAINT = #
-MAKEINFO = ${SHELL} /home/michael/lichen_genomes/lib/mrbayes/am-aux/missing makeinfo
-MKDIR_P = /bin/mkdir -p
+MAKEINFO = ${SHELL} /Users/michael/Projects/lichen_genomes/lib/mrbayes/am-aux/missing makeinfo
+MKDIR_P = /usr/local/bin/gmkdir -p
 MPICC = 
 OBJEXT = o
 PACKAGE = mrbayes
@@ -199,20 +199,20 @@ PACKAGE_TARNAME = mrbayes
 PACKAGE_URL = 
 PACKAGE_VERSION = 3.2.7a
 PATH_SEPARATOR = :
-PDFLATEX = 
-PKG_CONFIG = /usr/bin/pkg-config
+PDFLATEX = /Library/TeX/texbin/pdflatex
+PKG_CONFIG = /usr/local/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
 PKG_CONFIG_PATH = 
-SED = /bin/sed
+SED = /usr/bin/sed
 SET_MAKE = 
-SHELL = /bin/bash
-SIMD_FLAGS =  -mmmx -msse -msse2 -msse3 -mssse3 -msse4.1 -msse4.2 -maes -mavx
+SHELL = /bin/sh
+SIMD_FLAGS =  -mmmx -msse -msse2 -msse3 -mssse3 -msse4.1 -msse4.2 -maes -mavx -mfma -mavx2
 STRIP = 
 VERSION = 3.2.7a
-abs_builddir = /home/michael/lichen_genomes/lib/mrbayes/doc/manual
-abs_srcdir = /home/michael/lichen_genomes/lib/mrbayes/doc/manual
-abs_top_builddir = /home/michael/lichen_genomes/lib/mrbayes
-abs_top_srcdir = /home/michael/lichen_genomes/lib/mrbayes
+abs_builddir = /Users/michael/Projects/lichen_genomes/lib/mrbayes/doc/manual
+abs_srcdir = /Users/michael/Projects/lichen_genomes/lib/mrbayes/doc/manual
+abs_top_builddir = /Users/michael/Projects/lichen_genomes/lib/mrbayes
+abs_top_srcdir = /Users/michael/Projects/lichen_genomes/lib/mrbayes
 ac_ct_CC = gcc
 am__include = include
 am__leading_dot = .
@@ -220,26 +220,26 @@ am__quote =
 am__tar = $${TAR-tar} chof - "$$tardir"
 am__untar = $${TAR-tar} xf -
 bindir = ${exec_prefix}/bin
-build = x86_64-unknown-linux-gnu
+build = x86_64-apple-darwin18.0.0
 build_alias = 
 build_cpu = x86_64
-build_os = linux-gnu
-build_vendor = unknown
+build_os = darwin18.0.0
+build_vendor = apple
 builddir = .
 datadir = ${datarootdir}
 datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host = x86_64-unknown-linux-gnu
+host = x86_64-apple-darwin18.0.0
 host_alias = 
 host_cpu = x86_64
-host_os = linux-gnu
-host_vendor = unknown
+host_os = darwin18.0.0
+host_vendor = apple
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/michael/lichen_genomes/lib/mrbayes/am-aux/install-sh
+install_sh = ${SHELL} /Users/michael/Projects/lichen_genomes/lib/mrbayes/am-aux/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -480,19 +480,19 @@ uninstall-am: uninstall-dist_pdfDATA
 .PRECIOUS: Makefile
 
 
-#Manual_MrBayes_v3.2.pdf: \
-#    src/Manual_MrBayes_v3.2.tex \
-#    src/bayes.bib \
-#    src/Appendix_Fig1.pdf \
-#    src/Appendix_Fig2.pdf \
-#    src/Appendix_Fig3.pdf
-#	TEXINPUTS=".:$(srcdir)/src:" $(PDFLATEX) $(srcdir)/src/Manual_MrBayes_v3.2
-#	BSTINPUTS=$(srcdir)/src BIBINPUTS=$(srcdir)/src $(BIBTEX) Manual_MrBayes_v3.2
-#	TEXINPUTS=".:$(srcdir)/src:" $(PDFLATEX) $(srcdir)/src/Manual_MrBayes_v3.2
-#	TEXINPUTS=".:$(srcdir)/src:" $(PDFLATEX) $(srcdir)/src/Manual_MrBayes_v3.2
-Manual_MrBayes_v3.2.pdf:
-	echo 'Can not build the manual PDF since LaTeX was not detected' >&2
-	exit 0
+Manual_MrBayes_v3.2.pdf: \
+    src/Manual_MrBayes_v3.2.tex \
+    src/bayes.bib \
+    src/Appendix_Fig1.pdf \
+    src/Appendix_Fig2.pdf \
+    src/Appendix_Fig3.pdf
+	TEXINPUTS=".:$(srcdir)/src:" $(PDFLATEX) $(srcdir)/src/Manual_MrBayes_v3.2
+	BSTINPUTS=$(srcdir)/src BIBINPUTS=$(srcdir)/src $(BIBTEX) Manual_MrBayes_v3.2
+	TEXINPUTS=".:$(srcdir)/src:" $(PDFLATEX) $(srcdir)/src/Manual_MrBayes_v3.2
+	TEXINPUTS=".:$(srcdir)/src:" $(PDFLATEX) $(srcdir)/src/Manual_MrBayes_v3.2
+#Manual_MrBayes_v3.2.pdf:
+#	echo 'Can not build the manual PDF since LaTeX was not detected' >&2
+#	exit 0
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

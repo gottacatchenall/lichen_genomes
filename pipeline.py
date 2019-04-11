@@ -13,6 +13,7 @@ def pwd():
     subprocess.call("ls", shell=True)
 
 def setup():
+    os.chdir(home)
     print("Setting up MrBayes...\n\n\n")
     os.chdir("./lib/mrbayes")
     subprocess.call("./configure")
@@ -22,8 +23,8 @@ def setup():
     os.chdir("../..")
     print os.getcwd()
 
-    print("Setting up Bucky")
-    os.chdir("./lib/bucky_linux")
+    #print("Setting up Bucky")
+    #os.chdir("./lib/bucky_linux")
 
 
 def zip_nex():
@@ -33,8 +34,31 @@ def zip_nex():
 
 def mrbayes():
     print("Running MrBayes...\n\n\n")
+    os.chdir(home)
     os.chdir("./scripts")
-    subprocess.call("perl mb.pl ../" + dir_name + "/genes.tar.gz -m ./mb_block.txt -o ../" + dir_name + "/mb_data", shell=True)
+
+    mb_exe = os.path.abspath("./mb")
+
+    # append mb block to bottom of each nexus and run on each nexus
+    mbblock = '''
+    begin mrbayes;
+    	set nowarnings=yes;
+    	set autoclose=yes;
+    	lset nst=6 rates=gamma;
+    	mcmcp ngen=20000 burninfrac=.25 samplefreq=100 printfreq=1000 diagnfreq=1000 nruns=3 nchains=3 temp=0.40 swapfreq=10;
+    	mcmc;
+    end;
+    '''
+
+    os.chdir(home)
+    os.chdir(input_dir)
+    for file in glob.glob("*.nexus"):
+        cmd = mb_exe + " -i " + file
+        subprocess.call(cmd , shell=True)
+
+
+    # TODO do MB properly
+    #subprocess.call("perl mb.pl ../" + dir_name + "/genes.tar.gz -m ./mb_block.txt -o ../" + dir_name + "/mb_data", shell=True)
 
 def mv_mb_output():
     os.chdir("./scripts")
@@ -53,6 +77,9 @@ def mv_mb_output():
     subprocess.call(mv_cmd , shell=True)
 
     os.chdir(home)
+
+def get_gene_list():
+    pass
 
 def bucky():
     bunnin_ngen = 0
@@ -78,7 +105,15 @@ def bucky():
     print bucky_cmd
     subprocess.call(bucky_cmd, shell=True)
 
+    return gene_list
 
-bucky()
+def convert_ckp_to_nex():
+    os.chdir(home)
+    os.chdir(dir_name + "/mb/mb_output/")
+    pass
+
+#setup()
+mrbayes()
+#gene_list = bucky()
 
 # mbsum -n 5000 -o mygene mygene.run?.t
