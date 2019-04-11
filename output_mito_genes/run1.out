@@ -1,0 +1,120 @@
+Bayesian Untangling of Concordance Knots (applied to yeast and other organisms)
+BUCKy version 1.4.4, 22 June 2015
+Copyright (C) 2006-2015 by Bret Larget, Cecile Ane and Riley Larget
+
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Program initiated at Thu Apr 11 11:59:10 2019
+
+
+Program invocation: /home/michael/lichen_genomes/scripts/bucky -n 2000000 cox1.in cox2.in cox3.in nad2.in nad4.in
+
+  Parameter              | Usage                    | Default Value | Value Used
+  ------------------------------------------------------------------------------
+  alpha                  | -a number                | 1             | 1
+  # of runs              | -k integer               | 2             | 2
+  # of MCMC updates      | -n integer               | 100000        | 2000000
+  # of chains            | -c integer               | 1             | 1
+  MCMCMC Rate            | -r integer               | 100           | 100
+  alpha multiplier       | -m number                | 10            | 10
+  subsample rate         | -s integer               | 1             | 1
+  output root file name  | -o name                  | run1          | run1
+  input file list file   | -i filename              |               | 
+  random seed 1          | -s1 integer              | 1234          | 1234
+  random seed 2          | -s2 integer              | 5678          | 5678
+  CF cutoff for display  | -cf number               | 0.05          | 0.05
+  create sample file     | --create-sample-file     | false         | false
+  create joint file      | --create-joint-file      | false         | false
+  create single file     | --create-single-file     | false         | false
+  use independence prior | --use-independence-prior | false         | false
+  calculate pairs        | --calculate-pairs        | false         | false
+  use update groups      | --use-update-groups      | true          | true
+  File with prune list   | -p pruneFile             |               | 
+  skip genes             | -sg                      | false         | false
+  Space optimization     | --opt-space              | false         | false
+  no population tree?    | --no-population-tree     | false         | false
+  genomewide CF grid size| --genomewide-grid-size   | 1000          | 1000
+  ------------------------------------------------------------------------------
+
+Reading in summary files....
+Number of genes sequenced for each taxon:
+1    Alectoria_fallacina 5     
+2    Cladonia_apodocarpa 5     
+3    Cladonia_caroliniana 5     
+4    Cladonia_furcata 5     
+5    Cladonia_leporina 5     
+6    Cladonia_petrophila 5     
+7    Cladonia_peziziformis 5     
+8    Cladonia_rangiferina 5     
+9    Cladonia_robbinsii 5     
+10   Cladonia_stipitata 5     
+11   Cladonia_subtenuis 5     
+12   Cladonia_uncialis 5     
+13   Coccocarpia_palmicola 5     
+14   Gomphillus_americanus 5     
+15   Graphis_lineola 5     
+16   Heterodermia_albicans 5     
+17   Heterodermia_appalachensis 5     
+18   Heterodermia_casarettiana 5     
+19   Heterodermia_echinata 5     
+20   Heterodermia_speciosa1 5     
+21   Usnea_subgracilis 5     
+22   Heterodermia_squamulosa 5     
+23   Hypogymnia_vittata 5     
+24   Icmadophila_ericetorum 5     
+25   Imshaugia_aleurites 5     
+26   Lecanora_cenereofusca 5     
+27   Lecanora_saxigena 5     
+28   Lepraria_oxybapha 5     
+29   Leptogium_hirsutum 5     
+30   Menegazzia_subsimilis 5     
+31   Parmotrema_austrosinense 5     
+32   Parmotrema_cetratum 5     
+33   Parmotrema_Crinitum 5     
+34   Usnea_subscabrosa 5     
+35   Parmotrema_internexum 5     
+36   Parmotrema_margaritatum 5     
+37   Parmotrema_mellissii 5     
+38   Parmotrema_neotropicum 5     
+39   Parmotrema_stuppeum 5     
+40   Parmotrema_Ultralucens 5     
+41   Arthonia_susa 5     
+42   Mycocalicium_subtile 5     
+43   Pertusaria_obruta 5     
+44   Pertusaria_plittiana 5     
+45   Usnea_cornuta 5     
+46   Usnea_halei 5     
+47   Usnea_mutabilis 5     
+48   Usnea_pensylvanica 5     
+49   Usnea_subfusca 5     
+Read 5 genes with a total of 2306 different sampled tree topologies
+Writing input file names to file run1.input....done.
+Sorting trees by average posterior probability....done.
+Initializing random number generator....done.
+Initializing gene information....done.
+Initializing splits counts (found 3495 distinct splits)....done.
+Setting initial MCMC state....done.
+Initializing MCMCMC acceptance counters and pairwise counters....done.
+MCMC initiated at Thu Apr 11 11:59:13 2019
+
+
+Beginning burn-in with 200000 updates (10% extra of desired updates)...
+0   10   20   30   40   50   60   70   80   90   100
++----+----+----+----+----+----+----+----+----+----+
+***************************************************
+ ....done.
+Initializing summary tables...done.
+Beginning 2000000 MCMC updates...
+0   10   20   30   40   50   60   70   80   90   100
++----+----+----+----+----+----+----+----+----+----+
+***************************************************
+ ....done.
+Writing cluster summary to file run1.cluster....done.
+Writing concordance factors to run1.concordance....done.
+Average SD of mean sample-wide CF: 0.00132894
+Writing single and joint gene posteriors to run1.gene....done.
+Program ended at Thu Apr 11 12:00:09 2019
+
+
+Elapsed time: 59 seconds.

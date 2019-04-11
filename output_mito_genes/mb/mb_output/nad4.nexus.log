@@ -1,0 +1,387 @@
+
+
+                            MrBayes 3.2.7a x86_64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "./mito_genes/nad4.nexus"
+   DOS line termination
+   Longest line length = 119
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading taxa block
+      Allocated taxon set
+      Defining new set of 51 taxa
+   Exiting taxa block
+   Reading characters block
+      Allocated matrix
+      Defining new character matrix with 1705 characters
+      Missing data coded as ?
+      Gaps coded as -
+      Matching characters coded as .
+      Data is Dna
+      Taxon  1 -> Alectoria_fallacina
+      Taxon  2 -> Cladonia_apodocarpa
+      Taxon  3 -> Cladonia_caroliniana
+      Taxon  4 -> Cladonia_furcata
+      Taxon  5 -> Cladonia_leporina
+      Taxon  6 -> Cladonia_petrophila
+      Taxon  7 -> Cladonia_peziziformis
+      Taxon  8 -> Cladonia_rangiferina
+      Taxon  9 -> Cladonia_robbinsii
+      Taxon 10 -> Cladonia_stipitata
+      Taxon 11 -> Cladonia_subtenuis
+      Taxon 12 -> Cladonia_uncialis
+      Taxon 13 -> Coccocarpia_palmicola
+      Taxon 14 -> Gomphillus_americanus
+      Taxon 15 -> Graphis_lineola
+      Taxon 16 -> Heterodermia_albicans
+      Taxon 17 -> Heterodermia_appalachensis
+      Taxon 18 -> Heterodermia_casarettiana
+      Taxon 19 -> Heterodermia_echinata
+      Taxon 20 -> Heterodermia_speciosa1
+      Taxon 21 -> Heterodermia_speciosa2
+      Taxon 22 -> Heterodermia_squamulosa
+      Taxon 23 -> Hypogymnia_vittata
+      Taxon 24 -> Icmadophila_ericetorum
+      Taxon 25 -> Imshaugia_aleurites
+      Taxon 26 -> Lecanora_cenereofusca
+      Taxon 27 -> Lecanora_saxigena
+      Taxon 28 -> Lepraria_oxybapha
+      Taxon 29 -> Leptogium_hirsutum
+      Taxon 30 -> Menegazzia_subsimilis
+      Taxon 31 -> Parmotrema_austrosinense
+      Taxon 32 -> Parmotrema_cetratum
+      Taxon 33 -> Parmotrema_Crinitum
+      Taxon 34 -> Parmotrema_diffractaicum
+      Taxon 35 -> Parmotrema_internexum
+      Taxon 36 -> Parmotrema_margaritatum
+      Taxon 37 -> Parmotrema_mellissii
+      Taxon 38 -> Parmotrema_neotropicum
+      Taxon 39 -> Parmotrema_stuppeum
+      Taxon 40 -> Parmotrema_Ultralucens
+      Taxon 41 -> Arthonia_susa
+      Taxon 42 -> Mycocalicium_subtile
+      Taxon 43 -> Pertusaria_obruta
+      Taxon 44 -> Pertusaria_plittiana
+      Taxon 45 -> Usnea_cornuta
+      Taxon 46 -> Usnea_halei
+      Taxon 47 -> Usnea_mutabilis
+      Taxon 48 -> Usnea_pensylvanica
+      Taxon 49 -> Usnea_subfusca
+      Taxon 50 -> Usnea_subgracilis
+      Taxon 51 -> Usnea_subscabrosa
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1554993531
+      Setting output file names to "./mito_genes/nad4.nexus.run<i>.<p|t>"
+   Exiting characters block
+   Reading mrbayes block
+      Setting nowarnings to yes
+      Setting autoclose to yes
+      Setting Nst to 6
+      Setting Rates to Gamma
+      Successfully set likelihood model parameters
+      Setting number of generations to 20000
+      Setting burnin fraction to 0.25
+      Setting sample frequency to 100
+      Setting print frequency to 1000
+      Setting diagnosing frequency to 1000
+      WARNING: Reallocation of zero size attempted. This is probably a bug. Problems may follow.
+      WARNING: Reallocation of zero size attempted. This is probably a bug. Problems may follow.
+      Setting number of runs to 3
+      WARNING: Allocation of zero size attempted. This is probably a bug; problems may follow.
+      Setting number of chains to 3
+      Setting heating parameter to 0.400000
+      Setting swap frequency to 10
+      Setting chain output file names to "./mito_genes/nad4.nexus.run<i>.<p/t>"
+      Successfully set chain parameters
+      Running Markov chain
+      MCMC stamp = 9601728176
+      Seed = 1662665161
+      Swapseed = 1554993531
+      Model settings:
+
+         Data not partitioned --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = 6
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+      Active parameters: 
+
+         Parameters
+         ---------------------
+         Revmat              1
+         Statefreq           2
+         Shape               3
+         Ratemultiplier      4
+         Topology            5
+         Brlens              6
+         ---------------------
+
+         1 --  Parameter  = Revmat
+               Type       = Rates of reversible rate matrix
+               Prior      = Dirichlet(1.00,1.00,1.00,1.00,1.00,1.00)
+
+         2 --  Parameter  = Pi
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+
+         3 --  Parameter  = Alpha
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+
+         4 --  Parameter  = Ratemultiplier
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+
+         5 --  Parameter  = Tau
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Subparam.  = V
+
+         6 --  Parameter  = V
+               Type       = Branch lengths
+               Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            0.94 %   Dirichlet(Revmat)
+            0.94 %   Slider(Revmat)
+            0.94 %   Dirichlet(Pi)
+            0.94 %   Slider(Pi)
+            1.89 %   Multiplier(Alpha)
+            9.43 %   ExtSPR(Tau,V)
+            9.43 %   ExtTBR(Tau,V)
+            9.43 %   NNI(Tau,V)
+            9.43 %   ParsSPR(Tau,V)
+           37.74 %   Multiplier(V)
+           13.21 %   Nodeslider(V)
+            5.66 %   TLMultiplier(V)
+
+      Division 1 has 1105 unique site patterns
+      Initializing conditional likelihoods
+      Using standard AVX likelihood calculator for division 1 (single-precision)
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -51996.431528 -- 114.665131
+         Chain 2 -- -51612.023389 -- 114.665131
+         Chain 3 -- -49215.007652 -- 114.665131
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -51621.800790 -- 114.665131
+         Chain 2 -- -51768.157077 -- 114.665131
+         Chain 3 -- -51016.710761 -- 114.665131
+
+      Initial log likelihoods and log prior probs for run 3:
+         Chain 1 -- -49585.249247 -- 114.665131
+         Chain 2 -- -50981.971339 -- 114.665131
+         Chain 3 -- -50992.395851 -- 114.665131
+
+
+      Using a relative burnin of 25.0 % for diagnostics
+
+      Chain results (20000 generations requested):
+
+          0 -- [-51996.432] (-51612.023) (-49215.008) * [-51621.801] (-51768.157) (-51016.711) * [-49585.249] (-50981.971) .. 
+       1000 -- [-25850.063] (-27492.252) (-26536.156) * [-25171.276] (-25912.031) (-26115.923) * (-26867.474) (-26380.888) .. -- 0:01:54
+
+      Average standard deviation of split frequencies: 0.104471
+
+       2000 -- (-23844.781) [-23589.455] (-23692.783) * (-23554.850) [-23394.135] (-23629.278) * [-23372.889] (-23553.762) .. -- 0:01:39
+
+      Average standard deviation of split frequencies: 0.141674
+
+       3000 -- (-23242.520) (-23061.777) [-22880.204] * [-22856.417] (-22984.402) (-23085.769) * (-22928.097) (-22961.347) .. -- 0:01:30
+
+      Average standard deviation of split frequencies: 0.138137
+
+       4000 -- (-23070.355) (-22845.733) [-22734.534] * [-22689.860] (-22772.165) (-22747.937) * (-22765.046) (-22806.768) .. -- 0:01:20
+
+      Average standard deviation of split frequencies: 0.128096
+
+       5000 -- (-22924.555) [-22680.733] (-22682.083) * [-22669.630] (-22686.379) (-22707.501) * (-22729.845) (-22742.358) .. -- 0:01:15
+
+      Average standard deviation of split frequencies: 0.109859
+
+       6000 -- (-22853.951) [-22647.449] (-22669.633) * [-22649.669] (-22699.471) (-22683.229) * (-22681.541) (-22731.601) .. -- 0:01:10
+
+      Average standard deviation of split frequencies: 0.108958
+
+       7000 -- (-22805.560) [-22632.439] (-22648.087) * [-22644.712] (-22693.806) (-22659.276) * (-22673.469) (-22699.142) .. -- 0:01:05
+
+      Average standard deviation of split frequencies: 0.102423
+
+       8000 -- (-22807.608) [-22612.965] (-22665.381) * [-22637.449] (-22683.129) (-22654.176) * (-22666.673) (-22663.715) .. -- 0:01:00
+
+      Average standard deviation of split frequencies: 0.099977
+
+       9000 -- (-22797.058) [-22618.274] (-22646.461) * [-22626.957] (-22688.346) (-22656.836) * (-22659.043) (-22673.010) .. -- 0:00:53
+
+      Average standard deviation of split frequencies: 0.099226
+
+      10000 -- (-22772.964) [-22622.911] (-22631.877) * [-22623.889] (-22676.259) (-22663.592) * (-22646.095) (-22664.134) .. -- 0:00:49
+
+      Average standard deviation of split frequencies: 0.098477
+
+      11000 -- (-22790.934) [-22622.037] (-22633.191) * [-22638.407] (-22674.757) (-22655.477) * (-22656.396) (-22667.119) .. -- 0:00:43
+
+      Average standard deviation of split frequencies: 0.097515
+
+      12000 -- (-22774.852) [-22610.916] (-22639.201) * (-22649.310) (-22690.120) [-22634.353] * (-22664.280) (-22672.422) .. -- 0:00:38
+
+      Average standard deviation of split frequencies: 0.094554
+
+      13000 -- (-22774.172) [-22628.435] (-22651.051) * (-22670.791) (-22672.509) [-22641.396] * (-22656.693) (-22676.736) .. -- 0:00:33
+
+      Average standard deviation of split frequencies: 0.087167
+
+      14000 -- (-22782.573) [-22610.875] (-22647.483) * (-22649.848) (-22659.597) [-22632.540] * (-22649.055) (-22690.088) .. -- 0:00:29
+
+      Average standard deviation of split frequencies: 0.086912
+
+      15000 -- (-22784.064) [-22627.548] (-22649.719) * (-22659.288) (-22677.643) [-22631.412] * (-22657.505) (-22669.874) .. -- 0:00:23
+
+      Average standard deviation of split frequencies: 0.087899
+
+      16000 -- (-22774.885) [-22625.494] (-22644.056) * (-22654.474) (-22677.715) [-22624.094] * (-22669.653) (-22682.764) .. -- 0:00:19
+
+      Average standard deviation of split frequencies: 0.088418
+
+      17000 -- (-22770.276) [-22623.785] (-22654.058) * (-22669.875) (-22677.264) [-22616.730] * (-22656.049) (-22673.636) .. -- 0:00:14
+
+      Average standard deviation of split frequencies: 0.089032
+
+      18000 -- (-22766.158) [-22622.889] (-22645.546) * (-22680.271) (-22670.756) [-22631.620] * (-22647.664) (-22689.832) .. -- 0:00:09
+
+      Average standard deviation of split frequencies: 0.090017
+
+      19000 -- (-22787.736) [-22647.777] (-22659.689) * (-22678.799) (-22656.955) [-22630.564] * (-22664.641) (-22685.892) .. -- 0:00:04
+
+      Average standard deviation of split frequencies: 0.089492
+      20000 -- (-22773.969) [-22626.912] (-22647.711) * (-22670.510) (-22660.712) [-22634.402] * (-22656.772) (-22647.491) .. -- 0:00:00
+
+      Average standard deviation of split frequencies: 0.089766
+
+      Analysis completed in 1 mins 35 seconds
+      Analysis used 93.24 seconds of CPU time
+      Likelihood of best state for "cold" chain of run 1 was -22610.82
+      Likelihood of best state for "cold" chain of run 2 was -22620.70
+      Likelihood of best state for "cold" chain of run 3 was -22760.71
+
+      Acceptance rates for the moves in the "cold" chain of run 1:
+         With prob.   (last 100)   chain accepted proposals by move
+            11.2 %     ( 16 %)     Dirichlet(Revmat)
+            38.2 %     ( 44 %)     Slider(Revmat)
+             3.2 %     (  5 %)     Dirichlet(Pi)
+            20.0 %     ( 21 %)     Slider(Pi)
+            13.6 %     ( 14 %)     Multiplier(Alpha)
+             5.7 %     (  3 %)     ExtSPR(Tau,V)
+             6.2 %     (  3 %)     ExtTBR(Tau,V)
+             9.5 %     (  7 %)     NNI(Tau,V)
+            10.6 %     (  6 %)     ParsSPR(Tau,V)
+            41.8 %     ( 34 %)     Multiplier(V)
+            27.2 %     ( 31 %)     Nodeslider(V)
+             8.6 %     ( 14 %)     TLMultiplier(V)
+
+      Acceptance rates for the moves in the "cold" chain of run 2:
+         With prob.   (last 100)   chain accepted proposals by move
+            14.0 %     ( 20 %)     Dirichlet(Revmat)
+            34.7 %     ( 38 %)     Slider(Revmat)
+             7.8 %     ( 11 %)     Dirichlet(Pi)
+            14.7 %     ( 15 %)     Slider(Pi)
+            18.3 %     ( 19 %)     Multiplier(Alpha)
+             7.4 %     (  5 %)     ExtSPR(Tau,V)
+             4.5 %     (  0 %)     ExtTBR(Tau,V)
+            11.1 %     (  7 %)     NNI(Tau,V)
+             8.5 %     (  2 %)     ParsSPR(Tau,V)
+            43.5 %     ( 33 %)     Multiplier(V)
+            28.6 %     ( 21 %)     Nodeslider(V)
+             8.2 %     (  8 %)     TLMultiplier(V)
+
+      Acceptance rates for the moves in the "cold" chain of run 3:
+         With prob.   (last 100)   chain accepted proposals by move
+            14.4 %     (  7 %)     Dirichlet(Revmat)
+            37.6 %     ( 39 %)     Slider(Revmat)
+            10.2 %     ( 14 %)     Dirichlet(Pi)
+            11.8 %     ( 17 %)     Slider(Pi)
+            11.6 %     (  7 %)     Multiplier(Alpha)
+             6.7 %     ( 11 %)     ExtSPR(Tau,V)
+             4.6 %     (  5 %)     ExtTBR(Tau,V)
+             8.5 %     ( 12 %)     NNI(Tau,V)
+             9.3 %     ( 15 %)     ParsSPR(Tau,V)
+            42.2 %     ( 27 %)     Multiplier(V)
+            28.4 %     ( 21 %)     Nodeslider(V)
+             8.4 %     ( 11 %)     TLMultiplier(V)
+
+      Chain swap information for run 1:
+
+                 1     2     3 
+           --------------------
+         1 |        0.05  0.00 
+         2 |   674        0.01 
+         3 |   650   676       
+
+      Chain swap information for run 2:
+
+                 1     2     3 
+           --------------------
+         1 |        0.03  0.00 
+         2 |   667        0.11 
+         3 |   685   648       
+
+      Chain swap information for run 3:
+
+                 1     2     3 
+           --------------------
+         1 |        0.02  0.00 
+         2 |   650        0.07 
+         3 |   633   717       
+
+      Upper diagonal: Proportion of successful state exchanges between chains
+      Lower diagonal: Number of attempted state exchanges between chains
+
+      Chain information:
+
+        ID -- Heat 
+       -----------
+         1 -- 1.00  (cold chain)
+         2 -- 0.71 
+         3 -- 0.56 
+
+      Heat = 1 / (1 + T * (ID - 1))
+         (where T = 0.40 is the temperature and ID is the chain number)
+
+   Exiting mrbayes block
+   Reached end of file
+
+   Tasks completed, exiting program because mode is noninteractive
+   To return control to the command line after completion of file processing, 
+   set mode to interactive with 'mb -i <filename>' (i is for interactive)
+   or use 'set mode=interactive'
+

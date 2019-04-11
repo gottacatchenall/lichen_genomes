@@ -55,8 +55,9 @@ def mv_mb_output():
     os.chdir(home)
 
 def bucky():
-    bunnin_ngen = 20000
+    bunnin_ngen = 0
     mbsum_path = os.path.abspath("./scripts/mbsum")
+    bucky_path = os.path.abspath("./scripts/bucky")
     os.chdir(dir_name + "/mb_output")
     file_list = sorted(glob.glob("*.nexus.run*.t"))
     gene_list = []
@@ -68,9 +69,14 @@ def bucky():
         this_genes_trees = sorted(glob.glob(gene + ".nexus.run*.t"))
         gene_tree_string = " ".join(this_genes_trees)
         gene_tree_string
-        mb_sum_cmd = mbsum_path + " -n "+ str(bunnin_ngen) + " -o " + gene + " " + gene_tree_string
+        mb_sum_cmd = mbsum_path + " -n "+ str(bunnin_ngen) + " -o ../" + gene + ".in " + gene_tree_string
+        print mb_sum_cmd
         subprocess.call(mb_sum_cmd, shell=True)
+    os.chdir("..")
 
+    bucky_cmd = bucky_path + " -n 2000000 *.in"
+    print bucky_cmd
+    subprocess.call(bucky_cmd, shell=True)
 
 
 bucky()
