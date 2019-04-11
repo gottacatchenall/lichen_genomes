@@ -3,202 +3,64 @@
 begin taxa;
        dimensions ntax=50;
        taxlabels
-             Alectoria_fallacina
-             Cladonia_apodocarpa
-             Cladonia_caroliniana
-             Cladonia_furcata
-             Cladonia_leporina
-             Cladonia_petrophila
-             Cladonia_peziziformis
-             Cladonia_rangiferina
-             Cladonia_robbinsii
-             Cladonia_stipitata
-             Cladonia_subtenuis
-             Cladonia_uncialis
-             Coccocarpia_palmicola
-             Gomphillus_americanus
-             Graphis_lineola
-             Heterodermia_albicans
-             Heterodermia_appalachensis
-             Heterodermia_casarettiana
-             Heterodermia_echinata
-             Heterodermia_speciosa1
-             Heterodermia_squamulosa
-             Hypogymnia_vittata
-             Icmadophila_ericetorum
-             Imshaugia_aleurites
-             Lecanora_cenereofusca
-             Lecanora_saxigena
-             Lepraria_oxybapha
-             Leptogium_hirsutum
-             Menegazzia_subsimilis
-             Parmotrema_austrosinense
-             Parmotrema_cetratum
-             Parmotrema_Crinitum
-             Parmotrema_diffractaicum
-             Parmotrema_internexum
-             Parmotrema_margaritatum
-             Parmotrema_mellissii
-             Parmotrema_neotropicum
-             Parmotrema_stuppeum
-             Parmotrema_Ultralucens
-             Arthonia_susa
-             Mycocalicium_subtile
-             Pertusaria_obruta
-             Pertusaria_plittiana
-             Usnea_cornuta
-             Usnea_halei
-             Usnea_mutabilis
-             Usnea_pensylvanica
-             Usnea_subfusca
-             Usnea_subgracilis
-             Usnea_subscabrosa
+             Alectoria_fallacina_cox2
+             Cladonia_apodocarpa_cox2
+             Cladonia_caroliniana_cox2
+             Cladonia_furcata_cox2
+             Cladonia_leporina_cox2
+             Cladonia_petrophila_cox2
+             Cladonia_peziziformis_cox2
+             Cladonia_rangiferina_cox2
+             Cladonia_robbinsii_cox2
+             Cladonia_stipitata_cox2
+             Cladonia_subtenuis_cox2
+             Cladonia_uncialis_cox2
+             Coccocarpia_palmicola_cox2
+             Gomphillus_americanus_cox2
+             Graphis_lineola_cox2
+             Heterodermia_albicans_cox2
+             Heterodermia_appalachensis_cox2
+             Heterodermia_casarettiana_cox2
+             Heterodermia_echinata_cox2
+             Heterodermia_speciosa1_cox2
+             Heterodermia_squamulosa_cox2
+             Hypogymnia_vittata_cox2
+             Icmadophila_ericetorum_cox2
+             Imshaugia_aleurites_cox2
+             Lecanora_cenereofusca_cox2
+             Lecanora_saxigena_cox2
+             Lepraria_oxybapha_cox2
+             Leptogium_hirsutum_cox2
+             Menegazzia_subsimilis_cox2
+             Parmotrema_austrosinense_cox2
+             Parmotrema_cetratum_cox2
+             Parmotrema_Crinitum_cox2
+             Parmotrema_diffractaicum_cox2
+             Parmotrema_internexum_cox2
+             Parmotrema_margaritatum_cox2
+             Parmotrema_mellissii_cox2
+             Parmotrema_neotropicum_cox2
+             Parmotrema_stuppeum_cox2
+             Parmotrema_Ultralucens_cox2
+             Arthonia_susa_cox2
+             Mycocalicium_subtile_cox2
+             Pertusaria_obruta_cox2
+             Pertusaria_plittiana_cox2
+             Usnea_cornuta_cox2
+             Usnea_halei_cox2
+             Usnea_mutabilis_cox2
+             Usnea_pensylvanica_cox2
+             Usnea_subfusca_cox2
+             Usnea_subgracilis_cox2
+             Usnea_subscabrosa_cox2
 ;
 end;
-
-BEGIN CHARACTERS;
-	TITLE  Character_Matrix;
-	DIMENSIONS  NCHAR=1;
-	FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = "  0 1";
-	MATRIX
-	'"Alectoria fallacina"'       0
-	'"Arthonia ruana"'            1
-	'"Arthonia susa"'             1
-	'"Bacidia sp."'               0
-	'"Cladonia apodocarpa"'       1
-	'"Cladonia caroliniana"'      1
-	'"Cladonia furcata"'          1
-	'"Cladonia leporina"'         1
-	'"Cladonia petrophila"'       0
-	'"Cladonia peziziformis"'     1
-	'"Cladonia rangiferina"'      1
-	'"Cladonia robbinsii"'        0
-	'"Cladonia stipitata"'        1
-	'"Cladonia subtenuis"'        1
-	'"Cladonia uncialis"'         1
-	'"Coccocarpia palmicola"'     0
-	'"Gomphillus americanus"'     1
-	'"Graphis lineola"'           1
-	'"Heterodermia albicans"'     0
-	'"Heterodermia appalachensis"'0
-	'"Heterodermia casarettiana"' 0
-	'"Heterodermia echinata"'     1
-	'"Heterodermia speciosa0"'    0
-	'"Heterodermia speciosa1"'    0
-	'"Heterodermia squamulosa"'   0
-	'"Hypogymnia vittata"'        0
-	'"Icmadophila ericetorum "'   1
-	'"Imshaugia aleurites"'       0
-	'"Lecanora cinereofusca"'     1
-	'"Lecanora saxigena"'         1
-	'"Lepraria oxybapha"'         0
-	'"Leptogium hirsutum"'        0
-	'"Menegazzia subsimilis"'     0
-	'"Opegrapha vulgata"'         1
-	'"Parmotrema austrosinense"'  0
-	'"Parmotrema cetratum"'       1
-	'"Parmotrema crinitum"'       0
-	'"Parmotrema diffractaicum"'  0
-	'"Parmotrema internexum"'     0
-	'"Parmotrema margaritatum"'   0
-	'"Parmotrema mellissi"'       0
-	'"Parmotrema neotropicum"'    0
-	'"Parmotrema stuppeum "'      0
-	'"Parmotrema ultralucens"'    0
-	'"Pertusaria obruta"'         1
-	'"Pertusaria ostiolata"'      1
-	'"Pertusaria plittiana"'      1
-	'"Pertusaria propinqua"'      1
-	'"Phlyctis boliviensis"'      0
-	'"Phyllopsora corallina"'     0
-	'"Usnea ceratina "'           0
-	'"Usnea cornuta"'             0
-	'"Usnea halei"'               0
-	'"Usnea mutabilis"'           0
-	'"Usnea pensylvanica"'        0
-	'"Usnea subfusca"'            1
-	'"Usnea subgracilis"'         0
-	'"Usnea subscabrosa"'         0
-
-;
-
-END;
-
-BEGIN CHARACTERS;
-	TITLE  Character_Matrix;
-	DIMENSIONS  NCHAR=1;
-	FORMAT DATATYPE = CONTINUOUS GAP = - MISSING = ?;
-	MATRIX
-	'"Alectoria fallacina"'        22.0
-	'"Arthonia ruana"'             2.0
-	'"Arthonia susa"'              11.0
-	'"Bacidia sp."'                3.0
-	'"Cladonia apodocarpa"'        5.0
-	'"Cladonia caroliniana"'       4.0
-	'"Cladonia furcata"'           11.0
-	'"Cladonia leporina"'          5.0
-	'"Cladonia petrophila"'        8.0
-	'"Cladonia peziziformis"'      3.0
-	'"Cladonia rangiferina"'       11.0
-	'"Cladonia robbinsii"'         4.0
-	'"Cladonia stipitata"'         9.0
-	'"Cladonia subtenuis"'         10.0
-	'"Cladonia uncialis"'          11.0
-	'"Coccocarpia palmicola"'      17.0
-	'"Gomphillus americanus"'      2.0
-	'"Graphis lineola"'            0.0
-	'"Heterodermia albicans"'      6.0
-	'"Heterodermia appalachensis"' 9.0
-	'"Heterodermia casarettiana"'  7.0
-	'"Heterodermia echinata"'      10.0
-	'"Heterodermia speciosa1"'     11.0
-	'"Heterodermia speciosa2"'     8.0
-	'"Heterodermia squamulosa"'    5.0
-	'"Hypogymnia vittata"'         2.0
-	'"Icmadophila ericetorum "'    3.0
-	'"Imshaugia aleurites"'        1.0
-	'"Lecanora cinereofusca"'      1.0
-	'"Lecanora saxigena"'          13.0
-	'"Lepraria oxybapha"'          4.0
-	'"Leptogium hirsutum"'         10.0
-	'"Menegazzia subsimilis"'      12.0
-	'"Opegrapha vulgata"'          3.0
-	'"Parmotrema austrosinense"'   13.0
-	'"Parmotrema cetratum"'        11.0
-	'"Parmotrema crinitum"'        13.0
-	'"Parmotrema diffractaicum"'   10.0
-	'"Parmotrema internexum"'      17.0
-	'"Parmotrema margaritatum"'    9.0
-	'"Parmotrema mellissi"'        15.0
-	'"Parmotrema neotropicum"'     23.0
-	'"Parmotrema stuppeum "'       13.0
-	'"Parmotrema ultralucens"'     8.0
-	'"Pertusaria obruta"'          13.0
-	'"Pertusaria ostiolata"'       5.0
-	'"Pertusaria plittiana"'       11.0
-	'"Pertusaria propinqua"'       11.0
-	'"Phlyctis boliviensis"'       0.0
-	'"Phyllopsora corallina"'      3.0
-	'"Usnea ceratina "'            17.0
-	'"Usnea cornuta"'              17.0
-	'"Usnea halei"'                18.0
-	'"Usnea mutabilis"'            13.0
-	'"Usnea pensylvanica"'         21.0
-	'"Usnea subfusca"'             10.0
-	'"Usnea subgracilis"'          17.0
-	'"Usnea subscabrosa"'          21.0
-
-;
-
-END;
-
-
 begin characters;
        dimensions nchar=902;
        format missing=? gap=- matchchar=. datatype=dna;
        matrix
 
-Alectoria_fallacina
+Alectoria_fallacina_cox2
 ------------------------------------------------------------
 -----------------------------------------------------------A
 TTTATAGTAGTCCAGTTTTACACTGTGATGCTCCTAGACCTTGAGGTATATATTTCCAAG
@@ -216,7 +78,7 @@ TTTATGGTAA---------TCAGTGTCTAAGAGAGATTTGTGGTATACTACACAGTTCAA
 TGCCTATAGTTATAGAATCAGTGTCTATAGAAAAATTTGTTTTTTGACTACAAAAACAAT
 AG
 
-Cladonia_apodocarpa
+Cladonia_apodocarpa_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------GTGCGAAGTGATACACCTAGACCCTGAGGTATATATTTTCAAG
@@ -234,7 +96,7 @@ TTTATGG------------ACAATGCTCG---GAGATCTGTGGTATATTACATAGTTCTA
 TGCCTATTGTCATAGAGTCAGTTTCCATAGAAAAATTTGTATCATGATTACGAGAACAA-
 --
 
-Cladonia_caroliniana
+Cladonia_caroliniana_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -252,7 +114,7 @@ TTTATGG------------ACAATGCTCG---GAGATTTGTGGTATATTACATAGTTCTA
 TGCCTATTGTTATAGAGTCGGTTTCCATAGAAAAATTTGTATCATGATTACGAGAACAAT
 AA
 
-Cladonia_furcata
+Cladonia_furcata_cox2
 -----------------------------ATTTCAATAGGTCGTGGTAATATTGCGGATG
 ATAATGGTTTAATCGATGAGACTATTATTTATGATGGCTTTGCTAATATTAGATCTGCGG
 CTTCTGCTTTTAATAATGTGCGAAATGATACACCTAGACCTTGAGGTATATATTTTCAAG
@@ -270,7 +132,7 @@ TTTATGG------------GCAATGCTCG---GAGATCTGTGGTATATTACATAGTTCTA
 TGCCTATTGTCATAGAGTCAGTTTCCATAGAAAAATTTGTATCATGATTACGGGAACAAT
 AA
 
-Cladonia_leporina
+Cladonia_leporina_cox2
 ------------------------------------------------------------
 -----------------------------ATTCAGGAGGGCTCTCATACTAGATATGCGG
 CTTCTACTTTTAATCCTGTGCGAAGTGATACACCTAGACCCTGAGGTATATATTTTCAAG
@@ -288,7 +150,7 @@ TTTATGG------------ACAATGCTCG---GAAATTTGTGGTATACTACATAGTTCTA
 TGCCTGTTGTTATAGAGTCGGTTTCCATAGAAAAATTTGTATCATGATTACGAGAACAAT
 AA
 
-Cladonia_petrophila
+Cladonia_petrophila_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------GTGCGAAGTGATACACCTAGACCCTGAGGTATATATTTTCAAG
@@ -306,7 +168,7 @@ TTTATGG------------ACAATGCTCG---GAGATCTGTGGTATATTACATAGTTCTA
 TGCCTATTGTCATAGAGTCAGTTTCCATAGAAAAATTTGTATCATGATTACGAGAACAAT
 AA
 
-Cladonia_peziziformis
+Cladonia_peziziformis_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------GTGAAGAGTGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -324,7 +186,7 @@ TTTATGG------------GCAATGCTCA---GAGATCTGTGGTATATTACATAGTTCTA
 TGCCTATTGTCATAGAGTCAGTTTCCATAGAAAAATTTGTATCATGATTACGGGAACAAT
 AA
 
-Cladonia_rangiferina
+Cladonia_rangiferina_cox2
 --------------------ATTACATCAGGTCGTAGTAATTTTGGGGATAAGAATGCTT
 GAATCAATGAGCGTATTGTTCATGATGGCTTTAATAGCTTTGATAGTATTAAAGGAGCGG
 CTACTGCTTTTAGAAATACGCATACTGATGCACCTAGACCTTGAGGTTTATATTTTCAAG
@@ -342,7 +204,7 @@ TTTATGG------------ACAATGCTCG---GAGATTTGTGGTATATTACATAGTTCTA
 TGCCTATTGTTATAGAGTCGGTTTCCATAGAAAAATTTGTATCATGATTACGAGAACAAT
 AA
 
-Cladonia_robbinsii
+Cladonia_robbinsii_cox2
 ------------------------------------------------------------
 --------------------------------------CTTAAAAGTATTTTAAACGAGG
 CTATTGATTCTAATAATGTGCAGAATGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -360,7 +222,7 @@ TTTATGG------------ACAATGCTCG---GAGATCTGTGGTATATTACATAGTTCTA
 TGCCTATTGTAATAGAGTCTGTTTCCATAGAAAAATTTGTATCATGATTACGAGAACAAT
 AA
 
-Cladonia_stipitata
+Cladonia_stipitata_cox2
 -----------------------------ATTACATCAGGTCATGGTAATATTGGGGATG
 ATAATGGTTTAATCAATGAGCGTATTGTTCATGATGGCTTTAATTATATTAAATCTGCGG
 CTTCTGCTTTTAATCCTGTGCGAAGTGATACACCTAGACCCTGAGGTATATATTTTCAAG
@@ -378,7 +240,7 @@ TTTATGG------------ACAATGCTCG---GAGATCTGTGGTATATTACATAGTTCTA
 TGCCTATTGTCATAGAGTCAGTTTCCATAGAAAAATTTGTATCATGATTACGAGAACAAT
 AA
 
-Cladonia_subtenuis
+Cladonia_subtenuis_cox2
 ------------------------------------------------------------
 -----------------------------------------------ATTGCAAGAGCAG
 CTTCTGCTTTTAGGGATGCGCGTACTGATGCACCTAGACCTTGAGGTTTATATTTTCAAG
@@ -396,7 +258,7 @@ TTTATGG------------ACAATGCTCG---GAGATTTGTGGTATATTACATAGTTCTA
 TGCCTATTGTTATAGAGTCGGTTTCCATAGAAAAATTTGTATCATGATTACGAGAACAAT
 AA
 
-Cladonia_uncialis
+Cladonia_uncialis_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTGCGTACTGATACACCTAGACCTTGAGGTGTATATTTTCAAG
@@ -414,7 +276,7 @@ TTTATGG------------ACAATGCTCG---GAGATTTGTGGTATATTACATAGTTCTA
 TGCCTATTGTTATAGAGTCGGTTTCCATAGAAAAATTTGTATCATGATTACAAGAACAAT
 AA
 
-Coccocarpia_palmicola
+Coccocarpia_palmicola_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------------TGTGATGCTCCAACACCTTGAGGTATATATTTTCAAG
@@ -432,7 +294,7 @@ TTTATGG------------TCAATGTTCA---GAAATTTGTGGTATATTGCATAGTTCTA
 TGCCGATAGTCATTGAATCAATAAGTGTTGAAAAGTTCGTTTCTTGAGTAAAAGAACAAT
 AA
 
-Gomphillus_americanus
+Gomphillus_americanus_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------ATGGATTGAGATTGAAATGACACACCTAGACCATGAGGTTTATATTTTCAAG
@@ -450,7 +312,7 @@ TTTATGG------------TCAATGTTCT---GAAATATGTGGTGTATTACATAGTTCTA
 TGCCAATAGTTATAGAATCATTACCAATAGAAAAATTTCTAAGTTGATTAGAACAACAGT
 AA
 
-Graphis_lineola
+Graphis_lineola_cox2
 ------------------------------------------------------------
 -----------------------------------------------------TTATTTG
 GATATAACCAAAGTAAAAATTACTGTGATACACCTAGACCTTGAGGTTTATATTTTCAAG
@@ -468,7 +330,7 @@ TTTACGG------------TCAATGCTCA---GAAATTTGTGGTATATTACATAGTTCTA
 TGCCTATAGTAATAGAATCAGTTTCTATTGAAAAATTTTTAGCTTGATTAGAAGAACAGT
 AA
 
-Heterodermia_albicans
+Heterodermia_albicans_cox2
 ATCCGTTGTTACGGATCTTTTCTTTTTTTTCCTCTAGAGGAAATAATAAAAAAAAAAAAA
 TCTATTATATTTGCTCTAATTATGCTATACACAAAAGATATATATTATTTAATTAGTAA-
 -TAGCCTAAGTTCAAGTGAATACTGTGATGCACCTAGACCTTGAGGTGTTTACTTTCAAG
@@ -486,7 +348,7 @@ TTTATGG------------TTTGAGGCCA---TAG-------------------------
 ------------------------------------------------------------
 --
 
-Heterodermia_appalachensis
+Heterodermia_appalachensis_cox2
 ---------------------------------------------------ATATATAAG
 TATATTATATTTAGTATAATTATGCTATACACAGAAGATATTTATTATTTAGTTAGTAA-
 -TAGCCGAACGATAAGTGATTACTGTGATGCACCTAGACCTTGAGGTGTTTACTTTCAAG
@@ -504,7 +366,7 @@ TTTATGG------------TTTGAGGCCA---TAG-------------------------
 ------------------------------------------------------------
 --
 
-Heterodermia_casarettiana
+Heterodermia_casarettiana_cox2
 ------------------------------------------------------------
 ------------------------------------------------TTAGTTAGTAA-
 -TAGCTCAAGTTCAAGTGTATATTGTGATGCAGCTAGACCTTGAGGTATTTACTTTCAAG
@@ -522,7 +384,7 @@ TTTATGG------------TCAATGTTCA---GAAATATGTGGTATACTTCACAGCTCTA
 TGCCTATAGTAATAGAGTCAGTTTCAATAGAAAAATTTGTTACTTGACTACAAGAACAAT
 AA
 
-Heterodermia_echinata
+Heterodermia_echinata_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------ATTGAATACTGTGATGCACCTAGACCTTGAGGTGTTTACTTTCAAG
@@ -540,7 +402,7 @@ TTTATGG------------TCAGTGTTCA---GAGATTTGTGGTATACTTCACAGCTCTA
 TGCCTATAGTAATAGAATCCGTTTCTATGGAAAAGTTTGTTATTTGACTACAGGACCAAT
 AA
 
-Heterodermia_speciosa1
+Heterodermia_speciosa1_cox2
 ------------------------------------------------------------
 -----------------------ATCTTAGATTGAACATATCCATTAATTATTGATTTCC
 TTTTCTGACATATTTGTTATTTCTGTGATGCCGCTAGACCTTGAGGTGTTTACTTTCAAG
@@ -558,7 +420,7 @@ TTTATGG------------TCAGTGTTCA---GAAATATGTGGTATACTTCACAGCTCTA
 TGCCTATAGTAATAGAATCCGTTTCAATAGAAAAGTTCGTTACTTGACTAAAGGAACAAT
 AA
 
-Heterodermia_squamulosa
+Heterodermia_squamulosa_cox2
 ------------------------------------------------------------
 ------------------------------------------------TTAATTAGTAA-
 -TAGCTGAAGTTCAAGTGAACACTGTGATGCACCTAGACCTTGAGGTGTTTACTTTCAAG
@@ -576,7 +438,7 @@ TTTATGG------------TCAATGTTCA---GAAATTTGTGGTATACTTCACAGCTCTA
 TGCCTATAGTAATAGAATCTGTTTCAATAGAAAAATTTGTTACTTGACTGCAAGAACAAT
 AA
 
-Hypogymnia_vittata
+Hypogymnia_vittata_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTACACTGTGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -594,7 +456,7 @@ TTTATGG------------TCAATGTTCA---GAGATTTGTGGTATATTACACAGTTCAA
 TGCCTATTGTTATAGAATCAGTGTCTATAGAAAAATTTGTTTCTTGACTACAAGAACAAT
 AG
 
-Icmadophila_ericetorum
+Icmadophila_ericetorum_cox2
 ------------------------------------------------------------
 -----------------------------------ATATTAATATCCTTATTTAATTATT
 TAAATTCTAATTTAATTGTATATTCTGACACTCCTAGACCTTGAGGTCTTTATTTTCAAG
@@ -612,7 +474,7 @@ TTTATGG------------TCAATGTTCG---GAAATTTGTGGTATTTTGCATAGTTCAA
 TGCCTATTGTTATAGAATCAGTATCTATAGAAAAATTTCTTGTTTGATTGGAAGAACAAT
 AA
 
-Imshaugia_aleurites
+Imshaugia_aleurites_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTACAATGTGATGCTCCTAGACCTTGAGGTATATATTTCCAAG
@@ -630,7 +492,7 @@ TTTACGG------------TCAATGTTCA---GAAATTTGTGGTATTTTACATAGCAGTA
 TGCCTATAGTTATAGAGTCGGTATCCATAGAAAAATTTGTTTCGTGATTACAAGAACAGT
 AA
 
-Lecanora_cenereofusca
+Lecanora_cenereofusca_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTACACTGTGATGCACCTAGACCCTGAGGTGTATATTTTCAAG
@@ -648,7 +510,7 @@ TTTACGG------------TCAATGTTCA---GAAATTTGTGGTATACTACACAGTTCAA
 TGCCCATAGTTATAGAATCAGTTTCCATAGAAAAATTTGTTTCTTGATTACAAGAACAGT
 AG
 
-Lecanora_saxigena
+Lecanora_saxigena_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------ATGCAATGTGATGCACCCAGACCTTGAGGTATATATTTCCAAG
@@ -666,7 +528,7 @@ TTTATGG------------TCAATGTTCA---GAGATATGTGGTATACTTCACAGTTCAA
 TGCCTATAGTAATGGAATCCGTTTCAATCGAAAAGTTTGTTTCTTGATTACAAGAACAGT
 AA
 
-Lepraria_oxybapha
+Lepraria_oxybapha_cox2
 ------------------------------------------------------------
 --------------GTGCTCTTTTGTATGTCCTTTGCACTAGCTGTTAAAAAAGTGTTTA
 TTTTTAGCTTAGGTGTAGTTCATTGTGATGCTCCTAGACCTTGAGGTATTTATTTTCAAG
@@ -684,7 +546,7 @@ TTTACGG------------TCAGTGTTCA---GAAATTTGTGGTATACTACACAGTAGCA
 TGCCTATCGTTATAGAATCTGTATCTATAGAAAAATTTGTTTCATGATTACAAGAACAAT
 AG
 
-Leptogium_hirsutum
+Leptogium_hirsutum_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------ATG-GATGCACCAAGACCTTGAGGTATATATTTTCAAG
@@ -702,7 +564,7 @@ TTTATGG------------TCAATGCTCA---GAATTATGTGGTATTCTGCATAGTTCCA
 TGCCCATAGTTATAGAATCAGTTTCAATAGAGAAATTTGTTTCTTGAATAGAGGCACAGT
 AG
 
-Menegazzia_subsimilis
+Menegazzia_subsimilis_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------ATTTCACACTGTGATGCTCCTAGACCTTGAGGTATATATTTTCAAG
@@ -720,7 +582,7 @@ TTTATGG------------TCAATGTTCA---GAAATTTGTGGTATACTACACAGTTCAA
 TGCCTATAGTTATAGAATCAGTGTCTATAGATAAATTTGTTTCTTGATTACGAGAACAAT
 AG
 
-Parmotrema_austrosinense
+Parmotrema_austrosinense_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTACACTGTGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -738,7 +600,7 @@ ATTATGG------------TCAATGTTCG---GAAATTTGTGGTATACTACACAGCAGTA
 TGCCTGTGGTTATTGAGTCAGTATCTATAGGTAAATTCGTTACCTGGCTACGAGAACAGT
 AA
 
-Parmotrema_cetratum
+Parmotrema_cetratum_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTACACTGTGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -756,7 +618,7 @@ ATTATGG------------TCAATGTTCG---GAAATTTGTGGTATACTACACAGCAGTA
 TGCCTGTCGTTATAGAGTCAGTATCCATAGGTAAATTCGTTTCCTGACTACAAGAACAGT
 AA
 
-Parmotrema_Crinitum
+Parmotrema_Crinitum_cox2
 ------------------------------------------------------------
 -----------------------------------------------ATAGATACGAACA
 TTTTTACTGGCTCGATATTACACTGTGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -774,7 +636,7 @@ TTTATGG------------TCAATGTTCG---GAAATTTGTGGTATACTACACAGCAGCA
 TGCCTGTCGTTATAGAGTCAGTATCTATAGGTAAATTCGTTTCCTGGCTACGTGAACAGT
 AA
 
-Parmotrema_diffractaicum
+Parmotrema_diffractaicum_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTACACTGTGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -792,7 +654,7 @@ ATTATGG------------TCAATGTTCG---GAAATTTGTGGTATATTACACAGCAGTA
 TGCCTGTCGTTATAGAATCAGTATCTATAGGTAAATTCGTTTCCTGACTACAAGAACAGT
 AA
 
-Parmotrema_internexum
+Parmotrema_internexum_cox2
 ------------------------------------------------------------
 -----------------------------------------------ATAGATACGAGCA
 TTTTTACTGTCTCGCTACTACACTGTGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -810,7 +672,7 @@ TTTATGG------------TCAATGTTCG---GAAATTTGTGGTATACTACACAGCAGCA
 TGCCTGTCGTTATAGAGTCAGTATCTATAGGTAAATTCGTTTCCTGGCTACGAGAACAGT
 AA
 
-Parmotrema_margaritatum
+Parmotrema_margaritatum_cox2
 ------------------------------------------------------------
 -----------------------------------------------ATAGATACGAGCA
 TTTTTACTAGCTCGCTATTACACTGTGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -828,7 +690,7 @@ ATTATGG------------TCAATGTTCG---GAAATTTGTGGTATATTACACAGCAGTA
 TGCCTGTCGTTATAGAGTCAGTATCTATAGGTAAATTCGTTTCCTGACTACAAGAACAGT
 AA
 
-Parmotrema_mellissii
+Parmotrema_mellissii_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTACACTGTGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -846,7 +708,7 @@ ATTATGG------------TCAATGTTCG---GAAATTTGTGGTATACTACACAGCAGTA
 TGCCTGTCGTTATAGAGTCAGTATCTATAGGTAAATTCGTCACCTGGTTGCGAGAACAGT
 AA
 
-Parmotrema_neotropicum
+Parmotrema_neotropicum_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTACACTGTGATGCACCTAGACCTTGGGGTATATATTTTCAAG
@@ -864,7 +726,7 @@ ATTATGG------------TCAATGTTCG---GAAATTTGTGGTATACTACACAGCAGTA
 TGCCTGTCGTTATAGAGTCAGTATCTATAGGTAAATTCGTTTCCTGATTACAAGAACAGT
 AA
 
-Parmotrema_stuppeum
+Parmotrema_stuppeum_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTACACTGTGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -882,7 +744,7 @@ ATTATGG------------TCAATGTTCG---GAAATTTGTGGTATATTACACAGCAGTA
 TGCCTGTCGTTATAGAGTCAGTATCTATAGGTAAATTCGTTTCCTGACTACAAGAACAGT
 AA
 
-Parmotrema_Ultralucens
+Parmotrema_Ultralucens_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTACACTGTGATGCACCTAGACCTTGAGGTATATATTTTCAAG
@@ -900,7 +762,7 @@ ATTATGG------------TCAATGTTCG---GAAATTTGTGGTATATTACACAGCAGTA
 TGCCTGTCGTTATAGAGTCAGTATCTATAGGTAAATTCGTTTCCTGACTACAAGAACAGT
 AA
 
-Arthonia_susa
+Arthonia_susa_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------ATAAATTATGCTGATGCACCTAGACCTTGAGGACTTTATTTTCAAG
@@ -918,7 +780,7 @@ TTTATGG------------ACAATGTTCA---GAAATATGTGGTATATTACATAGTTCTA
 TGCCAATAGTAATACAATGTATTACTTTAGAAAAATTCTTAATATACTTATGAGAAAAGT
 AA
 
-Mycocalicium_subtile
+Mycocalicium_subtile_cox2
 ------------------------------------------------------------
 -----------------------------------------------ATGATTAACGTTT
 TAAATAAAAATTTATTAGAATATACTGATACACCTAGACCTTGAGGTACATATTTTCAAG
@@ -936,7 +798,7 @@ TTTATGG------------TCAATGTTCA---GAAATTTGTGGAATTTTACACAGTTCAA
 TGCCAATAGCTATAGAATCGGTAAGTATAGAAAAATTTTTATTGTGATTACGTGAGCAAT
 AG
 
-Pertusaria_obruta
+Pertusaria_obruta_cox2
 ------------------------------------------------------------
 -------------------------------------------------ATATATACATC
 TAAGT-TTAGTTGTACAGAACATTGTGATACAGCTAGACCATGGGGTATATACTTTCAAG
@@ -954,7 +816,7 @@ TTTACGG------------TCAATGTTCA---GAAATATGTGGTATATTACATAGTTCTA
 TGCCTATAGTTATAGAGTGCGTTTCCATAGATAAATTTTTAGCTTGATTACAAGATCAAT
 AA
 
-Pertusaria_plittiana
+Pertusaria_plittiana_cox2
 ------------------------------------------------------------
 -------------------------------------------ATATATTTATGTTTTTT
 TATGT-CTAGTTGTACAGAATATTGTGATACTGCTAGACCATGAGGTATATATTTTCAAG
@@ -972,7 +834,7 @@ TTTATGG------------TCAATGTTCA---GAAATATGTGGTATACTACATAGTTCAA
 TGCCTATAGTTATAGAGTCTGTTTCCATAGATAAATTTTTAGCTTGATTGCAAGATCAAT
 AA
 
-Usnea_cornuta
+Usnea_cornuta_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 --ATGTTTTCAGGGTGTCTATCTTGTGATGCACCTAGACCATGAGGTCTGTATTTCCAAG
@@ -990,7 +852,7 @@ TTTACGGTCTGAGGCCTTTGCAATGTTCA---GAGATATGTGGCATACTGCATAGCTCAA
 TGCCCATCGTAATAGAATCAGTGTCTATCGAAAAATTTGTTGCTTGATTACAAGAGCAA-
 --
 
-Usnea_halei
+Usnea_halei_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------ATAGCTTTTTGTGATGCACCTAGACCTTGAGGTCTGTATTTCCAAG
@@ -1008,7 +870,7 @@ TCTACGGGC------------AGTGTTCG---GAGATTTGCGGTATCCTTCATAGTAGTA
 TGCCTATTGTGATCGAGTCGGTATCTATAGAAAAGTTCATTGCTTGACTACAAGAACAGT
 AA
 
-Usnea_mutabilis
+Usnea_mutabilis_cox2
 -----------------------------ATTAGGTGGATCTCCTCTTTTATAGCATGTG
 TTAGCCTTATAGGTTTAGTTATGTGATTAGTATGCGTAGATCTAGGTGTATATTCACCTC
 TTACAAATATAGCTGTGTCTTATTGTGATGCACCTAGACCATGAGGCCTGTATTTCCAAG
@@ -1026,7 +888,7 @@ TTTATGGTC------------AATGTTCA---GAGATATGTGGAATCCTGCATAGCTCAA
 TGCCTATCGTGATAGAATCAGTGTCTATCGAAAAGTTTGTTGCTTGACTACAAGAGCAAT
 AG
 
-Usnea_pensylvanica
+Usnea_pensylvanica_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -------------GTGTCT-TATTGTGATGCACCTAGACCTTGAGGTCTGTATTTCCAAG
@@ -1044,7 +906,7 @@ TTTACGGTC------------AATGTTCA---GAGATATGTGGTATACTGCATAGCTCAA
 TGCCTATCGTGATAGAATCAGTGTCTATCGAAAAGTTTGTTGCTTGATTACAAGAGCAAT
 AG
 
-Usnea_subfusca
+Usnea_subfusca_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------CTATCTTGTGATGCACCTAGGCCATGAGGTTTGTATTTCCAAG
@@ -1062,7 +924,7 @@ TTTACGGGC------------AATGTTCG---GAGCTGTGTGGTATATTACATAGTAGTA
 TGCCTATTGTCGTACAATCGGTGTCAATAGAAAAATTTATACTATGATTAGAACAGCAGT
 AA
 
-Usnea_subgracilis
+Usnea_subgracilis_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------TATTGTGATGCACCTAGACCATGAGGCCTGTATTTCCAAG
@@ -1080,7 +942,7 @@ TCTATGGTC------------AATGTTCA---GAGATATGTGGTATCCTGCATAGCTCAA
 TGCCTATTGTGATAGAATCAGTGTCTATCGAAAAGTTTGTTGCTTGATTACAAGAGCAAT
 AG
 
-Usnea_subscabrosa
+Usnea_subscabrosa_cox2
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------TTATCTTGTGATGCACCTAGACCCTGAGGCCTGTATTTCCAAG
