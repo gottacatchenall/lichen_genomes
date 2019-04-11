@@ -1,6 +1,8 @@
 #! /usr/bin/env python
 
 import sys, os, subprocess, glob
+from multiprocessing import Process
+
 
 input_dir = 'mito_genes'
 dir_name= 'output_mito_genes'
@@ -32,6 +34,9 @@ def zip_nex():
     subprocess.call("ls")
     subprocess.call("tar czf ./" + dir_name + "/genes.tar.gz ./" + input_dir +"/*.nexus", shell=True)
 
+def run_cmd():
+    pass
+
 def mrbayes():
     print("Running MrBayes...\n\n\n")
     os.chdir(home)
@@ -53,8 +58,15 @@ def mrbayes():
     os.chdir(home)
     os.chdir(input_dir)
     for file in glob.glob("*.nexus"):
+
+        with open(file, 'a') as f:
+            f.write(mbblock)
+
+
         cmd = mb_exe + " -i " + file
-        subprocess.call(cmd , shell=True)
+        p = Process(target=exec, args=cmd)
+        p.start()
+        p.join()
 
 
     # TODO do MB properly
@@ -102,9 +114,7 @@ def bucky():
     os.chdir("..")
 
     bucky_cmd = bucky_path + " -n 2000000 *.in"
-    print bucky_cmd
     subprocess.call(bucky_cmd, shell=True)
-
     return gene_list
 
 def convert_ckp_to_nex():
