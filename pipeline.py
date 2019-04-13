@@ -43,6 +43,8 @@ def copy_nex():
 def start_proc(cmd):
     subprocess.call(cmd , shell=True)
 
+def run_cmd():
+    pass
 
 def mrbayes():
     print("Running MrBayes...\n\n\n")
@@ -78,12 +80,21 @@ def mrbayes():
         #cmd = mb_exe + " -i " + file
         #subprocess.call(cmd , shell=True)
 
-        print(os.path.abspath(file))
-        with open(file, 'ab') as f:
-            print 'writing' + file
+#        print(os.path.abspath(file))
+#        with open(file, 'ab') as f:
+#            print 'writing' + file
+#           f.write(mbblock)
+#       cmd = mb_exe + "  " + file
+#        cmds.append(cmd)
+
+        with open(file, 'a') as f:
             f.write(mbblock)
-        cmd = mb_exe + "  " + file
-        cmds.append(cmd)
+
+
+        cmd = mb_exe + " -i " + file
+        p = Process(target=exec, args=cmd)
+        p.start()
+        p.join()
 
     p = Pool(len(cmds))
     p.map(start_proc, cmds)
@@ -133,9 +144,7 @@ def bucky():
     os.chdir("..")
 
     bucky_cmd = bucky_path + " -n 2000000 *.in"
-    print bucky_cmd
     subprocess.call(bucky_cmd, shell=True)
-
     return gene_list
 
 def convert_ckp_to_nex():
