@@ -1,9 +1,11 @@
 #! /usr/bin/env python
 
 import sys, os, subprocess, glob
+from multiprocessing import Process, Pool
 
-input_dir = 'mito_genes'
-dir_name= 'output_mito_genes'
+
+input_dir = 'rDNA'
+dir_name= 'output_rDNA'
 subprocess.call(["mkdir",  dir_name])
 
 home = os.getcwd()
@@ -28,40 +30,67 @@ def setup():
 
 
 def zip_nex():
-    print("Zipping Nexus File...\n\n\ns")
+    print("Zipping Nexus File...\n\n\n")
     subprocess.call("ls")
     subprocess.call("tar czf ./" + dir_name + "/genes.tar.gz ./" + input_dir +"/*.nexus", shell=True)
+
+def copy_nex():
+    print("Copying Nexus File...\n\n\n")
+    os.chdir(home)
+    cmd = 'cp ./' + input_dir + '/*.nexus ./' + dir_name
+    subprocess.call(cmd, shell=True)
+
+def start_proc(cmd):
+    subprocess.call(cmd , shell=True)
+
 
 def mrbayes():
     print("Running MrBayes...\n\n\n")
     os.chdir(home)
     os.chdir("./scripts")
 
+
     mb_exe = os.path.abspath("./mb")
 
     # append mb block to bottom of each nexus and run on each nexus
-    mbblock = '''
+    mbblock ='''
     begin mrbayes;
-    	set nowarnings=yes;
     	set autoclose=yes;
     	lset nst=6 rates=gamma;
-    	mcmcp ngen=20000 burninfrac=.25 samplefreq=100 printfreq=1000 diagnfreq=1000 nruns=3 nchains=3 temp=0.40 swapfreq=10;
+    	mcmcp ngen=200000 burninfrac=.25 samplefreq=100 printfreq=1000 diagnfreq=1000 nruns=3 nchains=3 temp=0.40 swapfreq=10;
+        constraint parmo = 45 46 47 48 25 26 27 28 29;
+        constraint leca = 43 2;
+        prset topologypr = constraints (parmo, leca);
     	mcmc;
+        sumt;
     end;
     '''
+     #constraint parmo = 45 46 47 48 25 26 27 28 29;
+    # constraint leca = 43 2;
+    # prset topologypr = constraints (parmo, leca);
 
     os.chdir(home)
     os.chdir(input_dir)
+
+    cmds = []
+
     for file in glob.glob("*.nexus"):
-        cmd = mb_exe + " -i " + file
-        subprocess.call(cmd , shell=True)
+        #cmd = mb_exe + " -i " + file
+        #subprocess.call(cmd , shell=True)
 
+        print(os.path.abspath(file))
+        with open(file, 'ab') as f:
+            print 'writing' + file
+            f.write(mbblock)
+        cmd = mb_exe + "  " + file
+        cmds.append(cmd)
 
-    # TODO do MB properly
-    #subprocess.call("perl mb.pl ../" + dir_name + "/genes.tar.gz -m ./mb_block.txt -o ../" + dir_name + "/mb_data", shell=True)
+    p = Pool(len(cmds))
+    p.map(start_proc, cmds)
+
+   # subprocess.call("perl mb.pl ../" + dir_name + "/genes.tar.gz -m ./mb_block.txt -o ../" + dir_name + "/mb_data", shell=True)
 
 def mv_mb_output():
-    os.chdir("./scripts")
     ## Run mbsum and Bucky
     print("Running mbsum...\n\n\n")
     os.chdir("../" + dir_name + "/mb_data")
@@ -69,7 +98,9 @@ def mv_mb_output():
     subprocess.call("tar -xvf", shell=True)
     subprocess.call("gunzip ./" + input_dir + "/*.tar.gz", shell=True)
 
+    pwd()
     os.chdir(input_dir)
+    pwd()
 
     for file in glob.glob("*.tar"):
         subprocess.call("tar -xvf ./" + file , shell=True)
@@ -112,8 +143,12 @@ def convert_ckp_to_nex():
     os.chdir(dir_name + "/mb/mb_output/")
     pass
 
-#setup()
+setup()
+copy_nex()
 mrbayes()
-#gene_list = bucky()
+mv_mb_output()
+gene_list = bucky()
+
+# run julia script
 
 # mbsum -n 5000 -o mygene mygene.run?.t
